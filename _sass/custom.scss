@@ -1,0 +1,424 @@
+// add my custom styles to this SASS style sheet
+
+// *****************
+// *** VARIABLES ***
+// *****************
+
+// colors
+$darkBlue: #3156bc;
+$mediumBlue: #2276d3;
+$veryLightBlue: #aee8fb;
+$white: #fff;
+
+// font weights
+$heavyWeight: 700;
+$mediumWeight: 400;
+$lightWeight: 200;
+
+// gutters
+$smallGutter: 5px;
+$mediumGutter: 10px;
+$largeGutter: 15px;
+$xLargeGutter: 30px;
+
+// font sizes
+$fontExtraSmall: 0.7rem;
+$fontMedium: 1.1rem;
+$fontExtraLarge: 2rem;
+
+// ********************
+// *** MEDIA MIXINS ***
+// ********************
+
+// less than or equal to 639px
+@mixin small {
+  @media only screen and (max-width: #{$breakpoint-xsmall-max}) {
+    @content;
+  }
+}
+
+// between 640 and 959 pixels
+@mixin medium {
+  @media (min-width: #{$breakpoint-small}) and (max-width: #{$breakpoint-small-max}) {
+    @content;
+  }
+}
+
+// between 960 pixels and 1199 pixels, i.e. small tablet
+@mixin large {
+  @media (min-width: #{$breakpoint-medium}) and (max-width: #{$breakpoint-medium-max}) {
+    @content;
+  }
+}
+
+// between 1200 and 1599 pixels, i.e. tablet and medium screens
+@mixin extraLarge {
+  @media (min-width: #{$breakpoint-large}) and (max-width: #{$breakpoint-large-max}) {
+    @content;
+  }
+}
+
+// screens greater than or equal to 1600
+@mixin largest {
+  @media (min-width: #{$breakpoint-xlarge}) {
+    @content;
+  }
+}
+
+
+// *** utility classes ***
+
+// not sure we need this as it is better to use the grid
+.uk-list-inline > li {
+    list-style: none;
+    display: inline-block;
+    padding-left: $largeGutter;
+    padding-right: $largeGutter;
+}
+
+// padding top small
+.paddingTopSmall {
+ padding-top: $smallGutter;
+}
+
+.paddingBottomSmall {
+padding-bottom: $smallGutter;
+}
+
+.paddingBottomMedium {
+padding-bottom: $mediumGutter;
+}
+
+.paddingBottomLarge {
+padding-bottom: $largeGutter;
+}
+
+.marginBottomSmall {
+margin-bottom: $smallGutter;
+}
+
+.marginBottomMedium {
+margin-bottom: $mediumGutter;
+}
+
+.marginBottomLarge {
+margin-bottom: $largeGutter;
+}
+
+.marginTopSmall {
+margin-top: $smallGutter;
+}
+
+.marginTopMedium {
+margin-top: $mediumGutter;
+}
+
+.marginTopLarge {
+margin-top: $largeGutter;
+}
+
+.borderBottom {
+border-bottom: 1px solid $veryLightBlue;
+}
+
+.centerContent {
+ justify-content: center;
+}
+
+.fontLightWeight {
+ font-weight: $lightWeight!important;
+}
+
+.fontMediumWeight {
+ font-weight: $mediumWeight!important;
+}
+
+.fontHeavyWeight {
+ font-weight: $heavyWeight!important;
+}
+
+.fontPrimaryColor {
+ color: $darkBlue;
+}
+
+.fontSecondaryColor {
+ color: $mediumBlue;
+}
+
+.fontWhite {
+ color: $white;
+}
+
+.fontMuted {
+color: $veryLightBlue;
+}
+
+.fontItalic {
+ font-style: italic;
+}
+
+.backgroundLightBlue {
+ background-color: $veryLightBlue;
+}
+
+.underlineRuler {
+
+ width: 30%;
+ height: 2px;
+ margin-top: $largeGutter;
+ margin-bottom: $largeGutter;
+ background-color: $darkBlue;
+
+ @include small {
+   width: 100%;
+ }
+
+}
+
+
+// *****************
+// *** ICONS TOP ***
+// *****************
+
+// header text class
+.headerIconText {
+
+ font-weight: $heavyWeight;
+
+}
+
+.extraPaddingHeaderIcons {
+ padding-left: $largeGutter;
+}
+
+.iconsLargeMobile {
+  @include small {
+   img {
+     width: 50px;
+     height: auto;
+   }
+ }
+}
+
+// ***************
+// *** FOOTER  ***
+// ***************
+
+.footerRuler {
+  width: 30%;
+  height: 2px;
+  margin-bottom: $mediumGutter;
+  background-color: $white;
+
+  @include small {
+   width: 100%;
+   height: 1px;
+ }
+
+ @include medium {
+  width: 100%;
+}
+
+}
+
+.footerCol {
+
+  h4 {
+    font-weight: $heavyWeight;
+    color: $white;
+
+  }
+  span {
+   padding-left: $smallGutter;
+  }
+
+  p {
+   font-weight: $lightWeight;
+   color: $white;
+  }
+
+  li {
+   color: $white;
+  }
+  a {
+   color: $white;
+  }
+
+}
+
+.nestedFooterHeader {
+ @include small {
+   justify-content: center;
+ }
+}
+
+.footerCredits {
+
+ padding-left: 0;
+
+ li {
+  color: $white;
+  font-weight: $lightWeight;
+  padding-left: 0;
+
+ }
+
+ @include small {
+  line-height: 2;
+ }
+
+}
+
+// ************************
+// *** OFF CANVAS MEDIA ***
+// ************************
+
+.offCanvasSocialMedia {
+  margin-top: $largeGutter;
+  img {
+    width: 50px;
+    height: auto;
+    padding-right: $mediumGutter;
+  }
+}
+
+// *********************
+// *** HOME CAROUSEL ***
+// *********************
+
+.mainCarouselMessage {
+ text-align: right;
+ background-color: rgba(0, 0, 0, .4);
+
+ @include small {
+  text-align: center;
+ }
+
+ h3 {
+   font-weight: $heavyWeight;
+   padding-bottom: $largeGutter;
+ }
+
+ p {
+  //margin-bottom: $largeGutter!important;
+  margin-top: $largeGutter!important;
+ }
+
+ div {
+  position: absolute;
+  right: $xLargeGutter;
+  width: 30%;
+  height: 2px;
+  margin-bottom: $largeGutter;
+  background-color: $white;
+  margin-bottom: $largeGutter;
+  @include small {
+   width: 80%;
+   right: 10%;
+  }
+ }
+
+ button {
+  margin-top: $largeGutter;
+ }
+
+}
+
+// ******************************
+// *** HOME TESTIMONIAL BLOCK ***
+// ******************************
+
+.testimonialBackground {
+ background-color: rgba(0, 0, 0, .4);
+}
+
+// *********************
+// *** SECONDARY NAV ***
+// *********************
+
+.rightHandHeader {
+
+  background-color: $darkBlue;
+  color: $white;
+  font-weight: $heavyWeight;
+  font-size: $fontMedium;
+  padding-right: $mediumGutter;
+  padding-top: $smallGutter;
+  padding-bottom: $smallGutter;
+  margin-bottom: 0;
+
+
+ @include small {
+
+  padding-right: 0;
+
+ }
+
+}
+
+
+.secNavLinks {
+
+ li > a {
+  background-color: $veryLightBlue;
+  border-bottom: 1px solid $darkBlue;
+  font-size: $fontExtraSmall;
+  color: $darkBlue;
+  padding-right: $mediumGutter!important;
+  padding-top: $mediumGutter!important;
+  padding-bottom: $mediumGutter!important;
+
+ }
+
+ @include small {
+  li > a {
+    padding-right: 0;
+  }
+ }
+
+}
+
+.sideFeatured {
+
+ h4 {
+   border-bottom: 1px solid $darkBlue;
+   font-weight: $heavyWeight;
+   font-size: $fontMedium;
+   color: $darkBlue;
+   padding-right: $mediumGutter!important;
+   margin-top: $smallGutter;
+   padding-bottom: $smallGutter;
+   margin-bottom: 0!important;
+ }
+
+ @include small {
+   h4 {
+    padding-right: 0!important;
+  }
+
+ }
+
+ p {
+   font-size: $fontExtraSmall;
+ }
+
+}
+
+// ************
+// *** NEWS ***
+// ************
+
+.listingSummaries {
+
+ h3 {
+   color: $darkBlue;
+   font-weight: $heavyWeight;
+   font-size: $fontMedium;
+ }
+
+ p {
+   font-size: $fontExtraSmall;
+
+ }
+
+}

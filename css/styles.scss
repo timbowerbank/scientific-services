@@ -1,0 +1,23 @@
+---
+---
+
+// 1. Your custom variables and variable overwrites.
+$global-link-color: #DA7D02;
+$global-font-family: 'Raleway', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+$global-primary-background: #3156bc;
+$global-secondary-background: #2276d3;
+$global-muted-background: #aee8fb;
+$global-border: #3156bc;
+// 2. Import default variables and available mixins.
+@import "variables-theme.scss";
+@import "mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "uikit-theme.scss";
+
+// Import my custom style sheet
+@import "custom.scss"

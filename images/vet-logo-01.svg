@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="100px" viewBox="0 0 200 100" enable-background="new 0 0 200 100" xml:space="preserve">
+<g id="XMLID_604_">
+	<g id="XMLID_554_">
+		<g id="XMLID_502_">
+			<polygon id="XMLID_529_" fill="#2276D3" points="23.566,21.739 23.566,37.068 8.237,37.068 8.237,58.519 23.566,58.519 
+				23.566,73.849 45.019,21.739 			"/>
+			<polygon id="XMLID_530_" fill="#3156BC" points="45.019,37.068 45.019,21.739 23.566,73.849 45.019,73.849 45.019,58.519 
+				60.347,58.519 60.347,37.068 			"/>
+		</g>
+		<path id="XMLID_553_" fill="#FFFFFF" d="M90.733,60.415c0,21.182,7.509,38.354-11.933,38.354S43.598,81.597,43.598,60.415
+			c0-21.184,15.761-38.356,35.203-38.356S90.733,39.231,90.733,60.415z"/>
+		<g id="XMLID_550_">
+			<path id="XMLID_549_" fill="#2276D3" d="M89.232,20.088c-3.875-1.611-6.684-4.365-9.994-7.152
+				c-1.647-1.386-4.785-3.063-7.846-3.836c1.384-2.668,2.082-5.365,2.082-5.365s-6.838-1.1-8.72,0
+				c-1.807,1.055-3.962,5.781-5.064,8.442c-1,1.319-1.785,2.948-2.79,4.776c-2.803,5.102-4.768,12.511-6.134,20.399
+				c2.217-3.209,5.726-7.013,9.931-8.921l-0.061,5.616c0,0,2.605,0.835,4.212,2.188c2.397,2.018,4.43,4.955,7.236,6.121
+				c0.848,6.684-6.446,10.02-11.568,10.379l-0.127,2.084c-0.13,2.133,0.618,4.234,2.106,5.764
+				c5.676,5.834,9.726,12.922,7.997,20.938c10.803-11.523,9.81-32.676,1.212-50.199l1.55-2.761c3.537-0.249,7.824,1.57,11.081,0.341
+				C87.593,27.675,89.818,24.704,89.232,20.088z"/>
+		</g>
+	</g>
+	<g id="XMLID_595_">
+		
+			<text id="XMLID_597_" transform="matrix(1 0 0 1 85.7578 72.5938)" fill="#7F7F7F" font-family="'Raleway-Regular'" font-size="10" letter-spacing="3">LOREM IPSUM</text>
+		
+			<text id="XMLID_596_" transform="matrix(1 0 0 1 85.3613 56.041)" fill="#3156BC" font-family="'Raleway-ExtraBold'" font-size="20" letter-spacing="2">PET CARE</text>
+	</g>
+</g>
+</svg>
