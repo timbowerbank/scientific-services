@@ -5,290 +5,55 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Title, Meta Description and Robots -->
+    <!-- Title, Meta Description and Canonical -->
     <title>{{page.meta_data.page_title}}</title>
     <meta name="description" content="{{page.meta_data.meta_description}}" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" /><!-- set per page -->
+    {% if page.needsCanonical == true %}
+    <link rel="canonical" href="{{ page.meta_data.canonical_link }}" />
+    {% else %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
+    {% endif %}
 
-    <!-- Open Graph tags -->
+
+    <!-- Open Graph Tags -->
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="{{ page.meta_data.page_title }}" />
-    <meta property="og:description" content="{{ page.meta_data.meta_description }}" />
+    <meta property="og:title" content="{{ page.meta_data.social_media_title }}" />
+    <meta property="og:description" content="{{ page.meta_data.social_media_description }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
-    <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="article:publisher" content="site.data.company.company_name" />
+    <meta property="og:site_name" content="{{ site.data.company.company_name }}" />
+    <meta property="article:publisher" content="{{ site.data.company.company_name }}" />
     <meta property="og:image" content="{{ page.meta_data.social_media_image }}" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="{{ page.meta_data.meta_description }}" />
-    <meta name="twitter:title" content="{{ page.meta_data.page_title }}" />
-    <meta name="twitter:site" content="add twitter handle" />
-    <!--<meta name="twitter:image" content="{{ site.url }}{{ site.social-media-images}}{{ page.og-image }}" />-->
-    <!--<meta name="twitter:creator" content="{{ site.twitter_username }}" />-->
+    <meta name="twitter:description" content="{{ page.meta_data.social_media_description }}" />
+    <meta name="twitter:title" content="{{ page.meta_data.social_media_title }}" />
+    <meta name="twitter:site" content="{{ site.data.company.social_media.twitter }}" />
+    <meta name="twitter:image" content="{{ page.meta_data.social_media_image }}" />
+    <meta name="twitter:creator" content="{{ site.data.company.social_media.twitter_username }}" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
 
     <!-- Web Clips -->
-    <!--<link rel="apple-touch-icon" href="{{ site.url }}/images/icons/touch-icon-iphone.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/images/icons/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/images/icons/touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="{{ site.url }}/images/icons/touch-icon-ipad-retina.png">-->
+    <link rel="apple-touch-icon" href="/images/design-assets/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/design-assets/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/design-assets/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/images/design-assets/touch-icon-ipad-retina.png">
 
-    <!-- fav icon -->
-    <!--<link href="{{ site.url }}/images/favicon.ico" rel="shortcut icon" />-->
+    <!-- Favicon -->
+    <link href="/images/design-assets/favicon.ico" rel="shortcut icon" />
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
   </head>
 
 
   <body>
 
-   <div class="uk-offcanvas-content">
-
-
-         <!-- begin header -->
-         <header>
-         <!-- icons and phone -->
-         <div id="iconSection" class="uk-section uk-padding-small borderBottom">
-
-          <div class="uk-container uk-padding-small headerIconText">
-
-             <div uk-grid>
-
-                <!-- col 1 -->
-                <div class="uk-width-auto@s uk-text-center uk-text-left@s">
-                    <img src="/images/icon-phone-01.svg" alt="">
-                    <span class="uk-text-middle">01326 317248</span>
-                    <img class="extraPaddingHeaderIcons" src="/images/icon-find-us-01.svg" alt="">
-                    <span class="uk-text-middle">Find us</span>
-                </div>
-
-                <!-- col 2 -->
-                <div class="uk-width-expand@s uk-text-center uk-text-right@s">
-                   <button class="uk-button uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-rounded">Book Appointment</button>
-                </div>
-
-                <!-- col 3 -->
-                <div class="uk-width-auto@s uk-text-center uk-text-right@s iconsLargeMobile">
-                     <img src="/images/icon-twitter-01.svg" alt="">
-                     <img src="/images/icon-google-01.svg" alt="">
-                     <img src="/images/icon-facebook.svg" alt="">
-                </div>
-
-
-             </div><!-- end of grid -->
-
-          </div><!-- end of container -->
-
-         </div><!-- end of iconSection -->
-
-
-         <!-- main navbar -->
-         <div class="uk-container uk-padding-small">
-           <nav uk-navbar class="uk-navbar-container uk-navbar-transparent">
-             <div class="uk-navbar-left">
-
-              <!-- logo -->
-              <a href="{{ site.url }}" class="uk-navbar-item uk-logo"><img src="{{ site.url }}/images/vet-logo-01.svg"></a>
-
-
-             </div><!-- end of lefthand nav -->
-
-             <div class="uk-navbar-right">
-               <ul class="uk-navbar-nav uk-visible@m">
-                 {% for item in site.data.mainMenu %}
-                    <li><a href="{{ item.menu_url }}">{{ item.menu_name }}</a></li>
-                 {% endfor %}
-                 <!--<li><a href="#">Home</a></li>
-                 <li><a href="#">About Us</a></li>
-                 <li><a href="#">Services</a></li>
-                 <li><a href="#">News</a></li>
-                 <li><a href="#">Contact Us</a></li>-->
-               </ul>
-
-              <!-- nav toggle -->
-              <a uk-toggle="target: #offCanvasMenu" class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offCanvasMenu"></a>
-
-              <!-- add in a nav bar item -->
-              <!--<div class="uk-navbar-item uk-hidden@m">
-                <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offCanvasMenu">Open</button>
-              </div>-->
-
-             </div><!-- end of right hand nav -->
-
-           </nav>
-         </div><!-- end of main navbar -->
-
-        <!-- off canvas content -->
-        <div id="offCanvasMenu" uk-offcanvas>
-
-           <div class="uk-offcanvas-bar">
-             <button class="uk-offcanvas-close" type="button" uk-close></button>
-
-             <h2>Menu</h2>
-             <button class="uk-button uk-button-default uk-border-rounded marginBottomMedium">Book appointment</button>
-
-             <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
-                <li class="uk-active"><a href="#">Home</a></li>
-                <li class="uk-parent">
-                    <a href="#">About Us</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Meet the team</a></li>
-                        <li>
-                            <a href="#">History</a>
-                            <ul>
-                                <li><a href="#">Our first practice</a></li>
-                                <li><a href="#">The next practice</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="uk-parent">
-                    <a href="#">Services</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Check-ups</a></li>
-                        <li><a href="#">Vaccinations</a></li>
-                    </ul>
-                </li>
-                <li class="uk-parent">
-                    <a href="#">News</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">News 1</a></li>
-                        <li><a href="#">News 2</a></li>
-                    </ul>
-                </li>
-                <li>Contact Us</li>
-                <li class="uk-nav-divider"></li>
-            </ul>
-
-            <!-- add social media bar -->
-            <div id="offCanvasMedia" class="offCanvasSocialMedia">
-               <img src="/images/icon-twitter-wo-01.svg" alt="">
-               <img src="/images/icon-google-wo-01.svg" alt="">
-               <img src="/images/icon-facebook-wo-01.svg" alt="">
-            </div><!-- end offCanvasMedia -->
-
-           </div><!-- end of uk-offcanvas-bar -->
-        </div><!-- end of uk-offcanvas -->
-        <!-- end off canvas content -->
-
-      </header><!-- end of header -->
-
-
-
-      <!-- main content starts -->
-      {{ content }}
-
-
-
-      <!-- footer starts -->
-      <footer>
-         <!-- add a section -->
-         <div id="footerSectionLightBlue" class="uk-section uk-background-secondary">
-
-            <!-- add a container -->
-            <div id="footerContainer" class="uk-container">
-
-            <!-- four x footer cols -->
-            <div id="fourColGrid" class="uk-child-width-1-4@m uk-child-width-1-2@s" uk-grid>
-
-             <!-- col 1 -->
-             <div class="uk-text-center uk-text-left@s footerCol">
-               <div class="paddingBottomLarge uk-text-center uk-text-left@s nestedFooterHeader" uk-grid>
-                   <img src="/images/icon-find-us-wo-01.svg">
-                   <span class="uk-text-middle"><h4>Contact Us</h4></span>
-               </div>
-               <div class="footerRuler"></div>
-               <div class="addressFooter">
-                  <p>
-                     {{ site.address_line1 }}<br>
-                     {{ site.address_line2 }}<br>
-                     {{ site.address_town }}<br>
-                     {{ site.address_county }}<br>
-                     {{ site.address_postcode }}<br>
-                  </p>
-                  <p>Tel: {{ site.telephone }}</p>
-               </div>
-             </div><!-- end of col 1 -->
-
-             <!-- col 2 -->
-             <div class="footerCol uk-text-center uk-text-left@s">
-              <div class="paddingBottomLarge uk-text-center uk-text-left@s nestedFooterHeader" uk-grid>
-                  <img src="/images/icon-emergency-numbers-wo-01.svg">
-                  <span class="uk-text-middle"><h4>Emergencies</h4></span>
-              </div>
-              <div class="footerRuler"></div>
-              <div>
-                 <p class="fontHeavyWeight">Call:</p>
-                 <p class="fontHeavyWeight">{{ site.mobile }}</p>
-              </div>
-             </div><!-- end of col 2 -->
-
-             <!-- col 3 -->
-             <div class="footerCol uk-text-center uk-text-left@s">
-              <div class="paddingBottomLarge uk-text-center uk-text-left@s nestedFooterHeader" uk-grid>
-                  <img src="/images/icon-social-media-wo-01.svg">
-                  <span class="uk-text-middle"><h4>Social Media</h4></span>
-              </div>
-              <div class="footerRuler"></div>
-              <div class="uk-width-auto@s iconsLargeMobile">
-                <img src="/images/icon-twitter-wo-01.svg" alt="">
-                <img src="/images/icon-google-wo-01.svg" alt="">
-                <img src="/images/icon-facebook-wo-01.svg" alt="">
-              </div>
-
-             </div><!-- end of col 3 -->
-
-             <!-- col 4 -->
-             <div class="footerCol uk-text-center uk-text-left@s">
-              <div class="paddingBottomLarge uk-text-center uk-text-left@s nestedFooterHeader" uk-grid>
-                  <img src="/images/icon-news-wo-01.svg">
-                  <span class="uk-text-middle"><h4>Latest News</h4></span>
-              </div>
-              <div class="footerRuler"></div>
-              <div id="latestNews" class="">
-                <ul class="uk-list uk-list-divider">
-                  {% assign news = site.news | reverse %}
-                  {% for item in news limit:5 %}
-                  <li><a href="{{ item.url }}">{{ item.articleH1 }}</a></li>
-                  {% endfor %}
-                </ul>
-
-              </div><!-- end of latest news -->
-             </div><!-- end of col 4 -->
-
-            </div><!-- end of fourColGrid -->
-
-           </div><!-- end of footerContainer -->
-
-          </div><!-- end footerSectionLightBlue -->
-
-          <!-- add a section -->
-          <div id="footerSectionDarkBlue" class="uk-section uk-section-xsmall uk-background-primary">
-
-            <!-- footerSubContainer -->
-            <div class="uk-container">
-             <ul class="uk-list-inline footerCredits uk-text-small">
-               <li>Created by Fort Marketing</li>
-               <li>|</li>
-               <li>Copyright 2018</li>
-               <li>|</li>
-               <li>Privacy Policy</li>
-             </ul>
-
-            </div><!-- end of footerSubContainer -->
-
-          </div><!-- end footerSectionLightBlue -->
-
-        </footer>
-    </div><!-- end of offcanvas-content -->
 
 
     <!-- Javascript files -->
