@@ -8,24 +8,24 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title, Meta Description and Robots -->
-    <title>{{page.title}}</title>
-    <meta name="description" content="{{page.meta-description}}" />
+    <title>{{page.meta_data.page_title}}</title>
+    <meta name="description" content="{{page.meta_data.meta_description}}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" /><!-- set per page -->
 
     <!-- Open Graph tags -->
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:description" content="{{ page.meta-description }}" />
+    <meta property="og:title" content="{{ page.meta_data.page_title }}" />
+    <meta property="og:description" content="{{ page.meta_data.meta_description }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="article:publisher" content="Add publisher name" />
-    <meta property="og:image" content="{{ site.url }}{{ site.social-media-images}}{{ page.og-image }}" />
+    <meta property="article:publisher" content="site.data.company.company_name" />
+    <meta property="og:image" content="{{ page.meta_data.social_media_image }}" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="{{ page.meta-description }}" />
-    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.meta_data.meta_description }}" />
+    <meta name="twitter:title" content="{{ page.meta_data.page_title }}" />
     <meta name="twitter:site" content="add twitter handle" />
     <!--<meta name="twitter:image" content="{{ site.url }}{{ site.social-media-images}}{{ page.og-image }}" />-->
     <!--<meta name="twitter:creator" content="{{ site.twitter_username }}" />-->
