@@ -1,0 +1,59 @@
+mainmenu:
+  - title: About Us
+    url: /about-us.html
+    subfolderitems:
+      - page: History
+        url: /about/history.html
+      - page: Meet the Team
+        url: /about/team.html
+      - page: Accreditations
+        url: /about/accreditations.html
+      - page: Company News
+        url: /about/news.html
+  - title: Services
+    url: /services.html
+    subfolderitems:
+      - page: Asbestos
+        url: /services/asbestos.html
+        subsubfolderitems:
+          - page: Surveys
+            url: /services/asbestos/surveys.html
+          - page: Testing
+            url: /services/asbestos/testing.html
+          - page: Removal
+            url: /services/asbestos/removal.html
+          - page: Air Monitoring
+            url: /services/asbestos/air-monitoring.html
+          - page: Awareness Training
+            url: /services/asbestos/awareness-training.html
+          - page: Case Studies
+            url: /services/asbestos/case-studies.html
+          - page: News
+            url: /services/asbestos/news.html
+      - page: Legionella
+        url: /services/legionella.html
+        subsubfolderitems:
+          - page: Risk Assessment
+            url: /services/legionella/risk-assessment.html
+          - page: Temperature Monitoring
+            url: /services/legionella/temperature-monitoring.html
+          - page: Testing
+            url: /services/legionella/testing.html
+          - page: Flushing and Removal
+            url: /services/legionella/flushing.html
+          - page: Case Studies
+            url: /services/legionella/case-studies.html
+          - page: News
+            url: /services/legionella/news.html
+      - page: Anthrax
+        url: /services/anthrax.html
+      - page: Lead Testing
+        url: /services/lead-testing.html
+      - page: Expert Witness
+        url: /services/expert-witness.html
+      - page: Laboratory Auditing
+        url: /services/laboratory-auditing.html
+  - title: Careers
+    url: /careers.html
+  - title: Contact
+    url: /contact-us.html
