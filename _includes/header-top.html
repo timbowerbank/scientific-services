@@ -1,0 +1,49 @@
+      <!-- start headerTop section -->
+      <div id="headerTop" class="uk-section headerTop">
+
+        <div class="uk-container">
+
+          <div class="uk-flex uk-flex-middle" uk-grid>
+
+           <!-- first col -->
+           <div class="uk-width-expand">
+
+                <p class="fm-font-navy fm-font-bold uk-visible@m">{{ site.data.company.strapline }}</p>
+
+           </div><!-- end first col -->
+
+           <!-- second col -->
+           <div class="uk-width-auto@m uk-width-1-1 uk-flex-left@m uk-flex-around uk-flex">
+
+                <!-- contact details -->
+                <div class="uk-flex uk-flex-middle">
+                  <img src="/images/design-assets/icon-phone-01.svg" alt="phone icon">
+                  <p class="headerParaPaddingLeft headerParaPaddingRight">{{ site.data.company.contact_details.telephone }}</p>
+                </div>
+
+                <div class="uk-flex uk-flex-middle">
+                  <a href="mailto:{{ site.data.company.contact_details.email }}"><img src="/images/design-assets/icon-email-01.svg" alt="email icon"></a>
+                  <p class="headerParaPaddingLeft headerParaPaddingRight uk-visible@m"><a href="mailto:{{ site.data.company.contact_details.email }}">{{ site.data.company.contact_details.email }}</a></p>
+                  <p class="headerParaPaddingLeft uk-hidden@m"><a href="{{ site.data.company.contact_details.email }}">Email</a></p>
+                </div>
+
+                <div class="uk-flex uk-flex-middle uk-hidden@m">
+                  <a href="#"><img src="/images/design-assets/icon-pointer-01.svg" alt="map find icon"></a>
+                  <p class="headerParaPaddingLeft"><a href="#">Find</a></p>
+                </div>
+
+                <!-- social media -->
+                <div class="uk-flex uk-flex-middle uk-visible@m">
+                  <a href="{{ site.data.company.social_media.facebook }}"><img src="/images/design-assets/icon-facebook-01.svg" alt="facebook icon"></a>
+                  <a href="{{ site.data.company.social_media.google }}"><img class="fm-padding-mini-left" src="/images/design-assets/icon-google-plus-01.svg" alt="google plus icon"></a>
+                  <a href="{{ site.data.company.social_media.linkedin }}"><img class="fm-padding-mini-left" src="/images/design-assets/icon-linkedIn-01.svg" alt="linkedin icon"></a>
+                  <a href="{{ site.data.company.social_media.twitter }}"><img class="fm-padding-mini-left" src="/images/design-assets/icon-twitter-01.svg" alt="twitter icon"></a>
+                </div>
+
+           </div><!-- end second col -->
+
+          </div><!-- end grid -->
+
+        </div><!-- end container -->
+
+      </div><!-- end headerTop section -->

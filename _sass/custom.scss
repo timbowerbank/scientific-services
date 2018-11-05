@@ -5,34 +5,39 @@
 // *****************
 
 // colors
-$blue-navy: #005288;
-$blue: #009DDC;
-$blue-muted: #F6F7FF;
-$orange: #FF5E15;
-$black: #1A1A1A;
-$white: #FFFFFF;
+$fm-blue-navy: #005288;
+$fm-blue: #009DDC;
+$fm-blue-muted: #F6F7FF;
+$fm-orange: #FF5E15;
+$fm-black: #1A1A1A;
+$fm-white: #FFFFFF;
 
 // font weights
-$weight-heavy: 800;
-$weight-regular: 400;
+$fm-weight-heavy: 800;
+$fm-weight-regular: 400;
 
 // gutters
-$gutter-mini: 15px;
-$gutter-small: 30px;
-$gutter-medium: 60px;
-$gutter-large: 80px;
+$fm-gutter-micro: 7px;
+$fm-gutter-mini: 15px;
+$fm-gutter-small: 30px;
+$fm-gutter-medium: 60px;
+$fm-gutter-large: 80px;
 
 // font sizes
-$font-mini: 1rem;
-$font-small: 1.33rem;
-$font-medium: 1.83rem;
-$font-large: 2.83rem;
+$fm-font-mini: 1rem;
+$fm-font-small: 1.33rem;
+$fm-font-medium: 1.83rem;
+$fm-font-large: 2.83rem;
 
 // line spacing
-$line-height-mini: 1.83;
-$line-height-small: 2;
-$line-height-medium: 1.45;
-$line-height-large: 1.24;
+$fm-line-height-mini: 1.83;
+$fm-line-height-small: 2;
+$fm-line-height-medium: 1.45;
+$fm-line-height-large: 1.24;
+
+// borders
+$fm-border-height: 1px;
+
 
 // ********************
 // *** MEDIA MIXINS ***
@@ -80,11 +85,60 @@ $line-height-large: 1.24;
 .uk-list-inline > li {
     list-style: none;
     display: inline-block;
-    padding-left: $largeGutter;
-    padding-right: $largeGutter;
+    // padding-left: $largeGutter;
+    // padding-right: $largeGutter;
 }
 
 // padding
+.fm-padding-mini {
+ padding-top: $fm-gutter-micro;
+ padding-top: $fm-gutter-micro;
+}
 
+.fm-padding-mini-left {
+ padding-left: $fm-gutter-mini;
+}
 
 // margins
+
+
+// borders
+
+// fonts
+.fm-font-navy {
+ color: $fm-blue-navy;
+}
+
+.fm-font-bold {
+ font-weight: $fm-weight-heavy;
+}
+
+
+// *************************
+// *** headerTop section ***
+// *************************
+
+.headerTop {
+
+ padding-top: 0;
+ padding-bottom: 0;
+
+ border-bottom: $fm-border-height solid $fm-blue;
+
+ color: $fm-black;
+
+}
+
+.headerParaPaddingLeft {
+ padding-left: $fm-gutter-micro;
+}
+
+.headerParaPaddingRight {
+ padding-right: $fm-gutter-small;
+ @include small {
+  padding-right: 0;
+ }
+ @include medium {
+  padding-right: 0;
+ }
+}
