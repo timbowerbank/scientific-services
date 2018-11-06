@@ -30,6 +30,11 @@ $button-secondary-hover-color: #FF5E15;
 $button-secondary-active-background: #FFFFFF;
 $button-secondary-active-color: #FF5E15;
 
+// nav
+$nav-default-item-color: #FFFFFF;
+$nav-default-item-hover-color: #F2F2F2;
+$nav-default-item-active-color: #000000;
+
 // 2. Import default variables and available mixins.
 @import "variables-theme.scss";
 @import "mixins-theme.scss";
@@ -45,7 +50,6 @@ $button-secondary-active-color: #FF5E15;
    margin-top: -3px;
  }
 }
-
 
 // 4. Import UIkit.
 @import "uikit-theme.scss";

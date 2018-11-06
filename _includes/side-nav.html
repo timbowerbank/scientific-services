@@ -5,7 +5,7 @@
               <button class="uk-offcanvas-close" type="button" uk-close></button>
 
               <h2>Menu</h2>
-              <button class="uk-button uk-button-default">REQUEST A QUOTE</button>
+              <a class="uk-button uk-button-default fm-width-100 margin-bottom-mini" href="">REQUEST A QUOTE<span><img class="buttonIcon" src="/images/design-assets/icon-quote-01.svg" alt="icon quote"></span></a>
 
 
                <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
@@ -14,23 +14,23 @@
                   {% for item in site.data.main-menu.mainmenu %}
 
                       {% if item.subfolderitems[0] %}
-                      <li class="uk-parent">
-                          <a href="#">{{ item.title }}</a>
+                      <li class="uk-parent firstLevelHeaders">
+                          <a href="{{ item.url }}">{{ item.title }}</a>
 
                           <ul class="uk-nav-sub">
                           {% for entry in item.subfolderitems  %}
                                {% if entry.subsubfolderitems[0] %}
-                               <li class="uk-parent">{{ entry.page }}
+                               <li class="uk-parent secondLevelHeaders uk-nav-divider"><a href="{{ entry.url }}">{{ entry.page }}</a>
                                    <ul class="uk-nav-sub">
                                       {% for lastitem in entry.subsubfolderitems %}
-                                          <li>{{ lastitem.page }}</li>
+                                          <li><a href="{{ lastitem.url }}">{{ lastitem.page }}</a></li>
 
                                       {% endfor %}
                                    </ul>
                                </li>
 
                                {% else %}
-                                  <li>{{ entry.page }}</li>
+                                  <li class="secondLevelHeaders uk-nav-divider"><a href="{{ entry.url }}">{{ entry.page }}</a></li>
                                {% endif %}
 
                           {% endfor %}
@@ -38,7 +38,7 @@
                       </li>
                       {% else %}
 
-                      <li>{{ item.title }}</li>
+                      <li class="firstLevelHeaders"><a href="{{ item.url }}">{{ item.title }}</a></li>
 
                       {% endif %}
 

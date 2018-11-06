@@ -103,8 +103,11 @@ $fm-border-height: 1px;
  padding-left: $fm-gutter-mini;
 }
 
-// margins
 
+// margins
+.margin-bottom-mini {
+ margin-bottom: $fm-gutter-mini;
+}
 
 // borders
 .fm-border-bottom {
@@ -124,6 +127,10 @@ $fm-border-height: 1px;
  font-size: $fm-font-mini;
 }
 
+// widths
+.fm-width-100 {
+ width: 100%;
+}
 
 // *************************
 // *** headerTop section ***
@@ -176,4 +183,23 @@ $fm-border-height: 1px;
     line-height: $fm-line-height-micro;
     margin-bottom: 0;
   }
+}
+
+// ***********************
+// *** SIDE NAVIGATION ***
+// ***********************
+
+.firstLevelHeaders {
+ font-size: $fm-font-small;
+ color: $fm-white!important;
+}
+
+.secondLevelHeaders {
+ font-size: $fm-font-mini;
+ color: $fm-white!important;
+}
+
+.buttonIcon {
+ margin-top: -3px;
+ padding-left: 12px;
 }
