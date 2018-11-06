@@ -13,12 +13,39 @@ $container-padding-horizontal-m: 30px;
 $button-padding-horizontal: 15px;
 $navbar-toggle-color: #005288;
 $navbar-toggle-hover-color: #009DDC;
+
+// primary button
+$button-primary-background: #FF5E15;
+$button-primary-color: #FFFFFF;
+$button-primary-hover-background: #FF5E15;
+$button-primary-hover-color: #FFFFFF;
+$button-primary-active-background: #FF5E15;
+$button-primary-active-color: #FFFFFF;
+
+// secondary button
+$button-secondary-background: #FFFFFF;
+$button-secondary-color: #FF5E15;
+$button-secondary-hover-background: #FFFFFF;
+$button-secondary-hover-color: #FF5E15;
+$button-secondary-active-background: #FFFFFF;
+$button-secondary-active-color: #FF5E15;
+
 // 2. Import default variables and available mixins.
 @import "variables-theme.scss";
 @import "mixins-theme.scss";
 
 // 3. Your custom mixin overwrites.
 // @mixin hook-card() { color: #000; }
+// buttons
+@mixin hook-button-primary {
+ font-weight: 600;
+ font-size: 0.8rem;
+ img {
+   padding-left: 12px;
+   margin-top: -3px;
+ }
+}
+
 
 // 4. Import UIkit.
 @import "uikit-theme.scss";
