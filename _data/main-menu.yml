@@ -55,5 +55,7 @@ mainmenu:
         url: /services/laboratory-auditing.html
   - title: Careers
     url: /careers.html
-  - title: Contact
+  - title: Contact Us
     url: /contact-us.html
+  - title: Portal
+    url: https://portal.scientificservices.org/Account/Login?ReturnUrl=%2f

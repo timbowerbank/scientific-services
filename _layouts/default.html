@@ -54,22 +54,28 @@
 
   <body>
 
+   <div class="uk-offcanvas-content">
+
     <header><!-- start header -->
 
      {% include header-top.html %}
 
      {% include main-nav.html %}
 
+     {% include side-nav.html %}
+
 
 
     </header><!-- end header -->
 
 
+   </div><!-- end of offcanvas-content -->
 
     <!-- Javascript files -->
     <script src="{{ site.url }}/js/uikit.min.js"></script>
     <script src="{{ site.url }}/js/uikit-icons.min.js"></script>
     <script src="{{ site.url }}/js/projectfuncs.js"></script>
+
 
   </body>
 </html>
