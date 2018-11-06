@@ -10,6 +10,9 @@ $global-secondary-background: #009DDC;
 $global-muted-background: #F6F7FF;
 $global-border: #009DDC;
 $container-padding-horizontal-m: 30px;
+$button-padding-horizontal: 15px;
+$navbar-toggle-color: #005288;
+$navbar-toggle-hover-color: #009DDC;
 // 2. Import default variables and available mixins.
 @import "variables-theme.scss";
 @import "mixins-theme.scss";

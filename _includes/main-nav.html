@@ -1,0 +1,71 @@
+       <!-- main nav -->
+       <div id="mainNav" class="uk-section fm-padding-mini fm-border-bottom">
+
+         <div class="uk-container">
+
+            <!-- grid -->
+            <div uk-grid>
+
+              <!-- first col - logo -->
+              <div class="uk-width-auto">
+
+                <img src="/images/design-assets/logo-ssl-01.svg" alt="Scientific Services logo">
+
+              </div><!-- end first col - logo -->
+
+              <!-- second col - features and nav button -->
+              <div class="uk-width-expand uk-flex uk-flex-right uk-flex-middle">
+
+                    <!-- nested right hand features and button -->
+                    <div class="uk-child-width-auto uk-visible@m" uk-grid>
+
+                        <!-- first feature -->
+                        <div class="uk-flex uk-flex-top navFeature">
+                            <!-- icon -->
+                            <img src="{{ site.data.menu-features.feature1.image_source }}" alt="site.data.menu-features.feature1.image_alt_tag">
+                            <div>
+                               <p><span class="fm-font-navy fm-font-bold fm-font-feature">{{ site.data.menu-features.feature1.feature_title }}</span><br>{{ site.data.menu-features.feature1.feature_description }}</p>
+                            </div>
+                        </div>
+
+                        <!-- second feature -->
+                        <div class="uk-flex uk-flex-top navFeature">
+                            <img src="{{ site.data.menu-features.feature2.image_source }}" alt="{{ site.data.menu-features.feature2.image_alt_tag }}">
+                            <div>
+                               <p><span class="fm-font-navy fm-font-bold fm-font-feature">{{ site.data.menu-features.feature2.feature_title }}</span><br>{{ site.data.menu-features.feature2.feature_description }}</p>
+                            </div>
+                        </div>
+
+                        <!-- third feature -->
+                        <div class="uk-flex uk-flex-top navFeature">
+                            <img src="{{ site.data.menu-features.feature3.image_source }}" alt="{{ site.data.menu-features.feature3.image_alt_tag }}">
+                            <div>
+                                <p><span class="fm-font-navy fm-font-bold fm-font-feature">{{ site.data.menu-features.feature3.feature_title }}</span><br>{{ site.data.menu-features.feature3.feature_description }}</p>
+                            </div>
+                        </div>
+
+                        <!-- quote button -->
+                        <div class="uk-flex">
+                            <div class="uk-flex uk-flex-middle">
+                                <a class="uk-button uk-button-default" href="">REQUEST A QUOTE</a>
+                            </div>
+                        </div>
+
+                    </div><!-- end of nested features and request a quote -->
+
+                <!-- mobile nav toggle -->
+                <div class="uk-hidden@m">
+                     <a uk-toggle="target: #offCanvasMenu" class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offCanvasMenu"></a>
+                </div>
+
+
+              </div><!-- end second col - features and nav button -->
+
+
+
+
+            </div><!-- end grid -->
+
+         </div><!-- end of container -->
+
+       </div><!-- end of mainNav -->

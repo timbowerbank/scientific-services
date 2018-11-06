@@ -24,12 +24,14 @@ $fm-gutter-medium: 60px;
 $fm-gutter-large: 80px;
 
 // font sizes
+$fm-font-micro: 0.8rem;
 $fm-font-mini: 1rem;
 $fm-font-small: 1.33rem;
 $fm-font-medium: 1.83rem;
 $fm-font-large: 2.83rem;
 
-// line spacing
+// line height
+$fm-line-height-micro: 1.36;
 $fm-line-height-mini: 1.83;
 $fm-line-height-small: 2;
 $fm-line-height-medium: 1.45;
@@ -78,8 +80,9 @@ $fm-border-height: 1px;
   }
 }
 
-
+// ***********************
 // *** utility classes ***
+// ***********************
 
 // not sure we need this as it is better to use the grid
 .uk-list-inline > li {
@@ -91,8 +94,8 @@ $fm-border-height: 1px;
 
 // padding
 .fm-padding-mini {
- padding-top: $fm-gutter-micro;
- padding-top: $fm-gutter-micro;
+ padding-top: $fm-gutter-mini;
+ padding-bottom: $fm-gutter-mini;
 }
 
 .fm-padding-mini-left {
@@ -103,6 +106,9 @@ $fm-border-height: 1px;
 
 
 // borders
+.fm-border-bottom {
+ border-bottom: $fm-border-height solid $fm-blue;
+}
 
 // fonts
 .fm-font-navy {
@@ -111,6 +117,10 @@ $fm-border-height: 1px;
 
 .fm-font-bold {
  font-weight: $fm-weight-heavy;
+}
+
+.fm-font-feature {
+ font-size: $fm-font-mini;
 }
 
 
@@ -125,7 +135,11 @@ $fm-border-height: 1px;
 
  border-bottom: $fm-border-height solid $fm-blue;
 
- color: $fm-black;
+ color: $fm-blue-navy;
+
+ p {
+   font-size: $fm-font-micro;
+ }
 
 }
 
@@ -141,4 +155,24 @@ $fm-border-height: 1px;
  @include medium {
   padding-right: 0;
  }
+}
+
+// ******************************
+// *** MAIN NAV WITH FEATURES ***
+// ******************************
+
+.navFeature {
+  img {
+    padding-right: $fm-gutter-micro;
+    padding-top: 3px;
+  }
+  div {
+    width: 134px;
+
+  }
+  p {
+    font-size: $fm-font-micro;
+    line-height: $fm-line-height-micro;
+    margin-bottom: 0;
+  }
 }
