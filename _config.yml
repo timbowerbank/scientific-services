@@ -30,6 +30,9 @@ plugins:
 
 # COLLECTIONS
 collections_dir: collections
+collections:
+  company:
+    output: true
 
 # FILE UPLOADS
 uploads_dir: /images/uploads

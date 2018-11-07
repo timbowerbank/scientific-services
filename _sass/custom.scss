@@ -109,6 +109,8 @@ $fm-border-height: 1px;
  margin-bottom: $fm-gutter-mini;
 }
 
+
+
 // borders
 .fm-border-bottom {
  border-bottom: $fm-border-height solid $fm-blue;
@@ -191,12 +193,30 @@ $fm-border-height: 1px;
 
 .firstLevelHeaders {
  font-size: $fm-font-small;
- color: $fm-white!important;
+ a {
+   color: $fm-white!important;
+ }
 }
 
 .secondLevelHeaders {
  font-size: $fm-font-mini;
- color: $fm-white!important;
+ font-weight: $fm-weight-medium;
+ a {
+  color: $fm-white!important;
+ }
+
+}
+
+.thirdLevelHeaders {
+ font-weight: $fm-weight-regular;
+ opacity: 0.7;
+}
+
+.navActive {
+ a {
+   opacity: 0.2;
+ }
+
 }
 
 .buttonIcon {

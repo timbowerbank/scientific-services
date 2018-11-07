@@ -1,6 +1,6 @@
 mainmenu:
   - title: About Us
-    url: /about-us.html
+    url: /about.html
     subfolderitems:
       - page: History
         url: /about/history.html

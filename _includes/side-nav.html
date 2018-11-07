@@ -14,23 +14,23 @@
                   {% for item in site.data.main-menu.mainmenu %}
 
                       {% if item.subfolderitems[0] %}
-                      <li class="uk-parent firstLevelHeaders">
+                      <li class="uk-parent firstLevelHeaders {% if item.url == page.url %}navActive{% endif %}">
                           <a href="{{ item.url }}">{{ item.title }}</a>
 
                           <ul class="uk-nav-sub">
                           {% for entry in item.subfolderitems  %}
                                {% if entry.subsubfolderitems[0] %}
-                               <li class="uk-parent secondLevelHeaders uk-nav-divider"><a href="{{ entry.url }}">{{ entry.page }}</a>
+                               <li class="uk-parent secondLevelHeaders uk-nav-divider {% if entry.url == page.url %}navActive{% endif %}"><a href="{{ entry.url }}">{{ entry.page }}</a>
                                    <ul class="uk-nav-sub">
                                       {% for lastitem in entry.subsubfolderitems %}
-                                          <li><a href="{{ lastitem.url }}">{{ lastitem.page }}</a></li>
+                                          <li class="thirdLevelHeaders {% if lastitem.url == page.url %}navActive{% endif %}"><a href="{{ lastitem.url }}">{{ lastitem.page }}</a></li>
 
                                       {% endfor %}
                                    </ul>
                                </li>
 
                                {% else %}
-                                  <li class="secondLevelHeaders uk-nav-divider"><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                               <li class="secondLevelHeaders uk-nav-divider {% if entry.url == page.url %}navActive{% endif %}"><a href="{{ entry.url }}">{{ entry.page }}</a></li>
                                {% endif %}
 
                           {% endfor %}
@@ -38,7 +38,7 @@
                       </li>
                       {% else %}
 
-                      <li class="firstLevelHeaders"><a href="{{ item.url }}">{{ item.title }}</a></li>
+                      <li class="firstLevelHeaders {% if item.url == page.url %}navActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 
                       {% endif %}
 
