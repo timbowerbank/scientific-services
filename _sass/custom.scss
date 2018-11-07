@@ -223,3 +223,12 @@ $fm-border-height: 1px;
  margin-top: -3px;
  padding-left: 12px;
 }
+
+.offCanvasSocialMedia {
+  margin-top: $fm-gutter-small;
+  img {
+    width: 50px;
+    // height: auto;
+    padding-right: $fm-gutter-mini;
+  }
+}
