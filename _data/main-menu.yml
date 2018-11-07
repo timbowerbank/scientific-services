@@ -47,12 +47,22 @@ mainmenu:
             url: /services/legionella/news.html
       - page: Anthrax
         url: /services/anthrax.html
-      - page: Lead Testing
-        url: /services/lead-testing.html
-      - page: Expert Witness
-        url: /services/expert-witness.html
-      - page: Laboratory Auditing
-        url: /services/laboratory-auditing.html
+      - page: Other Services
+        url: /#/
+        subsubfolderitems:
+          - page: Lead Testing
+            url: /services/lead-testing.html
+          - page: Expert Witness
+            url: /services/expert-witness.html
+          - page: Laboratory Auditing
+            url: /services/laboratory-auditing.html
+  - title: Case Studies
+    url: /case-studies.html
+    subfolderitems:
+      - page: Asbestos Case Studies
+        url: /services/asbestos/case-studies.html
+      - page: Legionella Case Studies
+        url: /services/legionella/case-studies.html
   - title: Careers
     url: /careers.html
   - title: Contact Us
