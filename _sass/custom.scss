@@ -200,7 +200,7 @@ $fm-border-height: 1px;
 
 .secondLevelHeaders {
  font-size: $fm-font-mini;
- font-weight: $fm-weight-medium;
+ font-weight: $fm-weight-heavy;
  a {
   color: $fm-white!important;
  }
@@ -209,7 +209,7 @@ $fm-border-height: 1px;
 
 .thirdLevelHeaders {
  font-weight: $fm-weight-regular;
- opacity: 0.7;
+ opacity: 1;
 }
 
 .navActive {
