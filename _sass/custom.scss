@@ -266,3 +266,19 @@ $fm-border-height: 1px;
    background-color: $fm-blue;
  }
 }
+
+// *******************
+// *** BREADCRUMBS ***
+// *******************
+
+.fm-breadcrumbheader {
+ padding-right: $fm-gutter-mini;
+}
+
+.fm-breadcrumb {
+  img {
+    width: 18px;
+    height: auto;
+    margin-top: -6px;
+ }
+}
