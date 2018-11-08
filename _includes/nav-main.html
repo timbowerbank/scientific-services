@@ -1,5 +1,5 @@
        <!-- nav-main -->
-       <div class="uk-section">
+       <div class="uk-section uk-visible@m  uk-padding-remove-vertical fm-background-navy">
 
          <div class="uk-container">
 
@@ -26,7 +26,7 @@
 
                                  <!-- conditional checks whether subsubfolders exists -->
                                  {% if subSubFolders == true %}
-                                 <li class="{% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
+                                 <li class="mainParentNavLink {% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
 
                                   <div class="uk-navbar-dropdown uk-navbar-dropdown-width-{{ numChildren }}" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                                       <div class="uk-navbar-dropdown-grid uk-child-width-1-{{ numChildren }}" uk-grid>
@@ -47,7 +47,7 @@
 
                                  </li>
                                  {% elsif item.subfolderitems[0] %}
-                                 <li class="{% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
+                                 <li class="mainParentNavLink {% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
 
                                       <!-- only loop through subfolderitems -->
                                       <div class="uk-navbar-dropdown">
@@ -60,15 +60,10 @@
                                           </ul>
                                       </div>
 
-
-
-
-
-
                                  </li>
                                  {% else %}
 
-                                  <li class="{% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+                                  <li class="mainParentNavLink {% if item.url == page.url %}navMainActive{% endif %} {% if forloop.last == true %}finalLinkBlue{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 
                                  {% endif %}
 

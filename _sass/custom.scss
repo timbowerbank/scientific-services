@@ -134,6 +134,15 @@ $fm-border-height: 1px;
  width: 100%;
 }
 
+// background
+.fm-background-navy {
+ background-color: $fm-blue-navy;
+}
+
+.fm-background-blue {
+ background-color: $fm-blue;
+}
+
 // *************************
 // *** headerTop section ***
 // *************************
@@ -243,5 +252,17 @@ $fm-border-height: 1px;
  // using ampersand and > symbol only targets child and not nested children
  & > a {
   border-bottom: 1px solid $fm-blue;
+ }
+}
+
+.mainParentNavLink {
+ & > a {
+  color: $fm-white!important;
+ }
+}
+
+.finalLinkBlue {
+ & > a {
+   background-color: $fm-blue;
  }
 }
