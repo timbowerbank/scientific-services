@@ -5,9 +5,9 @@
 
             <!-- start nav -->
            <div class="uk-position-relative">
-            <nav class="uk-navbar-container" uk-navbar="dropbar: true;">
+            <nav class="uk-navbar-container" uk-navbar>
 
-               <div id="alignNav" class="uk-navbar-right">
+               <div id="alignNav" class="uk-navbar-left">
 
                    <ul class="uk-navbar-nav">
                        {% if site.data.main-menu.mainmenu[0] %}
@@ -27,41 +27,20 @@
                                  {% if subSubFolders == true %}
                                  <li><a href="{{ item.url }}">{{ item.title }}</a>
 
-                                  <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
-                                      <div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
-                                          <div>
-                                              <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                  <li class="uk-active"><a href="#">Active</a></li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li class="uk-nav-header">Header</li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li class="uk-nav-divider"></li>
-                                                  <li><a href="#">Item</a></li>
-                                              </ul>
-                                          </div>
-                                          <div>
-                                              <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                  <li class="uk-active"><a href="#">Active</a></li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li class="uk-nav-header">Header</li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li class="uk-nav-divider"></li>
-                                                  <li><a href="#">Item</a></li>
-                                              </ul>
-                                          </div>
-                                          <div>
-                                              <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                  <li class="uk-active"><a href="#">Active</a></li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li class="uk-nav-header">Header</li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li><a href="#">Item</a></li>
-                                                  <li class="uk-nav-divider"></li>
-                                                  <li><a href="#">Item</a></li>
-                                              </ul>
-                                          </div>
+                                  <div class="uk-navbar-dropdown uk-navbar-dropdown-width-4">
+                                      <div class="uk-navbar-dropdown-grid uk-child-width-1-4" uk-grid>
+                                            {% for nestedLink in item.subfolderitems %}
+                                                <div>
+                                                   <p>{{ nestedLink.page }}</p>
+                                                   <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                        {% for nestedNestedLink in nestedLink.subsubfolderitems %}
+
+                                                             <li><a href="{{ nestedNestedLink.url }}">{{ nestedNestedLink.page }}</a></li>
+
+                                                        {% endfor %}
+                                                   </ul>
+                                                </div>
+                                            {% endfor %}
                                       </div>
                                   </div>
 
