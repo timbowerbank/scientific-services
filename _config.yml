@@ -33,6 +33,10 @@ collections_dir: collections
 collections:
   company:
     output: true
+  all_purpose:
+    output: true
+  services:
+    output: true
 
 # FILE UPLOADS
 uploads_dir: /images/uploads

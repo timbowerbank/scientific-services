@@ -1,0 +1,13 @@
+{% if forloop.first == true %}
+<div class="uk-navbar-dropdown">
+  <ul class="uk-nav uk-navbar-dropdown-nav">
+      <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+{% elsif forloop.last != true %}
+      <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+{% else %}
+      <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+    </ul>
+</div>
+{% endif %}

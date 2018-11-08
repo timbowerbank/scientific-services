@@ -32,7 +32,7 @@
                                       <div class="uk-navbar-dropdown-grid uk-child-width-1-{{ numChildren }}" uk-grid>
                                             {% for nestedLink in item.subfolderitems %}
                                                 <div>
-                                                   <p class="fm-font-navy fm-font-bold{% if nestedLink.url == page.url %} navMainActive{% endif %}"><a href="{{ nestedLink.url }}">{{ nestedLink.page }}</a></p>
+                                                   <p class="fm-font-navy fm-font-bold {% if nestedLink.url == page.url %}navMainActive{% endif %}"><a href="{{ nestedLink.url }}">{{ nestedLink.page }}</a></p>
                                                    <ul class="uk-nav uk-navbar-dropdown-nav">
                                                         {% for nestedNestedLink in nestedLink.subsubfolderitems %}
 
