@@ -238,3 +238,10 @@ $fm-border-height: 1px;
 // ***********************
 // *** MAIN NAVIGATION ***
 // ***********************
+
+.navMainActive {
+ // using ampersand and > symbol only targets child and not nested children
+ & > a {
+  border-bottom: 2px solid $fm-blue;
+ }
+}

@@ -26,17 +26,17 @@
 
                                  <!-- conditional checks whether subsubfolders exists -->
                                  {% if subSubFolders == true %}
-                                 <li><a href="{{ item.url }}">{{ item.title }}</a>
+                                 <li class="{% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
 
                                   <div class="uk-navbar-dropdown uk-navbar-dropdown-width-{{ numChildren }}" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                                       <div class="uk-navbar-dropdown-grid uk-child-width-1-{{ numChildren }}" uk-grid>
                                             {% for nestedLink in item.subfolderitems %}
                                                 <div>
-                                                   <p>{{ nestedLink.page }}</p>
+                                                   <p class="fm-font-navy fm-font-bold{% if nestedLink.url == page.url %} navMainActive{% endif %}"><a href="{{ nestedLink.url }}">{{ nestedLink.page }}</a></p>
                                                    <ul class="uk-nav uk-navbar-dropdown-nav">
                                                         {% for nestedNestedLink in nestedLink.subsubfolderitems %}
 
-                                                             <li><a href="{{ nestedNestedLink.url }}">{{ nestedNestedLink.page }}</a></li>
+                                                             <li class="{% if nestedNestedLink.url == page.url %}navMainActive{% endif %}"><a href="{{ nestedNestedLink.url }}">{{ nestedNestedLink.page }}</a></li>
 
                                                         {% endfor %}
                                                    </ul>
@@ -47,14 +47,14 @@
 
                                  </li>
                                  {% elsif item.subfolderitems[0] %}
-                                 <li><a href="{{ item.url }}">{{ item.title }}</a>
+                                 <li class="{% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
 
                                       <!-- only loop through subfolderitems -->
                                       <div class="uk-navbar-dropdown">
                                            <ul class="uk-nav uk-navbar-dropdown-nav">
                                            {% for entry in item.subfolderitems %}
 
-                                                    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                                                    <li class="{% if entry.url == page.url %}navMainActive{% endif %}"><a href="{{ entry.url }}">{{ entry.page }}</a></li>
 
                                            {% endfor %}
                                           </ul>
@@ -68,7 +68,7 @@
                                  </li>
                                  {% else %}
 
-                                  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                                  <li class="{% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 
                                  {% endif %}
 
