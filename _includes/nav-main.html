@@ -7,14 +7,16 @@
            <div class="uk-position-relative">
             <nav class="uk-navbar-container" uk-navbar>
 
-               <div id="alignNav" class="uk-navbar-left">
+               <div id="alignNav" class="uk-navbar-right">
 
                    <ul class="uk-navbar-nav">
                        {% if site.data.main-menu.mainmenu[0] %}
                             {% for item in site.data.main-menu.mainmenu %}
 
                                 <!-- use a loop to identify if item has subsubfolderitems -->
+                                <!-- identify number of children of subfolderitems -->
                                 {% for subCheck in item.subfolderitems %}
+                                    {% assign numChildren = forloop.length %}
                                     {% if subCheck.subsubfolderitems[0] %}
                                        {% assign subSubFolders = true %}
                                     {% else %}
@@ -22,13 +24,12 @@
                                     {% endif %}
                                 {% endfor %}
 
-
                                  <!-- conditional checks whether subsubfolders exists -->
                                  {% if subSubFolders == true %}
                                  <li><a href="{{ item.url }}">{{ item.title }}</a>
 
-                                  <div class="uk-navbar-dropdown uk-navbar-dropdown-width-4">
-                                      <div class="uk-navbar-dropdown-grid uk-child-width-1-4" uk-grid>
+                                  <div class="uk-navbar-dropdown uk-navbar-dropdown-width-{{ numChildren }}" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                                      <div class="uk-navbar-dropdown-grid uk-child-width-1-{{ numChildren }}" uk-grid>
                                             {% for nestedLink in item.subfolderitems %}
                                                 <div>
                                                    <p>{{ nestedLink.page }}</p>
@@ -43,8 +44,6 @@
                                             {% endfor %}
                                       </div>
                                   </div>
-
-
 
                                  </li>
                                  {% elsif item.subfolderitems[0] %}
