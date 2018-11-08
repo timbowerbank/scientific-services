@@ -251,7 +251,7 @@ $fm-border-height: 1px;
 .navMainActive {
  // using ampersand and > symbol only targets child and not nested children
  & > a {
-  border-bottom: 1px solid $fm-blue;
+  border-bottom: 2px solid $fm-blue;
  }
 }
 

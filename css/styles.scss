@@ -2,6 +2,7 @@
 ---
 
 // 1. Your custom variables and variable overwrites.
+$global-color: #333333;
 $global-link-color: #005288;
 $global-font-family: 'Raleway', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif !default;
 
@@ -11,11 +12,14 @@ $global-muted-background: #F6F7FF;
 $global-border: #009DDC;
 $container-padding-horizontal-m: 30px;
 $button-padding-horizontal: 15px;
+
+// navbar and navbar dropdown
 $navbar-toggle-color: #005288;
 $navbar-toggle-hover-color: #009DDC;
 $navbar-background: #005288;
 $navbar-nav-item-height: 42px;
 $navbar-nav-item-font-size: 0.8rem;
+$navbar-dropdown-nav-item-color: #333333;
 
 // primary button
 $button-primary-background: #FF5E15;
