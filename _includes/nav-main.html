@@ -13,7 +13,7 @@
                        {% if site.data.main-menu.mainmenu[0] %}
                             {% for item in site.data.main-menu.mainmenu %}
 
-                                <!-- use a loop to identify if data has subsubfolderitems -->
+                                <!-- use a loop to identify if item has subsubfolderitems -->
                                 {% for subCheck in item.subfolderitems %}
                                     {% if subCheck.subsubfolderitems[0] %}
                                        {% assign subSubFolders = true %}
@@ -28,10 +28,10 @@
                                  <li><a href="{{ item.url }}">{{ item.title }}</a>
 
                                   <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                                      <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-                                          <div>
+                                      <div class="uk-navbar-dropdown-grid" uk-grid>
+                                          <div class="uk-width-1-2">
                                               <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                  <li class="uk-active"><a href="#">{{ subFolders }}true?</a></li>
+                                                  <li class="uk-active"><a href="#">Active</a></li>
                                                   <li><a href="#">Item</a></li>
                                                   <li class="uk-nav-header">Header</li>
                                                   <li><a href="#">Item</a></li>
@@ -40,7 +40,7 @@
                                                   <li><a href="#">Item</a></li>
                                               </ul>
                                           </div>
-                                          <div>
+                                          <div class="uk-width-1-2">
                                               <ul class="uk-nav uk-navbar-dropdown-nav">
                                                   <li class="uk-active"><a href="#">Active</a></li>
                                                   <li><a href="#">Item</a></li>

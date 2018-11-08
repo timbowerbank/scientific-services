@@ -213,11 +213,13 @@ $fm-border-height: 1px;
 }
 
 .navActive {
- a {
+ & > a {
    opacity: 0.2;
  }
 
 }
+
+
 
 .buttonIcon {
  margin-top: -3px;
@@ -232,3 +234,7 @@ $fm-border-height: 1px;
     padding-right: $fm-gutter-mini;
   }
 }
+
+// ***********************
+// *** MAIN NAVIGATION ***
+// ***********************
