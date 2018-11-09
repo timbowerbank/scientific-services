@@ -37,6 +37,8 @@ collections:
     output: true
   services:
     output: true
+  knowledge_base:
+    output: true
 
 # FILE UPLOADS
 uploads_dir: /images/uploads
