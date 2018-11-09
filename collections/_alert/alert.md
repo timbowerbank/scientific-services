@@ -1,5 +1,5 @@
 ---
-alert_on: false
+alert_on: true
 ---
 
-**Christmas opening hours** Please be aware that the office will be closed over the Christmas period. If you have any emergency please call our **hotline: 07976 361908**.
+**Christmas opening hours** Please be aware that the office will be closed over the Christmas period. If you have any emergency please call our **hotline: 07976 361908.**
