@@ -33,9 +33,9 @@
                  {% if limitLoop <= 0 %}
                  <p><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></p>
                  {% elsif limitLoop == 1 %}
-                 <p>See: <span><</span> <a href="/"><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></a></p>
+                 <p>Up to: <span><</span> <a href="/"><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></a></p>
                  {% else %}
-                 <p>See: <span><</span> <a href="{% for item in crumbs limit: limitLoop %}{% if forloop.last %}{{ item | append: ".html" }}{% else %}{{ item | append: "/" }}{% endif %}{% endfor %}">{% for lastItem in crumbs limit: limitLoop %}{% if forloop.last %}{{ lastItem | replace:"-"," " | capitalize }}{% endif %}{% endfor %}</a></p>
+                 <p>Up to: <span><</span> <a href="{% for item in crumbs limit: limitLoop %}{% if forloop.last %}{{ item | append: ".html" }}{% else %}{{ item | append: "/" }}{% endif %}{% endfor %}">{% for lastItem in crumbs limit: limitLoop %}{% if forloop.last %}{{ lastItem | replace:"-"," " | capitalize }}{% endif %}{% endfor %}</a></p>
                  {% endif %}
 
                 </div>
