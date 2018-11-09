@@ -10,7 +10,11 @@
                    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 
                    <ul class="uk-breadcrumb fm-breadcrumb">
+                   {% if page.url == "/" %}
+                   <li><p>You are here: </p><span><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></span></li>
+                   {% else %}
                    <li><p>You are here: </p><a href="/"><span><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></span></a></li>
+                   {% endif %}
                    {% for crumb in crumbs offset: 1 %}
                      {% if forloop.last %}
                        <li><p>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</p></li>
