@@ -196,6 +196,16 @@ $fm-border-height: 1px;
   }
 }
 
+.navBorderBottom {
+ @include small {
+  border-bottom: $fm-border-height solid $fm-blue;
+ }
+ @include medium {
+  border-bottom: $fm-border-height solid $fm-blue;
+ }
+
+}
+
 // ***********************
 // *** SIDE NAVIGATION ***
 // ***********************
@@ -251,7 +261,7 @@ $fm-border-height: 1px;
 .navMainActive {
  // using ampersand and > symbol only targets child and not nested children
  & > a {
-  border-bottom: 2px solid $fm-blue;
+  border-bottom: 3px solid $fm-blue;
  }
 }
 
@@ -280,5 +290,30 @@ $fm-border-height: 1px;
     width: 18px;
     height: auto;
     margin-top: -6px;
+    margin-left: $fm-gutter-micro;
  }
+ p {
+   margin-bottom: 0;
+   &:hover {
+         color: $fm-blue-navy;
+   }
+ }
+
+}
+
+.mobileBreadCrumbs {
+ img {
+   width: 18px;
+   height: auto;
+   margin-top: -6px;
+   margin-left: 0;
+ }
+ p {
+   margin-bottom: 0;
+ }
+ span {
+   margin-left: 5px;
+   margin-right: 5px;
+ }
+
 }

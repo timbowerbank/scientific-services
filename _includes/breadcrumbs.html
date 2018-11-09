@@ -7,17 +7,34 @@
 
                 <!-- main breadcrumbs -->
                 <div class="uk-visible@m">
-                 <ul class="uk-breadcrumb fm-breadcrumb">
-                    <li>You are here: <a href="/index.html"><span><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></span></a></li>
-                    <li><a href="/services.html">Services</a></li>
-                    <li><a href="/services/asbestos.html">Asbestos</a></li>
-                    <li><span>Surveys</span></li>
+                   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+                   <ul class="uk-breadcrumb fm-breadcrumb">
+                   <li><p>You are here: </p><a href="/"><span><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></span></a></li>
+                   {% for crumb in crumbs offset: 1 %}
+                     {% if forloop.last %}
+                       <li><p>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</p></li>
+                     {% else %}
+                       <li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{% if forloop.last %}{{ crumb | append: '.html' }}{% else %}{{ crumb | append: '/' }}{% endif %}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+                     {% endif %}
+                   {% endfor %}
                    </ul>
+
                 </div>
                 <!-- mobile breadcrumbs -->
-                <div class="uk-hidden@m">
-                </div>
+                <div class="uk-hidden@m mobileBreadCrumbs">
+                 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+                 {% assign limitLoop = crumbs.size | minus: 1  %}
 
+                 {% if limitLoop <= 0 %}
+                 <p><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></p>
+                 {% elsif limitLoop == 1 %}
+                 <p>See: <span><</span> <a href="/"><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></a></p>
+                 {% else %}
+                 <p>See: <span><</span> <a href="{% for item in crumbs limit: limitLoop %}{% if forloop.last %}{{ item | append: ".html" }}{% else %}{{ item | append: "/" }}{% endif %}{% endfor %}">{% for lastItem in crumbs limit: limitLoop %}{% if forloop.last %}{{ lastItem | replace:"-"," " | capitalize }}{% endif %}{% endfor %}</a></p>
+                 {% endif %}
+
+                </div>
 
               </div>
 
