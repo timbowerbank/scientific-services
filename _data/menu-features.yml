@@ -1,18 +1,18 @@
 feature1:
-   image_source: /images/design-assets/icon-asbestos-01.svg
-   image_alt_tag: asbestos icon
-   feature_title: ASBESTOS
-   feature_description: Support for all aspects from surveying to removal
-   feature_link: /index1.html
+  image_source: /images/design-assets/icon-asbestos-01.svg
+  image_alt_tag: asbestos icon
+  feature_title: ASBESTOS
+  feature_description: Support for all aspects from surveying to removal
+  feature_link: /services/asbestos.html
 feature2:
-   image_source: /images/design-assets/icon-legionella-01.svg
-   image_alt_tag: legionella icon
-   feature_title: LEGIONELLA
-   feature_description: Your partner to help you prevent legionella bacteria
-   feature_link: /index2.html
+  image_source: /images/design-assets/icon-legionella-01.svg
+  image_alt_tag:
+  feature_title: LEGIONELLA
+  feature_description: Your partner to help you prevent legionella bacteria
+  feature_link: /services/legionella.html
 feature3:
-   image_source: /images/design-assets/icon-anthrax-01.svg
-   image_alt_tag: anthrax icon
-   feature_title: ANTHRAX
-   feature_description: Identify and resolve cases of anthrax
-   feature_link: /index3.html
+  image_source: /images/design-assets/icon-anthrax-01.svg
+  image_alt_tag:
+  feature_title: ANTHRAX
+  feature_description: Identify and resolve cases of anthrax
+  feature_link: /services/anthrax.html
