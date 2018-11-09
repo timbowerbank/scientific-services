@@ -1,0 +1,14 @@
+
+
+              {% for alert in site.alert %}
+                 {% if alert.alert_on == true %}
+                 <!-- start alert -->
+                 <div class="uk-section fm-padding-mini">
+                    <div class="uk-container">
+                       <div class="uk-alert-secondary" uk-alert>
+                           {{ alert.content | markdownify }}
+                       </div>
+                    </div>
+                 </div><!-- end alert section -->
+                 {% endif %}
+              {% endfor %}

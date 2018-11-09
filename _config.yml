@@ -31,14 +31,17 @@ plugins:
 # COLLECTIONS
 collections_dir: collections
 collections:
-  company:
-    output: true
+  alert:
+    output: false
   all_purpose:
     output: true
-  services:
+  company:
     output: true
   knowledge_base:
     output: true
+  services:
+    output: true
+
 
 # FILE UPLOADS
 uploads_dir: /images/uploads
