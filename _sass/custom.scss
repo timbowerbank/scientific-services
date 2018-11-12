@@ -29,7 +29,7 @@ $fm-font-micro: 0.8rem;
 $fm-font-mini: 1rem;
 $fm-font-small: 1.33rem;
 $fm-font-medium: 1.83rem;
-$fm-font-large: 2.83rem;
+$fm-font-large: 2.4rem;
 
 // line height
 $fm-line-height-micro: 1.36;
@@ -40,6 +40,9 @@ $fm-line-height-large: 1.24;
 
 // borders
 $fm-border-height: 1px;
+$fm-border-height-underline: 1px;
+
+
 
 
 // ********************
@@ -89,8 +92,7 @@ $fm-border-height: 1px;
 .uk-list-inline > li {
     list-style: none;
     display: inline-block;
-    // padding-left: $largeGutter;
-    // padding-right: $largeGutter;
+
 }
 
 // padding
@@ -103,10 +105,39 @@ $fm-border-height: 1px;
  padding-left: $fm-gutter-mini;
 }
 
+.fm-no-padding-bottom {
+ padding-bottom: 0;
+}
+
+.fm-padding-right-small {
+ padding-right: $fm-gutter-mini;
+}
+
 
 // margins
 .margin-bottom-mini {
  margin-bottom: $fm-gutter-mini;
+}
+
+.fm-no-margin-bottom {
+ margin-bottom: 0;
+}
+
+.fm-margin-right-small {
+ margin-right: $fm-gutter-mini;
+}
+
+.fm-no-margin-top-bottom {
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.fm-margin-top-small {
+ margin-top: $fm-gutter-small;
+}
+
+.fm-margin-top-large {
+ margin-top: $fm-gutter-large;
 }
 
 
@@ -114,6 +145,14 @@ $fm-border-height: 1px;
 // borders
 .fm-border-bottom {
  border-bottom: $fm-border-height solid $fm-blue;
+}
+
+.fm-headerLine {
+ width: 150px;
+ height: $fm-border-height-underline;
+ background-color: $fm-blue;
+ margin-bottom: $fm-gutter-small;
+
 }
 
 // fonts
@@ -129,9 +168,21 @@ $fm-border-height: 1px;
  font-size: $fm-font-mini;
 }
 
+.fm-font-large {
+
+  font-size: $fm-font-large;
+
+}
+
 // widths
 .fm-width-100 {
  width: 100%;
+}
+
+.fm-width-100-mobile {
+ @include small {
+  width: 100%;
+ }
 }
 
 // background
@@ -141,6 +192,11 @@ $fm-border-height: 1px;
 
 .fm-background-blue {
  background-color: $fm-blue;
+}
+
+// forms
+.fm-input-border {
+ border: 1px solid $fm-orange;
 }
 
 // *************************
@@ -316,4 +372,48 @@ $fm-border-height: 1px;
    margin-right: 5px;
  }
 
+}
+
+// **************
+// *** FOOTER ***
+// **************
+
+.footerExtraMobileMargin {
+ @include small {
+   margin-top: $fm-gutter-large!important;
+ }
+ @include medium {
+  margin-top: $fm-gutter-large!important;
+ }
+}
+
+.footerPaddingEmail {
+ padding-top: 0px;
+ @include large {
+  padding-top: 16px;
+ }
+ @include extraLarge {
+  padding-top: 16px;
+ }
+ @include largest {
+  padding-top: 16px;
+ }
+}
+
+.formWidth {
+ @include medium {
+   width: 60%;
+   margin: auto;
+ }
+}
+
+.formSubmit {
+ margin-left: 120px;
+ @include small {
+   margin-left: 0;
+   width: 100%;
+ }
+ @include medium {
+  margin: auto;
+ }
 }
