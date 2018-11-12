@@ -48,12 +48,12 @@
                        <div class="uk-flex uk-flex-center uk-flex-left@m">
                           <div class="fm-headerLine"></div>
                        </div>
-                       <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-left@m footerPaddingEmail">
+                       <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-left@m footerPaddingExtraBalance">
                           <img class="fm-margin-right-small" src="/images/design-assets/icon-email-orange-01.svg" alt="Email icon">
                           <p class="fm-font-navy fm-font-bold fm-no-margin-top-bottom"><a href="mailto:{{ site.data.company.contact_details.email }}">{{ site.data.company.contact_details.email }}</a></p>
                        </div>
                        <!-- form block -->
-                       <form class="uk-form-horizontal uk-margin formWidth">
+                       <form class="uk-form-horizontal uk-margin formWidth uk-margin-large-top">
 
                            <div class="uk-margin">
                                <label class="uk-form-label fm-font-navy fm-font-bold" for="form-first-name">FIRST NAME</label>
@@ -91,7 +91,38 @@
                     </div><!-- end second col -->
 
                     <!-- start third col -->
-                    <div>
+                    <div class="footerExtraMobileMargin">
+                     <!-- Social media block -->
+                     <p class="fm-no-margin-bottom fm-font-navy fm-font-large uk-text-center uk-text-left@m">Connect</p>
+                     <div class="uk-flex uk-flex-center uk-flex-left@m">
+                        <div class="fm-headerLine"></div>
+                     </div>
+
+                     <!-- begin nested grid -->
+                     <div class="uk-child-width-1-2 socialMediaIconsFooter centerSocialMediaMobile" uk-grid>
+
+                       <div class="uk-padding-remove uk-margin-remove uk-flex uk-flex-right"><a href="{{ site.data.company.social_media.facebook }}"><img src="/images/design-assets/icon-facebook-01.svg" alt="facebook icon"></a></div>
+                       <div class="uk-padding-remove uk-margin-remove uk-flex uk-flex-left"><a href="{{ site.data.company.social_media.google }}"><img src="/images/design-assets/icon-google-plus-01.svg" alt="facebook icon"></a></div>
+                       <div class="uk-padding-remove uk-margin-remove uk-flex uk-flex-right"><a href="{{ site.data.company.social_media.linkedin }}"><img src="/images/design-assets/icon-linkedIn-01.svg" alt="facebook icon"></a></div>
+                       <div class="uk-padding-remove uk-margin-remove uk-flex uk-flex-left"><a href="{{ site.data.company.social_media.twitter }}"><img src="/images/design-assets/icon-twitter-01.svg" alt="facebook icon"></a></div>
+
+                     </div><!-- end nested grid -->
+
+                     <!-- outer container -->
+                     <div class="uk-flex uk-flex-column flexFooterSocialMedia">
+
+                         <!-- row 1 -->
+                         <div class="uk-flex uk-flex-center">
+                             <a class="flexSocialMediaMargin" href="{{ site.data.company.social_media.facebook }}"><img src="/images/design-assets/icon-facebook-01.svg" alt="facebook icon"></a>
+                             <a href="{{ site.data.company.social_media.google }}"><img src="/images/design-assets/icon-google-plus-01.svg" alt="google icon"></a>
+                         </div>
+                         <!-- row 2 -->
+                         <div class="uk-flex uk-flex-center">
+                             <a class="flexSocialMediaMargin" href="{{ site.data.company.social_media.linkedin }}"><img src="/images/design-assets/icon-linkedIn-01.svg" alt="linkedin icon"></a>
+                             <a href="{{ site.data.company.social_media.twitter }}"><img src="/images/design-assets/icon-twitter-01.svg" alt="twitter icon"></a>
+                         </div>
+
+                     </div><!-- end outer container -->
 
                     </div><!-- end third col -->
 
