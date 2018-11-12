@@ -29,7 +29,7 @@ $fm-font-micro: 0.8rem;
 $fm-font-mini: 1rem;
 $fm-font-small: 1.33rem;
 $fm-font-medium: 1.83rem;
-$fm-font-large: 2.4rem;
+$fm-font-large: 2.2rem;
 
 // line height
 $fm-line-height-micro: 1.36;
@@ -429,4 +429,23 @@ $fm-border-height-underline: 1px;
 .flexSocialMediaMargin {
   margin-right: $fm-gutter-mini;
   margin-bottom: $fm-gutter-mini;
+}
+
+.footerTeamPerson {
+  img {
+   width: 220px;
+   height: 224px;
+  }
+  margin-top: -220px;
+  @include small {
+   margin-top: $fm-gutter-small;
+  }
+  @include medium {
+   margin-top: $fm-gutter-small;
+  }
+
+}
+
+.footerScrollTopIcon {
+ margin-top: -50px;
 }
