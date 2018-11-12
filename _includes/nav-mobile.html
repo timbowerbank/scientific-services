@@ -23,7 +23,7 @@
                                <li class="uk-parent secondLevelHeaders uk-nav-divider {% if entry.url == page.url %}navActive{% endif %}"><a href="{{ entry.url }}">{{ entry.page }}</a>
                                    <ul class="uk-nav-sub">
                                       {% for lastitem in entry.subsubfolderitems %}
-                                          <li class="thirdLevelHeaders {% if entry.url == page.url %}navActive{% endif %}"><a href="{{ lastitem.url }}">{{ lastitem.page }}</a></li>
+                                          <li class="thirdLevelHeaders {% if lastitem.url == page.url %}navActive{% endif %}"><a href="{{ lastitem.url }}">{{ lastitem.page }}</a></li>
 
                                       {% endfor %}
                                    </ul>
