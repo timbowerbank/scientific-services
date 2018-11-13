@@ -431,12 +431,12 @@ $fm-border-height-underline: 1px;
   margin-bottom: $fm-gutter-mini;
 }
 
-.footerTeamPerson {
+/*.footerTeamPerson {
   img {
    width: 220px;
    height: 224px;
   }
-  margin-top: -220px;
+  margin-top: -166px;
   @include small {
    margin-top: $fm-gutter-small;
   }
@@ -444,8 +444,69 @@ $fm-border-height-underline: 1px;
    margin-top: $fm-gutter-small;
   }
 
+}*/
+
+.footerTeamPerson {
+ height: 440px;
+ @include small {
+  height: auto;
+  margin-top: $fm-gutter-medium;
+ }
+ @include medium {
+  height: auto;
+  margin-top: $fm-gutter-medium;
+ }
+ img {
+  width: 220px;
+  height: 224px;
+ }
+
 }
 
+.bottomFooter {
+  padding-top: $fm-gutter-mini;
+  padding-bottom: $fm-gutter-mini;
+}
+
+.footerBandLightBlue {
+ padding-top: 0;
+ padding-bottom: 0;
+ height: 20px;
+}
+
+.bottomFooterLinks {
+ a {
+   color: $fm-white;
+   font-size: $fm-font-micro;
+   padding-right: $fm-gutter-mini;
+ }
+ @include small {
+   a {
+     padding-top: $fm-gutter-micro;
+   }
+ }
+ @include medium {
+   a {
+     padding-top: $fm-gutter-micro;
+   }
+ }
+
+}
+
+.bottomFooterLinksRight {
+ @include small {
+  margin-top: $fm-gutter-mini!important;
+ }
+ @include medium {
+  margin-top: $fm-gutter-mini!important;
+ }
+ a {
+   color: $fm-white;
+   font-size: $fm-font-micro;
+ }
+}
+
+
 .footerScrollTopIcon {
- margin-top: -50px;
+ margin-top: 0px;
 }
