@@ -16,7 +16,8 @@ hero:
     ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Praesent quis
     condimentum ligula, necsagittis velit.</li><li>In hac habitasse platea
     dictumst.</li></ul>
-  main_hero_image: /images/uploads/hero-cutout-scientist2.png
+  main_hero_image: /images/uploads/hero-cutout-scientist.png
+  main_hero_hi_res_image: /images/uploads/hero-cutout-scientist@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
   main_hero_button_heading: EXPLORE OUR SERVICES
   main_hero_button_link: /index.html

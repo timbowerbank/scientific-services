@@ -538,6 +538,7 @@ $fm-border-height-underline: 1px;
    }
   a {
    width: 100%;
+   margin-bottom: $fm-gutter-mini!important;
    }
   }
  h1 {
@@ -560,8 +561,13 @@ $fm-border-height-underline: 1px;
 
 .heroImage {
   padding-top: $fm-gutter-mini;
+  @include small {
+    padding-top: 0;
+    margin-top: $fm-gutter-small!important;
+  }
   img {
-    width: 392px;
-    height: 333px;
+    width: 100%;//392px;
+    max-width: 392px;
+    //height: 333px;
  }
 }
