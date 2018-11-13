@@ -8,6 +8,7 @@
 $fm-blue-navy: #005288;
 $fm-blue: #009DDC;
 $fm-blue-muted: #F6F7FF;
+$fm-blue-muted-fade: #F7F8FF;
 $fm-orange: #FF5E15;
 $fm-black: #1A1A1A;
 $fm-white: #FFFFFF;
@@ -516,4 +517,12 @@ $fm-border-height-underline: 1px;
   margin-top: -170px;
  }
 
+}
+
+// ************
+// *** HERO ***
+// ************
+
+.heroSectionGradient {
+ background-image: linear-gradient($fm-blue-muted-fade, $fm-blue-muted);
 }
