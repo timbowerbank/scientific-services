@@ -531,6 +531,15 @@ $fm-border-height-underline: 1px;
 .heroTextFormat {
  padding-left: $fm-gutter-large;
  padding-top: $fm-gutter-small;
+ @include small {
+  padding-left: $fm-gutter-small;
+  h1 {
+   text-align: center;
+   }
+  a {
+   width: 100%;
+   }
+  }
  h1 {
   color: $fm-blue-navy;
   font-size: $fm-font-large;
@@ -546,6 +555,7 @@ $fm-border-height-underline: 1px;
  a {
   margin-bottom: $fm-gutter-40;
  }
+
 }
 
 .heroImage {
