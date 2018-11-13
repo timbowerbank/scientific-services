@@ -21,6 +21,18 @@ hero:
   main_hero_alt_tag: Image of lab tester checking for asbestos
   main_hero_button_heading: EXPLORE OUR SERVICES
   main_hero_button_link: /index.html
+intro:
+  intro_heading: Praesent mollis hendrerit erat...
+  intro_paragraph_html: >-
+    <p>Vestibulum volutpat lacus vitae turpis rhoncus ornare eu quis magna. In at elit pellentesque, lacinia augue et, auctor nisl. Aliquam erat volutpat. Vivamus tincidunt volutpat porttitor.</p>
+accreditations:
+  - accreditation_image: /images/uploads/accred-ukas-01.svg
+    accreditation_alt: UKAS accredited logo
+    accreditation_link: https://www.ukas.com/
+  - accreditation_image: /images/uploads/accred-iso-9001-01.svg
+    accreditation_alt: ISO 9001 accredited logo
+    accreditation_link: https://www.iso.org/iso-9001-quality-management.html
+
 ---
 
 Add some content here to test whether the index page is loading.
