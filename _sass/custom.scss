@@ -602,6 +602,10 @@ $fm-border-height-underline: 1px;
    text-align: center;
  }
 
+ @include medium {
+   text-align: center;
+ }
+
   p {
    color: $fm-black;
    font-size: $fm-font-mini;
