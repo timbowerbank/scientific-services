@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 meta_data:
   page_title: Scientific Services
@@ -12,9 +9,13 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 hero:
-  main_headline_markdown: Add some text here
+  main_headline_markdown: |-
+    # **This is the** headline
 
+    This is the remaining text.
 
+    * This is a bullet point
+    * This is another bullet point
 ---
 
 Add some content here to test whether the index page is loading.
