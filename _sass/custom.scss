@@ -508,5 +508,12 @@ $fm-border-height-underline: 1px;
 
 
 .footerScrollTopIcon {
- margin-top: 0px;
+ margin-top: -130px;
+ @include small {
+   margin-top: -200px;
+ }
+ @include medium {
+  margin-top: -170px;
+ }
+
 }
