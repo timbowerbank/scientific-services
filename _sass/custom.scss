@@ -592,7 +592,10 @@ $fm-border-height-underline: 1px;
 .h2Intro {
   @include small {
     text-align: center;
- }
+  }
+  @include medium {
+   text-align: center;
+  }
 }
 
 
