@@ -10,14 +10,19 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 hero:
   main_headline_html: |
-    <h1><strong>This is</strong> the headline</h1>
+    <h1>Necsagittis velit platea <br><strong>Interdum Erat ut Tristique</strong></h1>
 
-    <p>This is the remaining text.</p>
+    <p>Nullam cursus diam vitae massa bibendum lobortis. Nam posuere tellus odio, non porttitor neque placerat eget.</p>
 
     <ul>
-      <li>This is a bullet point</li>
-      <li>This is another bullet point</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Praesent quis condimentum ligula, necsagittis velit.</li>
+      <li>In hac habitasse platea dictumst.</li>
     </ul>
+  main_hero_image: /images/uploads/hero-cutout-scientist.png
+  main_hero_alt_tag: Image of lab tester checking for asbestos
+  main_hero_button_heading: EXPLORE OUR SERVICES
+  main_hero_button_link: /index.html
 ---
 
 Add some content here to test whether the index page is loading.

@@ -22,6 +22,7 @@ $fm-weight-regular: 400;
 $fm-gutter-micro: 7px;
 $fm-gutter-mini: 15px;
 $fm-gutter-small: 30px;
+$fm-gutter-40: 40px;
 $fm-gutter-medium: 60px;
 $fm-gutter-large: 80px;
 
@@ -30,7 +31,7 @@ $fm-font-micro: 0.8rem;
 $fm-font-mini: 1rem;
 $fm-font-small: 1.33rem;
 $fm-font-medium: 1.83rem;
-$fm-font-large: 2.2rem;
+$fm-font-large: 2.1rem;
 
 // line height
 $fm-line-height-micro: 1.36;
@@ -525,4 +526,32 @@ $fm-border-height-underline: 1px;
 
 .heroSectionGradient {
  background-image: linear-gradient($fm-blue-muted-fade, $fm-blue-muted);
+}
+
+.heroTextFormat {
+ padding-left: $fm-gutter-large;
+ padding-top: $fm-gutter-small;
+ h1 {
+  color: $fm-blue-navy;
+  font-size: $fm-font-large;
+ }
+ p {
+  color: $fm-black;
+  font-size: $fm-font-micro;
+ }
+ ul {
+  color: $fm-black;
+  font-size: $fm-font-micro;
+ }
+ a {
+  margin-bottom: $fm-gutter-40;
+ }
+}
+
+.heroImage {
+  padding-top: $fm-gutter-mini;
+  img {
+    width: 392px;
+    height: 333px;
+ }
 }
