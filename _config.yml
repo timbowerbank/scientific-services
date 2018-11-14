@@ -42,6 +42,53 @@ collections:
   services:
     output: true
 
+# DEFAULTS
+defaults:
+  -
+    scope:
+      path: "_services/asbestos/primary"
+    values:
+        layout: "default"
+        permalink: "/services/:name/"
+        status: "primary"
+  -
+    scope:
+      path: "_services/legionella/primary"
+    values:
+        layout: "default"
+        permalink: "/services/:name/"
+        status: "primary"
+  -
+    scope:
+      path: "_services/anthrax/primary"
+    values:
+        layout: "default"
+        permalink: "/services/:name/"
+        status: "primary"
+  -
+    scope:
+      path: "_services/lead-testing/primary"
+    values:
+        layout: "default"
+        permalink: "/services/:name/"
+        status: "primary"
+  -
+    scope:
+      path: "_services/expert-witness/primary"
+    values:
+        layout: "default"
+        permalink: "/services/:name/"
+        status: "primary"
+  -
+    scope:
+      path: "_services/laboratory-auditing/primary"
+    values:
+        layout: "default"
+        permalink: "/services/:name/"
+        status: "primary"
+
+
+
 
 # FILE UPLOADS
 uploads_dir: /images/uploads
