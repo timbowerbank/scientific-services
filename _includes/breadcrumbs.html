@@ -19,7 +19,7 @@
                      {% if forloop.last %}
                        <li><p>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</p></li>
                      {% else %}
-                       <li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{% if forloop.last %}{{ crumb | append: '.html' }}{% else %}{{ crumb | append: '/' }}{% endif %}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+                       <li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{% if forloop.last %}{{ crumb | append: '/' }}{% else %}{{ crumb | append: '/' }}{% endif %}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
                      {% endif %}
                    {% endfor %}
                    </ul>
@@ -35,7 +35,7 @@
                  {% elsif limitLoop == 1 %}
                  <p>Up to: <span><</span> <a href="/"><img src="/images/design-assets/icon-home-breadcrumb-01.svg"></a></p>
                  {% else %}
-                 <p>Up to: <span><</span> <a href="{% for item in crumbs limit: limitLoop %}{% if forloop.last %}{{ item | append: ".html" }}{% else %}{{ item | append: "/" }}{% endif %}{% endfor %}">{% for lastItem in crumbs limit: limitLoop %}{% if forloop.last %}{{ lastItem | replace:"-"," " | capitalize }}{% endif %}{% endfor %}</a></p>
+                 <p>Up to: <span><</span> <a href="{% for item in crumbs limit: limitLoop %}{% if forloop.last %}{{ item | append: "/" }}{% else %}{{ item | append: "/" }}{% endif %}{% endfor %}">{% for lastItem in crumbs limit: limitLoop %}{% if forloop.last %}{{ lastItem | replace:"-"," " | capitalize }}{% endif %}{% endfor %}</a></p>
                  {% endif %}
 
                 </div>

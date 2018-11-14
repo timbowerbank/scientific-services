@@ -1,5 +1,5 @@
 ---
 layout: default
-permalink: /about/:name.html
+permalink: /about/:name/
 ---
 This file is just for creating actual content so that we can test the nav active function.

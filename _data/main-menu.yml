@@ -1,71 +1,71 @@
 mainmenu:
   - title: About Us
-    url: /about.html
+    url: /about/
     subfolderitems:
       - page: History
-        url: /about/history.html
+        url: /about/history/
       - page: Meet the Team
-        url: /about/team.html
+        url: /about/team/
       - page: Accreditations
-        url: /about/accreditations.html
+        url: /about/accreditations/
       - page: Company News
-        url: /about/news.html
+        url: /about/news/
   - title: Services
-    url: /services.html
+    url: /services/
     subfolderitems:
       - page: Asbestos
-        url: /services/asbestos.html
+        url: /services/asbestos/
         subsubfolderitems:
           - page: Surveys
-            url: /services/asbestos/surveys.html
+            url: /services/asbestos/surveys/
           - page: Testing
-            url: /services/asbestos/testing.html
+            url: /services/asbestos/testing/
           - page: Removal
-            url: /services/asbestos/removal.html
+            url: /services/asbestos/removal/
           - page: Air Monitoring
-            url: /services/asbestos/air-monitoring.html
+            url: /services/asbestos/air-monitoring/
           - page: Awareness Training
-            url: /services/asbestos/awareness-training.html
+            url: /services/asbestos/awareness-training/
           - page: Case Studies
-            url: /services/asbestos/case-studies.html
+            url: /services/asbestos/case-studies/
           - page: News
-            url: /services/asbestos/news.html
+            url: /services/asbestos/news/
       - page: Legionella
-        url: /services/legionella.html
+        url: /services/legionella/
         subsubfolderitems:
           - page: Risk Assessment
-            url: /services/legionella/risk-assessment.html
+            url: /services/legionella/risk-assessment/
           - page: Temperature Monitoring
-            url: /services/legionella/temperature-monitoring.html
+            url: /services/legionella/temperature-monitoring/
           - page: Testing
-            url: /services/legionella/testing.html
+            url: /services/legionella/testing/
           - page: Flushing and Removal
-            url: /services/legionella/flushing.html
+            url: /services/legionella/flushing/
           - page: Case Studies
-            url: /services/legionella/case-studies.html
+            url: /services/legionella/case-studies/
           - page: News
-            url: /services/legionella/news.html
+            url: /services/legionella/news/
       - page: Other Services
         url: /#/
         subsubfolderitems:
           - page: Anthrax
-            url: /services/anthrax.html
+            url: /services/anthrax/
           - page: Lead Testing
-            url: /services/lead-testing.html
+            url: /services/lead-testing/
           - page: Expert Witness
-            url: /services/expert-witness.html
+            url: /services/expert-witness/
           - page: Laboratory Auditing
-            url: /services/laboratory-auditing.html
+            url: /services/laboratory-auditing/
   - title: Case Studies
-    url: /case-studies.html
+    url: /case-studies/
     subfolderitems:
       - page: Asbestos Case Studies
-        url: /services/asbestos/case-studies.html
+        url: /services/asbestos/case-studies/
       - page: Legionella Case Studies
-        url: /services/legionella/case-studies.html
+        url: /services/legionella/case-studies/
   - title: Careers
-    url: /careers.html
+    url: /careers/
   - title: Contact Us
-    url: /contact.html
+    url: /contact/
   - title: Portal
     url: https://portal.scientificservices.org/Account/Login?ReturnUrl=%2f

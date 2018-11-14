@@ -20,7 +20,7 @@ hero:
   main_hero_hi_res_image: /images/uploads/hero-cutout-scientist@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
   main_hero_button_heading: EXPLORE OUR SERVICES
-  main_hero_button_link: /index.html
+  main_hero_button_link: /services/
 intro:
   intro_heading: Praesent mollis hendrerit erat...
   intro_paragraph_html: >-
