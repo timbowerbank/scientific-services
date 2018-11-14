@@ -32,8 +32,8 @@ accreditations:
   - accreditation_image: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: https://www.iso.org/iso-9001-quality-management.html
-child_page_type: secondary
-child_page_category: legionella
+child_page_type: primary
+
 
 
 ---
