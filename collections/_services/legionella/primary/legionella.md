@@ -7,8 +7,8 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+order: 20
 page_summary:
-  summary_order: 20
   summary_title: Legionella
   summary_description_html: >-
     <p>Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.</p>

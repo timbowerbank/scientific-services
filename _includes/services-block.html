@@ -1,0 +1,27 @@
+      <!-- start services block -->
+      {% if site.services[0] %}
+      <div class="uk-section">
+
+          <div class="uk-container">
+
+             <!-- start grid -->
+             <div class="uk-child-width-1-3" uk-grid>
+
+               {% assign featured = page.feature %}
+               {% assign sorted_services = site.services | sort: "order" %}
+               {% for service in sorted_services %}
+                  {% if service.status == featured %}
+                      <div>
+                      <p>{{ service.title }}</p>
+                      </div>
+
+                  {% endif %}
+               {% endfor %}
+
+
+             </div>
+
+          </div><!-- end container -->
+
+      </div><!-- end services block -->
+      {% endif %}
