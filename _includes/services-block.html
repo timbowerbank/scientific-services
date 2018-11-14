@@ -22,7 +22,7 @@
                   {% assign sorted_services = site.services | sort: "order" %}
                   {% for service in sorted_services %}
 
-                      {% if page.child_page_type == service.landing_page_type and page.category == service.parent_category %}
+                      {% if page.child_page_type == service.landing_page_type and page.child_page_category == service.parent_category %}
                           <div>
                              <p>{{ service.page_summary.summary_title }}</p>
                           </div>
