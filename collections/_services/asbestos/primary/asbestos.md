@@ -8,8 +8,6 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 10
-child_page_type: secondary
-category: asbestos
 page_summary:
   summary_title: Asbestos
   summary_description_html: >-
@@ -17,5 +15,8 @@ page_summary:
   summary_image: /images/uploads/services-asbestos.jpg
   summary_hiRes_image: /images/uploads/services-asbestos@2x.jpg
   summary_button_title: READ ABOUT ASBESTOS
+services_block:
+  child_page_type: secondary
+  category: asbestos
 ---
 Asbestos primary page
