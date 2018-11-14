@@ -8,7 +8,6 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 10
-parent_category: asbestos
 page_summary:
   summary_title: Surveys
   summary_description_html: >-

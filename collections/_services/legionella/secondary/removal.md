@@ -8,7 +8,6 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 30
-parent_category: legionella
 page_summary:
   summary_title: Removal
   summary_description_html: >-
