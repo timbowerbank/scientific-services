@@ -15,9 +15,6 @@ page_summary:
   summary_image: /images/uploads/services-anthrax.jpg
   summary_hiRes_image: /images/uploads/services-anthrax@2x.jpg
   summary_button_title: READ ABOUT ANTHRAX
-services_block:
-  child_page_type: secondary
-  category: anthrax
 
 ---
 Anthrax primary page

@@ -15,8 +15,5 @@ page_summary:
   summary_image: /images/uploads/services-expert-witness.jpg
   summary_hiRes_image: /images/uploads/services-expert-witness@2x.jpg
   summary_button_title: READ EXPERT WITNESS
-services_block:
-  child_page_type: secondary
-  category: expert-witness
 ---
 Expert witness primary page

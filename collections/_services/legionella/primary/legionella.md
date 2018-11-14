@@ -15,8 +15,5 @@ page_summary:
   summary_image: /images/uploads/services-legionella.jpg
   summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_button_title: READ ABOUT LEGIONELLA
-services_block:
-  child_page_type: secondary
-  category: legionella
 ---
 Legionella primary page

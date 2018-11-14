@@ -15,8 +15,5 @@ page_summary:
   summary_image: /images/uploads/services-asbestos.jpg
   summary_hiRes_image: /images/uploads/services-asbestos@2x.jpg
   summary_button_title: READ ABOUT ASBESTOS
-services_block:
-  child_page_type: secondary
-  category: asbestos
 ---
 Asbestos primary page

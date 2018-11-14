@@ -15,8 +15,5 @@ page_summary:
   summary_image: /images/uploads/services-lead-testing.jpg
   summary_hiRes_image: /images/uploads/services-lead-testing@2x.jpg
   summary_button_title: READ LEAD TESTING
-services_block:
-  child_page_type: secondary
-  category: lead-testing
 ---
 Lead testing primary page
