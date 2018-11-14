@@ -1,7 +1,4 @@
 ---
-layout: default
-permalink: /services/legionella/:name/
-
 meta_data:
   page_title: Scientific Services
   meta_description: Add content for the home page of Scientific Services here...
@@ -11,6 +8,7 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 20
+parent_category: legionella
 page_summary:
   summary_title: Monitoring
   summary_description_html: >-

@@ -6,18 +6,33 @@
 
              <!-- start grid -->
              <div class="uk-child-width-1-3" uk-grid>
+             {% if page.child_page_type == "primary" %}
 
-               {% assign featured = page.feature %}
-               {% assign sorted_services = site.services | sort: "order" %}
-               {% for service in sorted_services %}
-                  {% if service.status == featured %}
-                      <div>
-                        <p>{{ service.title }}</p>
-                      </div>
+                  {% assign sorted_services = site.services | sort: "order" %}
+                  {% for service in sorted_services %}
+                     {% if page.child_page_type == service.landing_page_type  %}
+                         <div>
+                           <p>{{ service.page_summary.summary_title }}</p>
+                         </div>
 
-                  {% endif %}
-               {% endfor %}
+                     {% endif %}
+                  {% endfor %}
+             {% elsif page.child_page_type == "secondary" %}
 
+                  {% assign sorted_services = site.services | sort: "order" %}
+                  {% for service in sorted_services %}
+
+                      {% if page.child_page_type == service.landing_page_type and page.category == service.parent_category %}
+                          <div>
+                             <p>{{ service.page_summary.summary_title }}</p>
+                          </div>
+                      {% endif %}
+
+                  {% endfor %}
+
+
+
+             {% endif %}
 
              </div>
 

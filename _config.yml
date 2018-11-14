@@ -50,42 +50,84 @@ defaults:
     values:
         layout: "default"
         permalink: "/services/:name/"
-        status: "primary"
+        landing_page_type: "primary"
   -
     scope:
       path: "_services/legionella/primary"
     values:
         layout: "default"
         permalink: "/services/:name/"
-        status: "primary"
+        landing_page_type: "primary"
   -
     scope:
       path: "_services/anthrax/primary"
     values:
         layout: "default"
         permalink: "/services/:name/"
-        status: "primary"
+        landing_page_type: "primary"
   -
     scope:
       path: "_services/lead-testing/primary"
     values:
         layout: "default"
         permalink: "/services/:name/"
-        status: "primary"
+        landing_page_type: "primary"
   -
     scope:
       path: "_services/expert-witness/primary"
     values:
         layout: "default"
         permalink: "/services/:name/"
-        status: "primary"
+        landing_page_type: "primary"
   -
     scope:
       path: "_services/laboratory-auditing/primary"
     values:
         layout: "default"
         permalink: "/services/:name/"
-        status: "primary"
+        landing_page_type: "primary"
+  -
+    scope:
+      path: "_services/asbestos/secondary"
+    values:
+        layout: "default"
+        permalink: "/services/asbestos/:name/"
+        landing_page_type: "secondary"
+  -
+    scope:
+      path: "_services/legionella/secondary"
+    values:
+        layout: "default"
+        permalink: "/services/legionella/:name/"
+        landing_page_type: "secondary"
+  -
+    scope:
+      path: "_services/anthrax/secondary"
+    values:
+        layout: "default"
+        permalink: "/services/anthrax/:name/"
+        landing_page_type: "secondary"
+  -
+    scope:
+      path: "_services/lead-testing/secondary"
+    values:
+        layout: "default"
+        permalink: "/services/lead-testing/:name/"
+        landing_page_type: "secondary"
+  -
+    scope:
+      path: "_services/expert-witness/secondary"
+    values:
+        layout: "default"
+        permalink: "/services/expert-witness/:name/"
+        landing_page_type: "secondary"
+  -
+    scope:
+      path: "_services/laboratory-auditing/secondary"
+    values:
+        layout: "default"
+        permalink: "/services/laboratory-auditing/:name/"
+        landing_page_type: "secondary"
 
 
 
