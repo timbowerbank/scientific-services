@@ -8,6 +8,8 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 20
+child_page_type: secondary
+category: legionella
 page_summary:
   summary_title: Legionella
   summary_description_html: >-

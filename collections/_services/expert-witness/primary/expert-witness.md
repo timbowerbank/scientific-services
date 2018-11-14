@@ -8,6 +8,8 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 50
+child_page_type: secondary
+category: expert-witness
 page_summary:
   summary_title: Expert Witness
   summary_description_html: >-

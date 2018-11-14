@@ -8,6 +8,8 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 60
+child_page_type: secondary
+category: laboratory-auditing
 page_summary:
   summary_title: Lab Auditing
   summary_description_html: >-
