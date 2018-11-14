@@ -40,7 +40,7 @@ mainmenu:
           - page: Testing
             url: /services/legionella/testing/
           - page: Flushing and Removal
-            url: /services/legionella/flushing/
+            url: /services/legionella/removal/
           - page: Case Studies
             url: /services/legionella/case-studies/
           - page: News
