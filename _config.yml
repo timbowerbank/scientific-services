@@ -51,6 +51,8 @@ defaults:
         layout: "default"
         permalink: "/services/:name/"
         landing_page_type: "primary"
+        child_page_type: "secondary"
+        child_page_category: "asbestos"
   -
     scope:
       path: "_services/legionella/primary"
@@ -58,6 +60,8 @@ defaults:
         layout: "default"
         permalink: "/services/:name/"
         landing_page_type: "primary"
+        child_page_type: "secondary"
+        child_page_category: "legionella"
   -
     scope:
       path: "_services/anthrax/primary"
@@ -65,6 +69,8 @@ defaults:
         layout: "default"
         permalink: "/services/:name/"
         landing_page_type: "primary"
+        child_page_type: "secondary"
+        child_page_category: "anthrax"
   -
     scope:
       path: "_services/lead-testing/primary"
@@ -72,6 +78,8 @@ defaults:
         layout: "default"
         permalink: "/services/:name/"
         landing_page_type: "primary"
+        child_page_type: "secondary"
+        child_page_category: "lead-testing"
   -
     scope:
       path: "_services/expert-witness/primary"
@@ -79,6 +87,8 @@ defaults:
         layout: "default"
         permalink: "/services/:name/"
         landing_page_type: "primary"
+        child_page_type: "secondary"
+        child_page_category: "expert-witness"
   -
     scope:
       path: "_services/laboratory-auditing/primary"
@@ -86,6 +96,8 @@ defaults:
         layout: "default"
         permalink: "/services/:name/"
         landing_page_type: "primary"
+        child_page_type: "secondary"
+        child_page_category: "laboratory-auditing"
   -
     scope:
       path: "_services/asbestos/secondary"
