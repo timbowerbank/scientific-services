@@ -702,7 +702,6 @@ $fm-border-height-underline: 1px;
   flex-direction: column;
   margin: $fm-gutter-mini;
   background-color: $fm-blue-muted;
-  min-height: 100px; // IE11 fix to allow p to grow
   //padding: $fm-gutter-medium $fm-gutter-medium;
   @include small {
     width: 100%;
@@ -723,7 +722,7 @@ $fm-border-height-underline: 1px;
    margin-top: $fm-gutter-mini;
   }
   p {
-   flex: 1;
+   flex: 1 0 auto;
    margin-left: 104px;
    margin-right: $fm-gutter-mini;
    margin-top: -30px;
