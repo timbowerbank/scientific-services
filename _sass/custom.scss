@@ -693,6 +693,7 @@ $fm-border-height-underline: 1px;
 
 .serviceList {
  display: flex;
+ justify-content: space-around;
  flex-wrap: wrap;
  padding-left: 0;
 }
@@ -700,9 +701,8 @@ $fm-border-height-underline: 1px;
 .serviceListItem {
   display: flex;
   flex-direction: column;
-  margin: $fm-gutter-mini;
+  margin-bottom: $fm-gutter-small;
   background-color: $fm-blue-muted;
-  //padding: $fm-gutter-medium $fm-gutter-medium;
   @include small {
     width: 100%;
   }
