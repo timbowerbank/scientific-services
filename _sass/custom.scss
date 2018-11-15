@@ -118,7 +118,7 @@ $fm-border-height-underline: 1px;
 
 .padding-top-bottom-20 {
  padding-top: $fm-gutter-20;
- padding-top: $fm-gutter-20;
+ padding-bottom: $fm-gutter-20;
 }
 
 // margins
@@ -167,6 +167,10 @@ $fm-border-height-underline: 1px;
  color: $fm-blue-navy;
 }
 
+.fm-font-black {
+ color: $fm-black;
+}
+
 .fm-font-bold {
  font-weight: $fm-weight-heavy;
 }
@@ -176,9 +180,11 @@ $fm-border-height-underline: 1px;
 }
 
 .fm-font-large {
-
   font-size: $fm-font-large;
+}
 
+.fm-font-mini {
+ font-size: $fm-font-mini;
 }
 
 .fm-font-micro {
@@ -621,4 +627,51 @@ $fm-border-height-underline: 1px;
     padding-left: $fm-gutter-small;
     padding-bottom: $fm-gutter-small;
   }
+}
+
+// *********************
+// *** SERVICE BLOCK ***
+// *********************
+
+.servicesExtraMargin {
+ margin-bottom: $fm-gutter-40;
+}
+
+
+.serviceContainer {
+ p {
+   margin-top: $fm-gutter-micro;
+   font-size: $fm-font-mini;
+   color: $fm-black;
+ }
+ img {
+  max-width: 74px;
+  max-height: 74px;
+ }
+ @include small {
+  text-align: center;
+  img {
+   max-width: 120px;
+   max-height: 120px;
+  }
+ }
+ @include medium {
+  text-align: center;
+  img {
+   max-width: 120px;
+   max-height: 120px;
+  }
+ }
+ height: 100%;
+ background-color: $fm-blue-muted;
+ padding: $fm-gutter-mini $fm-gutter-mini;
+ padding-left: $fm-gutter-mini;
+ padding-right: $fm-gutter-mini;
+ padding-top: $fm-gutter-mini;
+ padding-bottom: 0;
+
+ h3 {
+   margin-bottom: $fm-gutter-micro;
+ }
+
 }

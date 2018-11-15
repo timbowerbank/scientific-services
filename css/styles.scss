@@ -68,6 +68,11 @@ $form-horizontal-controls-margin-left: 120px;
    margin-top: -3px;
  }
 }
+@mixin hook-button-secondary {
+ font-weight: 600;
+ font-size: 0.8rem;
+ border: 1px solid #FF5E15;
+}
 
 // 4. Import UIkit.
 @import "uikit-theme.scss";
