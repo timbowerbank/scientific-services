@@ -14,6 +14,7 @@ page_summary:
     <p>Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.</p>
   summary_image: /images/uploads/services-lab-auditing.jpg
   summary_hiRes_image: /images/uploads/services-lab-auditing@2x.jpg
+  summary_alt_tag: Lab audit underway
   summary_button_title: READ LAB AUDITING
 ---
 laboratory auditing primary page

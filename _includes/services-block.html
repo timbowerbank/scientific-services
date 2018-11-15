@@ -11,9 +11,28 @@
                   {% assign sorted_services = site.services | sort: "order" %}
                   {% for service in sorted_services %}
                      {% if page.child_page_type == service.landing_page_type  %}
-                         <div>
-                           <p>{{ service.page_summary.summary_title }}</p>
+
+                     <div uk-grid>
+                         <!-- image -->
+                         <div class="uk-width-1-1 uk-width-auto@m">
+                             <img srcset="{{ service.page_summary.summary_image }} x1, {{ service.page_summary.summary_hiRes_image }} x2" src="{{ service.page_summary.summary_image }}" alt="{{ service.page_summary.summary_alt_tag }}">
                          </div>
+
+                         <!-- summary -->
+                         <div class="uk-width-1-1 uk-width-expand@m">
+
+                         </div>
+
+
+
+                     </div>
+                     <a class="uk-button uk-button-secondary fm-width-100" href="{{ service.url }}">{{ service.page_summary.summary_button_title }}</a>
+
+
+
+
+
+
 
                      {% endif %}
                   {% endfor %}

@@ -14,6 +14,7 @@ page_summary:
     <p>Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.</p>
   summary_image: /images/uploads/services-asbestos.jpg
   summary_hiRes_image: /images/uploads/services-asbestos@2x.jpg
+  summary_alt_tag: Image of asbestos surveyor at work
   summary_button_title: READ ABOUT ASBESTOS
 ---
 Asbestos primary page

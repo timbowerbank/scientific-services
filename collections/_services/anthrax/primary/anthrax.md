@@ -14,6 +14,7 @@ page_summary:
     <p>Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.</p>
   summary_image: /images/uploads/services-anthrax.jpg
   summary_hiRes_image: /images/uploads/services-anthrax@2x.jpg
+  summary_alt_tag: Image of anthrax surveyor at work
   summary_button_title: READ ABOUT ANTHRAX
 
 ---
