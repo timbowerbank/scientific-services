@@ -11,7 +11,7 @@ order: 10
 page_summary:
   summary_title: Asbestos
   summary_description_html: >-
-    <p>Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.</p>
+    <p>Add some extra text to test resizing of columns. Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.</p>
   summary_image: /images/uploads/services-asbestos.jpg
   summary_hiRes_image: /images/uploads/services-asbestos@2x.jpg
   summary_alt_tag: Image of asbestos surveyor at work
