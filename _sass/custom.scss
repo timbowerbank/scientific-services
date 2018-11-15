@@ -699,25 +699,38 @@ $fm-border-height-underline: 1px;
 
 .serviceListItem {
   display: flex;
+  flex-direction: column;
   margin: $fm-gutter-mini;
+  background-color: $fm-blue-muted;
   //padding: $fm-gutter-medium $fm-gutter-medium;
   @include small {
     width: 100%;
   }
   @include medium {
-    width: 30%;
+    width: 45%;
   }
   width: 30%;
+  img {
+   float: left;
+   max-width: 74px;
+   max-height: 74px;
+   margin-left: $fm-gutter-mini;
+   margin-top: $fm-gutter-mini;
+  }
+  h3 {
+   margin-left: $fm-gutter-mini;
+   margin-top: $fm-gutter-mini;
+  }
+  p {
+   flex: 1;
+   margin-left: 104px;
+   margin-right: $fm-gutter-mini;
+   margin-top: -30px;
+  }
 
 }
 
-.serviceListContent {
+.serviceHeaderImage {
  display: flex;
- flex-direction: column;
- background-color: $fm-blue-muted;
- // padding: 1em;
- width: 100%;
- p {
-   flex: 1 0 auto;
- }
+
 }

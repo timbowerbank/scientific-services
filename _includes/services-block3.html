@@ -14,14 +14,12 @@
 
 
                      <li class="serviceListItem">
-
-                          <div class="serviceHeaderImage">
-                              <img class="uk-border-circle" srcset="{{ service.page_summary.summary_image }} 1x, {{ service.page_summary.summary_hiRes_image }} 2x" src="{{ service.page_summary.summary_image }}" alt="{{ service.page_summary.summary_alt_tag }}">
-                              <h3>{{ service.page_summary.summary_title }}</h3>
-                          </div>
+                       <div class="serviceListContent">
+                          <img class="uk-border-circle" srcset="{{ service.page_summary.summary_image }} 1x, {{ service.page_summary.summary_hiRes_image }} 2x" src="{{ service.page_summary.summary_image }}" alt="{{ service.page_summary.summary_alt_tag }}">
+                          <h3>{{ service.page_summary.summary_title }}</h3>
                           {{ service.page_summary.summary_description_html }}
                           <a class="uk-button uk-button-secondary fm-width-100" href="{{ service.url }}">{{ service.page_summary.summary_button_title }}</a>
-
+                       </div>
                      </li>
 
 
