@@ -28,9 +28,9 @@ $fm-gutter-medium: 60px;
 $fm-gutter-large: 80px;
 
 // font sizes
-$fm-font-micro: 0.8rem;
+$fm-font-micro: 0.86rem;
 $fm-font-mini: 1rem;
-$fm-font-small: 1.33rem;
+$fm-font-small: 1.2rem;
 $fm-font-medium: 1.83rem;
 $fm-font-large: 2.1rem;
 
@@ -617,7 +617,7 @@ $fm-border-height-underline: 1px;
 
   p {
    color: $fm-black;
-   font-size: $fm-font-mini;
+   font-size: $fm-font-small;
    line-height: $fm-line-height-small;
   }
 }
@@ -641,8 +641,9 @@ $fm-border-height-underline: 1px;
 .serviceContainer {
  p {
    margin-top: $fm-gutter-micro;
-   font-size: $fm-font-mini;
+   font-size: $fm-font-micro;
    color: $fm-black;
+   line-height: $fm-line-height-mini;
  }
  img {
   max-width: 74px;
@@ -654,12 +655,24 @@ $fm-border-height-underline: 1px;
    max-width: 120px;
    max-height: 120px;
   }
+  h3 {
+    font-size: $fm-font-small;
+  }
+  p {
+   line-height: $fm-line-height-small;
+  }
  }
  @include medium {
   text-align: center;
   img {
    max-width: 120px;
    max-height: 120px;
+  }
+  h3 {
+    font-size: $fm-font-small;
+  }
+  p {
+   line-height: $fm-line-height-small;
   }
  }
  height: 100%;
