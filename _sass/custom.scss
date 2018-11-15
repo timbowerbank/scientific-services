@@ -677,14 +677,47 @@ $fm-border-height-underline: 1px;
  }
  // height: 100%;
  // background-color: $fm-blue-muted;
- padding: $fm-gutter-mini $fm-gutter-mini;
- padding-left: $fm-gutter-mini;
- padding-right: $fm-gutter-mini;
- padding-top: $fm-gutter-mini;
- padding-bottom: 0;
+ //padding: $fm-gutter-mini $fm-gutter-mini;
+ //padding-left: $fm-gutter-mini;
+ //padding-right: $fm-gutter-mini;
+ //padding-top: $fm-gutter-mini;
+ //padding-bottom: 0;
 
  h3 {
    margin-bottom: $fm-gutter-micro;
  }
 
+}
+
+// *** NEW EXPERIMENT ***
+
+.serviceList {
+ display: flex;
+ flex-wrap: wrap;
+ padding-left: 0;
+}
+
+.serviceListItem {
+  display: flex;
+  margin: $fm-gutter-mini;
+  //padding: $fm-gutter-medium $fm-gutter-medium;
+  @include small {
+    width: 100%;
+  }
+  @include medium {
+    width: 30%;
+  }
+  width: 30%;
+
+}
+
+.serviceListContent {
+ display: flex;
+ flex-direction: column;
+ background-color: $fm-blue-muted;
+ // padding: 1em;
+ width: 100%;
+ p {
+   flex: 1 0 auto;
+ }
 }
