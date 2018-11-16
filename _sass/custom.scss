@@ -698,20 +698,14 @@ $fm-border-height-underline: 1px;
  padding-left: 0;
 }
 
+
+
 .serviceListItem {
   display: flex;
   flex-direction: column;
   margin-bottom: $fm-gutter-small;
   background-color: $fm-blue-muted;
-  @include small {
-    width: 100%;
-  }
-  @include medium {
-    width: 45%;
-  }
-  width: 30%;
   img {
-   float: left;
    max-width: 74px;
    max-height: 74px;
    margin-left: $fm-gutter-mini;
@@ -719,18 +713,56 @@ $fm-border-height-underline: 1px;
   }
   h3 {
    margin-left: $fm-gutter-mini;
-   margin-top: $fm-gutter-mini;
+   margin-top: 12px;
+   font-weight: $fm-weight-heavy;
+   color: $fm-blue-navy;
+   font-size: $fm-font-mini;
   }
   p {
    flex: 1 0 auto;
    margin-left: 104px;
    margin-right: $fm-gutter-mini;
-   margin-top: -30px;
+   margin-top: -36px;
+   color: $fm-black;
   }
+  @include small {
+    width: 100%;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 124px;
+      max-height: 124px;
+    }
+    h3 {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: $fm-gutter-small;
+      margin-bottom: $fm-gutter-mini;
+      font-size: $fm-font-medium;
+    }
+    p {
+      text-align: center;
+      margin-left: $fm-gutter-mini;
+      margin-right: $fm-gutter-mini;
+      margin-top: 0px;
+      margin-bottom: $fm-gutter-mini;
+      line-height: $fm-line-height-small;
+    }
+  }
+  @include medium {
+    width: 45%;
+  }
+  width: 30%;
+
+
 
 }
 
 .serviceHeaderImage {
  display: flex;
+ @include small {
+   flex-direction: column;
+   text-align: center;
+ }
 
 }

@@ -28,28 +28,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                      {% endif %}
                   {% endfor %}
              {% elsif page.child_page_type == "secondary" %}
@@ -58,9 +36,16 @@
                   {% for service in sorted_services %}
 
                       {% if page.child_page_type == service.landing_page_type and page.child_page_category == service.parent_category %}
-                          <div>
-                             <p>{{ service.page_summary.summary_title }}</p>
-                          </div>
+                      <li class="serviceListItem">
+
+                           <div class="serviceHeaderImage">
+                               <img class="uk-border-circle" srcset="{{ service.page_summary.summary_image }} 1x, {{ service.page_summary.summary_hiRes_image }} 2x" src="{{ service.page_summary.summary_image }}" alt="{{ service.page_summary.summary_alt_tag }}">
+                               <h3>{{ service.page_summary.summary_title }}</h3>
+                           </div>
+                           {{ service.page_summary.summary_description_html }}
+                           <a class="uk-button uk-button-secondary fm-width-100" href="{{ service.url }}">{{ service.page_summary.summary_button_title }}</a>
+
+                      </li>
                       {% endif %}
 
                   {% endfor %}
