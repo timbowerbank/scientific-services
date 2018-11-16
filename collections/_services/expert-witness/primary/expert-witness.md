@@ -10,8 +10,8 @@ meta_data:
 order: 50
 page_summary:
   summary_title: Expert Witness
-  summary_description_html: >-
-    <p>Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.</p>
+  summary_description: >-
+    Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
   summary_image: /images/uploads/services-expert-witness.jpg
   summary_hiRes_image: /images/uploads/services-expert-witness@2x.jpg
   summary_alt_tag: Image of expert witness

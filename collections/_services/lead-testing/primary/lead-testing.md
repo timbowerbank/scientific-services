@@ -10,8 +10,8 @@ meta_data:
 order: 40
 page_summary:
   summary_title: Lead Testing
-  summary_description_html: >-
-    <p>Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.</p>
+  summary_description: >-
+    Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
   summary_image: /images/uploads/services-lead-testing.jpg
   summary_hiRes_image: /images/uploads/services-lead-testing@2x.jpg
   summary_alt_tag: Image of lead being tested

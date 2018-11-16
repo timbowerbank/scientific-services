@@ -10,8 +10,8 @@ meta_data:
 order: 20
 page_summary:
   summary_title: Legionella
-  summary_description_html: >-
-    <p>Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.</p>
+  summary_description: >-
+    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.
   summary_image: /images/uploads/services-legionella.jpg
   summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_alt_tag: Image of legionella consultant at work
