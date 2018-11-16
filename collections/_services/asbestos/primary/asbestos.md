@@ -9,7 +9,7 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 10
 page_summary:
-  summary_title: Awareness Training
+  summary_title: Asbestos
   summary_description_html: >-
     <p>Add some extra text to test resizing of columns. Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.</p>
   summary_image: /images/uploads/services-asbestos.jpg

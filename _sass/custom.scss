@@ -714,7 +714,7 @@ $fm-border-height-underline: 1px;
   h3 {
    margin-left: $fm-gutter-mini;
    margin-right: $fm-gutter-mini;
-   margin-top: 12px;
+   margin-top: $fm-gutter-20;
    font-weight: $fm-weight-heavy;
    color: $fm-blue-navy;
    font-size: $fm-font-small;
@@ -723,7 +723,7 @@ $fm-border-height-underline: 1px;
    flex: 1 0 auto;
    margin-left: 104px;
    margin-right: $fm-gutter-mini;
-   margin-top: -36px;
+   margin-top: -10px; // -36
    color: $fm-black;
   }
   @include small {
@@ -761,6 +761,7 @@ $fm-border-height-underline: 1px;
 
 .serviceHeaderImage {
  display: flex;
+ align-items: center;
  @include small {
    flex-direction: column;
    text-align: center;
