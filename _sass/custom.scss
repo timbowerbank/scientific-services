@@ -713,10 +713,11 @@ $fm-border-height-underline: 1px;
   }
   h3 {
    margin-left: $fm-gutter-mini;
+   margin-right: $fm-gutter-mini;
    margin-top: 12px;
    font-weight: $fm-weight-heavy;
    color: $fm-blue-navy;
-   font-size: $fm-font-mini;
+   font-size: $fm-font-small;
   }
   p {
    flex: 1 0 auto;
