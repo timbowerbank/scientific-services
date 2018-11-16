@@ -755,9 +755,12 @@ $fm-border-height-underline: 1px;
   }
   width: 30%;
 
-
+  &:empty {
+   height: 0;
+  }
 
 }
+
 
 .serviceHeaderImage {
  display: flex;

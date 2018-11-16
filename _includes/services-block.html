@@ -30,6 +30,7 @@
 
                      {% endif %}
                   {% endfor %}
+
              {% elsif page.child_page_type == "secondary" %}
                   {% comment %}I.e. used to identify pages for listing on the primary landing page{% endcomment %}
                   {% assign sorted_services = site.services | sort: "order" %}
@@ -49,6 +50,7 @@
                       {% endif %}
 
                   {% endfor %}
+
 
 
 
