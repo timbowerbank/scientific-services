@@ -786,11 +786,14 @@ $fm-border-height-underline: 1px;
    font-size: $fm-font-small-mid;
  }
  span {
-   font-size: $fm-font-small;
+   font-size: $fm-font-mini;
  }
  @include small {
    p {
      text-align: center;
+   }
+   span {
+    font-size: $fm-font-small;
    }
 
  }
