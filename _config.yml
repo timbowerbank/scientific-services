@@ -41,6 +41,8 @@ collections:
     output: true
   services:
     output: true
+  testimonials:
+    output: false
 
 # DEFAULTS
 defaults:
