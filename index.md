@@ -32,11 +32,7 @@ accreditations:
   - accreditation_image: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: https://www.iso.org/iso-9001-quality-management.html
-testimonial:
-  text_quote: “Donec feugiat feugiat ligula sit amet eleifend. Class aptent taciti sociosqu ad litora torquent per conubia.”
-  name_of_client: A. N. Other, National Leisure Centres
-  button_title: READ THE CASE STUDY
-  button_link: /index.html
+testimonial_title: swimming-pool
 child_page_type: primary
 child_page_category: asbestos
 
