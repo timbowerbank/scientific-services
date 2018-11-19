@@ -39,6 +39,8 @@ collections:
     output: true
   knowledge_base:
     output: true
+  marketing_banners:
+    output: false
   services:
     output: true
   testimonials:
