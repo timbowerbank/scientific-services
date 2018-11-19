@@ -15,6 +15,7 @@
 
                        </div><!-- end col 1 -->
 
+                       {% if testimonial.case_study == true %}
                        <!-- start col 2 -->
                        <div class="uk-width-1-1 uk-width-expand@s">
                          <p class="fm-font-bold">{{ testimonial.text_quote }}</p>
@@ -31,6 +32,22 @@
                              <a class="uk-button uk-button-primary" href="{{ testimonial.button_link }}">{{ testimonial.button_title }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon case study"></span></a>
                           </div>
                        </div><!-- end col 3 -->
+
+
+                       {% else %}
+
+                       <!-- start col 2 -->
+                       <div class="uk-width-1-1 uk-width-expand@s">
+                         <p class="fm-font-bold noTestimonialCasestudy">{{ testimonial.text_quote }}</p>
+                         <div class="uk-flex uk-flex-center uk-flex-left@s">
+                            <img class="testimonialStars" src="/images/design-assets/icon-stars-01.svg" alt="5 stars">
+                         </div>
+                         <p><span>{{ testimonial.name_of_client }}</span></p>
+
+                       </div><!-- end col 2 -->
+
+
+                       {% endif %}
 
                  </div><!-- end grid -->
 
