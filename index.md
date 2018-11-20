@@ -37,6 +37,7 @@ marketing_photo_banner_id: home1
 company_about:
   company_headline: Proin id enim elementum dui dictum interdum
   company_intro_para_text: Curabitur pharetra metus neque, id volutpat tortor rhoncus vel. Sed sagittis, nulla vel suscipit convallis, erat augue dictum libero, ac bibendum enim ante eu arcu.
+marketing_graphic_banner_id: home2
 child_page_type: primary
 child_page_category: asbestos
 

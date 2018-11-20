@@ -201,6 +201,11 @@ $fm-border-height-underline: 1px;
 }
 
 // fonts
+
+.fm-font-white {
+  color: $fm-white;
+}
+
 .fm-font-navy {
  color: $fm-blue-navy;
 }
@@ -945,4 +950,42 @@ $fm-border-height-underline: 1px;
    text-align: center;
   }
 
+}
+
+// ********************************
+// *** MARKETING BANNER GRAPHIC ***
+// ********************************
+
+.marketingBannerGraphic {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  text-align: center;
+  @include small {
+   padding-top: $fm-gutter-large;
+   padding-bottom: $fm-gutter-large;
+  }
+}
+
+.marketingBannerGraphicHeadline {
+  font-weight: $fm-weight-heavy;
+  font-size: $fm-font-large;
+  color: $fm-white;
+  margin-bottom: $fm-gutter-micro;
+  @include small {
+   padding-left: $fm-gutter-mini;
+   padding-right: $fm-gutter-mini;
+  }
+}
+
+.marketingBannerGraphicPara {
+  font-size: $fm-font-micro;
+  color: $fm-white;
+  margin-top: 0px;
+  margin-bottom: $fm-gutter-small;
+  line-height: $fm-line-height-small;
+  @include small {
+    font-size: $fm-font-mini;
+    padding-left: $fm-gutter-mini;
+    padding-right: $fm-gutter-mini;
+  }
 }
