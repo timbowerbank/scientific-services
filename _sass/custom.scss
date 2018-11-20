@@ -848,6 +848,10 @@ $fm-border-height-underline: 1px;
     font-size: $fm-font-mini;
     color: $fm-black;
     line-height: $fm-line-height-small;
+    margin-bottom: 0px;
+  }
+  a {
+    margin-top: $fm-gutter-mini;
   }
 
 }
