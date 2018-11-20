@@ -13,8 +13,7 @@ featured_on_home: true
 order: 30
 page_summary:
   summary_title: Quality
-  summary_description: >-
-  Maecenas urna nisi, convallis quis fringilla ut, consectetur a augue. Pellentesque non condimentum ipsum. Nunc et luctus tellus, vel sagittis mauris. Duis vitae placerat quam.
+  summary_description: Add in a basic description
   summary_image: /images/uploads/feature-quality.jpg
   summary_hiRes_image: /images/uploads/feature-quality@2x.jpg
   summary_alt_tag: Looking at a microscope slide

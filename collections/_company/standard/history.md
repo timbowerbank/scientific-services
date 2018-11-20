@@ -13,8 +13,7 @@ featured_on_home: true
 order: 20
 page_summary:
   summary_title: Experience
-  summary_description: >-
-  Nullam vel aliquet tellus. Etiam faucibus est faucibus aliquet imperdiet. Etiam fringilla mauris sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+  summary_description: Add in a basic description
   summary_image: /images/uploads/feature-history.jpg
   summary_hiRes_image: /images/uploads/feature-history@2x.jpg
   summary_alt_tag: Examining samples under a microscope
