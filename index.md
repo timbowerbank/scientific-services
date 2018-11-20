@@ -34,6 +34,9 @@ accreditations:
     accreditation_link: https://www.iso.org/iso-9001-quality-management.html
 testimonial_id: swimming-pool
 marketing_photo_banner_id: home1
+company_about:
+  company_headline: Proin id enim elementum dui dictum interdum
+  company_intro_para_text: Curabitur pharetra metus neque, id volutpat tortor rhoncus vel. Sed sagittis, nulla vel suscipit convallis, erat augue dictum libero, ac bibendum enim ante eu arcu.
 child_page_type: primary
 child_page_category: asbestos
 
