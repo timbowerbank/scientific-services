@@ -137,6 +137,10 @@ $fm-border-height-underline: 1px;
  margin-bottom: $fm-gutter-mini;
 }
 
+.fm-margin-bottom-micro {
+ margin-bottom: $fm-gutter-micro;
+}
+
 .fm-no-margin-bottom {
  margin-bottom: 0;
 }
@@ -217,6 +221,10 @@ $fm-border-height-underline: 1px;
   font-size: $fm-font-large;
 }
 
+.fm-font-small {
+ font-size: $fm-font-small;
+}
+
 .fm-font-mini {
  font-size: $fm-font-mini;
 }
@@ -249,6 +257,12 @@ $fm-border-height-underline: 1px;
 .fm-input-border {
  border: 1px solid $fm-orange;
 }
+
+// other
+.underlineMarginText {
+ margin-bottom: $fm-gutter-micro;
+}
+
 
 // *************************
 // *** headerTop section ***
@@ -880,27 +894,52 @@ $fm-border-height-underline: 1px;
 // *** COMPANY HOME SECTION ***
 // ****************************
 
+.companyContainer {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.companyIntro {
+
+  @include small {
+    text-align: center;
+  }
+  @include medium {
+    text-align: center;
+  }
+
+}
+
+.companyIntroPara {
+ width: 76%;
+ font-size: $fm-font-small;
+ color: $fm-black;
+ line-height: $fm-line-height-small;
+ margin-top: 0px;
+ @include small {
+   width: 100%;
+ }
+ @include medium {
+  width: 100%;
+ }
+}
+
 .companyFeatures {
 
-  img {
-   object-fit: cover;
+  h4 {
+   font-size: $fm-font-small-mid;
+   font-weight: $fm-weight-heavy;
+   margin-top: $fm-gutter-small;
+   color: $fm-blue-navy;
+   text-align: center;
 
   }
-  h3 {
-   font-weight: $fm-weight-heavy;
-  }
-  h4 {
-   font-size: $fm-font-medium;
-   text-align: center;
-  }
   p {
-   font-size: $fm-font-small;
+   font-size: $fm-font-mini;
    color: $fm-black;
-  }
-  @include small {
-    h3 {
-      text-align: center;
-    }
+   line-height: $fm-line-height-small;
+   padding-left: $fm-gutter-mini;
+   padding-right: $fm-gutter-mini;
   }
 
 }

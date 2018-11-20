@@ -22,7 +22,7 @@ page_summary:
   summary_image: /images/uploads/feature-history.jpg
   summary_hiRes_image: /images/uploads/feature-history@2x.jpg
   summary_alt_tag: Examining samples under a microscope
-  summary_button_title: READ ABOUT OUR HISTORY
+  summary_button_title: READ HISTORY
 ---
 
 History page

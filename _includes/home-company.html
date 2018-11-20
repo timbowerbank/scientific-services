@@ -1,1 +1,43 @@
+<!-- start company section -->
+<div class="uk-section fm-margin-top-bottom-80 companyContainer">
 
+  <div class="uk-container">
+
+     <div uk-grid>
+
+         <div class="uk-width-1-1 companyIntro">
+          <h3 class="underlineMarginText fm-font-large fm-font-navy">{{ page.company_about.company_headline }}</h3>
+          <div class="uk-flex uk-flex-center uk-flex-left@m">
+             <div class="fm-headerLine"></div>
+          </div>
+          <p class="companyIntroPara">{{ page.company_about.company_intro_para_text }}</p>
+         </div>
+
+     </div>
+
+     <div class="uk-grid-match" uk-grid uk-height-match="target: .companyParaContent">
+
+    {% assign company = site.company | sort: "order" %}
+    {% for item in company %}
+      {% if item.featured_on_home == true %}
+         <div class="uk-width-1-1 uk-width-1-3@s">
+           <div class="companyFeatures">
+             <a href="{{ item.url }}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
+             <h4>{{ item.page_summary.summary_title }}</h4>
+             <p class="companyParaContent">{{ item.page_summary.summary_description }}</p>
+             <div class="uk-flex uk-flex-bottom">
+               <a class="uk-button uk-button-secondary fm-width-100" href="{{ item.url }}">{{ item.page_summary.summary_button_title }}</a>
+             </div>
+           </div>
+         </div><!-- end col -->
+
+
+
+
+      {% endif %}
+    {% endfor %}
+     </div><!-- end featured grid -->
+
+ </div><!-- end container -->
+
+</div><!-- end company section -->
