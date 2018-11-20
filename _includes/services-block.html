@@ -16,7 +16,7 @@
                      <li class="serviceListItem">
 
                           <div class="serviceHeaderImage">
-                              <img class="uk-border-circle" srcset="{{ service.page_summary.summary_image }} 1x, {{ service.page_summary.summary_hiRes_image }} 2x" src="{{ service.page_summary.summary_image }}" alt="{{ service.page_summary.summary_alt_tag }}">
+                              <a href="{{ service.url }}"><img class="uk-border-circle" srcset="{{ service.page_summary.summary_image }} 1x, {{ service.page_summary.summary_hiRes_image }} 2x" src="{{ service.page_summary.summary_image }}" alt="{{ service.page_summary.summary_alt_tag }}"></a>
                               <h3>{{ service.page_summary.summary_title }}</h3>
                           </div>
                           <p>{{ service.page_summary.summary_description }}</p>
