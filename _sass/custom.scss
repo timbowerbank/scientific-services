@@ -941,5 +941,8 @@ $fm-border-height-underline: 1px;
    padding-left: $fm-gutter-mini;
    padding-right: $fm-gutter-mini;
   }
+  @include small {
+   text-align: center;
+  }
 
 }
