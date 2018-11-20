@@ -885,5 +885,21 @@ $fm-border-height-underline: 1px;
   img {
    width: 100%;
   }
+  h3 {
+   font-weight: $fm-weight-heavy;
+  }
+  h4 {
+   font-size: $fm-font-medium;
+   text-align: center;
+  }
+  p {
+   font-size: $fm-font-small;
+   color: $fm-black;
+  }
+  @include small {
+    h3 {
+      text-align: center;
+    }
+  }
 
 }
