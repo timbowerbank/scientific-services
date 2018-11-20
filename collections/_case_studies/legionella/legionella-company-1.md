@@ -11,8 +11,7 @@ featured_on_home: true
 order: 10
 page_summary:
   summary_title: Cras sodales rhoncus enim, nec dapibus ante euismod ut
-  summary_description: >-
-  Phasellus eget justo commodo, tincidunt mauris eu, venenatis turpis. Donec id augue bibendum, commodo turpis ut, congue turpis.
+  summary_description:
   summary_image: /images/uploads/case-study-3.jpg
   summary_hiRes_image: /images/uploads/case-study-3@2x.jpg
   summary_alt_tag: Looking at legionella bacteria on microscope slide

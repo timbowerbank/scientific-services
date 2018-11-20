@@ -35,6 +35,8 @@ collections:
     output: false
   all_purpose:
     output: true
+  case_studies:
+    output: true
   company:
     output: true
   knowledge_base:
@@ -150,6 +152,49 @@ defaults:
         permalink: "/services/laboratory-auditing/:name/"
         landing_page_type: "secondary"
         parent_category: "laboratory-auditing"
+  -
+    scope:
+      path: "_case_studies/anthrax"
+    values:
+        layout: "default"
+        permalink: "/services/anthrax/case-studies/:name/"
+        parent_category: "anthrax"
+  -
+    scope:
+      path: "_case_studies/asbestos"
+    values:
+        layout: "default"
+        permalink: "/services/asbestos/case-studies/:name/"
+        parent_category: "asbestos"
+  -
+    scope:
+      path: "_case_studies/expert-witness"
+    values:
+        layout: "default"
+        permalink: "/services/expert-witness/case-studies/:name/"
+        parent_category: "expert-witness"
+  -
+    scope:
+      path: "_case_studies/laboratory-auditing"
+    values:
+        layout: "default"
+        permalink: "/services/laboratory-auditing/case-studies/:name/"
+        parent_category: "laboratory-auditing"
+  -
+    scope:
+      path: "_case_studies/lead-testing"
+    values:
+        layout: "default"
+        permalink: "/services/lead-testing/case-studies/:name/"
+        parent_category: "lead-testing"
+  -
+    scope:
+      path: "_case_studies/legionella"
+    values:
+        layout: "default"
+        permalink: "/services/legionella/case-studies/:name/"
+        parent_category: "legionella"
+
 
 
 

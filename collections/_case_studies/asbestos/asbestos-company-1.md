@@ -11,8 +11,7 @@ featured_on_home: true
 order: 10
 page_summary:
   summary_title: Nullam cursus diam vitae massa bibendum lobortis
-  summary_description: >-
-  Curabitur eu metus hendrerit, posuere tellus nec, efficitur felis. Nam dictum sodales neque, in malesuada lectus dignissim eget.
+  summary_description:
   summary_image: /images/uploads/case-study-1.jpg
   summary_hiRes_image: /images/uploads/case-study-1@2x.jpg
   summary_alt_tag: Asbestos surveyor at work in van

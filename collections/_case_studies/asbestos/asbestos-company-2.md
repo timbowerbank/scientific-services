@@ -11,8 +11,7 @@ featured_on_home: true
 order: 10
 page_summary:
   summary_title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  summary_description: >-
-  Ut elementum urna vitae ex iaculis imperdiet. Quisque lacinia tempus neque, sed pulvinar quam sollicitudin eu. In quis volutpat odio. Nunc ultricies et lorem quis luctus.
+  summary_description:
   summary_image: /images/uploads/case-study-2.jpg
   summary_hiRes_image: /images/uploads/case-study-2@2x.jpg
   summary_alt_tag: Examining particles of asbestos in mobile laboratory
