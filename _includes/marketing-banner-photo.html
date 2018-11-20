@@ -1,0 +1,37 @@
+       {% for marketing in site.marketing_banners %}
+         {% if page.marketing_photo_banner_id == marketing.marketing_banner_id %}
+         <!-- begin marketing banner photo section -->
+         <div class="uk-section uk-background-cover uk-background-center-center fm-margin-top-bottom-80 padding-top-bottom-60" data-src="{{ marketing.banner_background_desktop_image }}" data-srcset="{{ marketing.banner_background_mobile_image }} 800w, {{ marketing.banner_background_desktop_image }} 1024w, {{ marketing.banner_background_hiRes_image }} 2048w" data-sizes="(max-width: 480px) 100vw, 100vw" uk-img>
+
+           <div class="uk-container">
+
+             <div uk-grid>
+
+                 <!-- first col -->
+                 <div class="uk-width-1-1 marketingBannerPhoto">
+
+                    <!-- head line -->
+                    <div class="margin-bottom-mini marketingPhotoHeadlineWidth">
+                       {{ marketing.banner_headline_html }}
+                    </div>
+                    <!-- paragraph -->
+                    <div class="marketingPhotoParaWidth">
+                       <p>{{ marketing.banner_paragraph_text }}</p>
+                       {% if marketing.with_button == true %}
+                       <a class="uk-button uk-button-primary" href="{{ marketing.button_link }}">{{ marketing.button_title }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                       {% endif %}
+                    </div>
+
+
+
+                 </div><!-- end first col -->
+
+
+             </div><!-- end grid -->
+
+
+           </div><!-- end container -->
+
+         </div><!-- end section -->
+         {% endif %}
+       {% endfor %}

@@ -127,6 +127,11 @@ $fm-border-height-underline: 1px;
  padding-bottom: $fm-gutter-40;
 }
 
+.padding-top-bottom-60 {
+ padding-top: $fm-gutter-medium;
+ padding-bottom: $fm-gutter-medium;
+}
+
 // margins
 .margin-bottom-mini {
  margin-bottom: $fm-gutter-mini;
@@ -161,6 +166,11 @@ $fm-border-height-underline: 1px;
 .fm-margin-top-bottom-40 {
  margin-top: $fm-gutter-40;
  margin-bottom: $fm-gutter-40;
+}
+
+.fm-margin-top-bottom-80 {
+ margin-top: $fm-gutter-large;
+ margin-bottom: $fm-gutter-large;
 }
 
 .fm-margin-top-small {
@@ -815,4 +825,49 @@ $fm-border-height-underline: 1px;
 
 .noTestimonialCasestudy {
   padding-right: $fm-gutter-medium;
+}
+
+// ******************************
+// *** MARKETING BANNER PHOTO ***
+// ******************************
+
+.marketingBannerPhoto {
+  div {
+    padding: $fm-gutter-small $fm-gutter-small;
+    background-color: $fm-white;
+  }
+  @include small {
+   text-align: center;
+  }
+  h3 {
+    font-size: $fm-font-large;
+    color: $fm-blue-navy;
+    margin-bottom: 0px;
+  }
+  p {
+    font-size: $fm-font-mini;
+    color: $fm-black;
+    line-height: $fm-line-height-small;
+  }
+
+}
+
+.marketingPhotoHeadlineWidth {
+  width: 46%;
+  @include small {
+    width: auto;
+  }
+  @include medium {
+   width: 60%;
+  }
+}
+
+.marketingPhotoParaWidth {
+  width: 38%;
+  @include small {
+    width: auto;
+  }
+  @include medium {
+    width: 56%;
+  }
 }
