@@ -11,12 +11,15 @@ featured_on_home: true
 featured_on_primary: true
 order: 10
 page_summary:
-  summary_title: Cras sodales rhoncus enim, nec dapibus ante euismod ut
-  summary_description:
+  summary_title: 'Cras sodales rhoncus enim, nec dapibus ante euismod ut'
+  summary_description: >-
+    Nam eget malesuada purus. Quisque ultricies dui a tortor maximus interdum.
+    Morbi justo nisi, gravida ac feugiat quis, scelerisque at nulla. Curabitur
+    facilisis nisi dolor, at fringilla orci facilisis a.
   summary_image: /images/uploads/casestudy-3.jpg
   summary_hiRes_image: /images/uploads/casestudy-3@2x.jpg
   summary_alt_tag: Looking at legionella bacteria on microscope slide
   summary_button_title: READ THE CASE STUDY
-
 ---
+
 Legionella company 1 case study - temp text
