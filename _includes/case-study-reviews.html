@@ -33,35 +33,35 @@
 
                                       <div class="uk-slider-container sliderContainerWidth">
 
-                                          <ul class="uk-slider-items uk-grid">
+                                          <ul class="uk-slider-items uk-grid" uk-height-match=" .caseStudyPara">
 
                                            <li class="uk-width-large">
-
-                                               <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
-                                               <h4 class="uk-card-title">{{ casestudy.page_summary.summary_title }}</h4>
-                                               <p>{{ casestudy.page_summary.summary_description }}</p>
-                                               <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
-
+                                              <div class="caseStudyPreview">
+                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                  <h4 class="uk-card-title">{{ casestudy.page_summary.summary_title }}</h4>
+                                                  <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                              </div>
                                            </li>
 
               {% elsif forloop.last != true %}
                                             <li class="uk-width-large">
-
-                                               <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
-                                               <h4 class="uk-card-title">{{ casestudy.page_summary.summary_title }}</h4>
-                                               <p>{{ casestudy.page_summary.summary_description }}</p>
-                                               <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
-
+                                              <div class="caseStudyPreview">
+                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                  <h4 class="uk-card-title">{{ casestudy.page_summary.summary_title }}</h4>
+                                                  <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                              </div>
                                             </li>
 
               {% elsif forloop.last == true %}
                                             <li class="uk-width-large">
-
-                                               <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
-                                               <h4 class="uk-card-title">{{ casestudy.page_summary.summary_title }}</h4>
-                                               <p>{{ casestudy.page_summary.summary_description }}</p>
-                                               <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
-
+                                              <div class="caseStudyPreview">
+                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                  <h4 class="uk-card-title">{{ casestudy.page_summary.summary_title }}</h4>
+                                                  <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                              </div>
                                             </li>
 
                                           </ul><!-- end ul -->

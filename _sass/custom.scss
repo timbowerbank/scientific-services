@@ -1008,3 +1008,22 @@ $fm-border-height-underline: 1px;
 .sliderContainerWidth {
  width: 100%;
 }
+
+.caseStudyPreview {
+ background-color: $fm-blue-muted;
+ h4 {
+  margin-left: $fm-gutter-small;
+  margin-right: $fm-gutter-small;
+ }
+ p {
+  margin-left: $fm-gutter-small;
+  margin-right: $fm-gutter-small;
+ }
+ a {
+  margin-left: $fm-gutter-small;
+  margin-right: $fm-gutter-small;
+  margin-bottom: $fm-gutter-small;
+ }
+
+
+}
