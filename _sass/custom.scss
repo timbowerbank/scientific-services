@@ -993,3 +993,18 @@ $fm-border-height-underline: 1px;
 .marketingBannerLink {
   margin-top: $fm-gutter-small;
 }
+
+// ******************************
+// *** CASE STUDIES & REVIEWS ***
+// ******************************
+
+.caseStudySlider {
+  width: 86%;
+  @include small {
+    width: 100%;
+  }
+}
+
+.sliderContainerWidth {
+ width: 100%;
+}
