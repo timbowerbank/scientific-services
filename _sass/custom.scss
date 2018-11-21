@@ -132,6 +132,11 @@ $fm-border-height-underline: 1px;
  padding-bottom: $fm-gutter-medium;
 }
 
+.padding-top-bottom-none {
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+
 // margins
 .margin-bottom-mini {
  margin-bottom: $fm-gutter-mini;
@@ -158,8 +163,8 @@ $fm-border-height-underline: 1px;
 }
 
 .fm-no-margin-top-bottom {
- margin-top: 0;
- margin-bottom: 0;
+ margin-top: 0!important;
+ margin-bottom: 0!important;
 }
 
 .fm-margin-top-bottom-20 {
@@ -998,6 +1003,14 @@ $fm-border-height-underline: 1px;
 // *** CASE STUDIES & REVIEWS ***
 // ******************************
 
+.caseStudyMainHeading {
+ @include small {
+   text-align: center;
+ }
+ font-size: $fm-font-large;
+ color: $fm-blue-navy;
+}
+
 .caseStudySlider {
   width: 86%;
   @include small {
@@ -1007,6 +1020,16 @@ $fm-border-height-underline: 1px;
 
 .sliderContainerWidth {
  width: 100%;
+}
+
+.caseStudyCol {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ @include small {
+  //margin-top: $fm-gutter-medium;
+  margin-bottom: $fm-gutter-medium;
+  text-align: center;
+ }
 }
 
 .caseStudyPreview {
@@ -1025,5 +1048,40 @@ $fm-border-height-underline: 1px;
   margin-bottom: $fm-gutter-small;
  }
 
+}
 
+
+
+.reviewAuthorImage {
+ width: 80px;
+ height: 80px;
+ margin-bottom: $fm-gutter-micro;
+}
+
+.reviewParagraphQuote {
+ line-height: $fm-line-height-small;
+ font-weight: $fm-weight-heavy;
+ color: $fm-black;
+ font-size: $fm-font-small-mid;
+}
+
+.reviewAuthorName {
+ line-height: $fm-line-height-small;
+}
+
+.reviewStars {
+ width: 180px;
+}
+
+.caseStudyText {
+ h4 {
+  font-weight: $fm-weight-heavy;
+  font-size: $fm-font-small-mid;
+  color: $fm-blue-navy;
+  margin-top: $fm-gutter-small;
+ }
+ p {
+  color: $fm-black;
+  line-height: $fm-line-height-small;
+ }
 }
