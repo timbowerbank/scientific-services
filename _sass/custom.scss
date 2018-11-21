@@ -1084,4 +1084,20 @@ $fm-border-height-underline: 1px;
   color: $fm-black;
   line-height: $fm-line-height-small;
  }
+ @include small {
+   h4 {
+    margin-bottom: $fm-gutter-micro;
+   }
+   p {
+    margin-top: $fm-gutter-micro;
+   }
+ }
+}
+
+.inlineSliderNav {
+ background-color: $fm-white;
+ margin-top: 2px;
+ margin-right: 2px;
+ padding: 2px 2px;
+
 }
