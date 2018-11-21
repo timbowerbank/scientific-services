@@ -12,11 +12,14 @@ featured_on_primary: true
 order: 10
 page_summary:
   summary_title: Nullam cursus diam vitae massa bibendum lobortis
-  summary_description:
+  summary_description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin
+    eros ac lobortis efficitur. Fusce ullamcorper ultricies elit et
+    pellentesque. Donec vitae libero ante.
   summary_image: /images/uploads/casestudy-1.jpg
   summary_hiRes_image: /images/uploads/casestudy-1@2x.jpg
   summary_alt_tag: Asbestos surveyor at work in van
   summary_button_title: READ THE CASE STUDY
-
 ---
+
 Asbestos company 1 case study - temp text
