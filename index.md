@@ -38,6 +38,15 @@ company_about:
   company_headline: Proin id enim elementum dui dictum interdum
   company_intro_para_text: Curabitur pharetra metus neque, id volutpat tortor rhoncus vel. Sed sagittis, nulla vel suscipit convallis, erat augue dictum libero, ac bibendum enim ante eu arcu.
 marketing_graphic_banner_id: home2
+case_study_and_reviews:
+  title_for_section: Reviews and Case Studies
+  review_image: /images/uploads/person-reviewer-tim.jpg
+  review_hiRes_image: /images/uploads/person-reviewer-tim@2x.jpg
+  review_alt_tag: Image of reviewer
+  quote_text:
+  name_of_client: A.N.Other
+  company_name: Acme Limited
+
 child_page_type: primary
 child_page_category: asbestos
 

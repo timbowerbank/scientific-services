@@ -8,6 +8,7 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 featured_on_home: true
+featured_on_primary: true
 order: 10
 page_summary:
   summary_title: Nullam cursus diam vitae massa bibendum lobortis
