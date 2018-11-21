@@ -1007,6 +1007,9 @@ $fm-border-height-underline: 1px;
  @include small {
    text-align: center;
  }
+ @include medium {
+   text-align: center;
+ }
  font-size: $fm-font-large;
  color: $fm-blue-navy;
 }
@@ -1032,6 +1035,14 @@ $fm-border-height-underline: 1px;
  }
 }
 
+.firstColCaseStudy {
+ @include small {
+   margin-top: 0px!important;
+ }
+}
+
+
+
 .caseStudyPreview {
  background-color: $fm-blue-muted;
  h4 {
@@ -1056,6 +1067,10 @@ $fm-border-height-underline: 1px;
  width: 80px;
  height: 80px;
  margin-bottom: $fm-gutter-micro;
+ @include small {
+   width: 124px;
+   height: 124px;
+ }
 }
 
 .reviewParagraphQuote {
@@ -1063,6 +1078,9 @@ $fm-border-height-underline: 1px;
  font-weight: $fm-weight-heavy;
  color: $fm-black;
  font-size: $fm-font-small-mid;
+ @include small {
+   font-size: $fm-font-small;
+ }
 }
 
 .reviewAuthorName {
