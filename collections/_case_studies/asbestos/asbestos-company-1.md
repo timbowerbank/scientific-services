@@ -13,8 +13,8 @@ order: 10
 page_summary:
   summary_title: Nullam cursus diam vitae massa bibendum lobortis
   summary_description:
-  summary_image: /images/uploads/case-study-1.jpg
-  summary_hiRes_image: /images/uploads/case-study-1@2x.jpg
+  summary_image: /images/uploads/casestudy-1.jpg
+  summary_hiRes_image: /images/uploads/casestudy-1@2x.jpg
   summary_alt_tag: Asbestos surveyor at work in van
   summary_button_title: READ THE CASE STUDY
 

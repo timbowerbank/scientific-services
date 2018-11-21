@@ -13,8 +13,8 @@ order: 10
 page_summary:
   summary_title: Cras sodales rhoncus enim, nec dapibus ante euismod ut
   summary_description:
-  summary_image: /images/uploads/case-study-3.jpg
-  summary_hiRes_image: /images/uploads/case-study-3@2x.jpg
+  summary_image: /images/uploads/casestudy-3.jpg
+  summary_hiRes_image: /images/uploads/casestudy-3@2x.jpg
   summary_alt_tag: Looking at legionella bacteria on microscope slide
   summary_button_title: READ THE CASE STUDY
 

@@ -13,8 +13,8 @@ order: 10
 page_summary:
   summary_title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   summary_description:
-  summary_image: /images/uploads/case-study-2.jpg
-  summary_hiRes_image: /images/uploads/case-study-2@2x.jpg
+  summary_image: /images/uploads/casestudy-2.jpg
+  summary_hiRes_image: /images/uploads/casestudy-2@2x.jpg
   summary_alt_tag: Examining particles of asbestos in mobile laboratory
   summary_button_title: READ THE CASE STUDY
 
