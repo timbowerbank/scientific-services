@@ -7,12 +7,12 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
-featured_on_home: false
+featured_on_home: true
 order: 30
 featured_on_primary: true
 primary_order: 10
 page_summary:
-  summary_title: Cras sodales rhoncus enim, nec dapibus ante euismod ut
+  summary_title: 'Cras sodales rhoncus enim, nec dapibus ante euismod ut'
   summary_description: >-
     Nam eget malesuada purus. Quisque ultricies dui a tortor maximus interdum.
     Morbi justo nisi, gravida ac feugiat quis, scelerisque at nulla. Curabitur
