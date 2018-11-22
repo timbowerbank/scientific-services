@@ -1003,6 +1003,15 @@ $fm-border-height-underline: 1px;
 // *** CASE STUDIES & REVIEWS ***
 // ******************************
 
+.caseStudySection {
+ margin-top: $fm-gutter-large;
+ margin-top: $fm-gutter-large;
+ @include small {
+   margin-bottom: $fm-gutter-40;
+ }
+}
+
+
 .caseStudyMainHeading {
  @include small {
    text-align: center;
@@ -1125,5 +1134,55 @@ $fm-border-height-underline: 1px;
  @include small {
   width: 100%;
  }
+
+}
+
+// ******************
+// *** NEWS BLOCK ***
+// ******************
+
+.newsHeaderSection {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ @include small {
+   text-align: center;
+ }
+}
+
+.newsBlockSection {
+  background-color: $fm-blue-muted;
+  padding-top: $fm-gutter-40;
+  padding-bottom: $fm-gutter-40;
+}
+
+.newsBlock {
+  @include small {
+   text-align: center;
+  }
+  h4 {
+   font-weight: $fm-weight-heavy;
+   color: $fm-blue-navy;
+   font-size: $fm-font-mini;
+   margin-bottom: $fm-gutter-micro;
+  }
+  p {
+   color: $fm-black;
+   line-height: $fm-line-height-small;
+   font-size: $fm-font-micro;
+   margin-top: $fm-gutter-micro;
+  }
+  p a {
+   color: $fm-black;
+  }
+  @include small {
+    h4 {
+      font-size: $fm-font-small-mid;
+    }
+    p {
+      font-size: $fm-font-mini;
+    }
+  }
 
 }

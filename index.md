@@ -53,6 +53,12 @@ case_study_and_reviews:
     elit pellentesque, lacinia augue et, auctor nisl. Aliquam erat volutpat. ”
   name_of_client: A.N.Other
   company_name: Acme Limited
+news:
+  news_heading: Latest News
+  news_block_1: company
+  news_block_2: asbestos
+  news_block_3: legionella
+  news_block_4: anthrax
 child_page_type: primary
 child_page_category: asbestos
 ---

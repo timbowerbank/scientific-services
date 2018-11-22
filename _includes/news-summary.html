@@ -1,0 +1,157 @@
+          {% comment %}Check to see if this is the homepage{% endcomment %}
+          {% if page.url == "/" %}
+
+             {% comment %} Check to see if any news exists{% endcomment %}
+             {% if site.posts[0] %}
+
+             <!-- start home title news section -->
+             <div class="uk-section newsHeaderSection">
+
+               <div class="uk-container">
+
+                  <div uk-grid>
+                      <!-- start news heading -->
+                      <div class="uk-width-1-1">
+                         <h2 class="underlineMarginText fm-font-navy fm-font-large">{{ page.news.news_heading }}</h2>
+                         <div class="uk-flex uk-flex-center uk-flex-left@m">
+                            <div class="fm-headerLine"></div>
+                         </div>
+                      </div>
+                  </div><!-- end grid -->
+
+               </div><!-- end container -->
+
+             </div><!-- end home title news section -->
+
+             <!-- start news block section -->
+             <div class="uk-section newsBlockSection">
+
+                <div class="uk-container">
+
+                    <div  class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
+                        {% for news in site.posts %}
+                            {% if page.news.news_block_1 == news.parent_category %}
+                        <!-- start news block 1 -->
+                        <div>
+                             <div class="newsBlock" uk-grid>
+                                 <!-- image -->
+                                 <div class="uk-width-1-1 uk-width-auto@s">
+                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.summary_image }} 1x, {{ news.page_summary.summary_hiRes_image }} 2x" src="{{ news.page_summary.summary_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                 </div>
+                                 <!-- text -->
+                                 <div class="uk-width-1-1 uk-width-expand@s">
+                                   <h4><a href="{{ news.url }}">{{ news.page_summary.summary_title }}</a></h4>
+                                   <p><a href="{{ news.url }}">{{ news.page_summary.summary_description }}</a></p>
+                                 </div>
+                             </div><!-- end nested grid -->
+                        </div><!-- end news block 1 -->
+                             {% break %}
+
+                            {% endif %}
+                        {% endfor %}
+
+
+
+
+                        {% for news in site.posts %}
+                            {% if page.news.news_block_2 == news.parent_category %}
+                        <!-- start news block 2 -->
+                        <div>
+                             <div class="newsBlock" uk-grid>
+                                 <!-- image -->
+                                 <div class="uk-width-1-1 uk-width-auto@s">
+                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.summary_image }} 1x, {{ news.page_summary.summary_hiRes_image }} 2x" src="{{ news.page_summary.summary_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                 </div>
+                                 <!-- text -->
+                                 <div class="uk-width-1-1 uk-width-expand@s">
+                                   <h4><a href="{{ news.url }}">{{ news.page_summary.summary_title }}</a></h4>
+                                   <p><a href="{{ news.url }}">{{ news.page_summary.summary_description }}</a></p>
+                                 </div>
+                             </div><!-- end nested grid -->
+                        </div><!-- end news block 2 -->
+                             {% break %}
+
+                            {% endif %}
+                        {% endfor %}
+
+
+
+
+                        {% for news in site.posts %}
+                            {% if page.news.news_block_3 == news.parent_category %}
+                        <!-- start news block 3 -->
+                        <div>
+                             <div class="newsBlock" uk-grid>
+                                 <!-- image -->
+                                 <div class="uk-width-1-1 uk-width-auto@s">
+                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.summary_image }} 1x, {{ news.page_summary.summary_hiRes_image }} 2x" src="{{ news.page_summary.summary_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                 </div>
+                                 <!-- text -->
+                                 <div class="uk-width-1-1 uk-width-expand@s">
+                                   <h4><a href="{{ news.url }}">{{ news.page_summary.summary_title }}</a></h4>
+                                   <p><a href="{{ news.url }}">{{ news.page_summary.summary_description }}</a></p>
+                                 </div>
+                             </div><!-- end nested grid -->
+                        </div><!-- end news block 3 -->
+                             {% break %}
+
+                            {% endif %}
+                        {% endfor %}
+
+                        {% for news in site.posts %}
+                            {% if page.news.news_block_4 == news.parent_category %}
+                        <!-- start news block 4 -->
+                        <div>
+                             <div class="newsBlock" uk-grid>
+                                 <!-- image -->
+                                 <div class="uk-width-1-1 uk-width-auto@s">
+                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.summary_image }} 1x, {{ news.page_summary.summary_hiRes_image }} 2x" src="{{ news.page_summary.summary_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                 </div>
+                                 <!-- text -->
+                                 <div class="uk-width-1-1 uk-width-expand@s">
+                                   <h4><a href="{{ news.url }}">{{ news.page_summary.summary_title }}</a></h4>
+                                   <p><a href="{{ news.url }}">{{ news.page_summary.summary_description }}</a></p>
+                                 </div>
+                             </div><!-- end nested grid -->
+                        </div><!-- end news block 4 -->
+                             {% break %}
+
+                            {% endif %}
+                        {% endfor %}
+
+                    </div><!-- end of news block grid -->
+
+                </div><!-- end of news block container -->
+
+             </div><!-- end news block section -->
+             {% else %}
+               {% comment %}Do nothing as there is no news{% endcomment %}
+
+             {% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {% else %}
+          {% comment %}All news blocks for other pages and not the homepage{% endcomment %}
+
+
+
+
+          {% endif %}

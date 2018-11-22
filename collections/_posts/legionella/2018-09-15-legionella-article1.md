@@ -11,8 +11,8 @@ page_summary:
   summary_title: Legionella article 1
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
-  summary_image: /images/uploads/news-article1.jpg
-  summary_hiRes_image: /images/uploads/news-article1@2x.jpg
+  summary_image: /images/uploads/news-article3.jpg
+  summary_hiRes_image: /images/uploads/news-article3@2x.jpg
   summary_alt_tag: latest news
 ---
 Legionella article 1 content
