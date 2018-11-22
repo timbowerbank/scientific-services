@@ -1,5 +1,19 @@
 {% comment %}Check if it is the home page{% endcomment %}
 {% if page.url == "/" %}
+
+{% comment %}Check how many case studies meet our conditions{% endcomment %}
+{% assign i = 0 %}
+{% for case in site.case_studies %}
+   {% if case.featured_on_home == true %}
+      {% assign i = i | plus:1 %}
+   {% endif %}
+{% endfor %}
+
+{% assign lastLoopInt = i | minus:1 %}
+
+
+
+
    {% assign cases = site.case_studies | sort: "order" %}
    {% for casestudy in cases %}
        {% if casestudy.featured_on_home == true %}
