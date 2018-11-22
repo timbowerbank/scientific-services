@@ -1,6 +1,10 @@
 {% comment %}Check if it is the home page{% endcomment %}
 {% if page.url == "/" %}
 
+{% comment %}If it is not home then change the conditional statement{% endcomment %}
+
+
+
 {% comment %}Check how many case studies meet our conditions{% endcomment %}
 {% assign i = 0 %}
 {% for case in site.case_studies %}
@@ -12,109 +16,182 @@
 {% assign lastLoopInt = i | minus:1 %}
 
 
+{% assign cases = site.case_studies | sort: "order" %}
+{% assign counter = 0 %}
+{% for casestudy in cases %}
+    {% if i == 0 %}
+      {% break %}
+    {% endif %}
+    {% if casestudy.featured_on_home == true %}
+
+          {% if i == 1 %}
+             {% comment %}For when there is only one case study{% endcomment %}
+
+             <!-- start case study section -->
+             <div class="uk-section padding-top-bottom-none fm-margin-top-bottom-80">
+                <div class="uk-container">
+                   <div uk-grid>
+
+                         <!-- header -->
+                         <div class="uk-width-1-1">
+                            <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                            <div class="uk-flex uk-flex-center uk-flex-left@m">
+                               <div class="fm-headerLine"></div>
+                            </div>
+                         </div><!-- end header -->
+                         <!-- col 1 -->
+                         <div class="uk-width-1-1 uk-width-2-5@s caseStudyCol firstColCaseStudy">
+
+                             <img class="uk-border-circle reviewAuthorImage" srcset="{{ page.case_study_and_reviews.review_image }} 1x, {{ page.case_study_and_reviews.review_hiRes_image }} 2x" src="{{ page.case_study_and_reviews.review_image }}" alt="{{ page.case_study_and_reviews.review_alt_tag }}">
+                             <p class="reviewParagraphQuote">{{ page.case_study_and_reviews.quote_text }}</p>
+                             <p class="fm-font-black reviewAuthorName">{{ page.case_study_and_reviews.name_of_client }}<br>{{ page.case_study_and_reviews.company_name }}</p>
+                             <img class="reviewStars" src="/images/design-assets/icon-stars-01.svg" alt="5 stars">
+
+                         </div><!-- end col 1 -->
+
+                         <!-- col 2 -->
+                         <div class="uk-width-1-1 uk-width-expand@s uk-flex uk-flex-center caseStudyCol">
+
+                             <!-- begin slider -->
+                             <div class="uk-inline uk-position-relative caseStudySlider" uk-slider>
+
+                                <div class="uk-slider-container sliderContainerWidth">
+
+                                    <ul class="uk-slider-items uk-grid" uk-height-match=" .caseStudyText">
+
+                                     <li class="uk-width-large">
+                                        <div class="caseStudyPreview">
+                                            <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                            <div class="caseStudyText">
+                                               <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
+                                               <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                            </div>
+                                            <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                        </div>
+                                     </li>
+
+                                    </ul><!-- end ul -->
 
 
-   {% assign cases = site.case_studies | sort: "order" %}
-   {% for casestudy in cases %}
-       {% if casestudy.featured_on_home == true %}
 
-              {% if forloop.first == true %}
-                   <!-- start case study section -->
-                   <div class="uk-section padding-top-bottom-none fm-margin-top-bottom-80">
-                      <div class="uk-container">
-                         <div uk-grid>
+                                    </div><!-- end slider container -->
 
-                               <!-- header -->
-                               <div class="uk-width-1-1">
-                                  <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
-                                  <div class="uk-flex uk-flex-center uk-flex-left@m">
-                                     <div class="fm-headerLine"></div>
-                                  </div>
-                               </div><!-- end header -->
-                               <!-- col 1 -->
-                               <div class="uk-width-1-1 uk-width-2-5@s caseStudyCol firstColCaseStudy">
+                                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
-                                   <img class="uk-border-circle reviewAuthorImage" srcset="{{ page.case_study_and_reviews.review_image }} 1x, {{ page.case_study_and_reviews.review_hiRes_image }} 2x" src="{{ page.case_study_and_reviews.review_image }}" alt="{{ page.case_study_and_reviews.review_alt_tag }}">
-                                   <p class="reviewParagraphQuote">{{ page.case_study_and_reviews.quote_text }}</p>
-                                   <p class="fm-font-black reviewAuthorName">{{ page.case_study_and_reviews.name_of_client }}<br>{{ page.case_study_and_reviews.company_name }}</p>
-                                   <img class="reviewStars" src="/images/design-assets/icon-stars-01.svg" alt="5 stars">
+                                        <div class="uk-hidden@s uk-slidenav-container uk-position-top-right inlineSliderNav">
+                                            <a class="uk-slidenav-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                            <a class="uk-slidenav-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                        </div>
 
-                               </div><!-- end col 1 -->
+                                        <div class="uk-visible@s">
+                                            <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                        </div>
 
-                               <!-- col 2 -->
-                               <div class="uk-width-1-1 uk-width-expand@s uk-flex uk-flex-center caseStudyCol">
 
-                                   <!-- begin slider -->
-                                   <div class="uk-inline uk-position-relative caseStudySlider" uk-slider>
 
-                                      <div class="uk-slider-container sliderContainerWidth">
+                             </div><!-- end slider -->
 
-                                          <ul class="uk-slider-items uk-grid" uk-height-match=" .caseStudyText">
 
-                                           <li class="uk-width-large">
-                                              <div class="caseStudyPreview">
-                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
-                                                  <div class="caseStudyText">
+
+                         </div><!-- end col 2 -->
+
+                   </div><!-- end grid -->
+                </div><!-- end container -->
+             </div><!-- end case study section -->
+
+
+
+
+          {% elsif i == 2 %}
+             {% comment %}For when there is only 2 case studies{% endcomment %}
+
+             {% if counter == 0 %}
+
+                  <!-- start case study section -->
+                  <div class="uk-section padding-top-bottom-none fm-margin-top-bottom-80">
+                     <div class="uk-container">
+                        <div uk-grid>
+
+                              <!-- header -->
+                              <div class="uk-width-1-1">
+                                 <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                                 <div class="uk-flex uk-flex-center uk-flex-left@m">
+                                    <div class="fm-headerLine"></div>
+                                 </div>
+                              </div><!-- end header -->
+                              <!-- col 1 -->
+                              <div class="uk-width-1-1 uk-width-2-5@s caseStudyCol firstColCaseStudy">
+
+                                  <img class="uk-border-circle reviewAuthorImage" srcset="{{ page.case_study_and_reviews.review_image }} 1x, {{ page.case_study_and_reviews.review_hiRes_image }} 2x" src="{{ page.case_study_and_reviews.review_image }}" alt="{{ page.case_study_and_reviews.review_alt_tag }}">
+                                  <p class="reviewParagraphQuote">{{ page.case_study_and_reviews.quote_text }}</p>
+                                  <p class="fm-font-black reviewAuthorName">{{ page.case_study_and_reviews.name_of_client }}<br>{{ page.case_study_and_reviews.company_name }}</p>
+                                  <img class="reviewStars" src="/images/design-assets/icon-stars-01.svg" alt="5 stars">
+
+                              </div><!-- end col 1 -->
+
+                              <!-- col 2 -->
+                              <div class="uk-width-1-1 uk-width-expand@s uk-flex uk-flex-center caseStudyCol">
+
+                                  <!-- begin slider -->
+                                  <div class="uk-inline uk-position-relative caseStudySlider" uk-slider>
+
+                                     <div class="uk-slider-container sliderContainerWidth">
+
+                                         <ul class="uk-slider-items uk-grid" uk-height-match=" .caseStudyText">
+
+                                          <li class="uk-width-large">
+                                             <div class="caseStudyPreview">
+                                                 <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                 <div class="caseStudyText">
+                                                    <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
+                                                    <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                                 </div>
+                                                 <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                             </div>
+                                          </li>
+            {% assign counter = counter | plus:1 %}
+            {% elsif counter == 1 %}
+                                          <li class="uk-width-large">
+                                            <div class="caseStudyPreview">
+                                                <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                <div class="caseStudyText">
                                                      <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
                                                      <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
-                                                  </div>
-                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
-                                              </div>
-                                           </li>
+                                                </div>
+                                                <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                            </div>
+                                          </li>
 
-              {% elsif forloop.last != true %}
-                                            <li class="uk-width-large">
-                                              <div class="caseStudyPreview">
-                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
-                                                    <div class="caseStudyText">
-                                                      <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
-                                                      <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
-                                                    </div>
-                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
-                                              </div>
-                                            </li>
-
-              {% elsif forloop.last == true %}
-                                            <li class="uk-width-large">
-                                              <div class="caseStudyPreview">
-                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
-                                                  <div class="caseStudyText">
-                                                       <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
-                                                       <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
-                                                  </div>
-                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
-                                              </div>
-                                            </li>
-
-                                          </ul><!-- end ul -->
+                                        </ul><!-- end ul -->
 
 
 
-                                       </div><!-- end slider container -->
+                                     </div><!-- end slider container -->
 
-                                       <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                                     <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
-                                       <div class="uk-hidden@s uk-slidenav-container uk-position-top-right inlineSliderNav">
-                                           <a class="uk-slidenav-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                                           <a class="uk-slidenav-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                                       </div>
+                                     <div class="uk-hidden@s uk-slidenav-container uk-position-top-right inlineSliderNav">
+                                         <a class="uk-slidenav-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                         <a class="uk-slidenav-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                     </div>
 
-                                       <div class="uk-visible@s">
-                                           <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                                           <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                                       </div>
-
-
-
-                                   </div><!-- end slider -->
+                                     <div class="uk-visible@s">
+                                         <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                         <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                     </div>
 
 
 
-                               </div><!-- end col 2 -->
+                                 </div><!-- end slider -->
 
-                         </div><!-- end grid -->
-                      </div><!-- end container -->
-                   </div><!-- end case study section -->
+
+
+                             </div><!-- end col 2 -->
+
+                       </div><!-- end grid -->
+                    </div><!-- end container -->
+                 </div><!-- end case study section -->
 
               {% else %}
 
@@ -122,9 +199,151 @@
               {% endif %}
 
 
-       {% endif %}
 
-  {% endfor %}
+
+
+          {% else %}
+             {% comment %}For when there is more than 2 case studies{% endcomment %}
+
+
+
+                           {% if counter == 0 %}
+                                <!-- start case study section -->
+                                <div class="uk-section padding-top-bottom-none fm-margin-top-bottom-80">
+                                   <div class="uk-container">
+                                      <div uk-grid>
+
+                                            <!-- header -->
+                                            <div class="uk-width-1-1">
+                                               <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                                               <div class="uk-flex uk-flex-center uk-flex-left@m">
+                                                  <div class="fm-headerLine"></div>
+                                               </div>
+                                            </div><!-- end header -->
+                                            <!-- col 1 -->
+                                            <div class="uk-width-1-1 uk-width-2-5@s caseStudyCol firstColCaseStudy">
+
+                                                <img class="uk-border-circle reviewAuthorImage" srcset="{{ page.case_study_and_reviews.review_image }} 1x, {{ page.case_study_and_reviews.review_hiRes_image }} 2x" src="{{ page.case_study_and_reviews.review_image }}" alt="{{ page.case_study_and_reviews.review_alt_tag }}">
+                                                <p class="reviewParagraphQuote">{{ page.case_study_and_reviews.quote_text }}</p>
+                                                <p class="fm-font-black reviewAuthorName">{{ page.case_study_and_reviews.name_of_client }}<br>{{ page.case_study_and_reviews.company_name }}</p>
+                                                <img class="reviewStars" src="/images/design-assets/icon-stars-01.svg" alt="5 stars">
+
+                                            </div><!-- end col 1 -->
+
+                                            <!-- col 2 -->
+                                            <div class="uk-width-1-1 uk-width-expand@s uk-flex uk-flex-center caseStudyCol">
+
+                                                <!-- begin slider -->
+                                                <div class="uk-inline uk-position-relative caseStudySlider" uk-slider>
+
+                                                   <div class="uk-slider-container sliderContainerWidth">
+
+                                                       <ul class="uk-slider-items uk-grid" uk-height-match=" .caseStudyText">
+
+                                                        <li class="uk-width-large">
+                                                           <div class="caseStudyPreview">
+                                                               <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                               <div class="caseStudyText">
+                                                                  <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
+                                                                  <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                                               </div>
+                                                               <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                                           </div>
+                                                        </li>
+                           {% assign counter = counter | plus:1 %}
+                           {% elsif counter < lastLoopInt %}
+                                                         <li class="uk-width-large">
+                                                           <div class="caseStudyPreview">
+                                                               <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                                 <div class="caseStudyText">
+                                                                   <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
+                                                                   <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                                                 </div>
+                                                               <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                                           </div>
+                                                         </li>
+                           {% assign counter = counter | plus:1 %}
+                           {% elsif counter >= lastLoopInt %}
+                                                         <li class="uk-width-large">
+                                                           <div class="caseStudyPreview">
+                                                               <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
+                                                               <div class="caseStudyText">
+                                                                    <h4 class="">{{ casestudy.page_summary.summary_title }}</h4>
+                                                                    <p class="caseStudyPara">{{ casestudy.page_summary.summary_description }}</p>
+                                                               </div>
+                                                               <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
+                                                           </div>
+                                                         </li>
+
+                                                       </ul><!-- end ul -->
+
+
+
+                                                    </div><!-- end slider container -->
+
+                                                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+                                                    <div class="uk-hidden@s uk-slidenav-container uk-position-top-right inlineSliderNav">
+                                                        <a class="uk-slidenav-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                                        <a class="uk-slidenav-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                                    </div>
+
+                                                    <div class="uk-visible@s">
+                                                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                                    </div>
+
+
+
+                                                </div><!-- end slider -->
+
+
+
+                                            </div><!-- end col 2 -->
+
+                                      </div><!-- end grid -->
+                                   </div><!-- end container -->
+                                </div><!-- end case study section -->
+
+                           {% else %}
+
+
+                           {% endif %}{% comment %}end of checking if first, last or otherwise{% endcomment %}
+
+
+
+           {% endif %}
+
+
+
+
+
+
+
+    {% endif %}{% comment %}end of conditional checking category and if featured on primary{% endcomment %}
+
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -147,6 +366,10 @@
   {% assign cases = site.case_studies | sort: "primary_order" %}
   {% assign counter = 0 %}
   {% for casestudy in cases %}
+      {% if i == 0 %}
+        {% break %}
+      {% endif %}
+
       {% if casestudy.featured_on_primary == true and page.child_page_category == casestudy.parent_category %}
 
             {% if i == 1 %}
