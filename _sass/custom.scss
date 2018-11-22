@@ -1009,6 +1009,9 @@ $fm-border-height-underline: 1px;
  @include small {
    margin-bottom: $fm-gutter-40;
  }
+ @include medium {
+  margin-bottom: $fm-gutter-medium;
+ }
 }
 
 
