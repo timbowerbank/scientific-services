@@ -3,16 +3,16 @@ feature1:
   image_alt_tag: asbestos icon
   feature_title: ASBESTOS
   feature_description: Support for all aspects from surveying to removal
-  feature_link: /services/asbestos.html
+  feature_link: /services/asbestos/
 feature2:
   image_source: /images/design-assets/icon-legionella-01.svg
   image_alt_tag:
   feature_title: LEGIONELLA
   feature_description: Your partner to help you prevent legionella bacteria
-  feature_link: /services/legionella.html
+  feature_link: /services/legionella/
 feature3:
   image_source: /images/design-assets/icon-anthrax-01.svg
   image_alt_tag:
   feature_title: ANTHRAX
   feature_description: Identify and resolve cases of anthrax
-  feature_link: /services/anthrax.html
+  feature_link: /services/anthrax/
