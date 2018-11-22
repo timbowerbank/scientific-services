@@ -16,5 +16,15 @@ page_summary:
   summary_hiRes_image: /images/uploads/services-expert-witness@2x.jpg
   summary_alt_tag: Image of expert witness
   summary_button_title: READ EXPERT WITNESS
+case_study_and_reviews:
+  title_for_section: Reviews and Case Studies
+  review_image: /images/uploads/person-reviewer-tim.jpg
+  review_hiRes_image: /images/uploads/person-reviewer-tim@2x.jpg
+  review_alt_tag: Image of reviewer
+  quote_text: >-
+    “Vestibulum volutpat lacus vitae turpis rhoncus ornare eu quis magna. In at
+    elit pellentesque, lacinia augue et, auctor nisl. Aliquam erat volutpat. ”
+  name_of_client: A.N.Other
+  company_name: Acme Limited
 ---
 Expert witness primary page
