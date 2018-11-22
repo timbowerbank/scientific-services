@@ -1,6 +1,7 @@
 {% comment %}Check if it is the home page{% endcomment %}
 {% if page.url == "/" %}
-   {% for casestudy in site.case_studies %}
+   {% assign cases = site.case_studies | sort: "order" %}
+   {% for casestudy in cases %}
        {% if casestudy.featured_on_home == true %}
 
               {% if forloop.first == true %}
@@ -114,6 +115,11 @@
 
 
 {% else %}
+
+
+
+
+
 
 
 

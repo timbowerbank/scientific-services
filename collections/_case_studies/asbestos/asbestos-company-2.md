@@ -9,9 +9,9 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 featured_on_home: true
 featured_on_primary: true
-order: 10
+order: 20
 page_summary:
-  summary_title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+  summary_title: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   summary_description: >-
     Morbi id orci mattis, lobortis nulla luctus, faucibus orci. Vivamus congue
     quis justo quis tempor. Nulla vehicula tincidunt diam.
