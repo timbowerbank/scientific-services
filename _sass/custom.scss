@@ -1119,3 +1119,11 @@ $fm-border-height-underline: 1px;
  padding: 2px 2px;
 
 }
+
+.onlyOneCaseStudyWidth {
+ width: 419px;
+ @include small {
+  width: 100%;
+ }
+
+}
