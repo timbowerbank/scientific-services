@@ -194,6 +194,55 @@ defaults:
         layout: "default"
         permalink: "/services/legionella/case-studies/:name/"
         parent_category: "legionella"
+  -
+    scope:
+      path: "_posts/anthrax"
+    values:
+        layout: "default"
+        permalink: "/services/anthrax/news/:name/"
+        parent_category: "anthrax"
+  -
+    scope:
+      path: "_posts/asbestos"
+    values:
+        layout: "default"
+        permalink: "/services/asbestos/news/:name/"
+        parent_category: "asbestos"
+  -
+    scope:
+      path: "_posts/company"
+    values:
+        layout: "default"
+        permalink: "/services/about/news/:name/"
+        parent_category: "company"
+  -
+    scope:
+      path: "_posts/expert-witness"
+    values:
+        layout: "default"
+        permalink: "/services/expert-witness/news/:name/"
+        parent_category: "expert-witness"
+  -
+    scope:
+      path: "_posts/laboratory-auditing"
+    values:
+        layout: "default"
+        permalink: "/services/laboratory-auditing/news/:name/"
+        parent_category: "laboratory-auditing"
+  -
+    scope:
+      path: "_posts/lead-testing"
+    values:
+        layout: "default"
+        permalink: "/services/lead-testing/news/:name/"
+        parent_category: "lead-testing"
+  -
+    scope:
+      path: "_posts/legionella"
+    values:
+        layout: "default"
+        permalink: "/services/legionella/news/:name/"
+        parent_category: "legionella"
 
 
 
