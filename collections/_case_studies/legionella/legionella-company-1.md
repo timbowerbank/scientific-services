@@ -17,8 +17,8 @@ page_summary:
     Nam eget malesuada purus. Quisque ultricies dui a tortor maximus interdum.
     Morbi justo nisi, gravida ac feugiat quis, scelerisque at nulla. Curabitur
     facilisis nisi dolor, at fringilla orci facilisis a.
-  summary_image: /images/uploads/casestudy-1.jpg
-  summary_hiRes_image: /images/uploads/casestudy-1@2x.jpg
+  summary_image: /images/uploads/casestudy-3.jpg
+  summary_hiRes_image: /images/uploads/casestudy-3@2x.jpg
   summary_alt_tag: Looking at legionella bacteria on microscope slide
   summary_button_title: READ THE CASE STUDY
 ---
