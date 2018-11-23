@@ -26,6 +26,10 @@ case_study_and_reviews:
     elit pellentesque, lacinia augue et, auctor nisl. Aliquam erat volutpat. ”
   name_of_client: A.N.Other
   company_name: Acme Limited
+newsletter_signup:
+  newsletter_heading: Subscribe to our newsletter
+  newsletter_subheading_html: >-
+    <p>Regular updates on important issues and news for asbestos. Direct to your inbox...</p>
 
 
 ---
