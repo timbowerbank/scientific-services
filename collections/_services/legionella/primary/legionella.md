@@ -11,7 +11,8 @@ order: 20
 page_summary:
   summary_title: Legionella
   summary_description: >-
-    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.
+    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
+    Turpis justo in nunc.
   summary_image: /images/uploads/services-legionella.jpg
   summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_alt_tag: Image of legionella consultant at work
@@ -28,7 +29,9 @@ case_study_and_reviews:
   company_name: Acme Limited
 newsletter_signup:
   newsletter_heading: Subscribe to our newsletter
-  newsletter_subheading_html:
-
+  newsletter_subheading_html: >-
+    <p>Regular updates on important issues and news for legionella.<br />Direct
+    to your inbox...</p>
 ---
+
 Legionella primary page
