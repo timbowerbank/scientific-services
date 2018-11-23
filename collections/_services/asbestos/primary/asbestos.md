@@ -40,6 +40,8 @@ accreditations:
   - accreditation_image: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
+testimonial_id: swimming-pool
+marketing_photo_banner_id: home1
 case_study_and_reviews:
   title_for_section: Reviews and Case Studies
   review_image: /images/uploads/person-reviewer-tim.jpg

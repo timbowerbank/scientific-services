@@ -700,9 +700,16 @@ $fm-border-height-underline: 1px;
 .socialMediaBar {
   img {
     padding-top: 0px;
-    padding-left: $fm-gutter-micro;
+    margin-left: $fm-gutter-micro;
     padding-bottom: 0px;
-
+  }
+  @include small {
+    margin-bottom: $fm-gutter-medium;
+    img {
+      width: 48px;
+      height: auto;
+      margin-right: $fm-gutter-micro;
+    }
   }
 }
 
