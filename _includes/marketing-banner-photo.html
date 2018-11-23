@@ -1,7 +1,7 @@
        {% for marketing in site.marketing_banners %}
          {% if page.marketing_photo_banner_id == marketing.marketing_banner_id %}
          <!-- begin marketing banner photo section -->
-         <div class="uk-section uk-background-cover uk-background-center-center fm-margin-top-bottom-80 padding-top-bottom-60" data-src="{{ marketing.banner_background_desktop_image }}" data-srcset="{{ marketing.banner_background_mobile_image }} 800w, {{ marketing.banner_background_desktop_image }} 1024w, {{ marketing.banner_background_hiRes_image }} 2048w" data-sizes="(max-width: 480px) 100vw, 100vw" uk-img>
+         <div class="uk-section uk-background-cover uk-background-center-center marketingBannerPhotoSection fm-margin-top-bottom-80 padding-top-bottom-60" data-src="{{ marketing.banner_background_desktop_image }}" data-srcset="{{ marketing.banner_background_mobile_image }} 800w, {{ marketing.banner_background_desktop_image }} 1024w, {{ marketing.banner_background_hiRes_image }} 2048w" data-sizes="(max-width: 480px) 100vw, 100vw" uk-img>
 
            <div class="uk-container">
 

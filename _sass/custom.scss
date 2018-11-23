@@ -88,6 +88,12 @@ $fm-border-height-underline: 1px;
   }
 }
 
+@mixin megaLarge {
+  @media (min-width: 2200px) {
+   @content;
+  }
+}
+
 // ***********************
 // *** utility classes ***
 // ***********************
@@ -854,6 +860,19 @@ $fm-border-height-underline: 1px;
 // ******************************
 // *** MARKETING BANNER PHOTO ***
 // ******************************
+
+.marketingBannerPhotoSection {
+
+ @include largest {
+   min-height: 700px;
+ }
+
+ @include megaLarge {
+   min-height: 900px;
+ }
+
+}
+
 
 .marketingBannerPhoto {
   div {
