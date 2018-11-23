@@ -11,7 +11,8 @@ order: 50
 page_summary:
   summary_title: Expert Witness
   summary_description: >-
-    Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
+    Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
+    convallis turpis.
   summary_image: /images/uploads/services-expert-witness.jpg
   summary_hiRes_image: /images/uploads/services-expert-witness@2x.jpg
   summary_alt_tag: Image of expert witness
@@ -28,7 +29,9 @@ case_study_and_reviews:
   company_name: Acme Limited
 newsletter_signup:
   newsletter_heading: Subscribe to our newsletter
-  newsletter_subheading_html:
-
+  newsletter_subheading_html: >-
+    <p>Regular updates on important issues and news for expert witness.<br
+    />Direct to your inbox...</p>
 ---
+
 Expert witness primary page
