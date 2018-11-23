@@ -1182,6 +1182,10 @@ $fm-border-height-underline: 1px;
   p a {
    color: $fm-black;
   }
+  img {
+   width: 154px;
+   height: auto;
+  }
   @include small {
     h4 {
       font-size: $fm-font-small-mid;
