@@ -3,7 +3,9 @@
         <div uk-grid>
            <div class="uk-width-1-1">
             {% if page.url != "/" %}
+              <div class="uk-hidden@s">
               {% include social-media-bar.html %}
+              </div>
             {% endif %}
             <h4 class="uk-heading-line uk-text-right fm-font-micro fm-font-navy fm-font-bold"><span>Accreditations</span></h4>
               <div class="uk-flex uk-flex-center uk-flex-wrap accredMobile">

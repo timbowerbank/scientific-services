@@ -59,6 +59,12 @@ newsletter_signup:
   newsletter_subheading_html: >-
     <p>Regular updates on important issues and news for asbestos.<br />Direct to
     your inbox...</p>
+call_to_action:
+  with_call_to_action: true
+  call_to_action_headline: Helping you navigate the complex dangers of anthrax
+  call_to_action_para_text: Established in 2002, Scientific Surveys have completed more than 2,500 surveys across the South West
+  button_title: Contact Us
+  button_link: /index.html
 ---
 
 Asbestos primary page

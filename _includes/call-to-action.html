@@ -1,0 +1,21 @@
+      {% if page.call_to_action.with_call_to_action == true %}
+           <!-- start section -->
+           <div class="uk-section uk-background-cover uk-background-fixed callToActionBanner" style="background-image: url(/images/design-assets/banner-blue-microbe-strand-01.svg);">
+              <div class="uk-container">
+                 <div uk-grid>
+                      <!-- left col -->
+                      <div class="uk-width-1-1 uk-width-expand@s">
+                        <h4>{{ page.call_to_action.call_to_action_headline }}</h4>
+                        <p>{{ page.call_to_action.call_to_action_para_text }}</p>
+                      </div><!-- end left col -->
+
+                      <!-- right col -->
+                      <div class="uk-width-1-1 uk-width-auto@s uk-flex uk-flex-middle">
+                        <a class="uk-button uk-button-primary fm-width-100-mobile" href="{{ page.call_to_action.button_link }}">{{ page.call_to_action.button_title }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="arrow icon"></span></a>
+
+                      </div><!-- end right col -->
+                 </div>
+
+              </div>
+          </div><!-- end section -->
+      {% endif %}

@@ -1323,3 +1323,48 @@ $fm-border-height-underline: 1px;
   }
 
 }
+
+// **********************
+// *** CALL TO ACTION ***
+// **********************
+
+.callToActionBanner {
+  // margin-bottom: $fm-gutter-large;
+  margin-top: $fm-gutter-large;
+  padding-top: $fm-gutter-40;
+  padding-bottom: $fm-gutter-40;
+  padding-left: $fm-gutter-medium;
+  padding-right: $fm-gutter-medium;
+  h4 {
+   font-size: $fm-font-small-mid;
+   color: $fm-white;
+   font-weight: $fm-weight-heavy;
+   margin-bottom: $fm-gutter-micro;
+  }
+  p {
+   color: $fm-white;
+   font-size: $fm-font-micro;
+   line-height: $fm-line-height-small;
+   margin-top: $fm-gutter-micro;
+  }
+  @include small {
+    padding-top: $fm-gutter-large;
+    padding-bottom: $fm-gutter-large;
+    margin-top: $fm-gutter-40;
+    text-align: center;
+    padding-left: $fm-gutter-mini;
+    padding-right: $fm-gutter-mini;
+    h4 {
+      font-size: $fm-font-medium;
+    }
+    p {
+      font-size: $fm-font-mini;
+    }
+  }
+  @include medium {
+    padding-left: $fm-gutter-small;
+    padding-right: $fm-gutter-small;
+  }
+
+
+}
