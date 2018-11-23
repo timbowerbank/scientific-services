@@ -43,7 +43,7 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 testimonial_id: swimming-pool
 marketing_photo_banner_id: home1
-with_video: false
+with_video: true
 video_id: anthrax1
 case_study_and_reviews:
   title_for_section: Reviews and Case Studies
