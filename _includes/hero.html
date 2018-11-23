@@ -6,9 +6,15 @@
                    <!-- text -->
                    <div class="heroTextFormat">
                        {{ page.hero.main_headline_html }}
+                       {% if page.url == "/" %}
                        <div>
                            <a class="uk-button uk-button-primary" href="{{ page.hero.main_hero_button_link }}">{{ page.hero.main_hero_button_heading }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
                        </div>
+                       {% else %}
+                       <div>
+                           <a class="uk-button uk-button-primary" href="#">REQUEST A QUOTE<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
+                       </div>
+                       {% endif %}
                    </div>
 
                    <!-- image -->

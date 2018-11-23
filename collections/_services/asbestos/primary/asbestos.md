@@ -27,8 +27,6 @@ hero:
   main_hero_image: /images/uploads/hero-cutout-surveyor.png
   main_hero_hi_res_image: /images/uploads/hero-cutout-surveyor@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
-  main_hero_button_heading: EXPLORE OUR SERVICES
-  main_hero_button_link: /services/
 case_study_and_reviews:
   title_for_section: Reviews and Case Studies
   review_image: /images/uploads/person-reviewer-tim.jpg
