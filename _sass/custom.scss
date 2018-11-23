@@ -693,6 +693,21 @@ $fm-border-height-underline: 1px;
   }
 }
 
+// ***********************
+// *** INTRO ALL PAGES ***
+// ***********************
+
+.socialMediaBar {
+  img {
+    padding-top: 0px;
+    padding-left: $fm-gutter-micro;
+    padding-bottom: 0px;
+
+  }
+}
+
+
+
 // *********************
 // *** SERVICE BLOCK ***
 // *********************
