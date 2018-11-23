@@ -11,9 +11,11 @@ order: 10
 page_summary:
   summary_title: Surveys
   summary_description: >-
-    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.
-  summary_image: /images/uploads/services-legionella.jpg
-  summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
+    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
+    Turpis justo in nunc.
+  summary_image: /images/uploads/services-anthrax.jpg
+  summary_hiRes_image: /images/uploads/services-anthrax@2x.jpg
   summary_button_title: READ ABOUT SURVEYS
 ---
+
 Asbestos surveys page
