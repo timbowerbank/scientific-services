@@ -47,6 +47,8 @@ collections:
     output: true
   testimonials:
     output: false
+  videos:
+    output: false
 
 # DEFAULTS
 defaults:

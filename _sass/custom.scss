@@ -1288,3 +1288,38 @@ $fm-border-height-underline: 1px;
     width: 60%;
   }
 }
+
+// **********************
+// *** VIDEO SECTIONS ***
+// **********************
+
+.videoSection {
+  margin-top: $fm-gutter-large;
+  margin-bottom: $fm-gutter-large;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  h3 {
+    font-size: $fm-font-large;
+    color: $fm-blue-navy;
+  }
+
+  h4 {
+    font-size: $fm-font-small;
+    color: $fm-black;
+    margin-top: 0px;
+  }
+
+  p {
+    color: $fm-black;
+    line-height: $fm-line-height-small;
+    font-size: $fm-font-micro;
+  }
+  @include small {
+    text-align: center;
+  }
+  @include medium {
+    //text-align: center;
+  }
+
+}
