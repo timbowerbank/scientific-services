@@ -26,7 +26,6 @@ case_study_and_reviews:
     elit pellentesque, lacinia augue et, auctor nisl. Aliquam erat volutpat. ”
   name_of_client: A.N.Other
   company_name: Acme Limited
-news:
-  news_heading: Latest News
+
 ---
 Legionella primary page

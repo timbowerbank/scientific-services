@@ -59,6 +59,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "asbestos"
+        news_archive: "/services/asbestos/news/archive/"
   -
     scope:
       path: "_services/legionella/primary"
@@ -68,6 +69,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "legionella"
+        news_archive: "/services/legionella/news/archive/"
   -
     scope:
       path: "_services/anthrax/primary"
@@ -77,6 +79,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "anthrax"
+        news_archive: "/services/anthrax/news/archive/"
   -
     scope:
       path: "_services/lead-testing/primary"
@@ -86,6 +89,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "lead-testing"
+        news_archive: "/services/lead-testing/news/archive/"
   -
     scope:
       path: "_services/expert-witness/primary"
@@ -95,6 +99,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "expert-witness"
+        news_archive: "/services/expert-witness/news/archive/"
   -
     scope:
       path: "_services/laboratory-auditing/primary"
@@ -104,6 +109,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "laboratory-auditing"
+        news_archive: "/services/laboratory-auditing/news/archive/"
   -
     scope:
       path: "_services/asbestos/secondary"

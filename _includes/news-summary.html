@@ -12,7 +12,7 @@
                   <div uk-grid>
                       <!-- start news heading -->
                       <div class="uk-width-1-1">
-                         <h2 class="underlineMarginText fm-font-navy fm-font-large">{{ page.news.news_heading }}</h2>
+                         <h2 class="underlineMarginText fm-font-navy fm-font-large">Latest News</h2>
                          <div class="uk-flex uk-flex-center uk-flex-left@m">
                             <div class="fm-headerLine"></div>
                          </div>
@@ -173,7 +173,7 @@
                  <div uk-grid>
                      <!-- start news heading -->
                      <div class="uk-width-1-1">
-                        <h2 class="underlineMarginText fm-font-navy fm-font-large">{{ page.news.news_heading }}</h2>
+                        <h2 class="underlineMarginText fm-font-navy fm-font-large">Latest News</h2>
                         <div class="uk-flex uk-flex-center uk-flex-left@m">
                            <div class="fm-headerLine"></div>
                         </div>
@@ -222,6 +222,15 @@
 
                            {% endif %}
                        {% endfor %}
+
+
+                       {% if i > 4 %}
+                       <div class="uk-width-1-1 uk-flex uk-flex-center newsButtonRow">
+                           <a class="uk-button uk-button-primary fm-width-100-mobile" href="{{ page.news_archive }}">READ NEWS ARCHIVE<span><img src="/images/design-assets/icon-arrow-01.svg" alt="arrow icon"></span></a>
+                       </div>
+                       {% endif %}
+
+
 
                    </div><!-- end of news block grid -->
 
