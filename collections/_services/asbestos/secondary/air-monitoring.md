@@ -11,9 +11,11 @@ order: 40
 page_summary:
   summary_title: Air Monitoring
   summary_description: >-
-    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.
-  summary_image: /images/uploads/services-legionella.jpg
-  summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
+    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
+    Turpis justo in nunc.
+  summary_image: /images/uploads/services-lab-auditing.jpg
+  summary_hiRes_image: /images/uploads/services-lab-auditing@2x.jpg
   summary_button_title: READ AIR MONITORING
 ---
+
 Asbestos air monitoring page
