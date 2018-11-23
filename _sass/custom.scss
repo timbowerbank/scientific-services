@@ -1199,5 +1199,46 @@ $fm-border-height-underline: 1px;
 
 .newsLetterSignupSection {
   margin-top: 0px;
-  margin-bottom: $fm-gutter-large;
+  margin-bottom: 0px;
+  padding-top: $fm-gutter-40;
+  padding-bottom: $fm-gutter-40;
+  h5 {
+    font-size: $fm-font-large;
+    color: $fm-white;
+    font-weight: $fm-weight-heavy;
+    margin-bottom: $fm-gutter-micro;
+  }
+  p {
+    font-size: $fm-font-mini;
+    color: $fm-white;
+    margin-top: 0px;
+  }
+  @include small {
+    padding-top: $fm-gutter-medium;
+    padding-bottom: $fm-gutter-medium;
+    text-align: center;
+  }
+}
+
+.newsletterExtraMargin {
+  padding-left: $fm-gutter-medium;
+  @include small {
+    padding-left: $fm-gutter-small;
+  }
+
+}
+
+.newsletterIcon {
+  margin-bottom: $fm-gutter-mini;
+  @include small {
+    width: 100px;
+    height: auto;
+    margin-bottom: $fm-gutter-40;
+  }
+}
+
+.newsletterSubscribeButton {
+  @include small {
+    width: 60%;
+  }
 }

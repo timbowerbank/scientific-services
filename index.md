@@ -61,6 +61,11 @@ news:
   news_block_4: anthrax
 child_page_type: primary
 child_page_category: asbestos
+newsletter_signup:
+  newsletter_heading: Subscribe to our newsletter
+  newsletter_subheading_html: >-
+    <p>Regular updates on important issues and news.<br />Direct to
+    your inbox... </p>
 ---
 
 Add some content here to test whether the index page is loading.
