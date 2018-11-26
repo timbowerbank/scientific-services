@@ -62,6 +62,7 @@ defaults:
         child_page_type: "secondary"
         child_page_category: "asbestos"
         news_archive: "/services/asbestos/news/archive/"
+        case_studies: "/services/asbestos/case-studies/"
   -
     scope:
       path: "_services/legionella/primary"
@@ -72,6 +73,7 @@ defaults:
         child_page_type: "secondary"
         child_page_category: "legionella"
         news_archive: "/services/legionella/news/archive/"
+        case_studies: "/services/legionella/case-studies/"
   -
     scope:
       path: "_services/anthrax/primary"
@@ -82,6 +84,7 @@ defaults:
         child_page_type: "secondary"
         child_page_category: "anthrax"
         news_archive: "/services/anthrax/news/archive/"
+        case_studies: "/services/anthrax/case-studies/"
   -
     scope:
       path: "_services/lead-testing/primary"
@@ -92,6 +95,7 @@ defaults:
         child_page_type: "secondary"
         child_page_category: "lead-testing"
         news_archive: "/services/lead-testing/news/archive/"
+        case_studies: "/services/lead-testing/case-studies/"
   -
     scope:
       path: "_services/expert-witness/primary"
@@ -102,6 +106,7 @@ defaults:
         child_page_type: "secondary"
         child_page_category: "expert-witness"
         news_archive: "/services/expert-witness/news/archive/"
+        case_studies: "/services/expert-witness/case-studies/"
   -
     scope:
       path: "_services/laboratory-auditing/primary"
@@ -112,6 +117,7 @@ defaults:
         child_page_type: "secondary"
         child_page_category: "laboratory-auditing"
         news_archive: "/services/laboratory-auditing/news/archive/"
+        case_studies: "/services/laboratory-auditing/case-studies/"
   -
     scope:
       path: "_services/asbestos/secondary"

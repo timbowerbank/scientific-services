@@ -459,6 +459,12 @@ $fm-border-height-underline: 1px;
 // *** FOOTER ***
 // **************
 
+.footerSection {
+  @include small {
+    margin-top: $fm-gutter-40;
+  }
+}
+
 .footerExtraMobileMargin {
  @include small {
    margin-top: $fm-gutter-large!important;
@@ -1084,7 +1090,7 @@ $fm-border-height-underline: 1px;
  margin-bottom: 0px;
  @include small {
   //margin-top: $fm-gutter-medium;
-  margin-bottom: $fm-gutter-medium;
+  //margin-bottom: $fm-gutter-medium;
   text-align: center;
  }
 }
@@ -1350,7 +1356,7 @@ $fm-border-height-underline: 1px;
   @include small {
     padding-top: $fm-gutter-large;
     padding-bottom: $fm-gutter-large;
-    margin-top: $fm-gutter-40;
+    margin-top: $fm-gutter-large;
     text-align: center;
     padding-left: $fm-gutter-mini;
     padding-right: $fm-gutter-mini;
