@@ -1403,10 +1403,12 @@ $fm-border-height-underline: 1px;
  width: 70%;
  padding-top: $fm-gutter-medium;
  padding-left: $fm-gutter-large;
+ padding-bottom: $fm-gutter-large;
  @include small {
   width: 100%;
   padding-top: $fm-gutter-40;
   padding-left: 0px;
+  padding-bottom: 0;
  }
  @include medium {
    width: 90%;
@@ -1452,3 +1454,81 @@ $fm-border-height-underline: 1px;
 // *********************
 // *** FEATURE BLOCK ***
 // *********************
+
+.featureBlockSection {
+  padding-top: $fm-gutter-small;
+  padding-bottom: $fm-gutter-small;
+  margin-top: -140px;
+  position: relative;
+  @include small {
+    margin-top: 0px;
+    padding-top: 0px;
+
+  }
+}
+
+.featureContainer {
+  background-color: $fm-white;
+  margin-left: $fm-gutter-large;
+  margin-right: $fm-gutter-large;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  @include small {
+   margin-left: 5px;
+   margin-right: 5px;
+   box-shadow: none;
+  }
+  @include medium {
+   margin-left: 5px;
+   margin-right: 5px;
+  }
+
+
+}
+
+.featureBlock {
+  position: relative;
+  text-align: center;
+  padding-top: $fm-gutter-small;
+  padding-bottom: $fm-gutter-40;
+  //padding-left: $fm-gutter-small;
+  //padding-right: $fm-gutter-small;
+  h2 {
+    font-size: $fm-font-mini;
+    font-weight: $fm-weight-heavy;
+    color: $fm-blue-navy;
+    margin-top: $fm-gutter-small;
+  }
+  p {
+    color: $fm-black;
+    font-size: $fm-font-micro;
+    line-height: $fm-line-height-small;
+  }
+  &:not(.uk-first-column):before {
+    content: "";
+    display: block;
+    background-color: $fm-blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 60%;
+    margin-top: 80px;
+    margin-left: 15px;
+  }
+  @include small {
+    padding-top: $fm-gutter-40;
+    padding-bottom: $fm-gutter-40;
+
+    img {
+      width: 80px;
+      height: auto;
+    }
+  }
+
+}
+
+.horizontalPaddingFeature {
+  padding-left: $fm-gutter-mini;
+  padding-right: $fm-gutter-mini;
+
+}
