@@ -1503,6 +1503,7 @@ $fm-border-height-underline: 1px;
     font-size: $fm-font-micro;
     line-height: $fm-line-height-small;
   }
+
   &:not(.uk-first-column):before {
     content: "";
     display: block;
@@ -1515,12 +1516,33 @@ $fm-border-height-underline: 1px;
     margin-top: 80px;
     margin-left: 15px;
   }
+
   @include small {
-    padding-top: $fm-gutter-40;
-    padding-bottom: $fm-gutter-40;
+    padding-top: $fm-gutter-mini!important;
+    padding-bottom: $fm-gutter-mini!important;
+    h2 {
+      font-size: $fm-font-small-mid;
+    }
+    p {
+      font-size: $fm-font-mini;
+    }
+    &:before {
+      display: none;
+    }
+    &:not(.lastFeature):after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      transform: translate(50%);
+      width: 50%;
+      height: 1px;
+      background-color: $fm-blue;
+    }
 
     img {
-      width: 80px;
+      width: 120px;
       height: auto;
     }
   }
