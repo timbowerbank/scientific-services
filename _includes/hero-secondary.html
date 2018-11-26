@@ -1,0 +1,26 @@
+        <!-- start hero -->
+        <div class="uk-section heroSection">
+           <div class="uk-container">
+
+                <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
+                    <!-- left col text -->
+                    <div class="heroTextFormatSecondary">
+                        <div class="heroTextDiv">
+                        {{ page.hero.main_headline_html }}
+                           <div>
+                               <a class="uk-button uk-button-primary" href="#">REQUEST A QUOTE<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
+                           </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- right col image -->
+                    <div class="uk-flex uk-flex-center uk-flex-bottom heroImageSecondary">
+                        <img srcset="{{ page.hero.main_hero_image }}, {{ page.hero.main_hero_hi_res_image }} 2x" src="{{ page.hero.main_hero_image }}" alt="{{ page.hero.main_hero_alt_tag }}">
+                    </div>
+                </div>
+
+           </div><!-- end hero container -->
+
+        </div><!-- end hero -->

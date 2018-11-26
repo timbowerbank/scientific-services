@@ -16,6 +16,14 @@ page_summary:
   summary_image: /images/uploads/services-anthrax.jpg
   summary_hiRes_image: /images/uploads/services-anthrax@2x.jpg
   summary_button_title: READ ABOUT SURVEYS
+hero:
+  main_headline_html: >-
+    <h1><strong>Asbestos Surveys</strong></h1><p>Your first step to safeguard yourself, your occupants and your tradespeople.</p><p>Your first step in being compliant with the law.</p>
+  main_hero_image: /images/uploads/hero-surveyor-secondary.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
+  main_hero_alt_tag: Image of lab tester checking for asbestos
+  main_hero_button_heading: EXPLORE OUR SERVICES
+  main_hero_button_link: /services/
 ---
 
 Asbestos surveys page

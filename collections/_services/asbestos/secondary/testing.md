@@ -15,5 +15,18 @@ page_summary:
   summary_image: /images/uploads/services-legionella.jpg
   summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_button_title: READ ABOUT TESTING
+hero:
+  main_headline_html: >-
+    <h1>Necsagittis velit platea<br /><strong>Interdum Erat ut
+    Tristique</strong></h1><p>Nullam cursus diam vitae massa bibendum lobortis.
+    Nam posuere tellus odio, non porttitor neque placerat eget.</p><ul><li>Lorem
+    ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Praesent quis
+    condimentum ligula, necsagittis velit.</li><li>In hac habitasse platea
+    dictumst.</li></ul>
+  main_hero_image: /images/uploads/hero-surveyor-secondary.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
+  main_hero_alt_tag: Image of lab tester checking for asbestos
+  main_hero_button_heading: EXPLORE OUR SERVICES
+  main_hero_button_link: /services/
 ---
 Asbestos testing page
