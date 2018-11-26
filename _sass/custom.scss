@@ -1521,6 +1521,10 @@ $fm-border-height-underline: 1px;
     margin-left: 15px;
   }
 
+  &:not(.lastFeature):after {
+     display: none;
+  }
+
   @include small {
     padding-top: $fm-gutter-mini!important;
     padding-bottom: $fm-gutter-mini!important;
