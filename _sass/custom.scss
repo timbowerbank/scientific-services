@@ -1469,13 +1469,17 @@ $fm-border-height-underline: 1px;
 
 .featureContainer {
   background-color: $fm-white;
-  margin-left: $fm-gutter-large;
-  margin-right: $fm-gutter-large;
+  margin-left: $fm-gutter-medium;
+  margin-right: $fm-gutter-medium;
+  padding-left: $fm-gutter-mini;
+  padding-right: $fm-gutter-mini;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
   @include small {
    margin-left: 5px;
    margin-right: 5px;
    box-shadow: none;
+   padding-left: 0px;
+   padding-right: 0px;
   }
   @include medium {
    margin-left: 5px;
