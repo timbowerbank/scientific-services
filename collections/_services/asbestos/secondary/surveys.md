@@ -71,7 +71,7 @@ main_intro:
   intro_image_alt_tag: image of surveyor inspecting a property
 ---
 
-<a name="intro"></a>
+<a class="anchor" name="intro"></a>
 Our team of BOHS P402 qualified and experienced surveyors will:
 
 * Locate any materials that may contain asbestos
@@ -87,7 +87,7 @@ We survey domestic, commercial and industrial properties across Cornwall, Devon,
 
 
 
-## About your survey<a name="aboutyoursurvey">
+## About your survey<a class="anchor" name="aboutyoursurvey">
 ### Easy to understand - Pinpoints the risk - Provides you with next steps
 ![Image of asbestos surveyor on building site](/images/uploads/main-surveyor-building-site.jpg)
 
