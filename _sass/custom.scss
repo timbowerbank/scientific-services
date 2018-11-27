@@ -12,6 +12,7 @@ $fm-blue-muted-fade: #F7F8FF;
 $fm-orange: #FF5E15;
 $fm-black: #1A1A1A;
 $fm-white: #FFFFFF;
+$fm-blue-royal: #0000FF;
 
 // font weights
 $fm-weight-heavy: 800;
@@ -1576,4 +1577,93 @@ $fm-border-height-underline: 1px;
   color: $fm-blue-navy;
   font-size: $fm-font-mini;
   line-height: $fm-line-height-small;
+}
+
+.contentLinks {
+  li a {
+    color: $fm-blue-royal;
+    font-size: $fm-font-micro;
+  }
+}
+
+.mainContentStyling {
+  p {
+    font-size: $fm-font-micro;
+    color: $fm-black;
+    line-height: $fm-line-height-mini;
+    margin-top: $fm-gutter-micro;
+    margin-bottom: $fm-gutter-micro;
+  }
+  h1 {
+   color: $fm-blue-navy;
+   font-weight: $fm-weight-heavy;
+   font-size: $fm-font-large;
+  }
+
+  h2 {
+   color: $fm-blue-navy;
+   font-weight: $fm-weight-heavy;
+   font-size: $fm-font-small-mid;
+   margin-top: $fm-gutter-mini;
+   margin-bottom: $fm-gutter-micro;
+  }
+  h3 {
+   color: $fm-blue-navy;
+   font-weight: $fm-weight-heavy;
+   font-size: $fm-font-micro;
+   margin-top: $fm-gutter-micro;
+   margin-bottom: $fm-gutter-micro;
+  }
+  h4 {
+   color: $fm-blue-navy;
+   font-weight: $fm-weight-heavy;
+   font-size: $fm-font-micro;
+   margin-top: $fm-gutter-micro;
+   margin-bottom: $fm-gutter-micro;
+  }
+  h5 {
+   color: $fm-blue-navy;
+   font-weight: $fm-weight-heavy;
+   font-size: $fm-font-micro;
+   margin-top: $fm-gutter-micro;
+   margin-bottom: $fm-gutter-micro;
+  }
+  h6 {
+   color: $fm-blue-navy;
+   font-weight: $fm-weight-heavy;
+   font-size: $fm-font-micro;
+   margin-top: $fm-gutter-micro;
+   margin-bottom: $fm-gutter-micro;
+  }
+  li {
+   color: $fm-black;
+   font-size: $fm-font-micro;
+   margin-top: 5px;
+   margin-bottom: 5px;
+  }
+  a {
+   color: $fm-blue-navy;
+  }
+  blockquote {
+    border-left: 5px solid $fm-blue;
+    background-color: $fm-blue-muted;
+    padding-left: $fm-gutter-small;
+    padding-right: $fm-gutter-small;
+    padding-top: $fm-gutter-mini;
+    padding-bottom: $fm-gutter-mini;
+
+    p {
+      color: $fm-blue-navy;
+      font-size: $fm-font-micro;
+      line-height: $fm-line-height-mini;
+      font-style: normal;
+    }
+
+  }
+  img {
+    margin-top: $fm-gutter-mini;
+    margin-bottom: $fm-gutter-mini;
+  }
+
+
 }
