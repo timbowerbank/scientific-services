@@ -68,4 +68,29 @@ main_intro:
     * [How to book your survey](#book)
 ---
 
-Asbestos [surveys](#abcd) page
+Our team of BOHS P402 qualified and experienced surveyors will:
+
+* Locate any materials that may contain asbestos
+* Tell you what risk level the asbestos presents
+* Give you advice on what to do next
+* Provide you with an easy to read report that details the findings and next steps
+* Be on-hand to answer your questions
+
+We survey domestic, commercial and industrial properties across Cornwall, Devon, Dorset and Somerset.
+
+&lt;a name="aboutyoursurvey"&gt;
+
+### About your survey
+
+#### <br>**Easy to understand - Pinpoints the risk - Provides you with next steps**
+
+* Our team of BOHS P402 qualified and experienced surveyors will:
+* Locate any materials that may contain asbestos
+* Tell you what risk level the asbestos presents
+* Give you advice on what to do next
+* Provide you with an easy to read report that details the findings and next steps
+* Be on-hand to answer your questions
+
+We survey domestic, commercial and industrial properties across Cornwall, Devon, Dorset and Somerset.
+
+About your survey<br>Easy to understand - Pinpoints the risk - Provides you with next steps
