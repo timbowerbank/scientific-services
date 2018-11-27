@@ -71,7 +71,7 @@ main_intro:
   intro_image_alt_tag: image of surveyor inspecting a property
 ---
 
-<a name="intro">
+<a name="intro"></a>
 Our team of BOHS P402 qualified and experienced surveyors will:
 
 * Locate any materials that may contain asbestos
