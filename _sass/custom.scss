@@ -1562,3 +1562,18 @@ $fm-border-height-underline: 1px;
   padding-right: $fm-gutter-mini;
 
 }
+
+// ******************************
+// *** SECONDARY MAIN CONTENT ***
+// ******************************
+
+.mainSecondarySection {
+  padding-top: $fm-gutter-micro;
+}
+
+.mainIntroPara {
+  font-weight: $fm-weight-heavy;
+  color: $fm-blue-navy;
+  font-size: $fm-font-mini;
+  line-height: $fm-line-height-small;
+}
