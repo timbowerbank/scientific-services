@@ -32,13 +32,50 @@
 
                         </div><!-- end main content -->
 
+                        <!-- social media below article -->
+                        <div class="uk-width-1-1 uk-flex uk-flex-right uk-visible@m">
+
+                           {% include social-media-bar.html %}
+
+                        </div><!-- end social media below article -->
+
                      </div><!-- end nested lefthand grid -->
 
 
                  </div><!-- end lefthand content -->
 
+
+
                  <!-- right hand content -->
                  <div class="uk-width-1-1 uk-width-1-3@m">
+
+                     <!-- right hand social media -->
+                     <div class="uk-flex uk-flex-center uk-flex-right@m">
+                     {% include social-media-bar.html %}
+                     </div><!-- end right hand social media -->
+
+                     <!-- accreds bar -->
+                     <div class="accredsBlockRight">
+                         <h4 class="uk-heading-line uk-text-right fm-font-micro fm-font-navy fm-font-bold"><span>Accreditations</span></h4>
+                         <div class="uk-flex uk-flex-right@m uk-flex-center uk-flex-wrap accreditationSide">
+                             {% for accred in page.accreditations %}
+                                <a href="{{ accred.accreditation_link }}"><img src="{{ accred.accreditation_image }}" alt="{{ accred.accreditation_alt }}"></a>
+                             {% endfor %}
+                         </div>
+                         <div class="accredText">
+                            <p>{{ page.accreditation_text }}</p>
+                         </div>
+                         <div class="uk-flex uk-flex-center uk-flex-right@m">
+                            <a class="uk-button uk-button-primary fm-width-100-mobile" href="{{ page.accreditation_link }}">READ ABOUT OUR ACCREDITATIONS<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
+                         </div>
+                     </div><!-- end accreds bar -->
+
+
+                    <!-- knowledgebase -->
+
+
+
+
 
 
                  </div><!-- end right hand content -->

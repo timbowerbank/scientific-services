@@ -1587,6 +1587,9 @@ $fm-border-height-underline: 1px;
 }
 
 .mainContentStyling {
+  @include small {
+   margin-bottom: $fm-gutter-40;
+  }
   p {
     font-size: $fm-font-mini;
     color: $fm-black;
@@ -1679,5 +1682,58 @@ $fm-border-height-underline: 1px;
     margin-bottom: $fm-gutter-small;
   }
 
+
+}
+
+// ************************************
+// *** SECONDARY RIGHT HAND CONTENT ***
+// ************************************
+
+.sideMarginTopBottom {
+  margin-top: $fm-gutter-40;
+  margin-bottom: $fm-gutter-40;
+}
+
+.accredsBlockRight {
+ margin-top: $fm-gutter-40;
+ margin-bottom: $fm-gutter-40;
+ @include small {
+  margin-top: 0px;
+ }
+}
+
+.accreditationSide {
+  img {
+    padding-left: $fm-gutter-small;
+    padding-bottom: $fm-gutter-mini;
+  }
+  @include small {
+   img {
+     margin: $fm-gutter-mini $fm-gutter-small;
+     width: 80px;
+     padding-left: 0px;
+     padding-bottom: 0px;
+
+   }
+  }
+}
+
+.accredText {
+
+  p {
+   font-size: $fm-font-micro;
+   color: $fm-black;
+  }
+  text-align: right;
+  @include small {
+    text-align: center;
+    p {
+      font-size: $fm-font-mini;
+    }
+
+  }
+  @include medium {
+   text-align: center;
+  }
 
 }
