@@ -1721,7 +1721,7 @@ $fm-border-height-underline: 1px;
   }
 }
 
-.accredText {
+.rightIntroText {
 
   p {
    font-size: $fm-font-micro;
@@ -1738,5 +1738,27 @@ $fm-border-height-underline: 1px;
   @include medium {
    text-align: center;
   }
+
+}
+
+.knowledgeBaseContainer {
+ text-align: right;
+ background-color: $fm-blue-muted;
+ border-bottom: 1px solid $fm-blue-navy;
+ margin-bottom: $fm-gutter-mini;
+ padding: $fm-gutter-mini $fm-gutter-mini;
+ @include small {
+  text-align: center;
+ }
+ a {
+   font-weight: $fm-weight-heavy;
+   color: $fm-blue-navy;
+   font-size: $fm-font-mini;
+ }
+ p span {
+  color: $fm-black;
+  font-size: $fm-font-micro;
+  font-weight: $fm-weight-regular;
+ }
 
 }

@@ -78,6 +78,10 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse potenti. Aliquam finibus erat ac consequat rutrum.
 accreditation_link: /index.html
+knowledge_base_articles:
+  max_number_of_articles: 5
+  knowledge_base_category: surveys
+  intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
 ---
 
 <a class="anchor" name="intro"></a>

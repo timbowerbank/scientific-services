@@ -9,7 +9,7 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 30
 page_summary:
-  summary_title: Knowledge base article 1
+  summary_title: Knowledge base article 3
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
   summary_image: /images/uploads/news-article4.jpg

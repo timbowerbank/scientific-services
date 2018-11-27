@@ -1,0 +1,39 @@
+      {% assign articles = site.knowledge_base | sort: "order" %}
+      {% comment %}Check how many articles there are that fit our criteria{% endcomment %}
+      {% assign i = 0 %}
+      {% for article in articles %}
+         {% if page.parent_category == article.parent_category and page.knowledge_base_articles.knowledge_base_category == article.child_category %}
+             {% assign i = i | plus:1 %}
+
+         {% endif %}
+      {% endfor %}
+
+      {% if i <= 0 %}
+
+        {% comment %}Do nothing, there are no articles that match{% endcomment %}
+
+      {% else %}
+        {% comment %}Create the html to show the knowledgebase articles{% endcomment %}
+        <!-- begin knowledge base links -->
+        <div>
+           <h4 class="uk-heading-line uk-text-right fm-font-micro fm-font-navy fm-font-bold"><span>Knowledge Base</span></h4>
+           <div class="rightIntroText">
+              <p>{{ page.knowledge_base_articles.intro_text }}</p>
+           </div>
+           <div>
+
+              {% for article in articles %}
+                 {% if page.parent_category == article.parent_category and page.knowledge_base_articles.knowledge_base_category == article.child_category %}
+                 <div class="knowledgeBaseContainer">
+                   <a href="{{ article.url }}">{{ article.page_summary.summary_title }}</a>
+                   <p><a href="{{ article.url }}"><span>{{ article.page_summary.summary_description }}</span></a></p>
+                 </div>
+
+                 {% endif %}
+              {% endfor %}
+
+           </div>
+        </div><!-- end knowledge base links -->
+
+
+      {% endif %}
