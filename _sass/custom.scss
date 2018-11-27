@@ -1584,6 +1584,9 @@ $fm-border-height-underline: 1px;
     color: $fm-blue-royal;
     font-size: $fm-font-micro;
   }
+  @include small {
+    font-size: $fm-font-mini;
+  }
 }
 
 .mainContentStyling {
