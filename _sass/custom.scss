@@ -1674,5 +1674,10 @@ $fm-border-height-underline: 1px;
       visibility: hidden;
   }
 
+  iframe {
+    margin-top: $fm-gutter-small;
+    margin-bottom: $fm-gutter-small;
+  }
+
 
 }
