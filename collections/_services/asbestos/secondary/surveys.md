@@ -76,9 +76,9 @@ Our team of BOHS P402 qualified and experienced surveyors will:
 * Provide you with an easy to read report that details the findings and next steps
 * Be on-hand to answer your questions
 
-We survey domestic, commercial and industrial properties across Cornwall, Devon, Dorset and Somerset.
+We survey domestic, commercial and industrial properties across Cornwall, Devon, Dorset and Somerset.<a name="aboutyoursurvey">
 
-<a name="aboutyoursurvey">
+
 ### About your survey
 
 #### <br>**Easy to understand - Pinpoints the risk - Provides you with next steps**
