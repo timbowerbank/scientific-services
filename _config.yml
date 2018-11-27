@@ -334,9 +334,26 @@ defaults:
       path: "_knowledge_base/lead-testing"
     values:
         layout: "default"
-        permalink: /services/lead-testing/:name/
+        permalink: "/services/lead-testing/:name/"
         parent_category: "lead-testing"
         child_category: "lead-testing"
+  -
+    scope:
+      path: "_knowledge_base/expert-witness"
+    values:
+        layout: "default"
+        permalink: "/services/expert-witness/:name/"
+        parent_category: "expert-witness"
+        child_category: "expert-witness"
+  -
+    scope:
+      path: "_knowledge_base/laboratory-auditing"
+    values:
+        layout: "default"
+        permalink: "/services/laboratory-auditing/:name/"
+        parent_category: "laboratory-auditing"
+        child_category: "laboratory-auditing"
+
 
 
 
