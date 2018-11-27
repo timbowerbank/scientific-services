@@ -43,6 +43,7 @@ feature_block:
   block4_paragraph_text: After your survey, our experts are on-hand to discuss your survey, clarify any points and support you with what to do next.
 main_intro:
   intro_paragraph_text: If you have a property built before 2000 and you suspect that your property has asbestos inside it. Then you need to take action. Our asbestos survey is the easiest, quickest and safest way to get started.
+  content_markdown: 
 
 
 
