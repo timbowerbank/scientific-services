@@ -58,7 +58,7 @@ main_intro:
     If you have a property built before 2000 and you suspect that your property
     has asbestos inside it. Then you need to take action. Our asbestos survey is
     the easiest, quickest and safest way to get started.
-  content_markdown: |-
+  content_bullets_markdown: |-
     * [Intro](#intro)
     * [About your survey](#aboutyoursurvey)
     * [About your surveyor](#aboutyoursurveyor)

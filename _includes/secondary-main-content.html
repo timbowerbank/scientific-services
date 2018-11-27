@@ -18,7 +18,7 @@
 
                         <!-- contents -->
                         <div class="uk-width-1-1 uk-width-1-3"
-
+                            {% if page.main_intro.content_bullets_markdown %}{{ page.main_intro.content_bullets_markdown | markdownify }}{% endif %}
                         </div><!-- end contents -->
 
                         <!-- intro image -->
@@ -26,7 +26,14 @@
 
                         </div><!-- end of intro image -->
 
+                        <!-- main content -->
+                        <div class="uk-width-1-1">
+                          {{ content }}
+
+                        </div><!-- end main content -->
+
                      </div><!-- end nested lefthand grid -->
+
 
                  </div><!-- end lefthand content -->
 
