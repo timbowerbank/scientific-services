@@ -415,6 +415,17 @@ $fm-border-height-underline: 1px;
  }
 }
 
+
+// *************
+// *** ALERT ***
+// *************
+
+.alerts {
+ p {
+   color: $fm-blue-navy;
+ }
+}
+
 // *******************
 // *** BREADCRUMBS ***
 // *******************
