@@ -1570,6 +1570,7 @@ $fm-border-height-underline: 1px;
 
 .mainSecondarySection {
   padding-top: $fm-gutter-micro;
+  padding-bottom: 0px;
 }
 
 .mainIntroPara {
@@ -1585,7 +1586,12 @@ $fm-border-height-underline: 1px;
     font-size: $fm-font-micro;
   }
   @include small {
-    font-size: $fm-font-mini;
+    li a {
+     font-size: $fm-font-small;
+
+    }
+    text-align: center;
+
   }
 }
 
@@ -1701,7 +1707,8 @@ $fm-border-height-underline: 1px;
  margin-top: $fm-gutter-40;
  margin-bottom: $fm-gutter-40;
  @include small {
-  margin-top: 0px;
+  margin-top: $fm-gutter-20;
+  margin-bottom: $fm-gutter-large;
  }
 }
 
@@ -1745,6 +1752,10 @@ $fm-border-height-underline: 1px;
 .knowledgeBaseContainer {
  margin-top: $fm-gutter-40;
  margin-bottom: $fm-gutter-40;
+ @include small {
+  margin-top: $fm-gutter-large;
+  margin-bottom: $fm-gutter-large;
+ }
 }
 
 .knowledgeArticleContainer {
@@ -1801,6 +1812,8 @@ $fm-border-height-underline: 1px;
    padding-left: $fm-gutter-small;
    padding-top: $fm-gutter-40;
    padding-bottom: $fm-gutter-medium;
+   margin-top: $fm-gutter-large;
+   margin-bottom: $fm-gutter-large!important;
   }
   @include medium {
    text-align: center;
@@ -1850,5 +1863,5 @@ $fm-border-height-underline: 1px;
 
 .newsletterRightContainer {
   margin-top: $fm-gutter-40;
-  margin-bottom: $fm-gutter-40!important;
+  margin-bottom: 0!important;
 }
