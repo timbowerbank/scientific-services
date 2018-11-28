@@ -88,5 +88,6 @@ knowledge_base_articles:
   max_number_of_articles: 5
   knowledge_base_category: surveys
   intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
+testimonial_id: swimming-pool
 ---
 Asbestos testing page
