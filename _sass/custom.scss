@@ -1777,3 +1777,64 @@ $fm-border-height-underline: 1px;
  }
 
 }
+
+// **************************************
+// *** MARKETING GRAPHIC BANNER RIGHT ***
+// **************************************
+
+.testimonialBannerRight {
+  margin-top: $fm-gutter-40;
+  margin-bottom: $fm-gutter-40;
+  padding-left: $fm-gutter-medium;
+  padding-right: $fm-gutter-small;
+  padding-top: $fm-gutter-large;
+  padding-bottom: $fm-gutter-large;
+
+  text-align: right;
+  @include small {
+   text-align: center;
+   padding-left: $fm-gutter-small;
+   padding-top: $fm-gutter-40;
+   padding-bottom: $fm-gutter-medium;
+  }
+  @include medium {
+   text-align: center;
+   padding-left: $fm-gutter-small;
+   padding-top: $fm-gutter-40;
+   padding-bottom: $fm-gutter-medium;
+  }
+  @include large {
+   padding-top: $fm-gutter-40;
+   padding-bottom: $fm-gutter-medium;
+  }
+
+
+
+}
+
+.graphicBannerRightHeadline {
+   color: $fm-white;
+   font-size: $fm-font-small-mid;
+   font-weight: $fm-weight-heavy;
+   @include small {
+
+   }
+   @include medium {
+
+   }
+
+}
+.graphicBannerRightPara {
+   color: $fm-white;
+   font-size: $fm-font-mini;
+
+}
+
+.testimonialStarsRight {
+  margin-top: $fm-gutter-mini;
+  margin-bottom: $fm-gutter-mini;
+  height: 30px;
+  @include small {
+    min-height: 28px;
+  }
+}
