@@ -93,6 +93,15 @@ knowledge_base_articles:
   knowledge_base_category: removal
   intro_text: 'Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.'
 testimonial_id: swimming-pool
+newsletter_signup:
+  newsletter_signup_title: STAY UP-TO-DATE WITH ASBESTOS NEWS
+  newsletter_button_title: SIGN UP TO OUR NEWSLETTER
+call_to_action:
+  with_call_to_action: true
+  call_to_action_headline: Helping you navigate the complex dangers of asbestos
+  call_to_action_para_text: Established in 2002, Scientific Surveys have completed more than 2,500 surveys across the South West
+  button_title: Contact Us
+  button_link: /index.html
 ---
 
 Legionella removal page
