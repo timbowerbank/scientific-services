@@ -1,5 +1,5 @@
 ---
-alert_on: true
+alert_on: false
 background_colour: '#98ebc5'
 ---
 
