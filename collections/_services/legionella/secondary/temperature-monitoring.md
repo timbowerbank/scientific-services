@@ -15,5 +15,78 @@ page_summary:
   summary_image: /images/uploads/services-legionella.jpg
   summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_button_title: READ ABOUT LEGIONELLA
+hero:
+  main_headline_html: >-
+    <h1><strong>Asbestos Surveys</strong></h1><p>Your first step to safeguard
+    yourself, your occupants and your tradespeople.</p><p>Your first step in
+    being compliant with the law.</p>
+  main_hero_image: /images/uploads/hero-surveyor-secondary.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
+  main_hero_alt_tag: Image of lab tester checking for asbestos
+  main_hero_button_heading: EXPLORE OUR SERVICES
+  main_hero_button_link: /services/
+feature_block:
+  block1_image: /images/uploads/feature-icon-knowledge-01.svg
+  block1_icon_alt: Knowledgeable surveyors
+  block1_heading: Knowledgeable Surveyors
+  block1_paragraph_text: >-
+    Hand selected for your job by industry expert Dr Tim Hamilton. Our team are
+    BOHS qualified and experienced. Their knowledgeable approach means that
+    surveys are done efficiently and safely.
+  block2_image: /images/uploads/feature-icon-quality-01.svg
+  block2_icon_alt: Quality survey reports on asbestos
+  block2_heading: Quality Reports
+  block2_paragraph_text: >-
+    Easy to understand, pinpoints the risk and provides helpful advice on what
+    to do next. Emailed, posted and stored on our asbestos portal for you to
+    access.
+  block3_image: /images/uploads/feature-icon-speed-01.svg
+  block3_icon_alt: Quick turnaround of surveys
+  block3_heading: Fast Turnaround
+  block3_paragraph_text: >-
+    Our inhouse UKAS approved laboratory means we can test and report on samples
+    quickly for our surveyors.
+  block4_image: /images/uploads/feature-icon-support-01.svg
+  block4_icon_alt: Helpful support after survey
+  block4_heading: On-hand to Help
+  block4_paragraph_text: >-
+    After your survey, our experts are on-hand to discuss your survey, clarify
+    any points and support you with what to do next.
+main_intro:
+  intro_paragraph_text: >-
+    If you have a property built before 2000 and you suspect that your property
+    has asbestos inside it. Then you need to take action. Our asbestos survey is
+    the easiest, quickest and safest way to get started.
+  content_list:
+    - list_item: Intro
+      list_item_id: intro
+    - list_item: Abour your survey
+      list_item_id: aboutyoursurvey
+    - list_item: About your surveyor
+      list_item_id: aboutyoursurveyor
+    - list_item: How long does a survey take?
+      list_item_id: howlong
+    - list_item: How much
+      list_item_id: howmuch
+    - list_item: Do you have a question?
+      list_item_id: questions
+    - list_item: How to book your survey
+      list_item_id: book
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
+  intro_image_alt_tag: image of surveyor inspecting a property
+accreditations:
+  - accreditation_image: /images/uploads/accred-ukas-01.svg
+    accreditation_alt: UKAS accredited logo
+    accreditation_link: 'https://www.ukas.com/'
+  - accreditation_image: /images/uploads/accred-iso-9001-01.svg
+    accreditation_alt: ISO 9001 accredited logo
+    accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
+accreditation_text: Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse potenti. Aliquam finibus erat ac consequat rutrum.
+accreditation_link: /index.html
+knowledge_base_articles:
+  max_number_of_articles: 3
+  knowledge_base_category: surveys
+  intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
 ---
 Legionella monitoring page

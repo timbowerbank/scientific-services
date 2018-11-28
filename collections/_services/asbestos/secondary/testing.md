@@ -57,14 +57,21 @@ main_intro:
     If you have a property built before 2000 and you suspect that your property
     has asbestos inside it. Then you need to take action. Our asbestos survey is
     the easiest, quickest and safest way to get started.
-  content_bullets_markdown: |-
-    * [Intro](#intro)
-    * [About your survey](#aboutyoursurvey)
-    * [About your surveyor](#aboutyoursurveyor)
-    * [How long does a survey take?](#howlong)
-    * [How much does a survey cost?](#howmuch)
-    * [Do you have a question?](#questions)
-    * [How to book your survey](#book)
+  content_list:
+    - list_item: Intro
+      list_item_id: intro
+    - list_item: Abour your survey
+      list_item_id: aboutyoursurvey
+    - list_item: About your surveyor
+      list_item_id: aboutyoursurveyor
+    - list_item: How long does a survey take?
+      list_item_id: howlong
+    - list_item: How much
+      list_item_id: howmuch
+    - list_item: Do you have a question?
+      list_item_id: questions
+    - list_item: How to book your survey
+      list_item_id: book
   intro_image: /images/uploads/main-surveyor.jpg
   intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: image of surveyor inspecting a property
