@@ -11,19 +11,20 @@ order: 20
 page_summary:
   summary_title: Monitoring
   summary_description: >-
-    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.
+    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
+    Turpis justo in nunc.
   summary_image: /images/uploads/services-legionella.jpg
   summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_button_title: READ ABOUT LEGIONELLA
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos Surveys</strong></h1><p>Your first step to safeguard
-    yourself, your occupants and your tradespeople.</p><p>Your first step in
-    being compliant with the law.</p>
+    <h1><b>Temperature Monitoring</b></h1><p>Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Morbi venenatis, mauris in rutrum tristique,
+    magna felis sollicitudin felis, vitae hendrerit augue orci in diam.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
-  main_hero_alt_tag: Image of lab tester checking for asbestos
-  main_hero_button_heading: EXPLORE OUR SERVICES
+  main_hero_alt_tag: Image of lab tester checking temperature
+  main_hero_button_heading: REQUEST A QUOTE
   main_hero_button_link: /services/
 feature_block:
   block1_image: /images/uploads/feature-icon-knowledge-01.svg
@@ -54,9 +55,10 @@ feature_block:
     any points and support you with what to do next.
 main_intro:
   intro_paragraph_text: >-
-    If you have a property built before 2000 and you suspect that your property
-    has asbestos inside it. Then you need to take action. Our asbestos survey is
-    the easiest, quickest and safest way to get started.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis,
+    mauris in rutrum tristique, magna felis sollicitudin felis, vitae hendrerit
+    augue orci in diam. Donec lorem magna, pulvinar in consequat eu, posuere
+    vitae ex.
   content_list:
     - list_item: Intro
       list_item_id: intro
@@ -74,7 +76,7 @@ main_intro:
       list_item_id: book
   intro_image: /images/uploads/main-surveyor.jpg
   intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
-  intro_image_alt_tag: image of surveyor inspecting a property
+  intro_image_alt_tag: image of surveyor inspecting for legionella
 accreditations:
   - accreditation_image: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo
@@ -82,11 +84,14 @@ accreditations:
   - accreditation_image: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
-accreditation_text: Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse potenti. Aliquam finibus erat ac consequat rutrum.
+accreditation_text: >-
+  Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse
+  potenti. Aliquam finibus erat ac consequat rutrum.
 accreditation_link: /index.html
 knowledge_base_articles:
-  max_number_of_articles: 3
-  knowledge_base_category: surveys
-  intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
+  max_number_of_articles: 2
+  knowledge_base_category: monitoring
+  intro_text: 'Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.'
 ---
+
 Legionella monitoring page
