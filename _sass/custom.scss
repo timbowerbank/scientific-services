@@ -1876,3 +1876,71 @@ $fm-border-height-underline: 1px;
   margin-top: $fm-gutter-40;
   margin-bottom: 0!important;
 }
+
+// *********************
+// *** HERO STANDARD ***
+// *********************
+
+.heroStandardSection {
+  background-image: linear-gradient($fm-blue-muted-fade, $fm-blue-muted);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: $fm-gutter-20;
+}
+
+.heroStandardTextFormat {
+ padding-left: $fm-gutter-large;
+ padding-top: $fm-gutter-40;
+  h1 {
+    font-size: $fm-font-medium;
+    color: $fm-blue-navy;
+    font-weight: $fm-weight-heavy;
+    margin-bottom: $fm-gutter-micro;
+  }
+  p {
+    margin-top: $fm-gutter-micro;
+    font-size: $fm-font-mini;
+    color: $fm-black;
+    padding-bottom: $fm-gutter-small;
+
+  }
+
+  @include small {
+    text-align: center;
+    padding-left: 0px;
+    padding-top: $fm-gutter-small;
+    p {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+  }
+  @include medium {
+    padding-left: $fm-gutter-small;
+    padding-top: $fm-gutter-small;
+  }
+  @include large {
+    padding-top: $fm-gutter-small;
+  }
+}
+
+.heroStandardImage {
+ margin-top: $fm-gutter-mini;
+ width: 100%;
+ img {
+   width: 200px;
+   height: auto;
+   margin-top: $fm-gutter-mini;
+ }
+ @include small {
+  margin-top: 0px;
+  img {
+    margin-top: 0px;
+    width: 300px;
+    height: auto;
+  }
+
+ }
+ @include medium {
+
+ }
+}

@@ -15,5 +15,11 @@ page_summary:
   summary_image: /images/uploads/news-article4.jpg
   summary_hiRes_image: /images/uploads/news-article4@2x.jpg
   summary_alt_tag: latest news
+hero:
+  main_headline_html: >-
+    <h1><strong>Integer diam est, luctus ac neque ac,lobortis aliquet nibh.</strong></h1><p>Curabitur imperdiet mi ac tortor pharetra, ac commodo libero feugiat.</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
+  main_hero_alt_tag: Image of lab tester checking for asbestos
 ---
 Knowledge base article 1 - asbestos surveys

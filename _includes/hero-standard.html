@@ -1,0 +1,21 @@
+      <!-- start hero standard -->
+      <div class="uk-section heroStandardSection">
+         <!-- start hero container -->
+         <div class="uk-container">
+            <!-- start grid -->
+            <div uk-grid>
+               <!-- start left col -->
+               <div class="uk-width-1-1 uk-width-2-3@s uk-width-3-4@m">
+                  <div class="heroStandardTextFormat">{{ page.hero.main_headline_html }}</div>
+               </div><!-- end left col -->
+
+               <!-- start right col -->
+               <div class="uk-width-1-1 uk-width-expand@s uk-flex uk-flex-center uk-flex-right@s uk-flex-bottom">
+                   <div class="heroStandardImage uk-flex uk-flex-center uk-flex-right@s uk-flex-bottom"><img srcset="{{ page.hero.main_hero_image }}, {{ page.hero.main_hero_hi_res_image }} 2x" src="{{ page.hero.main_hero_image }}" alt="{{ page.hero.main_hero_alt_tag }}"></div>
+               </div><!-- end right col -->
+
+
+
+            </div><!-- end uk-grid -->
+         </div><!-- end hero container -->
+      </div><!-- end hero standard section -->

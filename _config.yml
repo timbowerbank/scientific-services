@@ -261,7 +261,7 @@ defaults:
     scope:
       path: "_knowledge_base/anthrax"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/anthrax/:name/"
         parent_category: "anthrax"
         child_category: "anthrax"
@@ -270,7 +270,7 @@ defaults:
     scope:
       path: "_knowledge_base/asbestos/surveys"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/asbestos/surveys/:name/"
         parent_category: "asbestos"
         child_category: "surveys"
@@ -279,7 +279,7 @@ defaults:
     scope:
       path: "_knowledge_base/asbestos/testing"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/asbestos/testing/:name/"
         parent_category: "asbestos"
         child_category: "testing"
@@ -288,7 +288,7 @@ defaults:
     scope:
       path: "_knowledge_base/asbestos/removal"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/asbestos/removal/:name/"
         parent_category: "asbestos"
         child_category: "removal"
@@ -297,7 +297,7 @@ defaults:
     scope:
       path: "_knowledge_base/asbestos/air-monitoring"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/asbestos/air-monitoring/:name/"
         parent_category: "asbestos"
         child_category: "air-monitoring"
@@ -306,7 +306,7 @@ defaults:
     scope:
       path: "_knowledge_base/asbestos/awareness-training"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/asbestos/awareness-training/:name/"
         parent_category: "asbestos"
         child_category: "awareness-training"
@@ -315,7 +315,7 @@ defaults:
     scope:
       path: "_knowledge_base/legionella/risk-assessment"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/legionella/risk-assessment/:name/"
         parent_category: "legionella"
         child_category: "risk-assessment"
@@ -324,7 +324,7 @@ defaults:
     scope:
       path: "_knowledge_base/legionella/monitoring"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/legionella/monitoring/:name/"
         parent_category: "legionella"
         child_category: "monitoring"
@@ -333,7 +333,7 @@ defaults:
     scope:
       path: "_knowledge_base/legionella/removal"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/legionella/removal/:name/"
         parent_category: "legionella"
         child_category: "removal"
@@ -342,7 +342,7 @@ defaults:
     scope:
       path: "_knowledge_base/lead-testing"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/lead-testing/:name/"
         parent_category: "lead-testing"
         child_category: "lead-testing"
@@ -351,7 +351,7 @@ defaults:
     scope:
       path: "_knowledge_base/expert-witness"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/expert-witness/:name/"
         parent_category: "expert-witness"
         child_category: "expert-witness"
@@ -360,7 +360,7 @@ defaults:
     scope:
       path: "_knowledge_base/laboratory-auditing"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/laboratory-auditing/:name/"
         parent_category: "laboratory-auditing"
         child_category: "laboratory-auditing"
