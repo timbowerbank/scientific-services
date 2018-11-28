@@ -79,7 +79,7 @@ accreditations:
 accreditation_text: Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse potenti. Aliquam finibus erat ac consequat rutrum.
 accreditation_link: /index.html
 knowledge_base_articles:
-  max_number_of_articles: 5
+  max_number_of_articles: 3
   knowledge_base_category: surveys
   intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
 ---

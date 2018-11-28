@@ -1726,6 +1726,7 @@ $fm-border-height-underline: 1px;
   p {
    font-size: $fm-font-micro;
    color: $fm-black;
+   margin-bottom: $fm-gutter-mini;
   }
   text-align: right;
   @include small {
@@ -1747,18 +1748,32 @@ $fm-border-height-underline: 1px;
  border-bottom: 1px solid $fm-blue-navy;
  margin-bottom: $fm-gutter-mini;
  padding: $fm-gutter-mini $fm-gutter-mini;
+ line-height: $fm-line-height-micro;
  @include small {
   text-align: center;
  }
- a {
+ @include medium {
+  text-align: center;
+ }
+ h6 {
    font-weight: $fm-weight-heavy;
    color: $fm-blue-navy;
-   font-size: $fm-font-mini;
+   font-size: $fm-font-small;
+   margin-bottom: $fm-gutter-micro;
  }
- p span {
+ p {
+  margin-top: $fm-gutter-micro;
+  margin-bottom: $fm-gutter-micro;
+
+ }
+ span {
   color: $fm-black;
   font-size: $fm-font-micro;
   font-weight: $fm-weight-regular;
+
+ }
+ a {
+
  }
 
 }

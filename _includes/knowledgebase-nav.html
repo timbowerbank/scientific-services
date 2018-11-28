@@ -21,18 +21,33 @@
               <p>{{ page.knowledge_base_articles.intro_text }}</p>
            </div>
            <div>
+              {% comment %}Check max number of loops required and add to a limit{% endcomment %}
+              {% assign maxIterations = page.knowledge_base_articles.max_number_of_articles %}
+              {% assign counter = 1 %}
 
               {% for article in articles %}
+                 {% if counter > maxIterations %}
+                    {% break %}
+                 {% endif %}
                  {% if page.parent_category == article.parent_category and page.knowledge_base_articles.knowledge_base_category == article.child_category %}
                  <div class="knowledgeBaseContainer">
-                   <a href="{{ article.url }}">{{ article.page_summary.summary_title }}</a>
+                   <h6><a href="{{ article.url }}">{{ article.page_summary.summary_title }}</a></h6>
                    <p><a href="{{ article.url }}"><span>{{ article.page_summary.summary_description }}</span></a></p>
                  </div>
+                 {% assign counter = counter | plus:1 %}
+                 {% comment %}Grab the url of the archive from one of the articles{% endcomment %}
+                 {% assign archive = article.knowledgebase_archive %}
+
 
                  {% endif %}
               {% endfor %}
 
            </div>
+           {% if i > page.knowledge_base_articles.max_number_of_articles %}
+           <div class="uk-flex uk-flex-center uk-flex-right@m">
+              <a class="uk-button uk-button-primary fm-width-100-mobile" href="{{ archive }}">VIEW ALL ARTICLES<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
+           </div>
+          {% endif %}
         </div><!-- end knowledge base links -->
 
 
