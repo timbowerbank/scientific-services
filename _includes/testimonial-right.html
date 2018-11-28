@@ -2,17 +2,17 @@
          {% if page.testimonial_id == testimonial.testimonial_id %}
 
             <!-- start right hand marketing banner -->
-            <div class="uk-background-cover uk-background-top-right testimonialBannerRight" data-src="/images/design-assets/banner-blue-microbe-strand-01.svg" data-srcset="/images/design-assets/banner-blue-microbe-right-01.svg 800w, /images/design-assets/banner-blue-microbe-strand-01.svg 1024w" data-sizes="(max-width: 480px) 100vw, 100vw" uk-img>
+            <div class="uk-background-cover uk-background-top-right testimonialBannerRight" style="background-image: url('/images/design-assets/banner-blue-microbe-strand-01.svg');">
                <p class="graphicBannerRightHeadline">{{ testimonial.quote_text }}</p>
                <div class="uk-flex uk-flex-center uk-flex-right@m">
                   <img class="testimonialStarsRight" src="/images/design-assets/icon-stars-01.svg" alt="5 stars">
                </div>
-               <p class="graphicBannerRightPara">{{ testimonial.name_of_client }}</p>
-
+               <p class="graphicBannerRightPara">{{ testimonial.name_of_client }}<br>{{ testimonial.company_name }}</p>
+               {% if testimonial.case_study == true %}
                <a class="uk-button uk-button-primary" href="{{ testimonial.button_link }}">{{ testimonial.button_title }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon case study"></span></a>
+               {% endif %}
 
-
-            <div>
+            </div>
 
           {% endif %}
        {% endfor %}

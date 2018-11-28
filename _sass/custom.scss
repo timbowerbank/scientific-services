@@ -1743,6 +1743,11 @@ $fm-border-height-underline: 1px;
 }
 
 .knowledgeBaseContainer {
+ margin-top: $fm-gutter-40;
+ margin-bottom: $fm-gutter-40;
+}
+
+.knowledgeArticleContainer {
  text-align: right;
  background-color: $fm-blue-muted;
  border-bottom: 1px solid $fm-blue-navy;
@@ -1784,7 +1789,7 @@ $fm-border-height-underline: 1px;
 
 .testimonialBannerRight {
   margin-top: $fm-gutter-40;
-  margin-bottom: $fm-gutter-40;
+  margin-bottom: $fm-gutter-40!important;
   padding-left: $fm-gutter-medium;
   padding-right: $fm-gutter-small;
   padding-top: $fm-gutter-large;

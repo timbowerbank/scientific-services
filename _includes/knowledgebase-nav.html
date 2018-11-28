@@ -15,7 +15,7 @@
       {% else %}
         {% comment %}Create the html to show the knowledgebase articles{% endcomment %}
         <!-- begin knowledge base links -->
-        <div>
+        <div class="knowledgeBaseContainer">
            <h4 class="uk-heading-line uk-text-right fm-font-micro fm-font-navy fm-font-bold"><span>Knowledge Base</span></h4>
            <div class="rightIntroText">
               <p>{{ page.knowledge_base_articles.intro_text }}</p>
@@ -30,7 +30,7 @@
                     {% break %}
                  {% endif %}
                  {% if page.parent_category == article.parent_category and page.knowledge_base_articles.knowledge_base_category == article.child_category %}
-                 <div class="knowledgeBaseContainer">
+                 <div class="knowledgeArticleContainer">
                    <h6><a href="{{ article.url }}">{{ article.page_summary.summary_title }}</a></h6>
                    <p><a href="{{ article.url }}"><span>{{ article.page_summary.summary_description }}</span></a></p>
                  </div>
