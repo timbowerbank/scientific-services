@@ -90,6 +90,9 @@ knowledge_base_articles:
   knowledge_base_category: surveys
   intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
 testimonial_id: swimming-pool
+newsletter_signup:
+  newsletter_signup_title: STAY UP-TO-DATE WITH ASBESTOS NEWS
+  newsletter_button_title: SIGN UP TO OUR NEWSLETTER
 ---
 
 <a class="anchor" name="intro"></a>
