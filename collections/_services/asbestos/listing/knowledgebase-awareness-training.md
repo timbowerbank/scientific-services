@@ -10,14 +10,14 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos Knowledge Base Articles: Testing</strong></h1><p>Scientific Services have been working in the asbestos industry for more than 16 years.</p>
+    <h1><strong>Asbestos Knowledge Base Articles: Awareness Training</strong></h1><p>Scientific Services have been working in the asbestos industry for more than 16 years.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
 collection_name: knowledge_base
 parent_category: asbestos
-child_category: testing
-permalink: /services/asbestos/surveys/knowledgebase-testing/
+child_category: surveys
+permalink: /services/asbestos/awareness-training/knowledgebase-awareness-training/
 archive_button_text: VIEW ARCHIVE KNOWLEDGE BASE
 archive_button_link: /services/asbestos/knowledgebase/archive/
 marketing_photo_banner_id: home1

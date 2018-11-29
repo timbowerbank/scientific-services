@@ -273,7 +273,7 @@ defaults:
         permalink: "/services/anthrax/:name/"
         parent_category: "anthrax"
         child_category: "anthrax"
-        knowledgebase_archive: "/services/anthrax/knowledgebase/"
+        knowledgebase_archive: "/services/anthrax/knowledgebase-anthrax/"
   -
     scope:
       path: "_knowledge_base/asbestos/surveys"
@@ -291,7 +291,7 @@ defaults:
         permalink: "/services/asbestos/testing/:name/"
         parent_category: "asbestos"
         child_category: "testing"
-        knowledgebase_archive: "/services/asbestos/testing/knowledgebase/"
+        knowledgebase_archive: "/services/asbestos/testing/knowledgebase-testing/"
   -
     scope:
       path: "_knowledge_base/asbestos/removal"
@@ -300,7 +300,7 @@ defaults:
         permalink: "/services/asbestos/removal/:name/"
         parent_category: "asbestos"
         child_category: "removal"
-        knowledgebase_archive: "/services/asbestos/removal/knowledgebase/"
+        knowledgebase_archive: "/services/asbestos/removal/knowledgebase-removal/"
   -
     scope:
       path: "_knowledge_base/asbestos/air-monitoring"
@@ -309,7 +309,7 @@ defaults:
         permalink: "/services/asbestos/air-monitoring/:name/"
         parent_category: "asbestos"
         child_category: "air-monitoring"
-        knowledgebase_archive: "/services/asbestos/air-monitoring/knowledgebase/"
+        knowledgebase_archive: "/services/asbestos/air-monitoring/knowledgebase-air-monitoring/"
   -
     scope:
       path: "_knowledge_base/asbestos/awareness-training"
@@ -318,7 +318,7 @@ defaults:
         permalink: "/services/asbestos/awareness-training/:name/"
         parent_category: "asbestos"
         child_category: "awareness-training"
-        knowledgebase_archive: "/services/asbestos/awareness-training/knowledgebase/"
+        knowledgebase_archive: "/services/asbestos/awareness-training/knowledgebase-awareness-training/"
   -
     scope:
       path: "_knowledge_base/legionella/risk-assessment"
@@ -327,7 +327,7 @@ defaults:
         permalink: "/services/legionella/risk-assessment/:name/"
         parent_category: "legionella"
         child_category: "risk-assessment"
-        knowledgebase_archive: "/services/legionella/risk-assessment/knowledgebase/"
+        knowledgebase_archive: "/services/legionella/risk-assessment/knowledgebase-risk-assessment/"
   -
     scope:
       path: "_knowledge_base/legionella/monitoring"
@@ -336,7 +336,7 @@ defaults:
         permalink: "/services/legionella/monitoring/:name/"
         parent_category: "legionella"
         child_category: "monitoring"
-        knowledgebase_archive: "/services/legionella/monitoring/knowledgebase/"
+        knowledgebase_archive: "/services/legionella/monitoring/knowledgebase-monitoring/"
   -
     scope:
       path: "_knowledge_base/legionella/removal"
@@ -345,7 +345,7 @@ defaults:
         permalink: "/services/legionella/removal/:name/"
         parent_category: "legionella"
         child_category: "removal"
-        knowledgebase_archive: "/services/legionella/removal/knowledgebase/"
+        knowledgebase_archive: "/services/legionella/removal/knowledgebase-removal/"
   -
     scope:
       path: "_knowledge_base/lead-testing"
@@ -354,7 +354,7 @@ defaults:
         permalink: "/services/lead-testing/:name/"
         parent_category: "lead-testing"
         child_category: "lead-testing"
-        knowledgebase_archive: "/services/lead-testing/knowledgebase/"
+        knowledgebase_archive: "/services/lead-testing/knowledgebase-lead-testing/"
   -
     scope:
       path: "_knowledge_base/expert-witness"
@@ -363,7 +363,7 @@ defaults:
         permalink: "/services/expert-witness/:name/"
         parent_category: "expert-witness"
         child_category: "expert-witness"
-        knowledgebase_archive: "/services/expert-witness/knowledgebase/"
+        knowledgebase_archive: "/services/expert-witness/knowledgebase-expert-witness/"
   -
     scope:
       path: "_knowledge_base/laboratory-auditing"
@@ -372,7 +372,7 @@ defaults:
         permalink: "/services/laboratory-auditing/:name/"
         parent_category: "laboratory-auditing"
         child_category: "laboratory-auditing"
-        knowledgebase_archive: "/services/laboratory-auditing/knowledgebase/"
+        knowledgebase_archive: "/services/laboratory-auditing/knowledgebase-laboratory-auditing/"
   -
     scope:
       path: "_team"
