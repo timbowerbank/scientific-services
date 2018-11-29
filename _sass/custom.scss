@@ -472,6 +472,8 @@ $fm-border-height-underline: 1px;
 // **************
 
 .footerSection {
+  padding-top: 0px;
+  margin-top: $fm-gutter-large;
   @include small {
     margin-top: $fm-gutter-40;
   }
