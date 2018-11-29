@@ -994,7 +994,7 @@ $fm-border-height-underline: 1px;
  }
 }
 
-.companyFeatures {
+.listingStyles {
 
   h4 {
    font-size: $fm-font-small-mid;
@@ -1962,4 +1962,15 @@ $fm-border-height-underline: 1px;
 
 .authorHeight {
  height: 100%
+}
+
+// ***************
+// *** LISTING ***
+// ***************
+
+.listingSection {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: $fm-gutter-40;
+
 }
