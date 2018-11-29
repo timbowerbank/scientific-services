@@ -635,6 +635,7 @@ $fm-border-height-underline: 1px;
  padding-top: $fm-gutter-small;
  @include small {
   padding-left: $fm-gutter-small;
+  padding-top: $fm-gutter-40;
   h1 {
    text-align: center;
    }
@@ -646,19 +647,28 @@ $fm-border-height-underline: 1px;
  h1 {
   color: $fm-blue-navy;
   font-size: $fm-font-large;
+  margin-bottom: $fm-gutter-micro;
  }
  p {
   color: $fm-black;
   font-size: $fm-font-micro;
+  margin-top: $fm-gutter-micro;
+  margin-bottom: $fm-gutter-mini;
  }
  ul {
   color: $fm-black;
   font-size: $fm-font-micro;
+  margin-top: $fm-gutter-micro;
+  margin-bottom: $fm-gutter-mini;
  }
  a {
   margin-bottom: $fm-gutter-40;
  }
 
+}
+
+.heroHeight100 {
+ height: 100%;
 }
 
 .heroImage {

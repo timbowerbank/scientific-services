@@ -5,16 +5,20 @@
                <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
                    <!-- text -->
                    <div class="heroTextFormat">
-                       {{ page.hero.main_headline_html }}
-                       {% if page.url == "/" %}
-                       <div>
-                           <a class="uk-button uk-button-primary" href="{{ page.hero.main_hero_button_link }}">{{ page.hero.main_hero_button_heading }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
-                       </div>
-                       {% else %}
-                       <div>
-                           <a class="uk-button uk-button-primary" href="#">REQUEST A QUOTE<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
-                       </div>
-                       {% endif %}
+                      <div class="uk-flex uk-flex-middle heroHeight100">
+                          <div class="uk-flex uk-flex-column">
+                             {{ page.hero.main_headline_html }}
+                             {% if page.url == "/" %}
+                             <div>
+                                 <a class="uk-button uk-button-primary" href="{{ page.hero.main_hero_button_link }}">{{ page.hero.main_hero_button_heading }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
+                             </div>
+                             {% else %}
+                             <div>
+                                 <a class="uk-button uk-button-primary" href="#">REQUEST A QUOTE<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow"></span></a>
+                             </div>
+                             {% endif %}
+                          </div>
+                     </div>
                    </div>
 
                    <!-- image -->
