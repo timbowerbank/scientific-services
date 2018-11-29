@@ -29,7 +29,29 @@ hero:
   main_hero_image: /images/uploads/hero-surveyor-standard.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
-
+main_intro:
+  intro_paragraph_text: >-
+    If you have a property built before 2000 and you suspect that your property
+    has asbestos inside it. Then you need to take action. Our asbestos survey is
+    the easiest, quickest and safest way to get started.
+  content_list:
+    - list_item: Intro
+      list_item_id: intro
+    - list_item: Abour your survey
+      list_item_id: aboutyoursurvey
+    - list_item: About your surveyor
+      list_item_id: aboutyoursurveyor
+    - list_item: How long does a survey take?
+      list_item_id: howlong
+    - list_item: How much
+      list_item_id: howmuch
+    - list_item: Do you have a question?
+      list_item_id: questions
+    - list_item: How to book your survey
+      list_item_id: book
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
+  intro_image_alt_tag: image of surveyor inspecting a property
 accreditations:
   - accreditation_image: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo

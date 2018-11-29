@@ -1889,19 +1889,21 @@ $fm-border-height-underline: 1px;
 }
 
 .heroStandardTextFormat {
+ height: 100%;
  padding-left: $fm-gutter-large;
- padding-top: $fm-gutter-40;
+ // padding-top: $fm-gutter-40;
   h1 {
     font-size: $fm-font-medium;
     color: $fm-blue-navy;
     font-weight: $fm-weight-heavy;
-    margin-bottom: $fm-gutter-micro;
+    margin-bottom: 0px;
   }
   p {
     margin-top: $fm-gutter-micro;
     font-size: $fm-font-mini;
     color: $fm-black;
-    padding-bottom: $fm-gutter-small;
+    margin-bottom: 0px;
+    //padding-bottom: $fm-gutter-small;
 
   }
 
@@ -1909,6 +1911,7 @@ $fm-border-height-underline: 1px;
     text-align: center;
     padding-left: 0px;
     padding-top: $fm-gutter-small;
+    padding-bottom: $fm-gutter-mini;
     p {
       padding-bottom: 0px;
       margin-bottom: 0px;
@@ -1916,16 +1919,17 @@ $fm-border-height-underline: 1px;
   }
   @include medium {
     padding-left: $fm-gutter-small;
-    padding-top: $fm-gutter-small;
+    //padding-top: $fm-gutter-small;
   }
   @include large {
-    padding-top: $fm-gutter-small;
+    //padding-top: $fm-gutter-small;
   }
 }
 
 .heroStandardImage {
- margin-top: $fm-gutter-mini;
+ // margin-top: $fm-gutter-mini;
  width: 100%;
+ height: 100%;
  img {
    width: 200px;
    height: auto;
