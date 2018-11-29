@@ -28,7 +28,7 @@ author:
   with_author: true
   team_id: Jack
 main_intro:
-  with_intro_block: false
+  with_intro_block: true
   intro_paragraph_text: >-
     If you have a property built before 2000 and you suspect that your property
     has asbestos inside it. Then you need to take action. Our asbestos survey is
