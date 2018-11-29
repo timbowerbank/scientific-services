@@ -282,7 +282,7 @@ defaults:
         permalink: "/services/asbestos/surveys/:name/"
         parent_category: "asbestos"
         child_category: "surveys"
-        knowledgebase_archive: "/services/asbestos/surveys/knowledgebase/"
+        knowledgebase_archive: "/services/asbestos/surveys/knowledgebase-surveys/"
   -
     scope:
       path: "_knowledge_base/asbestos/testing"

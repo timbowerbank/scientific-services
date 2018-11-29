@@ -13,9 +13,10 @@ page_summary:
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
     convallis turpis.
-  summary_image: /images/uploads/news-article4.jpg
-  summary_hiRes_image: /images/uploads/news-article4@2x.jpg
-  summary_alt_tag: latest news
+  summary_image: /images/uploads/casestudy-1.jpg
+  summary_hiRes_image: /images/uploads/casestudy-1@2x.jpg
+  summary_alt_tag: Asbestos surveyor at work in van
+  summary_button_title: READ THE ARTICLE
 hero:
   main_headline_html: >-
     <h1><strong>Integer diam est, luctus ac neque ac,lobortis aliquet

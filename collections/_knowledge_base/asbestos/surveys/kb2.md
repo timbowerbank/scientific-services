@@ -12,9 +12,10 @@ page_summary:
   summary_title: Knowledge base article 2
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
-  summary_image: /images/uploads/news-article4.jpg
-  summary_hiRes_image: /images/uploads/news-article4@2x.jpg
-  summary_alt_tag: latest news
+  summary_image: /images/uploads/casestudy-2.jpg
+  summary_hiRes_image: /images/uploads/casestudy-2@2x.jpg
+  summary_alt_tag: Asbestos surveyor at work in van
+  summary_button_title: READ THE ARTICLE
 hero:
   main_headline_html: >-
     <h1><strong>Integer diam est, luctus ac neque ac,lobortis aliquet nibh.</strong></h1><p>Curabitur imperdiet mi ac tortor pharetra, ac commodo libero feugiat.</p>
