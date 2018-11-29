@@ -11,6 +11,8 @@
                      <!-- begin nested grid -->
                      <div uk-grid>
 
+                        {% comment %}check to see if there is an intro block{% endcomment %}
+                        {% if page.main_intro.with_intro_block == true %}
                         <!-- intro para -->
                         <div class="uk-width-1-1">
                            <p class="mainIntroPara">{{ page.main_intro.intro_paragraph_text }}</p>
@@ -29,6 +31,8 @@
                         <div class="uk-width-1-1 uk-width-2-3@s">
                             <img srcset="{{ page.main_intro.intro_image }} 1x, {{ page.main_intro.intro_hi_res_image }} 2x" src="{{ page.main_intro.intro_image }}" alt="{{ page.main_intro.intro_image_alt_tag }}">
                         </div><!-- end of intro image -->
+
+                       {% endif %}{% comment %}End of check to see if there is an intro block{% endcomment %}
 
                         <!-- main content -->
                         <div class="uk-width-1-1 mainContentStyling">

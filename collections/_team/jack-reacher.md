@@ -32,6 +32,7 @@ hero:
   main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
 main_intro:
+  with_intro_block: false
   intro_paragraph_text: >-
     If you have a property built before 2000 and you suspect that your property
     has asbestos inside it. Then you need to take action. Our asbestos survey is

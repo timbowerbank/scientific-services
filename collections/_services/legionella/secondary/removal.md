@@ -54,6 +54,7 @@ feature_block:
     After your survey, our experts are on-hand to discuss your survey, clarify
     any points and support you with what to do next.
 main_intro:
+  with_intro_block: true
   intro_paragraph_text: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis,
     mauris in rutrum tristique, magna felis sollicitudin felis, vitae hendrerit
