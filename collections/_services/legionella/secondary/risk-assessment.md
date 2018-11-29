@@ -18,7 +18,7 @@ page_summary:
   summary_button_title: READ RISK ASSESSMENT
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos Surveys</strong></h1><p>Your first step to safeguard
+    <h1><strong>Risk Assessment</strong></h1><p>Your first step to safeguard
     yourself, your occupants and your tradespeople.</p><p>Your first step in
     being compliant with the law.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
