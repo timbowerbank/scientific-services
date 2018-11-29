@@ -11,7 +11,8 @@ order: 10
 page_summary:
   summary_title: Risk Assessment
   summary_description: >-
-    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor. Turpis justo in nunc.
+    Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
+    Turpis justo in nunc.
   summary_image: /images/uploads/services-legionella.jpg
   summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_button_title: READ RISK ASSESSMENT
@@ -82,12 +83,14 @@ accreditations:
   - accreditation_image: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
-accreditation_text: Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse potenti. Aliquam finibus erat ac consequat rutrum.
+accreditation_text: >-
+  Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse
+  potenti. Aliquam finibus erat ac consequat rutrum.
 accreditation_link: /index.html
 knowledge_base_articles:
   max_number_of_articles: 3
-  knowledge_base_category: surveys
-  intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
+  knowledge_base_category: risk-assessment
+  intro_text: 'Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.'
 testimonial_id: swimming-pool
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH ASBESTOS NEWS
@@ -95,8 +98,11 @@ newsletter_signup:
 call_to_action:
   with_call_to_action: true
   call_to_action_headline: Helping you navigate the complex dangers of asbestos
-  call_to_action_para_text: Established in 2002, Scientific Surveys have completed more than 2,500 surveys across the South West
+  call_to_action_para_text: >-
+    Established in 2002, Scientific Surveys have completed more than 2,500
+    surveys across the South West
   button_title: Contact Us
   button_link: /index.html
 ---
+
 Legionella risk assessment page
