@@ -1,9 +1,5 @@
 ---
 layout: listing
-collection_name: case_studies
-parent_category: asbestos
-child_category: none
-permalink: /services/asbestos/case-studies/
 meta_data:
   page_title: Scientific Services
   meta_description: Add content for the home page of Scientific Services here...
@@ -20,6 +16,13 @@ hero:
   main_hero_alt_tag: Image of lab tester checking for asbestos
   main_hero_button_heading: EXPLORE OUR SERVICES
   main_hero_button_link: /services/
+collection_name: case_studies
+parent_category: asbestos
+child_category: none
+permalink: /services/asbestos/case-studies/
+archive_button_text: VIEW ARCHIVE CASE STUDIES
+archive_button_link: /services/asbestos/case-studies/archive/
+marketing_photo_banner_id: home1
 _options:
   layout:
     hidden: true
