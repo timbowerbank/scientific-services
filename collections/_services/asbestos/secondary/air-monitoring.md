@@ -18,9 +18,9 @@ page_summary:
   summary_button_title: READ AIR MONITORING
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos Air Monitoring</strong></h1><p>Your first step to safeguard
-    yourself, your occupants and your tradespeople.</p><p>Your first step in
-    being compliant with the law.</p>
+    <h1><strong>Asbestos Air Monitoring</strong></h1><p>Your first step to
+    safeguard yourself, your occupants and your tradespeople.</p><p>Your first
+    step in being compliant with the law.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
   main_hero_alt_tag: Image of surveyor for asbestos
@@ -83,12 +83,14 @@ accreditations:
   - accreditation_image: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
-accreditation_text: Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse potenti. Aliquam finibus erat ac consequat rutrum.
+accreditation_text: >-
+  Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse
+  potenti. Aliquam finibus erat ac consequat rutrum.
 accreditation_link: /index.html
 knowledge_base_articles:
   max_number_of_articles: 5
-  knowledge_base_category: surveys
-  intro_text: Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.
+  knowledge_base_category: air-monitoring
+  intro_text: 'Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.'
 testimonial_id: swimming-pool
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH ASBESTOS NEWS
@@ -96,7 +98,9 @@ newsletter_signup:
 call_to_action:
   with_call_to_action: true
   call_to_action_headline: Helping you navigate the complex dangers of asbestos
-  call_to_action_para_text: Established in 2002, Scientific Surveys have completed more than 2,500 surveys across the South West
+  call_to_action_para_text: >-
+    Established in 2002, Scientific Surveys have completed more than 2,500
+    surveys across the South West
   button_title: Contact Us
   button_link: /index.html
 ---
