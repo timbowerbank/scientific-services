@@ -9,7 +9,7 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 order: 20
 page_summary:
-  summary_title: Legionella risk assessment kb article 1
+  summary_title: Legionella risk assessment kb article 2
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
     convallis turpis.
