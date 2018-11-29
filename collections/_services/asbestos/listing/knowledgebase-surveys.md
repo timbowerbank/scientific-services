@@ -18,7 +18,7 @@ hero:
   main_hero_alt_tag: Image of lab tester checking for asbestos
 collection_name: knowledge_base
 parent_category: asbestos
-child_category: testing
+child_category: surveys
 permalink: /services/asbestos/surveys/knowledgebase-surveys/
 archive_button_text: VIEW ARCHIVE KNOWLEDGE BASE
 archive_button_link: /services/asbestos/knowledgebase/archive/
