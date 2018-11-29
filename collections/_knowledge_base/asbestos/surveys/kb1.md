@@ -21,6 +21,9 @@ hero:
   main_hero_image: /images/uploads/hero-surveyor-standard.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
+author:
+  with_author: true
+  team_id: Jack
 main_intro:
   intro_paragraph_text: >-
     If you have a property built before 2000 and you suspect that your property
@@ -54,15 +57,6 @@ accreditations:
 accreditation_text: Duis lacinia augue metus, sed sollicitudin odio lacinia in. Suspendisse potenti. Aliquam finibus erat ac consequat rutrum.
 accreditation_link: /index.html
 testimonial_id: swimming-pool
-newsletter_signup:
-  newsletter_signup_title: STAY UP-TO-DATE WITH ASBESTOS NEWS
-  newsletter_button_title: SIGN UP TO OUR NEWSLETTER
-call_to_action:
-  with_call_to_action: true
-  call_to_action_headline: Helping you navigate the complex dangers of asbestos
-  call_to_action_para_text: Established in 2002, Scientific Surveys have completed more than 2,500 surveys across the South West
-  button_title: Contact Us
-  button_link: /index.html
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH ASBESTOS NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER

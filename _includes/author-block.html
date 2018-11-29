@@ -1,0 +1,27 @@
+     {% if page.author.with_author == true %}
+        {% comment %}Loop through team to find author {% endcomment %}
+        {% for person in site.team %}
+           {% if page.author.team_id == person.team_id %}
+        <div class="uk-width-1-1 authorBlock">
+           <div uk-grid>
+              <!-- author image -->
+              <div class="uk-width-auto">
+                 <a href="{{ person.url }}"><img class="uk-border-circle" srcset="{{ person.page_summary.summary_image }} 1x, {{ person.page_summary.summary_hiRes_image }} 2x" src="{{ person.page_summary.summary_image }}" alt="{{ person.page_summary.summary_alt_tag }}"></a>
+              </div><!-- end author image -->
+
+              <!-- author name and job description -->
+              <div class="uk-width-expand fm-padding-mini-left">
+                 <div class=" uk-flex uk-flex-left uk-flex-middle authorHeight">
+                    <div class="uk-flex uk-flex-column">
+                       <p class="fm-font-navy fm-font-micro"><span class="fm-font-navy fm-font-bold">ARTICLE BY:</span><a href="{{ person.url }}">{% if person.personal_details.with_salutation == true %} {{ person.personal_details.salutation }}{% endif %} {{ person.personal_details.first_name }} {{ person.personal_details.surname }}</a></p>
+                       <p class="fm-font-black fm-font-bold fm-font-micro">{{ person.personal_details.job_title }}</p>
+                    </div>
+                 </div>
+              </div><!-- end author name and job description -->
+
+           </div>
+        </div>
+          {% endif %}
+        {% endfor %}
+
+     {% endif %}

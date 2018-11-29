@@ -45,6 +45,8 @@ collections:
     output: false
   services:
     output: true
+  team:
+    output: true
   testimonials:
     output: false
   videos:
@@ -365,6 +367,13 @@ defaults:
         parent_category: "laboratory-auditing"
         child_category: "laboratory-auditing"
         knowledgebase_archive: "/services/laboratory-auditing/knowledgebase/"
+  -
+    scope:
+      path: "_team"
+    values:
+      layout: "standard"
+      permalink: "about/team/:name/"
+      author.with_author: "false"
 
 
 
