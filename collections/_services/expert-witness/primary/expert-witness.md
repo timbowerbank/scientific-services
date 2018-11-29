@@ -19,12 +19,9 @@ page_summary:
   summary_button_title: READ EXPERT WITNESS
 hero:
   main_headline_html: >-
-    <h1>Necsagittis velit platea<br /><strong>Interdum Erat ut
-    Tristique</strong></h1><p>Nullam cursus diam vitae massa bibendum lobortis.
-    Nam posuere tellus odio, non porttitor neque placerat eget.</p><ul><li>Lorem
-    ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Praesent quis
-    condimentum ligula, necsagittis velit.</li><li>In hac habitasse platea
-    dictumst.</li></ul>
+    <h1><strong>Expert Witness</strong></h1><p>Nullam cursus diam vitae massa
+    bibendum lobortis. Nam posuere tellus odio, non porttitor neque placerat
+    eget.</p>
   main_hero_image: /images/uploads/hero-cutout-scientist.png
   main_hero_hi_res_image: /images/uploads/hero-cutout-scientist@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
@@ -63,7 +60,9 @@ newsletter_signup:
 call_to_action:
   with_call_to_action: true
   call_to_action_headline: Expert witness call to action
-  call_to_action_para_text: Established in 2002, Scientific Surveys have completed more than 2,500 surveys across the South West
+  call_to_action_para_text: >-
+    Established in 2002, Scientific Surveys have completed more than 2,500
+    surveys across the South West
   button_title: Contact Us
   button_link: /index.html
 ---
