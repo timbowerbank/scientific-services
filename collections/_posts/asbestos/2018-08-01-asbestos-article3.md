@@ -8,7 +8,7 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 page_summary:
-  summary_title: Asbestos article 1
+  summary_title: Asbestos Article 3
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
   summary_image: /images/uploads/news-article2-summary.jpg
@@ -16,5 +16,6 @@ page_summary:
   thumbnail_image: /images/uploads/news-article2.jpg
   thumbnail_hiRes_image: /images/uploads/news-article2@2x.jpg
   summary_alt_tag: latest news
+  summary_button_title: READ THE ARTICLE
 ---
-Asbestos article 1 content
+Asbestos article 2 content

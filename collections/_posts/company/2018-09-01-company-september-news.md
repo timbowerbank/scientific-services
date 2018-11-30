@@ -16,5 +16,6 @@ page_summary:
   thumbnail_image: /images/uploads/news-article3.jpg
   thumbnail_hiRes_image: /images/uploads/news-article3@2x.jpg
   summary_alt_tag: latest news
+  summary_button_title: READ THE ARTICLE
 ---
 Company September news content

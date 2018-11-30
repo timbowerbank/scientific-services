@@ -16,5 +16,6 @@ page_summary:
   thumbnail_image: /images/uploads/news-article4.jpg
   thumbnail_hiRes_image: /images/uploads/news-article4@2x.jpg
   summary_alt_tag: latest news
+  summary_button_title: READ THE ARTICLE
 ---
 Anthrax article 1 content

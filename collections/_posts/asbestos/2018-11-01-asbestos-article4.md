@@ -11,10 +11,11 @@ page_summary:
   summary_title: Asbestos article 4
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
-  summary_image: /images/uploads/news-article4-summary.jpg
-  summary_hiRes_image: /images/uploads/news-article4-summary@2x.jpg
-  thumbnail_image: /images/uploads/news-article4.jpg
-  thumbnail_hiRes_image: /images/uploads/news-article4@2x.jpg
+  summary_image: /images/uploads/news-article2-summary.jpg
+  summary_hiRes_image: /images/uploads/news-article2-summary@2x.jpg
+  thumbnail_image: /images/uploads/news-article2.jpg
+  thumbnail_hiRes_image: /images/uploads/news-article2@2x.jpg
   summary_alt_tag: latest news
+  summary_button_title: READ THE ARTICLE
 ---
-Asbestos article 4 content
+Asbestos article 1 content
