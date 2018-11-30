@@ -7,6 +7,7 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+all_order: 30
 order: 30
 page_summary:
   summary_title: Air monitoring kb article 3
