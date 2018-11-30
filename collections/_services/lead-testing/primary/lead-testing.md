@@ -14,8 +14,8 @@ page_summary:
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
     convallis turpis.
-  summary_image: /images/uploads/services-lead-testing.jpg
-  summary_hiRes_image: /images/uploads/services-lead-testing@2x.jpg
+  summary_image: /images/uploads/services-lead-testing-summary.jpg
+  summary_hiRes_image: /images/uploads/services-lead-testing-summary@2x.jpg
   thumbnail_image: /images/uploads/services-lead-testing.jpg
   thumbnail_hiRes_image: /images/uploads/services-lead-testing@2x.jpg
   summary_alt_tag: Image of lead being tested
