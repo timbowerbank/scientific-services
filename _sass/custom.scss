@@ -634,6 +634,8 @@ $fm-border-height-underline: 1px;
  padding-left: $fm-gutter-large;
  margin-top: $fm-gutter-micro;
  margin-bottom: $fm-gutter-micro;
+ padding-top: $fm-gutter-mini;
+ padding-bottom: $fm-gutter-mini;
 
  @include small {
   padding-left: $fm-gutter-small;
