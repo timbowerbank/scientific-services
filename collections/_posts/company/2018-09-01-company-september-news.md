@@ -11,8 +11,10 @@ page_summary:
   summary_title: Company September news
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
-  summary_image: /images/uploads/news-article3.jpg
-  summary_hiRes_image: /images/uploads/news-article3@2x.jpg
+  summary_image: /images/uploads/news-article3-summary.jpg
+  summary_hiRes_image: /images/uploads/news-article3-summary@2x.jpg
+  thumbnail_image: /images/uploads/news-article3.jpg
+  thumbnail_hiRes_image: /images/uploads/news-article3@2x.jpg
   summary_alt_tag: latest news
 ---
 Company September news content
