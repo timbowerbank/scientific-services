@@ -1,0 +1,52 @@
+      {% comment %}Check to see if there are any team to list{% endcomment %}
+      {% assign i = 0 %}
+      {% for item in site[page.collection_name] %}
+
+             {% assign i = i | plus:1 %}
+
+      {% endfor %}
+
+      {% comment %}if greater than zero output the items{% endcomment %}
+      {% if i > 0 %}
+      <div class="uk-section listingSection">
+         <div class="uk-container">
+           <div class="uk-child-width-1-1 uk-child-width-1-4@s" uk-grid uk-height-match=" .listingTextTeam">
+
+              {% assign orderedTeam = site[page.collection_name] | sort: "order" %}
+              {% for item in orderedTeam %}
+
+                  <!-- start col -->
+                  <div>
+                       <div>
+                           <a href="{{ item.url }}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
+                           <div class="listingTextTeam">
+                              <h4>{% if item.personal_details.with_salutation == true %}{{ item.personal_details.salutation }}{% endif %} {{ item.personal_details.first_name }} {{ item.personal_details.surname }}</h4>
+                              <h5>{{ item.personal_details.job_title }}</h5>
+                              <p>{{ item.page_summary.summary_description }}</p>
+                           </div>
+                           <div class="uk-flex uk-flex-bottom">
+                             <a class="uk-button uk-button-secondary fm-width-100" href="{{ item.url }}">READ BIO</a>
+                           </div>
+                       </div>
+                   </div><!-- end col -->
+
+              {% endfor %}
+
+
+
+           </div><!-- end grid -->
+
+         </div><!-- end container -->
+      </div><!-- end listing section -->
+      {% else %}
+
+         {% comment %}There are no items to list{% endcomment %}
+         <div class="uk-section">
+            <div class="uk-container listingStyle">
+                 <div uk-grid>
+                    <div class="uk-width-1-1"><h4>There are no listings available for this topic</h4></div>
+                 </div>
+            </div>
+         </div><!-- end section -->
+
+      {% endif %}

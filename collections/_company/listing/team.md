@@ -1,6 +1,5 @@
 ---
-layout: default
-permalink: '/about/:name/'
+layout: listing-team
 meta_data:
   page_title: Scientific Services
   meta_description: Add content for the home page of Scientific Services here...
@@ -21,8 +20,20 @@ page_summary:
     porttitor congue.
   summary_image: /images/uploads/feature-expertise.jpg
   summary_hiRes_image: /images/uploads/feature-expertise@2x.jpg
-  summary_alt_tag: Image of lab techninician in the team
+  summary_alt_tag: Image of lab technician in the team
   summary_button_title: MEET THE TEAM
+hero:
+  main_headline_html: >-
+    <h1><strong>Meet the Team</strong></h1><p>Scientific Services have been working to protect your workers in harsh environments for more than 16 years.</p>
+  main_hero_image: /images/uploads/hero-surveyor-secondary.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
+  main_hero_alt_tag: Image of lab tester checking for anthrax
+collection_name: team
+permalink: '/about/:name/'
+marketing_photo_banner_id: home1
+_options:
+  layout:
+    hidden: true
 ---
 
 Temporary team page

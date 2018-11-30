@@ -1,7 +1,9 @@
 ---
-order: 10
+order: 20
 team_id: Sue
 personal_details:
+  with_salutation: false
+  salutation: Dr
   first_name: Sue
   surname: Stafford
   job_title: Laboratory Technician

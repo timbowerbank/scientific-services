@@ -2001,3 +2001,31 @@ $fm-border-height-underline: 1px;
 .listingArchiveButton {
   margin-top: $fm-gutter-medium!important;
 }
+
+// ********************
+// *** TEAM LISTING ***
+// ********************
+
+.listingTextTeam {
+  padding-top: $fm-gutter-micro;
+  text-align: left;
+  h4 {
+    color: $fm-blue-navy;
+    font-weight: $fm-weight-heavy;
+    font-size: $fm-font-mini;
+    margin-bottom: 0px;
+  }
+  h5 {
+   color: $fm-black;
+   font-size: $fm-font-micro;
+   font-weight: $fm-weight-heavy;
+   margin-top: $fm-gutter-micro;
+   margin-bottom: $fm-gutter-micro;
+  }
+  p {
+  margin-top: 0px;
+  color: $fm-black;
+  font-size: $fm-font-mini;
+  }
+
+}
