@@ -18,12 +18,15 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+order: 10
 page_summary:
   summary_title: Knowledge base article 1
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
-  summary_image: /images/uploads/team-jack-reacher.jpg
-  summary_hiRes_image: /images/uploads/team-jack-reacher@2x.jpg
+  summary_image: /images/uploads/team-jack-reacher-summary.jpg
+  summary_hiRes_image: /images/uploads/team-jack-reacher-summary@2x.jpg
+  thumbnail_image: /images/uploads/team-jack-reacher.jpg
+  thumbnail_hiRes_image: /images/uploads/team-jack-reacher@2x.jpg
   summary_alt_tag: profile image Jack Reacher
 hero:
   main_headline_html: >-

@@ -20,8 +20,10 @@ page_summary:
   summary_title: Knowledge base article 1
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis convallis turpis.
-  summary_image: /images/uploads/team-sue-stafford.jpg
-  summary_hiRes_image: /images/uploads/team-sue-stafford@2x.jpg
+  summary_image: /images/uploads/team-sue-stafford-summary.jpg
+  summary_hiRes_image: /images/uploads/team-sue-stafford-summary@2x.jpg
+  thumbnail_image: /images/uploads/team-sue-stafford.jpg
+  thumbnail_hiRes_image: /images/uploads/team-sue-stafford@2x.jpg
   summary_alt_tag: Sue Stafford
 hero:
   main_headline_html: >-
