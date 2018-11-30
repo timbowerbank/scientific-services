@@ -7,7 +7,7 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
-all_order: 1
+all_order: 60
 featured_on_home: false
 order: 30
 featured_on_primary: true
