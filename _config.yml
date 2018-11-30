@@ -63,7 +63,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "asbestos"
-        news_archive: "/services/asbestos/news/latest-news/"
+        news_archive: "/services/asbestos/news/"
         case_studies: "/services/asbestos/case-studies/"
   -
     scope:
@@ -74,7 +74,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "legionella"
-        news_archive: "/services/legionella/news/latest-news/"
+        news_archive: "/services/legionella/news/"
         case_studies: "/services/legionella/case-studies/"
   -
     scope:
@@ -85,7 +85,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "anthrax"
-        news_archive: "/services/anthrax/news/latest-news/"
+        news_archive: "/services/anthrax/news/"
         case_studies: "/services/anthrax/case-studies/"
   -
     scope:
@@ -96,7 +96,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "lead-testing"
-        news_archive: "/services/lead-testing/news/latest-news/"
+        news_archive: "/services/lead-testing/news/"
         case_studies: "/services/lead-testing/case-studies/"
   -
     scope:
@@ -107,7 +107,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "expert-witness"
-        news_archive: "/services/expert-witness/news/latest-news/"
+        news_archive: "/services/expert-witness/news/"
         case_studies: "/services/expert-witness/case-studies/"
   -
     scope:
@@ -118,7 +118,7 @@ defaults:
         landing_page_type: "primary"
         child_page_type: "secondary"
         child_page_category: "laboratory-auditing"
-        news_archive: "/services/laboratory-auditing/news/latest-news/"
+        news_archive: "/services/laboratory-auditing/news/"
         case_studies: "/services/laboratory-auditing/case-studies/"
   -
     scope:

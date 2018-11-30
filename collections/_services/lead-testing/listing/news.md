@@ -10,16 +10,16 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 hero:
   main_headline_html: >-
-    <h1><strong>Laboratory Auditing Latest News</strong></h1><p>Scientific Services have been working in the anthrax industry for more than 16 years.</p>
+    <h1><strong>Lead Testing Latest News</strong></h1><p>Scientific Services have been working in the anthrax industry for more than 16 years.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
   main_hero_alt_tag: Image of lab tester checking for anthrax
 collection_name: posts
-parent_category: laboratory-auditing
+parent_category: lead-testing
 child_category: none
-permalink: /services/laboratory-auditing/news/:name/
+permalink: /services/lead-testing/:name/
 archive_button_text: VIEW ARCHIVE NEWS
-archive_button_link: /services/laboratory-auditing/news/archive-news/
+archive_button_link: /services/lead-testing/news/archive-news/
 marketing_photo_banner_id: home1
 _options:
   layout:
