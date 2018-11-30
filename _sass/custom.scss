@@ -632,7 +632,9 @@ $fm-border-height-underline: 1px;
 
 .heroTextFormat {
  padding-left: $fm-gutter-large;
- padding-top: $fm-gutter-small;
+ margin-top: $fm-gutter-micro;
+ margin-bottom: $fm-gutter-micro;
+
  @include small {
   padding-left: $fm-gutter-small;
   padding-top: $fm-gutter-40;
@@ -662,13 +664,17 @@ $fm-border-height-underline: 1px;
   margin-bottom: $fm-gutter-mini;
  }
  a {
-  margin-bottom: $fm-gutter-40;
+  //margin-bottom: $fm-gutter-40;
  }
 
 }
 
 .heroHeight100 {
  height: 100%;
+ min-height: 313px;
+ @include small {
+  min-height: 160px;
+ }
 }
 
 .heroImage {
