@@ -7,14 +7,17 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+all_order: 20
 order: 20
 page_summary:
   summary_title: Legionella
   summary_description: >-
     Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
     Turpis justo in nunc.
-  summary_image: /images/uploads/services-legionella.jpg
-  summary_hiRes_image: /images/uploads/services-legionella@2x.jpg
+  summary_image: /images/uploads/services-legionella-summary.jpg
+  summary_hiRes_image: /images/uploads/services-legionella-summary@2x.jpg
+  thumbnail_image: /images/uploads/services-legionella.jpg
+  thumbnail_hiRes_image: /images/uploads/services-legionella@2x.jpg
   summary_alt_tag: Image of legionella consultant at work
   summary_button_title: READ ABOUT LEGIONELLA
 hero:

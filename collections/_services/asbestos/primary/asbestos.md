@@ -7,14 +7,17 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+all_order: 10
 order: 10
 page_summary:
   summary_title: Asbestos
   summary_description: >-
     Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
     Turpis justo in nunc.
-  summary_image: /images/uploads/services-asbestos.jpg
-  summary_hiRes_image: /images/uploads/services-asbestos@2x.jpg
+  summary_image: /images/uploads/services-asbestos-summary.jpg
+  summary_hiRes_image: /images/uploads/services-asbestos-summary@2x.jpg
+  thumbnail_image: /images/uploads/services-asbestos.jpg
+  thumbnail_hiRes_image: /images/uploads/services-asbestos@2x.jpg
   summary_alt_tag: Image of asbestos surveyor at work
   summary_button_title: READ ABOUT ASBESTOS
 hero:

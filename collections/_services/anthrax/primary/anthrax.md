@@ -7,14 +7,17 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+all_order: 30
 order: 30
 page_summary:
   summary_title: Anthrax
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
     convallis turpis.
-  summary_image: /images/uploads/services-anthrax.jpg
-  summary_hiRes_image: /images/uploads/services-anthrax@2x.jpg
+  summary_image: /images/uploads/services-anthrax-summary.jpg
+  summary_hiRes_image: /images/uploads/services-anthrax-summary@2x.jpg
+  thumbnail_image: /images/uploads/services-anthrax.jpg
+  thumbnail_hiRes_image: /images/uploads/services-anthrax@2x.jpg
   summary_alt_tag: Image of anthrax surveyor at work
   summary_button_title: READ ABOUT ANTHRAX
 hero:

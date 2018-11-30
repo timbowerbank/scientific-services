@@ -10,7 +10,7 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 hero:
   main_headline_html: >-
-    <h1><strong>About Scientific Services</strong></h1><p>Scientific Services have been making your environment safe for more than 16 years.</p>
+    <h1><strong>Our services</strong></h1><p>Scientific Services have been making your environment safe for more than 16 years.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
   main_hero_alt_tag: Image of lab tester checking for asbestos

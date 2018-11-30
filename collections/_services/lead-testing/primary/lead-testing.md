@@ -7,6 +7,7 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+all_order: 40
 order: 40
 page_summary:
   summary_title: Lead Testing
@@ -15,6 +16,8 @@ page_summary:
     convallis turpis.
   summary_image: /images/uploads/services-lead-testing.jpg
   summary_hiRes_image: /images/uploads/services-lead-testing@2x.jpg
+  thumbnail_image: /images/uploads/services-lead-testing.jpg
+  thumbnail_hiRes_image: /images/uploads/services-lead-testing@2x.jpg
   summary_alt_tag: Image of lead being tested
   summary_button_title: READ LEAD TESTING
 hero:

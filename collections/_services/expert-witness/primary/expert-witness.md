@@ -7,14 +7,17 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
+all_order: 40
 order: 50
 page_summary:
   summary_title: Expert Witness
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
     convallis turpis.
-  summary_image: /images/uploads/services-expert-witness.jpg
-  summary_hiRes_image: /images/uploads/services-expert-witness@2x.jpg
+  summary_image: /images/uploads/services-expert-witness-summary.jpg
+  summary_hiRes_image: /images/uploads/services-expert-witness-summary@2x.jpg
+  thumbnail_image: /images/uploads/services-expert-witness.jpg
+  thumbnail_hiRes_image: /images/uploads/services-expert-witness@2x.jpg
   summary_alt_tag: Image of expert witness
   summary_button_title: READ EXPERT WITNESS
 hero:
