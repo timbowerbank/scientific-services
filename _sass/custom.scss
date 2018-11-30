@@ -1902,6 +1902,7 @@ $fm-border-height-underline: 1px;
 
 .heroStandardTextFormat {
  height: 100%;
+ min-height: 160px;
  padding-left: $fm-gutter-large;
  // padding-top: $fm-gutter-40;
   h1 {
@@ -1951,7 +1952,7 @@ $fm-border-height-underline: 1px;
   margin-top: 0px;
   img {
     margin-top: 0px;
-    width: 300px;
+    width: 380px;
     height: auto;
   }
 
