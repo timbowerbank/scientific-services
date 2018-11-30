@@ -387,6 +387,12 @@ defaults:
       layout: "standard"
       permalink: "about/team/:name/"
       author.with_author: "false"
+  -
+    scope:
+      path: "_company"
+    values:
+      parent_category: "all"
+      child_category: "none"
 
 
 
