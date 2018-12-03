@@ -548,7 +548,7 @@ $fm-border-height-underline: 1px;
 }*/
 
 .footerTeamPerson {
- height: 440px;
+ height: 500px;
  @include small {
   height: auto;
   margin-top: $fm-gutter-medium;
@@ -2050,3 +2050,7 @@ $fm-border-height-underline: 1px;
  }
 
 }
+
+// ***************************
+// *** MODAL REQUEST QUOTE ***
+// ***************************
