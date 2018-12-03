@@ -68,6 +68,9 @@ testimonial_id: swimming-pool
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH ASBESTOS NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER
+gallery:
+  with_gallery: true
+  gallery_id: surveyor1
 call_to_action:
   with_call_to_action: true
   call_to_action_headline: Helping you navigate the complex dangers of asbestos

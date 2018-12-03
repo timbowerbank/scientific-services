@@ -39,6 +39,8 @@ collections:
     output: true
   company:
     output: true
+  galleries:
+    output: false
   knowledge_base:
     output: true
   marketing_banners:
