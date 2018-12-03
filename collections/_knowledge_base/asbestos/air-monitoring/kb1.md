@@ -82,3 +82,6 @@ call_to_action:
 ---
 
 Knowledge base article 1 - asbestos air monitoring
+
+#### Gallery
+See the gallery below for more information
