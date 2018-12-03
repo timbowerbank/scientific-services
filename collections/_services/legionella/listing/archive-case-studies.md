@@ -1,5 +1,5 @@
 ---
-layout: listing
+layout: listing-archive
 meta_data:
   page_title: Scientific Services
   meta_description: Add content for the home page of Scientific Services here...
@@ -10,16 +10,14 @@ meta_data:
   social_media_image: /images/uploads/casestudy-1.jpg
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos Case Studies</strong></h1><p>Scientific Services have been working in the asbestos industry for more than 16 years.</p>
+    <h1><strong>Legionella Case Studies Archive </strong></h1><p>Scientific Services have been working in the asbestos industry for more than 16 years.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
-  main_hero_alt_tag: Image of lab tester checking for asbestos
+  main_hero_alt_tag: Image of lab tester checking for legionella
 collection_name: case_studies
-parent_category: asbestos
+parent_category: legionella
 child_category: none
-permalink: /services/asbestos/case-studies/
-archive_button_text: VIEW ARCHIVE CASE STUDIES
-archive_button_link: /services/asbestos/case-studies/archive-case-studies/
+permalink: /services/legionella/case-studies/:name/
 marketing_photo_banner_id: home1
 _options:
   layout:

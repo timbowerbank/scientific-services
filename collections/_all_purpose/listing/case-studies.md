@@ -19,7 +19,7 @@ parent_category: all
 child_category: none
 permalink: /case-studies/
 archive_button_text: VIEW ARCHIVE CASE STUDIES
-archive_button_link: /case-studies/archive/
+archive_button_link: /case-studies/archive-case-studies/
 marketing_photo_banner_id: home1
 _options:
   layout:
