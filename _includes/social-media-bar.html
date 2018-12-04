@@ -1,7 +1,7 @@
       <!-- begin social media bar -->
       <div class="socialMediaBar uk-flex uk-flex-center uk-flex-right@m">
         <a href="mailto:?subject={{ site.title }}: {{ page.meta_data.page_title }}&amp;body=I thought you might find this interesting: {{ site.url }}{{ page.url }}"><img src="/images/design-assets/icon-square-email-01.svg" alt="email share icon"></a>
-        <a href="#"><img src="/images/design-assets/icon-square-facebook-01.svg" alt="facebook share icon"></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?app_id=1981313655295577&sdk=joey&u={{ site.url }}{{ page.url }}&display=popup&ref=plugin&src=share_button" onclick="return !window.open(this.href, 'Facebook', 'width=640,height=580')"><img src="/images/design-assets/icon-square-facebook-01.svg" alt="facebook share icon"></a>
         <a class="googleplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"><img src="/images/design-assets/icon-square-google-plus-01.svg" alt="google plus share icon"></a>
         <a class="linkedin" style="cursor: pointer;" id="linkedInBtn" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title="+{{ page.meta_data.page_title }}+"&summary={{ page.meta-description }}&source={{ site.url }}"><img src="/images/design-assets/icon-square-linkedIn-01.svg" alt="linkedIn share icon"></a>
         <a id="twitterWindow" class="popup twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}"><img src="/images/design-assets/icon-square-twitter-01.svg" alt="twitter share icon"></a>
