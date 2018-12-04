@@ -24,9 +24,11 @@ url: "https://stunning-plateau.cloudvent.net" # the base hostname & protocol for
 
 # Build settings
 markdown: kramdown
-# theme: minima
+# theme: minima,
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
+
+# - jekyll-feed (re-add this if needed)
 
 # COLLECTIONS
 collections_dir: collections
