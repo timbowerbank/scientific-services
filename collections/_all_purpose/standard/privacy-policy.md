@@ -43,4 +43,5 @@ _options:
   layout:
     hidden: true
 ---
-Add privacy policy
+
+Add privacy policy here
