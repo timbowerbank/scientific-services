@@ -13,7 +13,6 @@ page_summary:
   summary_description: >-
     Pellentesque a nulla ac purus tristique tempor. In enim neque, blandit quis
     metus in, pulvinar condimentum turpis. Donec rhoncus nec libero ut finibus.
-    Nam vestibulum aliquet est, semper molestie diam laoreet non.
   summary_image: /images/uploads/services-expert-witness-summary.jpg
   summary_hiRes_image: /images/uploads/services-expert-witness-summary@2x.jpg
   thumbnail_image: /images/uploads/services-expert-witness.jpg
