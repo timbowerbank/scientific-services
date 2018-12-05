@@ -7,47 +7,47 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
-order: 30
+order: 40
 page_summary:
-  summary_title: Removal
+  summary_title: Air Monitoring
   summary_description: >-
     Donec et ligula pellentesque arcu elementum pulvinar vel sit amet dolor.
     Turpis justo in nunc.
-  summary_image: /images/uploads/services-asbestos.jpg
-  summary_hiRes_image: /images/uploads/services-asbestos@2x.jpg
-  summary_button_title: READ ABOUT REMOVAL
+  summary_image: /images/uploads/services-lab-auditing.jpg
+  summary_hiRes_image: /images/uploads/services-lab-auditing@2x.jpg
+  summary_button_title: READ AIR MONITORING
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos Removal</strong></h1><p>Your first step to safeguard
-    yourself, your occupants and your tradespeople.</p><p>Your first step in
-    being compliant with the law.</p>
+    <h1><strong>Asbestos Air Monitoring</strong></h1><p>Your first step to
+    safeguard yourself, your occupants and your tradespeople.</p><p>Your first
+    step in being compliant with the law.</p>
   main_hero_image: /images/uploads/hero-surveyor-secondary.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
-  main_hero_alt_tag: Image of lab tester checking for asbestos
+  main_hero_alt_tag: Image of surveyor for asbestos
   main_hero_button_heading: EXPLORE OUR SERVICES
   main_hero_button_link: /services/
 feature_block:
-  block1_image: /images/uploads/feature-icon-knowledge-01.svg
+  block1_svg_path: /images/uploads/feature-icon-knowledge-01.svg
   block1_icon_alt: Knowledgeable surveyors
   block1_heading: Knowledgeable Surveyors
   block1_paragraph_text: >-
     Hand selected for your job by industry expert Dr Tim Hamilton. Our team are
     BOHS qualified and experienced. Their knowledgeable approach means that
     surveys are done efficiently and safely.
-  block2_image: /images/uploads/feature-icon-quality-01.svg
+  block2_svg_path: /images/uploads/feature-icon-quality-01.svg
   block2_icon_alt: Quality survey reports on asbestos
   block2_heading: Quality Reports
   block2_paragraph_text: >-
     Easy to understand, pinpoints the risk and provides helpful advice on what
     to do next. Emailed, posted and stored on our asbestos portal for you to
     access.
-  block3_image: /images/uploads/feature-icon-speed-01.svg
+  block3_svg_path: /images/uploads/feature-icon-speed-01.svg
   block3_icon_alt: Quick turnaround of surveys
   block3_heading: Fast Turnaround
   block3_paragraph_text: >-
     Our inhouse UKAS approved laboratory means we can test and report on samples
     quickly for our surveyors.
-  block4_image: /images/uploads/feature-icon-support-01.svg
+  block4_svg_path: /images/uploads/feature-icon-support-01.svg
   block4_icon_alt: Helpful support after survey
   block4_heading: On-hand to Help
   block4_paragraph_text: >-
@@ -89,7 +89,7 @@ accreditation_text: >-
 accreditation_link: /index.html
 knowledge_base_articles:
   max_number_of_articles: 5
-  knowledge_base_category: removal
+  knowledge_base_category: air-monitoring
   intro_text: 'Suspendisse feugiat ex vel tortor pulvinar, sit amet facilisis leo interdum.'
 testimonial_id: swimming-pool
 newsletter_signup:

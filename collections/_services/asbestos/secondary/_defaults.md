@@ -24,22 +24,22 @@ hero:
   main_hero_button_heading: ADD BUTTON TITLE
   main_hero_button_link: /services/
 feature_block:
-  block1_image: /images/uploads/default-svg-icon.png
+  block1_svg_path: /images/uploads/default-svg-icon.png
   block1_icon_alt: Add alt tag for svg icon
   block1_heading: Add Short Heading
   block1_paragraph_text: >-
     Add short description paragraph
-  block2_image: /images/uploads/default-svg-icon.png
+  block2_svg_path: /images/uploads/default-svg-icon.png
   block2_icon_alt: Add alt tag for svg icon
   block2_heading: Add Short Heading
   block2_paragraph_text: >-
     Add short description paragraph
-  block3_image: /images/uploads/default-svg-icon.png
+  block3_svg_path: /images/uploads/default-svg-icon.png
   block3_icon_alt: Add alt tag for svg icon
   block3_heading: Add Short Heading
   block3_paragraph_text: >-
     Add short description paragraph
-  block4_image: /images/uploads/default-svg-icon.png
+  block4_svg_path: /images/uploads/default-svg-icon.png
   block4_icon_alt: Add alt tag for svg icon
   block4_heading: Add Short Heading
   block4_paragraph_text: >-
