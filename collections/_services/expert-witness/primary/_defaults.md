@@ -14,7 +14,7 @@ page_summary:
     Add your summary description.
   summary_image: /images/uploads/default-summary-lo-res.png
   summary_hiRes_image: /images/uploads/default-summary-hi-res.png
-  thumbnail_image: /images/uploads/default-summary-lo-res.png
+  thumbnail_image: /images/uploads/default-summary-thumb-lo-res.png
   thumbnail_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
   summary_alt_tag: Add an alt tag for your images
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
