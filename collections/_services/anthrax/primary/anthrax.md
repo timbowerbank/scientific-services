@@ -13,20 +13,21 @@ page_summary:
   summary_description: >-
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
     convallis turpis.
-  summary_image: /images/uploads/default-summary-thumb-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+  summary_image: /images/uploads/services-anthrax-summary.jpg
+  summary_hiRes_image: /images/uploads/services-anthrax-summary@2x.jpg
+  summary_button_title: READ ABOUT ANTHRAX
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
-  main_hero_image: /images/uploads/default-hero-secondary-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-secondary-hi-res.png
-  main_hero_alt_tag: Add alt tag text for your image
-  main_hero_button_heading: ADD BUTTON TITLE
-  main_hero_button_link: /services/
+    <h1><strong>Anthrax Services</strong></h1><p>Nullam cursus diam vitae massa
+    bibendum lobortis. Nam posuere tellus odio, non porttitor neque placerat
+    eget.</p>
+  main_hero_image: /images/uploads/hero-surveyor-secondary.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
+  main_hero_alt_tag: Image of surveyor looking for anthrax
+  main_hero_button_heading: REQUEST A QUOTE
+  main_hero_button_link: '#request-quote-modal'
 feature_block:
-  block1_image: /images/uploads/default-svg-icon.png
+  block1_image:
   block1_icon_alt: Add alt tag for svg icon
   block1_heading: Add Short Heading
   block1_paragraph_text: Add short description paragraph
