@@ -82,6 +82,5 @@ call_to_action:
   button_title: Contact Us
   button_link: /contact/
 _comments:
-  knowledge_base_articles:
-    knowledge_base_category: Choose from air-monitoring, awareness-training, removal, survey, testing
+  knowledge_base_articles: Categories are air-monitoring, awareness-training, removal, survey, testing
 ---
