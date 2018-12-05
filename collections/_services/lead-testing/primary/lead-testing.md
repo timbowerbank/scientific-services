@@ -1,39 +1,57 @@
 ---
 meta_data:
-  page_title: Scientific Services
-  meta_description: Add content for the home page of Scientific Services here...
+  page_title: Anthrax Services
+  meta_description: Meta description text for Anthrax.
   need_canonical: false
   canonical_link:
-  social_media_title: Add your title for social media here
-  social_media_description: Add social media description here
-  social_media_image: /images/uploads/casestudy-1.jpg
-all_order: 40
+  social_media_title: Anthrax Services
+  social_media_description: Add more to describe what you do for Anthrax
+  social_media_image:
 order: 40
 page_summary:
-  summary_title: Lead Testing
-  summary_description: >-
-    Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
-    convallis turpis.
-  summary_image: /images/uploads/services-lead-testing-summary.jpg
-  summary_hiRes_image: /images/uploads/services-lead-testing-summary@2x.jpg
-  thumbnail_image: /images/uploads/services-lead-testing.jpg
-  thumbnail_hiRes_image: /images/uploads/services-lead-testing@2x.jpg
-  summary_alt_tag: Image of lead being tested
-  summary_button_title: READ LEAD TESTING
+  summary_title: Add your summary title
+  summary_description: Add your summary description.
+  summary_image: /images/uploads/default-summary-thumb-lo-res.png
+  summary_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
+  thumbnail_image: /images/uploads/services-asbestos.jpg
+  thumbnail_hiRes_image: /images/uploads/services-asbestos@2x.jpg
+  summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
-    <h1><strong>Lead Testing</strong></h1><p>Nullam cursus diam vitae massa
-    bibendum lobortis. Nam posuere tellus odio, non porttitor neque placerat
-    eget.</p>
-  main_hero_image: /images/uploads/hero-cutout-scientist.png
-  main_hero_hi_res_image: /images/uploads/hero-cutout-scientist@2x.png
-  main_hero_alt_tag: Image of lab tester checking for asbestos
-intro:
-  intro_heading: Praesent mollis hendrerit erat...
-  intro_paragraph_html: >-
-    <p>Vestibulum volutpat lacus vitae turpis rhoncus ornare eu quis magna. In
-    at elit pellentesque, lacinia augue et, auctor nisl. Aliquam erat volutpat.
-    Vivamus tincidunt volutpat porttitor.</p>
+    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
+    paragraph</p>
+  main_hero_image: /images/uploads/default-hero-secondary-lo-res.png
+  main_hero_hi_res_image: /images/uploads/default-hero-secondary-hi-res.png
+  main_hero_alt_tag: Add alt tag text for your image
+  main_hero_button_heading: ADD BUTTON TITLE
+  main_hero_button_link: /services/
+feature_block:
+  block1_image: /images/uploads/default-svg-icon.png
+  block1_icon_alt: Add alt tag for svg icon
+  block1_heading: Add Short Heading
+  block1_paragraph_text: Add short description paragraph
+  block2_image: /images/uploads/default-svg-icon.png
+  block2_icon_alt: Add alt tag for svg icon
+  block2_heading: Add Short Heading
+  block2_paragraph_text: Add short description paragraph
+  block3_image: /images/uploads/default-svg-icon.png
+  block3_icon_alt: Add alt tag for svg icon
+  block3_heading: Add Short Heading
+  block3_paragraph_text: Add short description paragraph
+  block4_image: /images/uploads/default-svg-icon.png
+  block4_icon_alt: Add alt tag for svg icon
+  block4_heading: Add Short Heading
+  block4_paragraph_text: Add short description paragraph
+main_intro:
+  intro_paragraph_text: Add an introductory paragraph
+  content_list:
+    - list_item: List item 1
+      list_item_id: list1
+    - list_item: List item 2
+      list_item_id: list2
+  intro_image: /images/uploads/default-intro-lo-res.png
+  intro_hi_res_image: /images/uploads/default-intro-hi-res.png
+  intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_image: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo
@@ -41,33 +59,24 @@ accreditations:
   - accreditation_image: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
-testimonial_id: swimming-pool
-marketing_photo_banner_id: home1
-video_id: asbestos1
-with_video: true
-case_study_and_reviews:
-  title_for_section: Reviews and Case Studies
-  review_image: /images/uploads/person-reviewer-tim.jpg
-  review_hiRes_image: /images/uploads/person-reviewer-tim@2x.jpg
-  review_alt_tag: Image of reviewer
-  quote_text: >-
-    “Vestibulum volutpat lacus vitae turpis rhoncus ornare eu quis magna. In at
-    elit pellentesque, lacinia augue et, auctor nisl. Aliquam erat volutpat. ”
-  name_of_client: A.N.Other
-  company_name: Acme Limited
+accreditation_text: Add some descriptive text for your accreditations.
+accreditation_link: /about/accreditations/
+knowledge_base_articles:
+  max_number_of_articles: 5
+  knowledge_base_category: air-monitoring
+  intro_text: Add some intro text for your knowledge base
+testimonial_id: example
 newsletter_signup:
-  newsletter_heading: Subscribe to our newsletter
-  newsletter_subheading_html: >-
-    <p>Regular updates on important issues and news for lead testing.<br
-    />Direct to your inbox...</p>
+  newsletter_signup_title: STAY UP-TO-DATE WITH NEWS
+  newsletter_button_title: SIGN UP TO OUR NEWSLETTER
 call_to_action:
   with_call_to_action: true
-  call_to_action_headline: Lead testing call to action
+  call_to_action_headline: Helping you navigate the complex dangers of...
   call_to_action_para_text: >-
     Established in 2002, Scientific Surveys have completed more than 2,500
     surveys across the South West
   button_title: Contact Us
-  button_link: /index.html
+  button_link: /contact/
 ---
 
 Lead testing primary page

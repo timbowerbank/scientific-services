@@ -13,6 +13,8 @@ page_summary:
   summary_description: Add your summary description.
   summary_image: /images/uploads/default-summary-thumb-lo-res.png
   summary_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
+  thumbnail_image: /images/uploads/services-asbestos.jpg
+  thumbnail_hiRes_image: /images/uploads/services-asbestos@2x.jpg
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
@@ -76,4 +78,3 @@ call_to_action:
   button_title: Contact Us
   button_link: /contact/
 ---
-
