@@ -188,7 +188,7 @@ defaults:
     scope:
       path: "_case_studies/anthrax"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/anthrax/case-studies/:name/"
         parent_category: "anthrax"
         child_category: "none"
@@ -196,7 +196,7 @@ defaults:
     scope:
       path: "_case_studies/asbestos"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/asbestos/case-studies/:name/"
         parent_category: "asbestos"
         child_category: "none"
@@ -204,7 +204,7 @@ defaults:
     scope:
       path: "_case_studies/expert-witness"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/expert-witness/case-studies/:name/"
         parent_category: "expert-witness"
         child_category: "none"
@@ -212,7 +212,7 @@ defaults:
     scope:
       path: "_case_studies/laboratory-auditing"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/laboratory-auditing/case-studies/:name/"
         parent_category: "laboratory-auditing"
         child_category: "none"
@@ -220,7 +220,7 @@ defaults:
     scope:
       path: "_case_studies/lead-testing"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/lead-testing/case-studies/:name/"
         parent_category: "lead-testing"
         child_category: "none"
@@ -228,7 +228,7 @@ defaults:
     scope:
       path: "_case_studies/legionella"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/legionella/case-studies/:name/"
         parent_category: "legionella"
         child_category: "none"
@@ -236,7 +236,7 @@ defaults:
     scope:
       path: "_posts/anthrax"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/anthrax/news/:name/"
         parent_category: "anthrax"
         child_category: "none"
@@ -244,7 +244,7 @@ defaults:
     scope:
       path: "_posts/asbestos"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/asbestos/news/:name/"
         parent_category: "asbestos"
         child_category: "none"
@@ -252,7 +252,7 @@ defaults:
     scope:
       path: "_posts/company"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/about/news/:name/"
         parent_category: "company"
         child_category: "none"
@@ -260,7 +260,7 @@ defaults:
     scope:
       path: "_posts/expert-witness"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/expert-witness/news/:name/"
         parent_category: "expert-witness"
         child_category: "none"
@@ -268,7 +268,7 @@ defaults:
     scope:
       path: "_posts/laboratory-auditing"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/laboratory-auditing/news/:name/"
         parent_category: "laboratory-auditing"
         child_category: "none"
@@ -276,7 +276,7 @@ defaults:
     scope:
       path: "_posts/lead-testing"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/lead-testing/news/:name/"
         parent_category: "lead-testing"
         child_category: "none"
@@ -284,7 +284,7 @@ defaults:
     scope:
       path: "_posts/legionella"
     values:
-        layout: "default"
+        layout: "standard"
         permalink: "/services/legionella/news/:name/"
         parent_category: "legionella"
         child_category: "none"
