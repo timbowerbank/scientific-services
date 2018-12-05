@@ -30,10 +30,10 @@ intro:
   intro_paragraph_html: >-
     <p>Add an introductory paragraph</p>
 accreditations:
-  - accreditation_image: /images/uploads/accred-ukas-01.svg
+  - accreditation_path: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo
     accreditation_link: 'https://www.ukas.com/'
-  - accreditation_image: /images/uploads/accred-iso-9001-01.svg
+  - accreditation_path: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 testimonial_id: example
