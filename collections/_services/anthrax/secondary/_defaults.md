@@ -12,8 +12,11 @@ page_summary:
   summary_title: Add your summary title
   summary_description: >-
     Add your summary description.
-  summary_image: /images/uploads/default-summary-thumb-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
+  summary_image: /images/uploads/default-summary-lo-res.png
+  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
+  thumbnail_image: /images/uploads/default-summary-lo-res.png
+  thumbnail_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
+  summary_alt_tag: Add an alt tag for your images
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
@@ -24,22 +27,22 @@ hero:
   main_hero_button_heading: ADD BUTTON TITLE
   main_hero_button_link: /services/
 feature_block:
-  block1_image: /images/uploads/default-svg-icon.png
+  block1_svg_path: /images/uploads/default-svg-icon.png
   block1_icon_alt: Add alt tag for svg icon
   block1_heading: Add Short Heading
   block1_paragraph_text: >-
     Add short description paragraph
-  block2_image: /images/uploads/default-svg-icon.png
+  block2_svg_path: /images/uploads/default-svg-icon.png
   block2_icon_alt: Add alt tag for svg icon
   block2_heading: Add Short Heading
   block2_paragraph_text: >-
     Add short description paragraph
-  block3_image: /images/uploads/default-svg-icon.png
+  block3_svg_path: /images/uploads/default-svg-icon.png
   block3_icon_alt: Add alt tag for svg icon
   block3_heading: Add Short Heading
   block3_paragraph_text: >-
     Add short description paragraph
-  block4_image: /images/uploads/default-svg-icon.png
+  block4_svg_path: /images/uploads/default-svg-icon.png
   block4_icon_alt: Add alt tag for svg icon
   block4_heading: Add Short Heading
   block4_paragraph_text: >-
@@ -56,10 +59,10 @@ main_intro:
   intro_hi_res_image: /images/uploads/default-intro-hi-res.png
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
-  - accreditation_image: /images/uploads/accred-ukas-01.svg
+  - accreditation_path: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo
     accreditation_link: 'https://www.ukas.com/'
-  - accreditation_image: /images/uploads/accred-iso-9001-01.svg
+  - accreditation_path: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: >-

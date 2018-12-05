@@ -24,7 +24,7 @@
                     <h4 class="uk-heading-line uk-text-right fm-font-micro fm-font-navy fm-font-bold"><span>Accreditations</span></h4>
                     <div class="uk-flex uk-flex-right uk-flex-wrap">
                         {% for accred in page.accreditations %}
-                           <a href="{{ accred.accreditation_link }}"><img src="{{ accred.accreditation_image }}" alt="{{ accred.accreditation_alt }}"></a>
+                           <a href="{{ accred.accreditation_link }}"><img src="{{ accred.accreditation_path }}" alt="{{ accred.accreditation_alt }}"></a>
                         {% endfor %}
                     </div>
 

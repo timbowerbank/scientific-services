@@ -59,10 +59,10 @@ main_intro:
   intro_hi_res_image: /images/uploads/default-intro-hi-res.png
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
-  - accreditation_image: /images/uploads/accred-ukas-01.svg
+  - accreditation_path: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo
     accreditation_link: 'https://www.ukas.com/'
-  - accreditation_image: /images/uploads/accred-iso-9001-01.svg
+  - accreditation_path: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: >-
