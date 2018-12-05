@@ -35,10 +35,8 @@ mainmenu:
         subsubfolderitems:
           - page: Risk Assessment
             url: /services/legionella/risk-assessment/
-          - page: Temperature Monitoring
-            url: /services/legionella/temperature-monitoring/
-          - page: Testing
-            url: /services/legionella/testing/
+          - page: Monitoring
+            url: /services/legionella/monitoring/
           - page: Flushing and Removal
             url: /services/legionella/removal/
           - page: Case Studies
@@ -46,7 +44,7 @@ mainmenu:
           - page: News
             url: /services/legionella/news/
       - page: Other Services
-        url: /#/
+        url: '/#/'
         subsubfolderitems:
           - page: Anthrax
             url: /services/anthrax/
@@ -68,4 +66,4 @@ mainmenu:
   - title: Contact Us
     url: /contact/
   - title: Portal
-    url: https://portal.scientificservices.org/Account/Login?ReturnUrl=%2f
+    url: 'https://portal.scientificservices.org/Account/Login?ReturnUrl=%2f'
