@@ -27,7 +27,7 @@ hero:
   main_hero_button_heading: REQUEST A QUOTE
   main_hero_button_link: '#request-quote-modal'
 feature_block:
-  block1_image_path:
+  block1_svg_path:
   block1_icon_alt: Add alt tag for svg icon
   block1_heading: Add Short Heading
   block1_paragraph_text: Add short description paragraph
