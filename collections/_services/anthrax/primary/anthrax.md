@@ -6,15 +6,15 @@ meta_data:
   canonical_link:
   social_media_title: Anthrax Services
   social_media_description: Add more to describe what you do for Anthrax
-  social_media_image:
-order: 40
+  social_media_image: /images/uploads/social-media-laboratory.jpg
+order: 30
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
+  summary_title: Anthrax
+  summary_description: >-
+    Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
+    convallis turpis.
   summary_image: /images/uploads/default-summary-thumb-lo-res.png
   summary_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
-  thumbnail_image: /images/uploads/services-asbestos.jpg
-  thumbnail_hiRes_image: /images/uploads/services-asbestos@2x.jpg
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
@@ -78,3 +78,4 @@ call_to_action:
   button_title: Contact Us
   button_link: /contact/
 ---
+
