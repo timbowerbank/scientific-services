@@ -7,6 +7,7 @@ meta_data:
   social_media_title: Anthrax social media title
   social_media_description: Add text here for social media
   social_media_image: /images/uploads/social-media-surveyor.jpg
+all_order: 40
 order: 30
 page_summary:
   summary_title: Anthrax

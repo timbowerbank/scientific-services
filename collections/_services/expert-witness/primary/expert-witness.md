@@ -7,6 +7,7 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/social-media-laboratory-slide.jpg
+all_order: 50
 order: 50
 page_summary:
   summary_title: Expert Witness
