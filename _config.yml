@@ -88,7 +88,7 @@ defaults:
     scope:
       path: "_services/anthrax/primary"
     values:
-        layout: "primary"
+        layout: "secondary"
         permalink: "/services/:name/"
         landing_page_type: "primary"
         child_page_type: "secondary"
@@ -101,7 +101,7 @@ defaults:
     scope:
       path: "_services/lead-testing/primary"
     values:
-        layout: "primary"
+        layout: "secondary"
         permalink: "/services/:name/"
         landing_page_type: "primary"
         child_page_type: "secondary"
@@ -114,7 +114,7 @@ defaults:
     scope:
       path: "_services/expert-witness/primary"
     values:
-        layout: "primary"
+        layout: "secondary"
         permalink: "/services/:name/"
         landing_page_type: "primary"
         child_page_type: "secondary"
@@ -127,7 +127,7 @@ defaults:
     scope:
       path: "_services/laboratory-auditing/primary"
     values:
-        layout: "primary"
+        layout: "secondary"
         permalink: "/services/:name/"
         landing_page_type: "primary"
         child_page_type: "secondary"
