@@ -131,7 +131,7 @@ We survey domestic, commercial and industrial properties across Cornwall, Devon,
 
 
 
-## About your survey<a class="anchor" name="aboutyoursurvey">
+## About your survey<a class="anchor" name="about">
 ### Easy to understand - Pinpoints the risk - Provides you with next steps
 ![Image of asbestos surveyor on building site](/images/uploads/main-surveyor-building-site.jpg)
 
