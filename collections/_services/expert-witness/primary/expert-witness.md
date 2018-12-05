@@ -1,21 +1,23 @@
 ---
 meta_data:
-  page_title: Anthrax Services
-  meta_description: Meta description text for Anthrax.
+  page_title: Expert Witness
+  meta_description: Meta description text for expert witness.
   need_canonical: false
   canonical_link:
-  social_media_title: Anthrax Services
-  social_media_description: Add more to describe what you do for Anthrax
-  social_media_image:
+  social_media_title: Expert Witness
+  social_media_description: Add more to describe what you do for expert Witness
+  social_media_image: /images/uploads/social-media-surveyor.jpg
 order: 40
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
-  summary_image: /images/uploads/default-summary-thumb-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
-  thumbnail_image: /images/uploads/services-asbestos.jpg
-  thumbnail_hiRes_image: /images/uploads/services-asbestos@2x.jpg
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+  summary_title: Expert Witness
+  summary_description: >-
+    Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
+    convallis turpis.
+  summary_image: /images/uploads/services-expert-witness-summary.jpg
+  summary_hiRes_image: /images/uploads/services-expert-witness-summary@2x.jpg
+  thumbnail_image: /images/uploads/services-expert-witness.jpg
+  thumbnail_hiRes_image: /images/uploads/services-expert-witness@2x.jpg
+  summary_button_title: READ EXPERT WITNESS
 hero:
   main_headline_html: >-
     <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
