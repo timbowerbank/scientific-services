@@ -27,21 +27,21 @@ hero:
   main_hero_button_heading: REQUEST A QUOTE
   main_hero_button_link: '#request-quote-modal'
 feature_block:
-  block1_svg_path: /images/uploads/default-svg-icon.png
+  block1_svg_path: /images/uploads/feature-icon-knowledge-01.svg
   block1_icon_alt: Add alt tag for svg icon
-  block1_heading: Add Short Heading
+  block1_heading: Short Heading
   block1_paragraph_text: Add short description paragraph
-  block2_svg_path: /images/uploads/default-svg-icon.png
+  block2_svg_path: /images/uploads/feature-icon-quality-01.svg
   block2_icon_alt: Add alt tag for svg icon
-  block2_heading: Add Short Heading
+  block2_heading: Short Heading
   block2_paragraph_text: Add short description paragraph
-  block3_svg_path: /images/uploads/default-svg-icon.png
+  block3_svg_path: /images/uploads/feature-icon-speed-01.svg
   block3_icon_alt: Add alt tag for svg icon
-  block3_heading: Add Short Heading
+  block3_heading: Short Heading
   block3_paragraph_text: Add short description paragraph
-  block4_svg_path: /images/uploads/default-svg-icon.png
+  block4_svg_path: /images/uploads/feature-icon-support-01.svg
   block4_icon_alt: Add alt tag for svg icon
-  block4_heading: Add Short Heading
+  block4_heading: Short Heading
   block4_paragraph_text: Add short description paragraph
 main_intro:
   intro_paragraph_text: Add an introductory paragraph
@@ -50,8 +50,8 @@ main_intro:
       list_item_id: list1
     - list_item: List item 2
       list_item_id: list2
-  intro_image: /images/uploads/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/default-intro-hi-res.png
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_image: /images/uploads/accred-ukas-01.svg
@@ -64,7 +64,7 @@ accreditation_text: Add some descriptive text for your accreditations.
 accreditation_link: /about/accreditations/
 knowledge_base_articles:
   max_number_of_articles: 5
-  knowledge_base_category: air-monitoring
+  knowledge_base_category: anthrax
   intro_text: Add some intro text for your knowledge base
 testimonial_id: example
 newsletter_signup:
@@ -79,3 +79,4 @@ call_to_action:
   button_title: Contact Us
   button_link: /contact/
 ---
+
