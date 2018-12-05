@@ -6,6 +6,10 @@
 
 ## Case Studies
 
+## Services and Layouts
+Both asbestos and legionella are true primary services, they use the primary template. But as of Dec 2018 there isn't sufficient content to allow anthrax, expert witness, lead-testing, and laboratory auditing to use the primary layout. Therefore they use the secondary layout but remain in the primary folder (thus allowing the default variables to filter them appropriately for the home page). If any of the above services gain sufficient content and become true primary pages then complete the following points:
+* **Layout Change** - In the primary folder change layout to primary for the affected service
+* **Defaults** - Overwrite the current defaults.md file in the affected service by copying the version in either asbestos or legionella primary folders
 
 ## Case Study Archives
 Case study archives have been setup only for asbestos and legionella. To setup another archive simply create a new file called archive-anthrax.md in the listings folder for anthrax. Cut and paste the front matter from the parent case studies file. Make the following changes.
