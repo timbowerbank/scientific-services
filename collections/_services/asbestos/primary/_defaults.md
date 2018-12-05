@@ -21,13 +21,9 @@ page_summary:
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos Services</strong></h1><p>Nullam cursus diam vitae massa
-    bibendum lobortis. Nam posuere tellus odio, non porttitor neque placerat
-    eget.</p><ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit.</li><li>Praesent quis condimentum ligula, necsagittis
-    velit.</li><li>In hac habitasse platea dictumst.</li></ul>
-  main_hero_image: /images/uploads/hero-cutout-surveyor.png
-  main_hero_hi_res_image: /images/uploads/hero-cutout-surveyor@2x.png
+    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short paragraph, with some bullet points</p><ul><li>bullet point 1</li><li>bullet point 2</li><li>bullet point 3</li></ul>
+  main_hero_image: /images/uploads/default-hero-lo-res.png
+  main_hero_hi_res_image: /images/uploads/default-hero-hi-res.png
   main_hero_alt_tag: Image of lab tester checking for asbestos
 intro:
   intro_heading: Praesent mollis hendrerit erat...
