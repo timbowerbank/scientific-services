@@ -81,6 +81,4 @@ call_to_action:
     surveys across the South West
   button_title: Contact Us
   button_link: /contact/
-_comments:
-  knowledge_base_articles: Categories are air-monitoring, awareness-training, removal, survey, testing
 ---
