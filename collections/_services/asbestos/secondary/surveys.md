@@ -12,8 +12,7 @@ page_summary:
   summary_title: Surveys
   summary_description: >-
     Nullam maximus convallis tortor, at vehicula nunc mollis non. Sed et
-    ullamcorper ex, sed pretium tortor. Phasellus in tempor turpis. Phasellus
-    magna odio, placerat nec cursus vel, scelerisque in nisl.
+    ullamcorper ex, sed pretium tortor.
   summary_image: /images/uploads/services-anthrax-summary.jpg
   summary_hiRes_image: /images/uploads/services-anthrax-summary@2x.jpg
   thumbnail_image: /images/uploads/services-anthrax.jpg
@@ -115,7 +114,7 @@ call_to_action:
   button_title: Contact Us
   button_link: /contact/
 ---
-<a class="anchor" name="intro"></a>
+
 Our team of BOHS P402 qualified and experienced surveyors will:
 
 * Locate any materials that may contain asbestos
@@ -124,51 +123,47 @@ Our team of BOHS P402 qualified and experienced surveyors will:
 * Provide you with an easy to read report that details the findings and next steps
 * Be on-hand to answer your questions
 
-> **“In every case I discuss the project with you. I have been helping our clients navigate the complex
-dangers of asbestos since 2002.”** Dr Tim Hamilton, Asbestos Expert and MD of Scientific Services
+> **“In every case I discuss the project with you. I have been helping our clients navigate the complexdangers of asbestos since 2002.”** Dr Tim Hamilton, Asbestos Expert and MD of Scientific Services
 
 We survey domestic, commercial and industrial properties across Cornwall, Devon, Dorset and Somerset.
 
+## About your survey
 
-
-## About your survey<a class="anchor" name="about">
 ### Easy to understand - Pinpoints the risk - Provides you with next steps
+
 ![Image of asbestos surveyor on building site](/images/uploads/main-surveyor-building-site.jpg)
 
-A Scientific Services survey will help you pinpoint any asbestos risk. To judge the risk we take an holistic approach,
-examining variables including:
+A Scientific Services survey will help you pinpoint any asbestos risk. To judge the risk we take an holistic approach,examining variables including:
+
 * **Type of asbestos:** There are six types of asbestos, e.g. Chrysotile, Amosite. All are carcinogenic but some are easier to manage.
 * **Type of building component**: E.g. The risk associated with asbestos cement is considered to be much lower than asbestos insulation. Because the fibres are tightly bound within the material's matrix.
-* **Condition of the component:** E.g. a damaged building component exposing asbestos fibres presents a high
-risk.
-* **Location of the asbestos:** The problem may or may not pose a risk to occupants. For example: a locked
-room with contamination is not a risk in a building with no occupant.
+* **Condition of the component:** E.g. a damaged building component exposing asbestos fibres presents a highrisk.
+* **Location of the asbestos:** The problem may or may not pose a risk to occupants. For example: a lockedroom with contamination is not a risk in a building with no occupant.
 * **Type of activity:** E.g. a sports hall with asbestos insulation board ceiling panels would present a high risk if children will be kicking a ball around. A ball could damage the panels and expose fibres
 * **Intention:** If asbestos is present and the area is to be refurbished by tradespeople then there is a high risk - see refurbishment survey.
 
-> **“Scientific Services reports are easy to understand. I was able to see the risks and what I should do
-next. Tim was on-hand to clarify any points. His helpful approach meant we were able to create a
-roadmap for moving forward.”** A N Customer.
-
+> **“Scientific Services reports are easy to understand. I was able to see the risks and what I should donext. Tim was on-hand to clarify any points. His helpful approach meant we were able to create aroadmap for moving forward.”** A N Customer.
 
 ### Survey Report
+
 You'll receive a digital copy of your report via email. View sample report.
 
-
 ### Portal Access
+
 When you become a customer of Scientific Services you get access to our secure portal. We store all your documentation there. Ensuring that all your reports are in one place. It's a great tool that supports due diligence if any HSE inspector investigates you.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1juc7_7gnB0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen uk-responsive uk-video></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1juc7_7gnB0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" uk-responsive="" uk-video=""></iframe>
 
 ### Choosing the right survey type
+
 There are two main types of asbestos survey. But they vary in size, complexity and their purpose. We will guide you so that you know which one to select.
 
 One way to decide what survey you need, is to ask why you require a survey.
 
-
 #### Management Survey
+
 **Required when:**
+
 * There are no planned modifications to the building.
 * You need to find out where asbestos is and create a management plan.
 * You need to safeguard the existing occupants whilst they do their normal activities.
@@ -177,9 +172,10 @@ A management survey is a relatively non-invasive survey. The surveyor will exami
 
 If a management survey doesn't find asbestos containing materials. It should not be assumed that the building is completely asbestos free. Asbestos may be concealed within the building. A demolition or refurbishment survey would confirm this.
 
-
 #### Demolition or Refurbishment Survey
+
 **Required when:**
+
 * You plan to complete works that will affect the fabric, fixtures and fittings of the building.
 * You're planning to knock down or alter the structure of the building.
 * You need to protect yourself and the tradespeople involved.
