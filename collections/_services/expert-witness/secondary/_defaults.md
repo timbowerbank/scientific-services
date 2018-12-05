@@ -48,6 +48,7 @@ feature_block:
   block4_paragraph_text: >-
     Add short description paragraph
 main_intro:
+  with_intro_block: true
   intro_paragraph_text: >-
     Add an introductory paragraph
   content_list:

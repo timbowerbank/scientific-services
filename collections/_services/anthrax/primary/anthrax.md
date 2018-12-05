@@ -55,6 +55,7 @@ feature_block:
     Curabitur ante justo, auctor ut elit non, congue hendrerit orci. Nullam quis
     convallis turpis. Ut elit non, congue hendrerit orci
 main_intro:
+  with_intro_block: true
   intro_paragraph_text: >-
     Pellentesque nisi nunc, ullamcorper eu gravida et, malesuada eu elit.
     Curabitur ipsum odio, sagittis at enim nec, molestie bibendum erat. Nulla
