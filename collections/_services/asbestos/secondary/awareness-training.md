@@ -12,8 +12,7 @@ page_summary:
   summary_title: Awareness Training
   summary_description: >-
     Aliquam ut venenatis nisi. Nulla quis dignissim ipsum. Sed posuere elit non
-    enim aliquet viverra. Fusce placerat sollicitudin lectus, auctor faucibus
-    augue eleifend at.
+    enim aliquet viverra.
   summary_image: /images/uploads/services-asbestos-summary.jpg
   summary_hiRes_image: /images/uploads/services-asbestos-summary@2x.jpg
   thumbnail_image: /images/uploads/services-asbestos.jpg
