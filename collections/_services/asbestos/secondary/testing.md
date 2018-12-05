@@ -12,8 +12,7 @@ page_summary:
   summary_title: Testing
   summary_description: >-
     Sed id consectetur orci. Curabitur laoreet massa at velit luctus laoreet.
-    Aenean varius convallis rutrum. Etiam non ornare lectus. In et accumsan
-    enim.
+    Aenean varius convallis rutrum.
   summary_image: /images/uploads/services-lab-auditing-summary.jpg
   summary_hiRes_image: /images/uploads/services-lab-auditing-summary@2x.jpg
   thumbnail_image: /images/uploads/services-lab-auditing.jpg
