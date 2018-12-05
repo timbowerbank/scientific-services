@@ -13,12 +13,12 @@ page_summary:
   summary_title: Add your summary title
   summary_description: >-
     Add your summary description.
-  summary_image: /images/uploads/services-asbestos-summary.jpg
-  summary_hiRes_image: /images/uploads/services-asbestos-summary@2x.jpg
-  thumbnail_image: /images/uploads/services-asbestos.jpg
-  thumbnail_hiRes_image: /images/uploads/services-asbestos@2x.jpg
-  summary_alt_tag: Image of asbestos surveyor at work
-  summary_button_title: READ ABOUT ASBESTOS
+  summary_image: /images/uploads/default-summary-lo-res.png
+  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
+  thumbnail_image: /images/uploads/default-summary-thumb-lo-res.png
+  thumbnail_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
+  summary_alt_tag: Add an alt tag for your images
+  summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
     <h1><strong>Asbestos Services</strong></h1><p>Nullam cursus diam vitae massa
