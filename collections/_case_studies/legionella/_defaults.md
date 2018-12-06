@@ -8,7 +8,10 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/default-social-media.png
 all_order: 10
-order: 10
+featured_on_home: true
+order: 40
+featured_on_primary: true
+primary_order: 10
 page_summary:
   summary_title: Add your summary title
   summary_description: >-
@@ -67,7 +70,10 @@ _comments:
   canonical_link: Preferred page if risk of duplicate content
   social_media_image: 1024px wide x 512px high
   all_order: Ordering of content on listing pages
-  order: Ordering of content on parent page
+  featured_on_home: Tick if you would like to feature this case study on the homepage
+  order: Ordering of content on home page
+  featured_on_primary: Tick if you would like to feature this case study on the primary landing page
+  primary_order: Ordering of content on the primary landing page
   summary_image: 420px wide x 226px high
   summary_hiRes_image: 840px x 450px high
   main_headline_html: Lead with H1 tag
