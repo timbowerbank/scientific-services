@@ -7,7 +7,7 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/social-media-laboratory.jpg
-all_order: 30
+all_order: 5
 featured_on_home: false
 order: 40
 featured_on_primary: true
