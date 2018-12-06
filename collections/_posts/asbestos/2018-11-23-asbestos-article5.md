@@ -17,5 +17,13 @@ page_summary:
   thumbnail_hiRes_image: /images/uploads/news-article4@2x.jpg
   summary_alt_tag: latest news
   summary_button_title: READ THE ARTICLE
+_comments:
+  page_title: The title tag
+  canonical_link: Preferred page if risk of duplicate content
+  social_media_image: 1024px wide x 512px high
+  summary_image: 420px wide x 226px high
+  summary_hiRes_image: 840px x 450px high
+  thumbnail_image: 154px x 100px
+  thumbnail_hiRes_image: 308px x 200px
 ---
 Asbestos article 5 content
