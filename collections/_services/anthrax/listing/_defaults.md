@@ -1,25 +1,25 @@
 ---
 layout: listing
 meta_data:
-  page_title: Scientific Services
-  meta_description: Add content for the home page of Scientific Services here...
+  page_title: Add text for your title tag
+  meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/casestudy-1.jpg
+  social_media_image: /images/uploads/default-social-media.png
 hero:
   main_headline_html: >-
-    <h1><strong>Asbestos News</strong></h1><p>Scientific Services have been working in the asbestos industry for more than 16 years.</p>
-  main_hero_image: /images/uploads/hero-surveyor-secondary.png
-  main_hero_hi_res_image: /images/uploads/hero-surveyor-secondary@2x.png
-  main_hero_alt_tag: Image of lab tester checking for asbestos
+    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short paragraph</p>
+  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
+  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+  main_hero_alt_tag: Add an alt tag for your images
 collection_name: posts
-parent_category: asbestos
+parent_category: add parent category
 child_category: none
-permalink: /services/asbestos/:name/
+permalink: /:name/
 archive_button_text: VIEW ARCHIVE NEWS
-archive_button_link: /services/asbestos/news/archive-news/
+archive_button_link: add archive link
 marketing_photo_banner_id: home1
 _options:
   layout:

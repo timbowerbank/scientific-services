@@ -29,7 +29,7 @@ _comments:
   main_hero_image: 300px wide x 240px high
   main_hero_hi_res_image: 600px wide x 480px high
   collection_name: The collection to list, e.g. posts
-  parent_category: Choose - all, anthrax, asbestos, lead-testing, expert-witness, laboratory-auditing, legionella
+  parent_category: Choose - anthrax, asbestos, lead-testing, expert-witness, laboratory-auditing, legionella
   child_category: Set to none if there are no child categories
   permalink: Where the html file is outputted to, finish with /:name/
 ---

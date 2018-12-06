@@ -24,4 +24,14 @@ marketing_photo_banner_id: home1
 _options:
   layout:
     hidden: true
+_comments:
+  page_title: The title tag
+  canonical_link: Preferred page if risk of duplicate content
+  social_media_image: 1024px wide x 512px high
+  main_hero_image: 300px wide x 240px high
+  main_hero_hi_res_image: 600px wide x 480px high
+  collection_name: The collection to list, e.g. posts
+  parent_category: Choose - anthrax, asbestos, lead-testing, expert-witness, laboratory-auditing, legionella
+  child_category: Set to none if there are no child categories
+  permalink: Where the html file is outputted to, finish with /:name/
 ---
