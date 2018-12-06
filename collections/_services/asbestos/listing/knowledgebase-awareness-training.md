@@ -18,7 +18,7 @@ collection_name: knowledge_base
 parent_category: asbestos
 child_category: surveys
 permalink: /services/asbestos/awareness-training/knowledgebase-awareness-training/
-archive_button_text: VIEW ARCHIVE KNOWLEDGE BASE
+archive_button_title: VIEW ARCHIVE KNOWLEDGE BASE
 archive_button_link: /services/asbestos/knowledgebase/archive/
 marketing_photo_banner_id: home1
 _options:

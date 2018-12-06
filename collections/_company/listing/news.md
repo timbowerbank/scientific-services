@@ -33,7 +33,7 @@ collection_name: posts
 parent_category: company
 child_category: none
 permalink: '/about/:name/'
-archive_button_text: VIEW ARCHIVE NEWS
+archive_button_title: VIEW ARCHIVE NEWS
 archive_button_link: /about/archive-news/
 marketing_photo_banner_id: home1
 _options:

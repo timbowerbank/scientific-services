@@ -18,7 +18,7 @@ collection_name: posts
 parent_category: add parent category
 child_category: none
 permalink: /:name/
-archive_button_text: VIEW ARCHIVE NEWS
+archive_button_title: VIEW ARCHIVE NEWS
 archive_button_link: add archive link
 marketing_photo_banner_id: home1
 _options:

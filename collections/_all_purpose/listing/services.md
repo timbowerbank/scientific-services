@@ -18,7 +18,7 @@ collection_name: services
 parent_category: primary
 child_category: none
 permalink: /:name/
-archive_button_text: VIEW MORE
+archive_button_title: VIEW MORE
 archive_button_link: /index.html
 marketing_photo_banner_id: home1
 _options:

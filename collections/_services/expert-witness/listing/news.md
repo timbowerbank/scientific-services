@@ -18,7 +18,7 @@ collection_name: posts
 parent_category: expert-witness
 child_category: none
 permalink: /services/expert-witness/:name/
-archive_button_text: VIEW ARCHIVE NEWS
+archive_button_title: VIEW ARCHIVE NEWS
 archive_button_link: /services/expert-witness/news/archive-news/
 marketing_photo_banner_id: home1
 _options:

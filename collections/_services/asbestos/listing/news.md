@@ -18,7 +18,7 @@ collection_name: posts
 parent_category: asbestos
 child_category: none
 permalink: /services/asbestos/:name/
-archive_button_text: VIEW ARCHIVE NEWS
+archive_button_title: VIEW ARCHIVE NEWS
 archive_button_link: /services/asbestos/news/archive-news/
 marketing_photo_banner_id: home1
 _options:
