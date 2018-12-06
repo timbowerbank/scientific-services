@@ -95,6 +95,28 @@ call_to_action:
     surveys across the South West
   button_title: Contact Us
   button_link: /contact/
+_comments:
+  page_title: The title tag
+  canonical_link: Preferred page if risk of duplicate content
+  social_media_image: 1024px wide x 512px high
+  all_order: Ordering of content on listing pages
+  order: Ordering of content on home page
+  summary_image: 420px wide x 226px high
+  summary_hiRes_image: 840px x 450px high
+  thumbnail_image: 140px x 140px
+  thumbnail_hiRes_image: 280px x 280px
+  main_hero_image: 520px wide x 415px high
+  main_hero_hi_res_image: 1040px wide x 830px high
+  main_hero_button_link: request-quote-modal (precede with a hash)
+  block1_svg_path: 62px wide x 62px high
+  block2_svg_path: 62px wide x 62px high
+  block3_svg_path: 62px wide x 62px high
+  block4_svg_path: 62px wide x 62px high
+  list_item_id: Add id to main content using html "a" tag
+  intro_image: 400px wide x 188px high
+  intro_hi_res_image: 800px wide x 376px high
+  accreditation_path: svg, 62px x 62px
+  knowledge_base_category: Choose - anthrax, asbestos, lead-testing, expert-witness, laboratory-auditing, legionella
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut massa risus. In semper arcu leo, id tempus quam sodales ac. Vestibulum fringilla est ac vehicula aliquam. Aenean sit amet scelerisque enim, vitae dictum mi. Ut posuere elementum porta. Sed mauris dolor, posuere ut suscipit ac, posuere consectetur felis. Integer tincidunt ante ut lorem mollis, vitae sollicitudin elit suscipit. Pellentesque nibh nisi, interdum ac accumsan vel, aliquet eu erat. Maecenas volutpat placerat auctor. Etiam semper luctus ipsum vitae pulvinar. Phasellus viverra sem fermentum lorem vulputate, at dapibus arcu tincidunt. Nam dignissim elit lacus, non tincidunt tortor vestibulum sit amet. Praesent sodales fringilla tellus. In hac habitasse platea dictumst.
