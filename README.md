@@ -20,7 +20,19 @@ Case study archives have been setup only for asbestos and legionella. To setup a
 * **Archive Button** - Delete the archive button front matter variables
 * **Canonical Link** - Add a canonical link pointing to the parent to avoid any duplication issues.
 
-## Knowledgebase Archives
+## Knowledgebase Listing Pages
+There are currently only listing pages for asbestos knowledgebase articles. This is to reduce pages being created unnecessarily - if there are more than 5 articles per knowledge base then a listing page would be needed. To create a listing page, follow these steps.
+
+* **Create the Page** - Create the page in the listings folder for the service, e.g. knowledgebase-surveys.md
+* **Front Matter** - Copy the front matter from an existing listing page in the services folder
+* **Modify Front Matter** -
+  * **Layout** - Change layout to layout-listing.
+  * **Permalink** - Modify permalink to match view all link in parent page.
+  * **Summaries** - Modify the headings as necessary
+  * **Archive Button** - Ensure there is an archive button pointing to an archive page if content grows past 9 articles
+  * **Canonical Link** - Add a canonical link pointing to the parent to avoid any duplication issues.
+
+## Knowledgebase Listing Pages Archives
 To reduce duplication of pages there is currently no archive setup for knowledgebases. To create a knowledge base archive simply create a new page in the services listing folder called archive-knowledgebase-surveys.md and paste the front matter from its parent. Make the following changes.
 
 * **Layout** - Change layout to layout-listing.
