@@ -23,8 +23,8 @@ page_summary:
   summary_button_title: READ THE CASE STUDY
 hero:
   main_headline_html: >-
-    <h1><b>Anthrax Case Study 1</b></h1><p>&nbsp;Donec molestie, tellus ac
-    egestas efficitur, dolor ligula elementum nibh, in viverra nibh risus quis
+    <h1><b>Anthrax Case Study 1</b></h1><p>Donec molestie, tellus ac egestas
+    efficitur, dolor ligula elementum nibh, in viverra nibh risus quis
     ante.&nbsp;</p>
   main_hero_image: /images/uploads/hero-surveyor-standard.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
