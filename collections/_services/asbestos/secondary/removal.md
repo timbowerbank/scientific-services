@@ -105,6 +105,27 @@ call_to_action:
     surveys across the South West
   button_title: Contact Us
   button_link: /contact/
+_comments:
+  page_title: The title tag
+  canonical_link: Preferred page if risk of duplicate content
+  social_media_image: 1024px wide x 512px high
+  order: Ordering of content on parent primary page
+  summary_image: 420px wide x 226px high
+  summary_hiRes_image: 840px x 450px high
+  thumbnail_image: 140px x 140px
+  thumbnail_hiRes_image: 280px x 280px
+  main_hero_image: 520px wide x 415px high
+  main_hero_hi_res_image: 1040px wide x 830px high
+  main_hero_button_link: request-quote-modal (precede with a hash)
+  block1_svg_path: 62px wide x 62px high
+  block2_svg_path: 62px wide x 62px high
+  block3_svg_path: 62px wide x 62px high
+  block4_svg_path: 62px wide x 62px high
+  list_item_id: Add id to main content using html "a" tag
+  intro_image: 400px wide x 188px high
+  intro_hi_res_image: 800px wide x 376px high
+  accreditation_path: svg, 62px x 62px
+  knowledge_base_category: Choose - air-monitoring, awareness-training, removal, surveys, testing
 ---
 
 Vivamus rutrum turpis ut velit porttitor lobortis. Aliquam faucibus libero ut justo blandit, a ultrices purus facilisis. Donec aliquam neque neque, a placerat dui maximus at. Aenean semper mollis rutrum. Morbi feugiat justo quis risus tincidunt aliquam. Ut pretium placerat arcu, ut placerat dolor bibendum non. Nam rutrum, quam eget suscipit hendrerit, ipsum lorem tempus urna, quis eleifend massa ipsum nec lacus. Vivamus condimentum mi nunc, ac sagittis nulla euismod et. Aliquam interdum diam ac nunc dignissim facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer quis mauris pellentesque, cursus nisl a, finibus massa. Nam nec placerat sem, quis pretium erat. Aliquam et risus cursus, dapibus nisi ut, tempus nulla. Morbi id ullamcorper enim. Nulla purus ipsum, varius sed accumsan non, finibus et diam. Nullam in neque interdum, accumsan nunc vel, sagittis metus.
