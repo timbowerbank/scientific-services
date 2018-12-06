@@ -65,9 +65,7 @@ main_intro:
     amet dictum elit. In in lectus mattis metus aliquet elementum. Aenean
     lacinia turpis mi, a pretium dui mollis eget. Donec a molestie enim. Etiam
     at odio sed tellus pellentesque sagittis. Fusce auctor sit amet diam eu
-    interdum. Sed id consectetur orci. Curabitur laoreet massa at velit luctus
-    laoreet. Aenean varius convallis rutrum. Etiam non ornare lectus. In et
-    accumsan enim.
+    interdum.
   content_list:
     - list_item: List item 1
       list_item_id: list1
@@ -124,8 +122,8 @@ _comments:
   list_item_id: Add id to main content using html "a" tag
   intro_image: 400px wide x 188px high
   intro_hi_res_image: 800px wide x 376px high
-  accreditation_path: svg, 62px x 62px
-  knowledge_base_category: Choose - air-monitoring, awareness-training, removal, surveys, testing
+  accreditation_path: 'svg, 62px x 62px'
+  knowledge_base_category: 'Choose - air-monitoring, awareness-training, removal, surveys, testing'
 ---
 
 Vivamus rutrum turpis ut velit porttitor lobortis. Aliquam faucibus libero ut justo blandit, a ultrices purus facilisis. Donec aliquam neque neque, a placerat dui maximus at. Aenean semper mollis rutrum. Morbi feugiat justo quis risus tincidunt aliquam. Ut pretium placerat arcu, ut placerat dolor bibendum non. Nam rutrum, quam eget suscipit hendrerit, ipsum lorem tempus urna, quis eleifend massa ipsum nec lacus. Vivamus condimentum mi nunc, ac sagittis nulla euismod et. Aliquam interdum diam ac nunc dignissim facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer quis mauris pellentesque, cursus nisl a, finibus massa. Nam nec placerat sem, quis pretium erat. Aliquam et risus cursus, dapibus nisi ut, tempus nulla. Morbi id ullamcorper enim. Nulla purus ipsum, varius sed accumsan non, finibus et diam. Nullam in neque interdum, accumsan nunc vel, sagittis metus.
