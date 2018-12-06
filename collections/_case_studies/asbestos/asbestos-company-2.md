@@ -29,7 +29,7 @@ hero:
   main_hero_alt_tag: Add alt tag text for your image
 author:
   with_author: true
-  team_id: jack
+  team_id: Jack
 main_intro:
   with_intro_block: false
   intro_paragraph_text: Add an introductory paragraph
