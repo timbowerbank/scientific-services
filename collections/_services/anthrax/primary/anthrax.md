@@ -118,7 +118,12 @@ _comments:
   block2_svg_path: 62px wide x 62px high
   block3_svg_path: 62px wide x 62px high
   block4_svg_path: 62px wide x 62px high
-  list_item_id: "<a name='your id' class='anchor'></a>"
+  list_item_id: Add id to main content using html "a" tag
+  intro_image: 400px wide x 188px high
+  intro_hi_res_image: 800px wide x 376px high
+  accreditation_path: svg, 62px x 62px
+  knowledge_base_category: Choose - anthrax, asbestos, lead-testing, expert-witness, laboratory-auditing, legionella
+  
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque, risus sed scelerisque viverra, metus dolor semper nisl, quis placerat neque justo non quam. Praesent suscipit sagittis sapien, eget ornare ex ultrices at. Proin eget turpis ligula. Donec eget dictum lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec pellentesque fringilla turpis, id varius justo hendrerit in. Nullam ultrices mollis risus, non placerat magna feugiat ac. Proin posuere tristique ante eu placerat. Etiam aliquet sapien eu vestibulum mattis. Maecenas commodo sagittis dictum. Maecenas nec ligula id orci accumsan pellentesque. Duis laoreet condimentum tristique. Phasellus at est ex. Duis consequat velit vel lacus condimentum tristique.
