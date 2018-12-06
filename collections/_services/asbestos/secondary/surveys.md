@@ -114,7 +114,7 @@ call_to_action:
   button_title: Contact Us
   button_link: /contact/
 ---
-
+<a name="intro" class="anchor"></a>
 Our team of BOHS P402 qualified and experienced surveyors will:
 
 * Locate any materials that may contain asbestos
