@@ -7,8 +7,6 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/default-social-media.png
-all_order: 10
-order: 10
 page_summary:
   summary_title: Add your summary title
   summary_description: >-
@@ -66,8 +64,6 @@ _comments:
   page_title: The title tag
   canonical_link: Preferred page if risk of duplicate content
   social_media_image: 1024px wide x 512px high
-  all_order: Ordering of content on listing pages
-  order: Ordering of content on parent page
   summary_image: 420px wide x 226px high
   summary_hiRes_image: 840px x 450px high
   main_headline_html: Lead with H1 tag
