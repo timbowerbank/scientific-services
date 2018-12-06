@@ -31,7 +31,7 @@ hero:
   main_hero_alt_tag: Anthrax surveyor
 author:
   with_author: true
-  team_id: sue
+  team_id: Sue
 main_intro:
   with_intro_block: true
   intro_paragraph_text: >-
