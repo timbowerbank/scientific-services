@@ -7,7 +7,7 @@ meta_data:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
   social_media_image: /images/uploads/social-media-surveyor.jpg
-all_order: 40
+all_order: 10
 featured_on_home: true
 order: 40
 featured_on_primary: true
