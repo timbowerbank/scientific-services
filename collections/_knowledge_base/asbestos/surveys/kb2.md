@@ -1,33 +1,37 @@
 ---
 meta_data:
-  page_title: Add text for your title tag
+  page_title: Asbestos Surveys | Knowledge Base Article 2
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/social-media-surveyor.jpg
 all_order: 10
 order: 10
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
-  summary_image: /images/uploads/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
+  summary_title: Blandit non mauris vitae imperdiet integer id
+  summary_description: >-
+    Aliquam vitae odio odio. Proin quis porttitor leo. Aenean commodo a mi in
+    dignissim. Nullam auctor erat leo, tristique facilisis lacus finibus at. In
+    eu dictum nisi.
+  summary_image: /images/uploads/news-article3-summary.jpg
+  summary_hiRes_image: /images/uploads/news-article3-summary@2x.jpg
   summary_alt_tag: Add an alt tag for your images
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+  summary_button_title: READ THE ARTICLE
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+    <h1><strong>Fringilla non metus nec, dignissim rhoncus orci. </strong>Aenean
+    pharetra fringilla ex eu cursus.</h1><p>Aenean elementum efficitur eleifend.
+    Sed pellentesque, est at consectetur mattis, eros nibh elementum massa.</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
-  with_author: false
-  team_id: tim
+  with_author: true
+  team_id: Sue
 main_intro:
-  with_intro_block: true
+  with_intro_block: false
   intro_paragraph_text: Add an introductory paragraph
   content_list:
     - list_item: List item 1
@@ -46,17 +50,17 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: Add some descriptive text for your accreditations.
 accreditation_link: /about/accreditations/
-testimonial_id: swimming-pool
+testimonial_id: example
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH OUR NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER
 gallery:
-  with_gallery: false
-  gallery_id:
+  with_gallery: true
+  gallery_id: surveyor1
 call_to_action:
   with_call_to_action: true
-  call_to_action_headline: Helping you navigate the complex dangers of...
-  call_to_action_para_text: Add a descriptive call to action paragraph
+  call_to_action_headline: Helping you navigate the complex dangers of asbestos
+  call_to_action_para_text: Mobile surveying vans across the South West
   button_title: Contact Us
   button_link: /contact/
 _comments:
@@ -76,6 +80,12 @@ _comments:
   intro_image: 400px wide x 188px high
   intro_hi_res_image: 800px wide x 376px high
   accreditation_path: 'svg, 62px x 62px'
-  with_gallery: Tick if you would like to include a gallery
+  with_gallery:
   gallery_id: Enter the gallery_id of the gallery
 ---
+
+Quisque volutpat ipsum ex, vel hendrerit risus tempus nec. Mauris dapibus et mauris nec tempor. Morbi laoreet et erat sit amet sodales. Mauris non scelerisque odio, eget aliquet erat. Aliquam vitae odio odio. Proin quis porttitor leo. Aenean commodo a mi in dignissim. Nullam auctor erat leo, tristique facilisis lacus finibus at. In eu dictum nisi. Pellentesque a euismod ante. Praesent pretium libero eget blandit scelerisque. Integer nec arcu a ex aliquam placerat. Curabitur lacinia a ante quis maximus. Sed metus sem, varius in maximus feugiat, pulvinar eu nibh. Cras sit amet nunc vestibulum, sollicitudin lorem sed, sagittis ante. Integer vulputate vitae ligula sit amet ultrices.
+
+Ut mattis risus et massa ornare feugiat. Sed maximus egestas lectus. Curabitur vel auctor ipsum. Aliquam eget ante a justo hendrerit tempus. Pellentesque fringilla non quam eget elementum. Sed vel porttitor diam. Aenean blandit non mauris vitae imperdiet. Integer id nulla tempus lacus tristique consequat. Maecenas ac justo vel justo lobortis sodales. Donec placerat feugiat eros, at consectetur diam placerat nec. Integer varius sapien lorem, nec egestas lorem rhoncus sit amet.
+
+Curabitur purus ligula, pharetra ac congue ut, hendrerit eleifend augue. Aenean vitae mauris sit amet sem varius hendrerit. Nulla facilisi. Praesent in dolor faucibus, pulvinar nisl eget, tempus turpis. Fusce rhoncus neque vel turpis dignissim efficitur. Phasellus tincidunt at lorem sit amet accumsan. Nulla ultrices odio sed elit pharetra malesuada. Praesent est tortor, auctor id magna non, ultricies dapibus lorem. Proin sollicitudin sagittis nunc, ac sagittis orci malesuada ac. Praesent quam turpis, tincidunt et vulputate quis, dapibus dapibus elit. Curabitur quis magna et erat lacinia feugiat.
