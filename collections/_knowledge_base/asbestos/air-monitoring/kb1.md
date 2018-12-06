@@ -54,10 +54,10 @@ main_intro:
   intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: image of surveyor inspecting a property
 accreditations:
-  - accreditation_image: /images/uploads/accred-ukas-01.svg
+  - accreditation_path: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo
     accreditation_link: 'https://www.ukas.com/'
-  - accreditation_image: /images/uploads/accred-iso-9001-01.svg
+  - accreditation_path: /images/uploads/accred-iso-9001-01.svg
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: >-
@@ -79,6 +79,25 @@ call_to_action:
     surveys across the South West
   button_title: Contact Us
   button_link: /index.html
+_comments:
+  page_title: The title tag
+  canonical_link: Preferred page if risk of duplicate content
+  social_media_image: 1024px wide x 512px high
+  all_order: Ordering of content on listing pages
+  order: Ordering of content on parent page
+  summary_image: 420px wide x 226px high
+  summary_hiRes_image: 840px x 450px high
+  main_headline_html: Lead with H1 tag
+  main_hero_image: 300px wide x 240px high
+  main_hero_hi_res_image: 600px wide x 480px high
+  with_author: Tick if you would like to include an author block
+  team_id: Enter the unique team_id of the author
+  list_item_id: Add id to main content using html "a" tag
+  intro_image: 400px wide x 188px high
+  intro_hi_res_image: 800px wide x 376px high
+  accreditation_path: svg, 62px x 62px
+  with_gallery: Tick if you would like to include a gallery
+  gallery_id: Enter the gallery_id of the gallery
 ---
 
 Knowledge base article 1 - asbestos air monitoring
