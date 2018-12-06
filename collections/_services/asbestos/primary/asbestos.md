@@ -23,7 +23,7 @@ page_summary:
 hero:
   main_headline_html: >-
     <h1><strong>Asbestos Services</strong></h1><p>Nullam cursus diam vitae massa
-    bibendum lobortis. Nam posuere tellus odio, non porttitor neque placerat
+    bibendum. Nam posuere tellus odio, non porttitor neque placerat
     eget.</p><ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing
     elit.</li><li>Praesent quis condimentum ligula, necsagittis
     velit.</li><li>In hac habitasse platea dictumst.</li></ul>
@@ -65,7 +65,9 @@ newsletter_signup:
 call_to_action:
   with_call_to_action: true
   call_to_action_headline: Helping you navigate the complex dangers of asbestos
-  call_to_action_para_text: Established in 2002, Scientific Surveys have completed more than 2,500 surveys across the South West
+  call_to_action_para_text: >-
+    Established in 2002, Scientific Surveys have completed more than 2,500
+    surveys across the South West
   button_title: Contact Us
   button_link: /index.html
 _comments:
@@ -81,7 +83,7 @@ _comments:
   main_headline_html: Lead with an H1 heading
   main_hero_image: 392px x 333px
   main_hero_hi_res_image: 784px x 667px
-  accreditation_path: svg, 62px x 62px
+  accreditation_path: 'svg, 62px x 62px'
   review_image: 140px x 140px
   review_hiRes_image: 280px x 280px
 ---
