@@ -16,15 +16,15 @@ page_summary:
   summary_title: Add your summary title
   summary_description: >-
     Add your summary description.
-  summary_image: /images/uploads/default-hero-standard-lo-res.png
-  summary_hiRes_image: /images/uploads/default-hero-standard-hi-res.png
+  summary_image: /images/uploads/default-summary-lo-res.png
+  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
   summary_alt_tag: Add an alt tag for your images
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
     <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short paragraph</p>
-  main_hero_image: /images/uploads/default-hero-secondary-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-secondary-hi-res.png
+  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
+  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
   with_author: false
