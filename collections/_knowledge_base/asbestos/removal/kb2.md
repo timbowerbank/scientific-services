@@ -6,36 +6,39 @@ meta_data:
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
-all_order: 10
-order: 10
+  social_media_image: /images/uploads/social-media-surveyor.jpg
+all_order: 40
+order: 30
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
-  summary_image: /images/uploads/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
+  summary_title: Iaculis purus cursus dapibus
+  summary_description: 'Eros nibh elementum massa, in mollis erat eros non metus.'
+  summary_image: /images/uploads/news-article2-summary.jpg
+  summary_hiRes_image: /images/uploads/news-article2-summary@2x.jpg
   summary_alt_tag: Add an alt tag for your images
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+  summary_button_title: READ THE ARTICLE
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+    <h1><strong>Removal Knowledge Base Article</strong></h1><p>Integer fringilla
+    faucibus eros, id molestie lectus elementum vitae.</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
-  with_author: false
-  team_id: tim
+  with_author: true
+  team_id: Sue
 main_intro:
   with_intro_block: true
-  intro_paragraph_text: Add an introductory paragraph
+  intro_paragraph_text: >-
+    El erat vel mi finibus tempor in pharetra felis. Aenean elementum efficitur
+    eleifend. Sed pellentesque, est at consectetur mattis, eros nibh elementum
+    massa, in mollis erat eros non metus.
   content_list:
     - list_item: List item 1
       list_item_id: list1
     - list_item: List item 2
       list_item_id: list2
-  intro_image: /images/uploads/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/default-intro-hi-res.png
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg
@@ -55,7 +58,7 @@ gallery:
   gallery_id:
 call_to_action:
   with_call_to_action: true
-  call_to_action_headline: Helping you navigate the complex dangers of...
+  call_to_action_headline: Helping you navigate the complex dangers of asbestos
   call_to_action_para_text: Add a descriptive call to action paragraph
   button_title: Contact Us
   button_link: /contact/
@@ -80,3 +83,8 @@ _comments:
   gallery_id: Enter the gallery_id of the gallery
 ---
 
+Quisque volutpat ipsum ex, vel hendrerit risus tempus nec. Mauris dapibus et mauris nec tempor. Morbi laoreet et erat sit amet sodales. Mauris non scelerisque odio, eget aliquet erat. Aliquam vitae odio odio. Proin quis porttitor leo. Aenean commodo a mi in dignissim. Nullam auctor erat leo, tristique facilisis lacus finibus at. In eu dictum nisi. Pellentesque a euismod ante. Praesent pretium libero eget blandit scelerisque. Integer nec arcu a ex aliquam placerat. Curabitur lacinia a ante quis maximus. Sed metus sem, varius in maximus feugiat, pulvinar eu nibh. Cras sit amet nunc vestibulum, sollicitudin lorem sed, sagittis ante. Integer vulputate vitae ligula sit amet ultrices.
+
+Ut mattis risus et massa ornare feugiat. Sed maximus egestas lectus. Curabitur vel auctor ipsum. Aliquam eget ante a justo hendrerit tempus. Pellentesque fringilla non quam eget elementum. Sed vel porttitor diam. Aenean blandit non mauris vitae imperdiet. Integer id nulla tempus lacus tristique consequat. Maecenas ac justo vel justo lobortis sodales. Donec placerat feugiat eros, at consectetur diam placerat nec. Integer varius sapien lorem, nec egestas lorem rhoncus sit amet.
+
+Curabitur purus ligula, pharetra ac congue ut, hendrerit eleifend augue. Aenean vitae mauris sit amet sem varius hendrerit. Nulla facilisi. Praesent in dolor faucibus, pulvinar nisl eget, tempus turpis. Fusce rhoncus neque vel turpis dignissim efficitur. Phasellus tincidunt at lorem sit amet accumsan. Nulla ultrices odio sed elit pharetra malesuada. Praesent est tortor, auctor id magna non, ultricies dapibus lorem. Proin sollicitudin sagittis nunc, ac sagittis orci malesuada ac. Praesent quam turpis, tincidunt et vulputate quis, dapibus dapibus elit. Curabitur quis magna et erat lacinia feugiat.
