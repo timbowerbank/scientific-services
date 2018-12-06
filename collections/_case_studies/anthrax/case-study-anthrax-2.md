@@ -23,8 +23,8 @@ page_summary:
   summary_button_title: READ ANTHRAX STUDY
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
+    <h1><b>Anthrax Case Study 2</b></h1><p>mattis nunc in massa ullamcorper, in
+    euismod magna suscipit.&nbsp;</p>
   main_hero_image: /images/uploads/hero-surveyor-standard.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Anthrax Surveyor at work
