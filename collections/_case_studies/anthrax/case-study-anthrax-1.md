@@ -8,7 +8,7 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/social-media-surveyor.jpg
 all_order: 10
-featured_on_home: true
+featured_on_home: false
 order: 10
 featured_on_primary: true
 primary_order: 10
