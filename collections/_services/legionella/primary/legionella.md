@@ -67,7 +67,23 @@ call_to_action:
     Established in 2002, Scientific Surveys have completed more than 2,500
     surveys across the South West
   button_title: Contact Us
-  button_link: /index.html
+  button_link: /contact/
+_comments:
+  page_title: The title tag
+  canonical_link: Preferred page if risk of duplicate content
+  social_media_image: 1024px wide x 512px high
+  all_order: Ordering of content on listing pages
+  order: Ordering of content on home page
+  summary_image: 420px wide x 226px high
+  summary_hiRes_image: 840px x 450px high
+  thumbnail_image: 140px x 140px
+  thumbnail_hiRes_image: 280px x 280px
+  main_headline_html: Lead with an H1 heading
+  main_hero_image: 392px x 333px
+  main_hero_hi_res_image: 784px x 667px
+  accreditation_path: svg, 62px x 62px
+  review_image: 140px x 140px
+  review_hiRes_image: 280px x 280px
 ---
 
 Legionella primary page
