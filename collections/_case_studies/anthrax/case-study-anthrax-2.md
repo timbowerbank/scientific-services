@@ -1,28 +1,31 @@
 ---
 meta_data:
-  page_title: Add text for your title tag
+  page_title: Case Study Anthrax 2
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
-all_order: 10
+  social_media_image: /images/uploads/social-media-laboratory.jpg
+all_order: 20
 featured_on_home: true
-order: 40
+order: 20
 featured_on_primary: true
 primary_order: 10
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
-  summary_image: /images/uploads/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
+  summary_title: Case Study 2 Anthrax
+  summary_description: >-
+    Mauris dapibus et mauris nec tempor. Morbi laoreet et erat sit amet sodales.
+    Mauris non scelerisque odio, eget aliquet erat.
+  summary_image: /images/uploads/services-anthrax-summary.jpg
+  summary_hiRes_image: /images/uploads/services-anthrax-summary@2x.jpg
   summary_alt_tag: Add an alt tag for your images
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+  summary_button_title: READ THE CASE STUDY
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
+    <h1><strong>Anthrax Case Study 2</strong></h1><p>In mollis erat eros non
+    metus. Integer fringilla faucibus eros, id molestie lectus elementum
+    vitae.</p>
   main_hero_image: /images/uploads/default-hero-secondary-lo-res.png
   main_hero_hi_res_image: /images/uploads/default-hero-secondary-hi-res.png
   main_hero_alt_tag: Add alt tag text for your image
@@ -84,6 +87,7 @@ _comments:
   intro_image: 400px wide x 188px high
   intro_hi_res_image: 800px wide x 376px high
   accreditation_path: 'svg, 62px x 62px'
-  with_gallery: Tick if you would like to include a gallery
+  with_gallery:
   gallery_id: Enter the gallery_id of the gallery
 ---
+
