@@ -101,6 +101,19 @@ call_to_action:
     surveys across the South West.
   button_title: Contact Us
   button_link: /contact/
+_comments:
+  page_title: The title tag
+  canonical_link: Preferred page if risk of duplicate content
+  social_media_image: 1024px wide x 512px high
+  all_order: Ordering of content on listing pages
+  order: Ordering of content on home page
+  summary_image: 420px wide x 226px high
+  summary_hiRes_image: 840px x 450px high
+  thumbnail_image: 140px x 140px
+  thumbnail_hiRes_image: 280px x 280px
+  main_hero_image: 520px wide x 415px high
+  main_hero_hi_res_image: 1040px wide x 830px high
+  main_hero_button_link: #request-quote-modal
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque, risus sed scelerisque viverra, metus dolor semper nisl, quis placerat neque justo non quam. Praesent suscipit sagittis sapien, eget ornare ex ultrices at. Proin eget turpis ligula. Donec eget dictum lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec pellentesque fringilla turpis, id varius justo hendrerit in. Nullam ultrices mollis risus, non placerat magna feugiat ac. Proin posuere tristique ante eu placerat. Etiam aliquet sapien eu vestibulum mattis. Maecenas commodo sagittis dictum. Maecenas nec ligula id orci accumsan pellentesque. Duis laoreet condimentum tristique. Phasellus at est ex. Duis consequat velit vel lacus condimentum tristique.
