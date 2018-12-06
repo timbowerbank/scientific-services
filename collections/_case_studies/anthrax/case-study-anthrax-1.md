@@ -63,8 +63,8 @@ gallery:
   gallery_id: surveyor1
 call_to_action:
   with_call_to_action: true
-  call_to_action_headline: Helping you navigate the complex dangers of...
-  call_to_action_para_text: Add a descriptive call to action paragraph
+  call_to_action_headline: Helping you navigate the complex dangers of anthrax
+  call_to_action_para_text: Quick to react to cases of anthrax.
   button_title: Contact Us
   button_link: /contact/
 _comments:
