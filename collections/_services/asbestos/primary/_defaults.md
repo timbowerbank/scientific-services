@@ -6,7 +6,7 @@ meta_data:
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/defaults/default-social-media.png
 all_order: 10
 order: 10
 page_summary:

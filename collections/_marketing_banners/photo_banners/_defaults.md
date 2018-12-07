@@ -3,9 +3,9 @@ marketing_banner_id: home1
 banner_headline_html: <h3>Enter an h3 banner headline</strong></h3>
 banner_paragraph_text: >-
   Enter text for the banner paragraph
-banner_background_mobile_image: /images/uploads/default-marketing-banner-mobile.png
-banner_background_desktop_image: /images/uploads/default-marketing-banner-desktop.png
-banner_background_hiRes_image: /images/uploads/default-marketing-banner-hiRes.png
+banner_background_mobile_image: /images/uploads/defaults/default-marketing-banner-mobile.png
+banner_background_desktop_image: /images/uploads/defaults/default-marketing-banner-desktop.png
+banner_background_hiRes_image: /images/uploads/defaults/default-marketing-banner-hiRes.png
 with_button: true
 button_title: ENTER A BUTTON TITLE
 button_link: /contact/

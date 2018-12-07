@@ -7,12 +7,12 @@ meta_data:
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/defaults/default-social-media.png
 hero:
   main_headline_html: >-
     <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+  main_hero_image: /images/uploads/defaults/default-hero-standard-lo-res.png
+  main_hero_hi_res_image: /images/uploads/defaults/default-hero-standard-hi-res.png
   main_hero_alt_tag: Add an alt tag for your images
 collection_name: posts
 parent_category: add parent category

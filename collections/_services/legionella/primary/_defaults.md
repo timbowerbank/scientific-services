@@ -6,24 +6,24 @@ meta_data:
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/defaults/default-social-media.png
 all_order: 10
 order: 10
 page_summary:
   summary_title: Add your summary title
   summary_description: >-
     Add your summary description.
-  summary_image: /images/uploads/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
-  thumbnail_image: /images/uploads/default-summary-thumb-lo-res.png
-  thumbnail_hiRes_image: /images/uploads/default-summary-thumb-hi-res.png
+  summary_image: /images/uploads/defaults/default-summary-lo-res.png
+  summary_hiRes_image: /images/uploads/defaults/default-summary-hi-res.png
+  thumbnail_image: /images/uploads/defaults/default-summary-thumb-lo-res.png
+  thumbnail_hiRes_image: /images/uploads/defaults/default-summary-thumb-hi-res.png
   summary_alt_tag: Add an alt tag for your images
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
     <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short paragraph, with some bullet points</p><ul><li>bullet point 1</li><li>bullet point 2</li><li>bullet point 3</li></ul>
-  main_hero_image: /images/uploads/default-hero-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-hi-res.png
+  main_hero_image: /images/uploads/defaults/default-hero-lo-res.png
+  main_hero_hi_res_image: /images/uploads/defaults/default-hero-hi-res.png
   main_hero_alt_tag: Add alt tag text for your image
 intro:
   intro_heading: Add an intro heading
@@ -42,8 +42,8 @@ with_video: true
 video_id: example
 case_study_and_reviews:
   title_for_section: Reviews and Case Studies
-  review_image: /images/uploads/default-person-review-lo-res.png
-  review_hiRes_image: /images/uploads/default-person-review-hi-res.png
+  review_image: /images/uploads/defaults/default-person-review-lo-res.png
+  review_hiRes_image: /images/uploads/defaults/default-person-review-hi-res.png
   review_alt_tag: Add alt tag for your reviewer image
   quote_text: >-
     “Vestibulum volutpat lacus vitae turpis rhoncus ornare eu quis magna. In at

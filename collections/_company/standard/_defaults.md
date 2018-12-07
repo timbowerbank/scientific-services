@@ -7,7 +7,7 @@ meta_data:
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/defaults/default-social-media.png
 all_order: 10
 featured_on_home: false
 order: 10
@@ -15,15 +15,15 @@ page_summary:
   summary_title: Add your summary title
   summary_description: >-
     Add your summary description.
-  summary_image: /images/uploads/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
+  summary_image: /images/uploads/defaults/default-summary-lo-res.png
+  summary_hiRes_image: /images/uploads/defaults/default-summary-hi-res.png
   summary_alt_tag: Add an alt tag for your images
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
     <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+  main_hero_image: /images/uploads/defaults/default-hero-standard-lo-res.png
+  main_hero_hi_res_image: /images/uploads/defaults/default-hero-standard-hi-res.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
   with_author: false
@@ -37,8 +37,8 @@ main_intro:
       list_item_id: list1
     - list_item: List item 2
       list_item_id: list2
-  intro_image: /images/uploads/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/default-intro-hi-res.png
+  intro_image: /images/uploads/defaults/default-intro-lo-res.png
+  intro_hi_res_image: /images/uploads/defaults/default-intro-hi-res.png
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg

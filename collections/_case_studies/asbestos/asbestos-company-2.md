@@ -38,8 +38,8 @@ main_intro:
       list_item_id: list1
     - list_item: List item 2
       list_item_id: list2
-  intro_image: /images/uploads/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/default-intro-hi-res.png
+  intro_image: /images/uploads/defaults/default-intro-lo-res.png
+  intro_hi_res_image: /images/uploads/defaults/default-intro-hi-res.png
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg
