@@ -1,6 +1,6 @@
 ---
 meta_data:
-  page_title: Add text for your title tag
+  page_title: Asbestos Article 6
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
@@ -74,6 +74,7 @@ _comments:
   intro_image: 400px wide x 188px high
   intro_hi_res_image: 800px wide x 376px high
   accreditation_path: 'svg, 62px x 62px'
-  with_gallery: Tick if you would like to include a gallery
+  with_gallery:
   gallery_id: Enter the gallery_id of the gallery
 ---
+
