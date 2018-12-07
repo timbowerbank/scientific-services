@@ -67,6 +67,9 @@ newsletter_signup:
     <p>Regular updates on important issues and news.<br />Direct to
     your inbox... </p>
 _hide_content: true
+_options:
+  layout:
+    hidden: true
 ---
 
 Add some content here to test whether the index page is loading.
