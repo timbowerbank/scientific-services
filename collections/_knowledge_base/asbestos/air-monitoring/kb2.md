@@ -20,9 +20,9 @@ page_summary:
   summary_button_title: READ THE KB ARTICLE
 hero:
   main_headline_html: >-
-    <h1>Mauris dapibus et <strong><em>mauris nec
-    tempor</em></strong></h1><p>Morbi laoreet et erat sit amet sodales. Mauris
-    non scelerisque odio, eget aliquet erat.</p>
+    <h1>Mauris dapibus et <strong>mauris nec tempor</strong></h1><p>Morbi
+    laoreet et erat sit amet sodales. Mauris non scelerisque odio, eget aliquet
+    erat.</p>
   main_hero_image: /images/uploads/hero-surveyor-standard.png
   main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Add alt tag text for your image
