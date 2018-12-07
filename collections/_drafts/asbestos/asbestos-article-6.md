@@ -6,36 +6,41 @@ meta_data:
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/social-media-laboratory.jpg
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
-  summary_image: /images/uploads/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
-  thumbnail_image: /images/uploads/default-news-thumb-lo-res.png
-  thumbnail_hiRes_image: /images/uploads/default-news-thumb-hi-res.png
+  summary_title: Asbestos Article 6
+  summary_description: >-
+    Fusce et faucibus arcu. Fusce eget sapien vel orci dignissim dapibus.
+    Praesent convallis vestibulum augue nec fringilla.
+  summary_image: /images/uploads/news-article2-summary.jpg
+  summary_hiRes_image: /images/uploads/news-article2-summary@2x.jpg
+  thumbnail_image: /images/uploads/news-article2.jpg
+  thumbnail_hiRes_image: /images/uploads/news-article2@2x.jpg
   summary_alt_tag: Add an alt tag for your images
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+  summary_button_title: READ THE ARTICLE
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+    <h1><strong>Asbestos Article 6</strong></h1><p>Pellentesque habitant morbi
+    tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
-  with_author: false
-  team_id: tim
+  with_author: true
+  team_id: Jack
 main_intro:
   with_intro_block: true
-  intro_paragraph_text: Add an introductory paragraph
+  intro_paragraph_text: >-
+    usce et faucibus arcu. Fusce eget sapien vel orci dignissim dapibus.
+    Praesent convallis vestibulum augue nec fringilla. Cras malesuada
+    sollicitudin condimentum. Curabitur est enim, finibus tincidunt ipsum vel.
   content_list:
     - list_item: List item 1
       list_item_id: list1
     - list_item: List item 2
       list_item_id: list2
-  intro_image: /images/uploads/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/default-intro-hi-res.png
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg
@@ -46,7 +51,7 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: Add some descriptive text for your accreditations.
 accreditation_link: /about/accreditations/
-testimonial_id: swimming-pool
+testimonial_id: example
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH OUR NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER
@@ -55,8 +60,10 @@ gallery:
   gallery_id:
 call_to_action:
   with_call_to_action: true
-  call_to_action_headline: Helping you navigate the complex dangers of...
-  call_to_action_para_text: Add a descriptive call to action paragraph
+  call_to_action_headline: Helping you navigate the complex dangers of asbestos
+  call_to_action_para_text: >-
+    Curabitur dui turpis, efficitur ut risus non, ornare consectetur nunc. Ut
+    nec est accumsan, convallis justo at, feugiat diam.
   button_title: Contact Us
   button_link: /contact/
 _comments:
@@ -78,3 +85,8 @@ _comments:
   gallery_id: Enter the gallery_id of the gallery
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus arcu. Donec mattis imperdiet massa a sagittis. Nulla at diam ante. Aliquam et ex ut tellus commodo tincidunt. Nulla scelerisque efficitur est et condimentum. Integer varius tellus vitae odio sagittis, at ornare sapien mollis. Praesent imperdiet volutpat pulvinar. Aliquam pellentesque gravida purus, ac cursus dui pulvinar molestie. Aenean sollicitudin efficitur risus, sed sollicitudin quam vulputate ut. Aenean vitae magna dui. Praesent ultricies sapien ut purus aliquam porta. In quis vulputate quam, quis tempus massa. Quisque tincidunt scelerisque justo, ut rutrum sem placerat vitae. Nam nibh tellus, tempus id suscipit sed, hendrerit eget diam. Sed sollicitudin nisl elit, eu imperdiet massa dictum id.
+
+Nullam aliquet felis nulla, at aliquet felis mollis ut. Fusce et faucibus arcu. Fusce eget sapien vel orci dignissim dapibus. Praesent convallis vestibulum augue nec fringilla. Cras malesuada sollicitudin condimentum. Curabitur est enim, finibus tincidunt ipsum vel, ultrices tristique velit. Morbi enim ante, mattis et augue nec, interdum faucibus ipsum. Curabitur dui turpis, efficitur ut risus non, ornare consectetur nunc. Ut nec est accumsan, convallis justo at, feugiat diam. Morbi finibus et justo id posuere. Sed orci orci, dignissim tempor odio et, sagittis mattis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin nulla mauris, elementum eget tellus a, pellentesque rhoncus turpis. Fusce eget euismod magna, in sollicitudin risus. Curabitur tellus enim, cursus vitae condimentum sed, malesuada a neque.
+
+Morbi porta nunc et commodo sodales. Integer vitae nunc justo. In orci erat, pulvinar ut tempus nec, ullamcorper et massa. Aenean tristique metus vel enim tempus, id lobortis arcu pretium. Nunc efficitur lectus id convallis ultricies. Sed nunc ex, elementum auctor libero nec, mollis eleifend sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis arcu imperdiet, tincidunt orci non, efficitur ipsum. Donec rhoncus enim a neque consequat, at dignissim lorem mollis. Ut nisi ligula, elementum id nisl sit amet, pulvinar ullamcorper arcu.
