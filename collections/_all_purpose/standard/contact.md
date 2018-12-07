@@ -2,13 +2,13 @@
 layout: standard
 permalink: '/:name/'
 meta_data:
-  page_title: Add text for your title tag
+  page_title: Contact Us
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/social-media-surveyor.jpg
 page_summary:
   summary_title: Add your summary title
   summary_description: Add your summary description.
@@ -18,10 +18,10 @@ page_summary:
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+    <h1><strong>Contact Us</strong></h1><p>Enim ante, mattis et augue nec,
+    interdum faucibus ipsum</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
   with_author: false
@@ -46,7 +46,7 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: Add some descriptive text for your accreditations.
 accreditation_link: /about/accreditations/
-testimonial_id: swimming-pool
+testimonial_id: example
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH OUR NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER
@@ -78,6 +78,18 @@ _comments:
   intro_image: 400px wide x 188px high
   intro_hi_res_image: 800px wide x 376px high
   accreditation_path: 'svg, 62px x 62px'
-  with_gallery: Tick if you would like to include a gallery
+  with_gallery:
   gallery_id: Enter the gallery_id of the gallery
 ---
+
+### Postal Address:
+
+Scientific Services Ltd<br>The Fuel Depot<br>Scorrier<br>Redruth<br>Cornwall<br>TR16 5UT
+
+### Email:
+
+[enquiries@scientificservices.org](mailto:enquiries@scientificservices.org)
+
+### Social Media:
+
+[Facebook](https://www.facebook.com/Scientific-Services-Ltd-300189623429916/)<br>[Google Plus](https://plus.google.com/117343938471855673094)<br>[LinkedIn](https://www.linkedin.com/company/scientific-services-ltd/)<br>[Twitter](https://twitter.com/SSL_Scientific)
