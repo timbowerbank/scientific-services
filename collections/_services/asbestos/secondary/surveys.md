@@ -135,7 +135,7 @@ _comments:
   accreditation_path: svg, 62px x 62px
   knowledge_base_category: Choose - air-monitoring, awareness-training, removal, surveys, testing
 ---
-<a name="intro" class="anchor"></a>
+
 Our team of BOHS P402 qualified and experienced surveyors will:
 
 * Locate any materials that may contain asbestos
@@ -144,7 +144,7 @@ Our team of BOHS P402 qualified and experienced surveyors will:
 * Provide you with an easy to read report that details the findings and next steps
 * Be on-hand to answer your questions
 
-> **“In every case I discuss the project with you. I have been helping our clients navigate the complexdangers of asbestos since 2002.”** Dr Tim Hamilton, Asbestos Expert and MD of Scientific Services
+> **“In every case I discuss the project with you. I have been helping our clients navigate the complex dangers of asbestos since 2002.”** Dr Tim Hamilton, Asbestos Expert and MD of Scientific Services
 
 We survey domestic, commercial and industrial properties across Cornwall, Devon, Dorset and Somerset.
 
