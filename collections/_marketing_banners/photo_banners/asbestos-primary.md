@@ -9,6 +9,5 @@ banner_background_desktop_image: /images/uploads/banner-surveyor.jpg
 banner_background_hiRes_image: /images/uploads/banner-surveyor@2x.jpg
 with_button: true
 button_title: PELLENTESQUE COMMODO
-button_link: /index.html
+button_link: /contact/
 ---
-

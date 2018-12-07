@@ -15,4 +15,7 @@ images:
     caption: Image of another surveyor
   - source_image: /images/uploads/lightbox-surveyor3.jpg
     caption: Image of another surveyor
+_comments:
+  gallery_id: Use this id to reference the gallery (case sensitive)
+  source_image: 1024px wide x 768px high
 ---

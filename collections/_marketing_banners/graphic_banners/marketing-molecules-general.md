@@ -5,5 +5,7 @@ banner_paragraph_text: >-
   Curabitur pharetra metus neque, id volutpat tortor rhoncus vel. Sed sagittis, nulla vel suscipit convallis, ac bibendum enim ante eu arcu.
 with_button: true
 button_title: LITORA TORQUENT PER CONUBIA
-button_link: /index.html
+button_link: /contact/
+_comments:
+  marketing_banner_id: Use this id to reference the banner (case sensitive)
 ---

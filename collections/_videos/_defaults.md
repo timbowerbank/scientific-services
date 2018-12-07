@@ -1,11 +1,12 @@
 ---
-video_id: asbestos1
-video_headline: Confused about asbestos?
-video_sub_heading: Watch our video explaining how to cure asbestos issues
+video_id: Enter an id for the video
+video_headline: Enter a headline for the video block
+video_sub_heading: Enter a sub heading for the video
 video_paragraph_html: >-
-  Curabitur pharetra metus neque, id volutpat tortor rhoncus vel. Sed sagittis,
-  nulla vel suscipit convallis, erat augue, ac bibendum enim ante eu arcu.
-youTube_id: GhFWqMLQLO4
+  Enter a paragraph for the video
+youTube_id:
 with_transcription: true
 transcription_link: /index.html
+_comments:
+  video_id: Use this id to reference the YouTube video (case sensitive, no spaces)
 ---
