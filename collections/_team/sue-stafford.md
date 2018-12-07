@@ -90,4 +90,4 @@ _comments:
   with_gallery: Tick if you would like to include a gallery
   gallery_id: Enter the gallery_id of the gallery
 ---
-Bio for Jack Reacher
+Bio for Sue Stafford
