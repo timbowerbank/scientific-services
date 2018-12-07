@@ -27,7 +27,7 @@ author:
   with_author: false
   team_id: tim
 main_intro:
-  with_intro_block: true
+  with_intro_block: false
   intro_paragraph_text: Add an introductory paragraph
   content_list:
     - list_item: List item 1
