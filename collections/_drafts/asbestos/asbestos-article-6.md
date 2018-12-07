@@ -1,39 +1,42 @@
 ---
 meta_data:
-  page_title: Add text for your title tag
+  page_title: Asbestos Article 6
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/social-media-laboratory-slide.jpg
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
-  summary_image: /images/uploads/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/default-summary-hi-res.png
+  summary_title: Asbestos Article 6
+  summary_description: Fusce et faucibus arcu. Fusce eget sapien vel orci dignissim dapibus.
+  summary_image: /images/uploads/news-article2-summary.jpg
+  summary_hiRes_image: /images/uploads/news-article2-summary@2x.jpg
   summary_alt_tag: Add an alt tag for your images
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+  summary_button_title: READ THE ARTICLE
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+    <h1><strong>Asbestos Article 6</strong></h1><p>Nulla scelerisque efficitur
+    est et condimentum. Integer varius tellus vitae odio sagittis.</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
-  with_author: false
-  team_id: tim
+  with_author: true
+  team_id: Jack
 main_intro:
   with_intro_block: true
-  intro_paragraph_text: Add an introductory paragraph
+  intro_paragraph_text: >-
+    Cras malesuada sollicitudin condimentum. Curabitur est enim, finibus
+    tincidunt ipsum vel, ultrices tristique velit. Morbi enim ante, mattis et
+    augue nec, interdum faucibus ipsum.
   content_list:
     - list_item: List item 1
       list_item_id: list1
     - list_item: List item 2
       list_item_id: list2
-  intro_image: /images/uploads/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/default-intro-hi-res.png
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg
@@ -44,17 +47,17 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: Add some descriptive text for your accreditations.
 accreditation_link: /about/accreditations/
-testimonial_id: swimming-pool
+testimonial_id: example
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH OUR NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER
 gallery:
-  with_gallery: false
-  gallery_id:
+  with_gallery: true
+  gallery_id: surveyor1
 call_to_action:
   with_call_to_action: true
-  call_to_action_headline: Helping you navigate the complex dangers of...
-  call_to_action_para_text: Add a descriptive call to action paragraph
+  call_to_action_headline: Helping you navigate the complex dangers of asbestos
+  call_to_action_para_text: 'Curabitur dui turpis, efficitur ut risus non, ornare consectetur nunc.'
   button_title: Contact Us
   button_link: /contact/
 _comments:
@@ -72,6 +75,7 @@ _comments:
   intro_image: 400px wide x 188px high
   intro_hi_res_image: 800px wide x 376px high
   accreditation_path: 'svg, 62px x 62px'
-  with_gallery: Tick if you would like to include a gallery
+  with_gallery:
   gallery_id: Enter the gallery_id of the gallery
 ---
+
