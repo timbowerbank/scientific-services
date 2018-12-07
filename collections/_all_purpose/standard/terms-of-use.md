@@ -2,13 +2,13 @@
 layout: standard
 permalink: '/:name/'
 meta_data:
-  page_title: Add text for your title tag
+  page_title: Terms of Use | Scientific Services
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/default-social-media.png
+  social_media_image: /images/uploads/social-media-surveyor.jpg
 page_summary:
   summary_title: Add your summary title
   summary_description: Add your summary description.
@@ -18,10 +18,10 @@ page_summary:
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
-    paragraph</p>
-  main_hero_image: /images/uploads/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/default-hero-standard-hi-res.png
+    <h1><strong>Terms of Use</strong></h1><p>Curabitur dui turpis, efficitur ut
+    risus non, ornare consectetur nunc.&nbsp;</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
   main_hero_alt_tag: Add alt tag text for your image
 author:
   with_author: false
@@ -46,7 +46,7 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: Add some descriptive text for your accreditations.
 accreditation_link: /about/accreditations/
-testimonial_id: swimming-pool
+testimonial_id: example
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH OUR NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER
@@ -55,8 +55,8 @@ gallery:
   gallery_id:
 call_to_action:
   with_call_to_action: true
-  call_to_action_headline: Helping you navigate the complex dangers of...
-  call_to_action_para_text: Add a descriptive call to action paragraph
+  call_to_action_headline: Helping you navigate the complex environmental dangers
+  call_to_action_para_text: 'Finibus et justo id posuere, sed orci orci, dignissim tempor odio...'
   button_title: Contact Us
   button_link: /contact/
 _options:
@@ -78,6 +78,12 @@ _comments:
   intro_image: 400px wide x 188px high
   intro_hi_res_image: 800px wide x 376px high
   accreditation_path: 'svg, 62px x 62px'
-  with_gallery: Tick if you would like to include a gallery
+  with_gallery:
   gallery_id: Enter the gallery_id of the gallery
 ---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus arcu. Donec mattis imperdiet massa a sagittis. Nulla at diam ante. Aliquam et ex ut tellus commodo tincidunt. Nulla scelerisque efficitur est et condimentum. Integer varius tellus vitae odio sagittis, at ornare sapien mollis. Praesent imperdiet volutpat pulvinar. Aliquam pellentesque gravida purus, ac cursus dui pulvinar molestie. Aenean sollicitudin efficitur risus, sed sollicitudin quam vulputate ut. Aenean vitae magna dui. Praesent ultricies sapien ut purus aliquam porta. In quis vulputate quam, quis tempus massa. Quisque tincidunt scelerisque justo, ut rutrum sem placerat vitae. Nam nibh tellus, tempus id suscipit sed, hendrerit eget diam. Sed sollicitudin nisl elit, eu imperdiet massa dictum id.
+
+Nullam aliquet felis nulla, at aliquet felis mollis ut. Fusce et faucibus arcu. Fusce eget sapien vel orci dignissim dapibus. Praesent convallis vestibulum augue nec fringilla. Cras malesuada sollicitudin condimentum. Curabitur est enim, finibus tincidunt ipsum vel, ultrices tristique velit. Morbi enim ante, mattis et augue nec, interdum faucibus ipsum. Curabitur dui turpis, efficitur ut risus non, ornare consectetur nunc. Ut nec est accumsan, convallis justo at, feugiat diam. Morbi finibus et justo id posuere. Sed orci orci, dignissim tempor odio et, sagittis mattis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin nulla mauris, elementum eget tellus a, pellentesque rhoncus turpis. Fusce eget euismod magna, in sollicitudin risus. Curabitur tellus enim, cursus vitae condimentum sed, malesuada a neque.
+
+Morbi porta nunc et commodo sodales. Integer vitae nunc justo. In orci erat, pulvinar ut tempus nec, ullamcorper et massa. Aenean tristique metus vel enim tempus, id lobortis arcu pretium. Nunc efficitur lectus id convallis ultricies. Sed nunc ex, elementum auctor libero nec, mollis eleifend sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis arcu imperdiet, tincidunt orci non, efficitur ipsum. Donec rhoncus enim a neque consequat, at dignissim lorem mollis. Ut nisi ligula, elementum id nisl sit amet, pulvinar ullamcorper arcu.
