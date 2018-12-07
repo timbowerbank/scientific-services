@@ -3,11 +3,11 @@ gallery_id: Enter an id for the gallery
 gallery_title_text: Gallery of Surveyor Images
 gallery_description: Enter some text to describe this gallery
 images:
-  - source_image: /images/uploads/default-lightbox.jpg
+  - source_image: /images/uploads/default-lightbox.png
     caption: Enter a caption
-  - source_image: /images/uploads/default-lightbox.jpg
+  - source_image: /images/uploads/default-lightbox.png
     caption: Enter a caption
-  - source_image: /images/uploads/default-lightbox.jpg
+  - source_image: /images/uploads/default-lightbox.png
     caption: Enter a caption
 _hide_content: true
 _comments:
