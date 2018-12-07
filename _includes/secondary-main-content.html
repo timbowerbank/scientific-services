@@ -19,24 +19,31 @@
                         </div><!-- end intro para -->
 
                         <!-- contents -->
-                        <div class="uk-width-1-1 uk-width-1-3@s contentLinks"
-                            <ul>
+                        <div class="uk-width-1-1 uk-width-1-3@s contentLinks" <ul>
                             {% for item in page.main_intro.content_list %}
                                <li><a href="#{{ item.list_item_id }}">{{ item.list_item }}</a></li>
                             {% endfor %}
-                            </ul>
+                            
                         </div><!-- end contents -->
 
                         <!-- intro image -->
                         <div class="uk-width-1-1 uk-width-2-3@s">
-                            <img srcset="{{ page.main_intro.intro_image }} 1x, {{ page.main_intro.intro_hi_res_image }} 2x" src="{{ page.main_intro.intro_image }}" alt="{{ page.main_intro.intro_image_alt_tag }}">
+                            <img srcset="{{ page.main_intro.intro_image }} 1x, {{ page.main_intro.intro_hi_res_image }} 2x" src="{{ page.main_intro.intro_image }}" alt="{{ page.main_intro.intro_image_alt_tag }}" />
                         </div><!-- end of intro image -->
 
                        {% endif %}{% comment %}End of check to see if there is an intro block{% endcomment %}
 
                         <!-- main content -->
                         <div class="uk-width-1-1 mainContentStyling">
-                          <div class="editable">{{ content }}</div>
+                          <div class="editable">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut massa risus. In semper arcu leo, id tempus quam sodales ac. Vestibulum fringilla est ac vehicula aliquam. Aenean sit amet scelerisque enim, vitae dictum mi. Ut posuere elementum porta. Sed mauris dolor, posuere ut suscipit ac, posuere consectetur felis. Integer tincidunt ante ut lorem mollis, vitae sollicitudin elit suscipit. Pellentesque nibh nisi, interdum ac accumsan vel, aliquet eu erat. Maecenas volutpat placerat auctor. Etiam semper luctus ipsum vitae pulvinar. Phasellus viverra sem fermentum lorem vulputate, at dapibus arcu tincidunt. Nam dignissim elit lacus, non tincidunt tortor vestibulum sit amet. Praesent sodales fringilla tellus. In hac habitasse platea dictumst.</p>
+                            <p>&nbsp;</p>
+                            <p>Phasellus viverra sem fermentum lorem vulputate, at dapibus arcu tincidunt. Nam dignissim elit lacus, non tincidunt tortor vestibulum sit amet. Praesent sodales fringilla tellus. In hac habitasse platea dictumst.</p>
+                            <p>&nbsp;</p>
+                            <p>Pellentesque a nulla ac purus tristique tempor. In enim neque, blandit quis metus in, pulvinar condimentum turpis. Donec rhoncus nec libero ut finibus. Nam vestibulum aliquet est, semper molestie diam laoreet non. Vestibulum sit amet dictum elit. In in lectus mattis metus aliquet elementum. Aenean lacinia turpis mi, a pretium dui mollis eget. Donec a molestie enim. Etiam at odio sed tellus pellentesque sagittis. Fusce auctor sit amet diam eu interdum. Sed id consectetur orci. Curabitur laoreet massa at velit luctus laoreet. Aenean varius convallis rutrum. Etiam non ornare lectus. In et accumsan enim.</p>
+                            <p>Suspendisse elementum nisl sed urna luctus tristique. Nullam maximus convallis tortor, at vehicula nunc mollis non. Sed et ullamcorper ex, sed pretium tortor. Phasellus in tempor turpis. Phasellus magna odio, placerat nec cursus vel, scelerisque in nisl. Curabitur cursus sodales enim, et pharetra metus commodo id. Vestibulum ac neque convallis, fringilla ligula ut, imperdiet erat. Praesent ac lacus eget justo imperdiet viverra quis id purus. Sed velit neque, feugiat at ipsum eu, iaculis porttitor diam.</p>
+                            <p>Vivamus rutrum turpis ut velit porttitor lobortis. Aliquam faucibus libero ut justo blandit, a ultrices purus facilisis. Donec aliquam neque neque, a placerat dui maximus at. Aenean semper mollis rutrum. Morbi feugiat justo quis risus tincidunt aliquam. Ut pretium placerat arcu, ut placerat dolor bibendum non. Nam rutrum, quam eget suscipit hendrerit, ipsum lorem tempus urna, quis eleifend massa ipsum nec lacus. Vivamus condimentum mi nunc, ac sagittis nulla euismod et. Aliquam interdum diam ac nunc dignissim facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer quis mauris pellentesque, cursus nisl a, finibus massa. Nam nec placerat sem, quis pretium erat. Aliquam et risus cursus, dapibus nisi ut, tempus nulla. Morbi id ullamcorper enim. Nulla purus ipsum, varius sed accumsan non, finibus et diam. Nullam in neque interdum, accumsan nunc vel, sagittis metus.</p>
+                          </div>
 
                         </div><!-- end main content -->
 
