@@ -6,6 +6,7 @@ banner_paragraph_text: >-
 with_button: true
 button_title: LITORA TORQUENT PER CONUBIA
 button_link: /contact/
+_hide_content: true
 _comments:
   marketing_banner_id: Use this id to reference the banner (case sensitive)
 ---

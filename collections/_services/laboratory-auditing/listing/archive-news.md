@@ -19,6 +19,7 @@ parent_category: laboratory-auditing
 child_category: none
 permalink: /services/laboratory-auditing/news/:name/
 marketing_photo_banner_id: home1
+_hide_content: true
 _options:
   layout:
     hidden: true

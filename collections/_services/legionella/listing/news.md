@@ -21,6 +21,7 @@ permalink: /services/legionella/:name/
 archive_button_title: VIEW ARCHIVE NEWS
 archive_button_link: /services/legionella/news/archive-news/
 marketing_photo_banner_id: home1
+_hide_content: true
 _options:
   layout:
     hidden: true

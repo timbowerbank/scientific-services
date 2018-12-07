@@ -73,6 +73,7 @@ defaults:
         child_category: "none"
         news_archive: "/services/asbestos/news/"
         case_studies: "/services/asbestos/case-studies/"
+        _hide_content: true
   -
     scope:
       path: "_services/legionella/primary"
@@ -86,6 +87,7 @@ defaults:
         child_category: "none"
         news_archive: "/services/legionella/news/"
         case_studies: "/services/legionella/case-studies/"
+        _hide_content: true
   -
     scope:
       path: "_services/anthrax/primary"

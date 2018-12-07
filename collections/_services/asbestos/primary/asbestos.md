@@ -87,5 +87,3 @@ _comments:
   review_image: 140px x 140px
   review_hiRes_image: 280px x 280px
 ---
-
-Asbestos primary page

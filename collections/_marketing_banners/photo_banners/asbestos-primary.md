@@ -10,4 +10,5 @@ banner_background_hiRes_image: /images/uploads/banner-surveyor@2x.jpg
 with_button: true
 button_title: PELLENTESQUE COMMODO
 button_link: /contact/
+_hide_content: true
 ---

@@ -6,6 +6,7 @@ company_name: National Company
 case_study: true
 button_title: READ THE CASE STUDY
 button_link: /index.html
+_hide_content: true
 _comments:
   testimonial_id: Use this id to reference the testimonial (case sensitive, no spaces)
 ---

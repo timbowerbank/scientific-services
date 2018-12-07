@@ -8,4 +8,5 @@ video_paragraph_html: >-
 youTube_id: GhFWqMLQLO4
 with_transcription: true
 transcription_link: /index.html
+_hide_content: true
 ---

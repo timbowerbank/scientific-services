@@ -9,5 +9,5 @@ video_paragraph_html: >-
 youTube_id: GwT3E76hBHI
 with_transcription: true
 transcription_link: /index.html
+_hide_content: true
 ---
-

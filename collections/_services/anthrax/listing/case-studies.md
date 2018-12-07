@@ -22,6 +22,7 @@ permalink: '/services/anthrax/:name/'
 archive_button_title: VIEW ARCHIVE CASE STUDIES
 archive_button_link: /services/anthrax/case-studies/archive
 marketing_photo_banner_id: home1
+_hide_content: true
 _options:
   layout:
     hidden: true
@@ -38,4 +39,3 @@ _comments:
   child_category: Set to none if there are no child categories
   permalink: 'Where the html file is outputted to, finish with /:name/'
 ---
-

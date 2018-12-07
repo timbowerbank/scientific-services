@@ -21,6 +21,7 @@ permalink: /services/legionella/case-studies/
 archive_button_title: VIEW ARCHIVE CASE STUDIES
 archive_button_link: /services/legionella/case-studies/archive-case-studies/
 marketing_photo_banner_id: home1
+_hide_content: true
 _options:
   layout:
     hidden: true

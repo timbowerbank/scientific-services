@@ -19,6 +19,7 @@ parent_category: lead-testing
 child_category: none
 permalink: /services/lead-testing/news/:name/
 marketing_photo_banner_id: home1
+_hide_content: true
 _options:
   layout:
     hidden: true

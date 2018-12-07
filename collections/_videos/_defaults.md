@@ -7,6 +7,7 @@ video_paragraph_html: >-
 youTube_id:
 with_transcription: true
 transcription_link: /index.html
+_hide_content: true
 _comments:
   video_id: Use this id to reference the YouTube video (case sensitive, no spaces)
 ---

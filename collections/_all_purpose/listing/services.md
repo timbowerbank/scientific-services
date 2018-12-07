@@ -21,6 +21,7 @@ permalink: /:name/
 archive_button_title: VIEW MORE
 archive_button_link: /index.html
 marketing_photo_banner_id: home1
+_hide_content: true
 _options:
   layout:
     hidden: true

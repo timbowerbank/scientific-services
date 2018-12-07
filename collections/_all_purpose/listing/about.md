@@ -34,4 +34,5 @@ _comments:
   parent_category: Choose - anthrax, asbestos, lead-testing, expert-witness, laboratory-auditing, legionella
   child_category: Set to none if there are no child categories
   permalink: Where the html file is outputted to, finish with /:name/
+_hide_content: true
 ---

@@ -9,6 +9,7 @@ banner_background_hiRes_image: /images/uploads/default-marketing-banner-hiRes.pn
 with_button: true
 button_title: ENTER A BUTTON TITLE
 button_link: /contact/
+_hide_content: true
 _comments:
   marketing_banner_id: Use this id to reference the banner (case sensitive)
   banner_headline_html: Lead with an H3 heading

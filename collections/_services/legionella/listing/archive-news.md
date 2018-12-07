@@ -19,6 +19,7 @@ parent_category: legionella
 child_category: none
 permalink: /services/legionella/news/:name/
 marketing_photo_banner_id: home1
+_hide_content: true
 _options:
   layout:
     hidden: true
