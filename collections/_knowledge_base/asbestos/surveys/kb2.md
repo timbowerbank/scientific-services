@@ -90,7 +90,7 @@ _comments:
   gallery_id: Enter the gallery_id of the gallery
 ---
 
-## Intro<a id="intro"></a>
+## Intro<a id="about"></a>
 
 Quisque volutpat ipsum ex, vel hendrerit risus tempus nec. Mauris dapibus et mauris nec tempor. Morbi laoreet et erat sit amet sodales. Mauris non scelerisque odio, eget aliquet erat. Aliquam vitae odio odio. Proin quis porttitor leo. Aenean commodo a mi in dignissim. Nullam auctor erat leo, tristique facilisis lacus finibus at. In eu dictum nisi. Pellentesque a euismod ante. Praesent pretium libero eget blandit scelerisque. Integer nec arcu a ex aliquam placerat. Curabitur lacinia a ante quis maximus. Sed metus sem, varius in maximus feugiat, pulvinar eu nibh. Cras sit amet nunc vestibulum, sollicitudin lorem sed, sagittis ante. Integer vulputate vitae ligula sit amet ultrices.
 
