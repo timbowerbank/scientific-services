@@ -15,9 +15,9 @@ hero:
   main_hero_image: /images/uploads/defaults/default-hero-standard-lo-res.png
   main_hero_hi_res_image: /images/uploads/defaults/default-hero-standard-hi-res.png
   main_hero_alt_tag: Add an alt tag for your images
-collection_name: posts
-parent_category: add parent category
-child_category: none
+collection_name: knowledge_base
+parent_category: asbestos
+child_category: surveys
 permalink: '/:name/'
 archive_button_title: VIEW ARCHIVE NEWS
 archive_button_link: add archive link
