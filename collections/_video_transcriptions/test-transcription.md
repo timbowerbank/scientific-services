@@ -1,4 +1,6 @@
 ---
+layout: standard
+permalink: /about/:name/
 meta_data:
   page_title: test transcription
   meta_description: Add a text for your meta description tag
@@ -53,6 +55,9 @@ call_to_action:
     mattis, eros nibh elementum massa, in mollis erat eros non metus.
   button_title: Contact Us
   button_link: /contact/
+_options:
+  hidden:
+    layout: true
 _comments:
   page_title: The title tag
   canonical_link: Preferred page if risk of duplicate content
