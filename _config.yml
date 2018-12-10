@@ -257,7 +257,7 @@ defaults:
       path: "_posts/company"
     values:
         layout: "standard"
-        permalink: "/services/about/news/:name/"
+        permalink: "/about/news/:name/"
         parent_category: "company"
         child_category: "none"
   -
