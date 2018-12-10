@@ -30,14 +30,16 @@ author:
   team_id: Sue
 main_intro:
   with_intro_block: true
-  intro_paragraph_text: Add an introductory paragraph
+  intro_paragraph_text: >-
+    Cras nec libero non ex vestibulum suscipit et eu eros. Aenean turpis massa,
+    finibus at blandit ac, gravida nec justo. Pellentesque at venenatis justo.
   content_list:
     - list_item: List item 1
       list_item_id: list1
     - list_item: List item 2
       list_item_id: list2
-  intro_image: /images/uploads/defaults/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/defaults/default-intro-hi-res.png
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg
