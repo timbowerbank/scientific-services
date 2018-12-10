@@ -21,7 +21,7 @@ page_summary:
   summary_button_title: READ THE ARTICLE
 hero:
   main_headline_html: >-
-    <h1><strong>Fringilla non metus nec, dignissim rhoncus
+    <h1>Fringilla non metus<strong> nec, dignissim rhoncus
     orci.&nbsp;</strong></h1><p>Aenean elementum efficitur eleifend. Sed
     pellentesque, est at consectetur mattis.</p>
   main_hero_image: /images/uploads/hero-surveyor-standard.png
