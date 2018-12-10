@@ -68,6 +68,8 @@ _comments:
   social_media_image: 1024px wide x 512px high
   summary_image: 420px wide x 226px high
   summary_hiRes_image: 840px x 450px high
+  thumbnail_image: 154px wide x 100px high
+  thumbnail_hiRes_image: 308px wide x 200px high
   main_headline_html: Lead with H1 tag
   main_hero_image: 300px wide x 240px high
   main_hero_hi_res_image: 600px wide x 480px high
