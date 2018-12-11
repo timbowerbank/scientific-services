@@ -1,5 +1,5 @@
 ---
-layout: listing
+layout: listing-archive
 meta_data:
   page_title: News Listing page
   meta_description: Add a text for your meta description tag
