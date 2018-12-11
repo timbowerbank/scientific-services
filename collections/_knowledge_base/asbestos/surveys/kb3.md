@@ -27,8 +27,14 @@ author:
   with_author: true
   team_id: Sue
 main_intro:
-  with_intro_block: false
-  intro_paragraph_text: Add an introductory paragraph
+  with_intro_block: true
+  intro_paragraph_text: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+    ullamcorper erat eget purus lobortis dapibus. Curabitur lorem libero,
+    aliquet quis dictum et, sagittis ac nulla. Fusce malesuada tortor sit amet
+    nunc tincidunt, eu tincidunt ipsum rhoncus. Sed vulputate, nisl ut ultricies
+    gravida, nisl neque posuere magna, eu vulputate quam leo vitae urna.
+    Vestibulum dapibus arcu nec enim aliquet, ultricies portti
   content_list:
     - list_item: Intro
       list_item_id: intro
@@ -38,8 +44,8 @@ main_intro:
       list_item_id: para2
     - list_item: Para 3
       list_item_id: para3
-  intro_image: /images/uploads/defaults/default-intro-lo-res.png
-  intro_hi_res_image: /images/uploads/defaults/default-intro-hi-res.png
+  intro_image: /images/uploads/main-surveyor.jpg
+  intro_hi_res_image: /images/uploads/main-surveyor@2x.jpg
   intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg
