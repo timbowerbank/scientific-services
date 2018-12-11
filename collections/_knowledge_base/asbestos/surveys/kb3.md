@@ -1,33 +1,33 @@
 ---
 meta_data:
-  page_title: Add text for your title tag
+  page_title: Kb3
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
   social_media_title: Add your title for social media here
   social_media_description: Add social media description here
-  social_media_image: /images/uploads/defaults/default-social-media.png
+  social_media_image: /images/uploads/social-media-surveyor.jpg
 all_order: 10
 order: 10
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
+  summary_title: Kb3 summary
+  summary_description: Add your summary description. In parent page right hand column.
   summary_image: /images/uploads/defaults/default-summary-lo-res.png
   summary_hiRes_image: /images/uploads/defaults/default-summary-hi-res.png
   summary_alt_tag: Add an alt tag for your images
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
 hero:
   main_headline_html: >-
-    <h1><strong>Add an H1 title</strong></h1><p>Add a descriptive and short
+    <h1><strong>Kb3 Article</strong></h1><p>Add a descriptive and short
     paragraph</p>
-  main_hero_image: /images/uploads/defaults/default-hero-standard-lo-res.png
-  main_hero_hi_res_image: /images/uploads/defaults/default-hero-standard-hi-res.png
-  main_hero_alt_tag: Add alt tag text for your image
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
+  main_hero_alt_tag: Surveyor
 author:
-  with_author: false
-  team_id: tim
+  with_author: true
+  team_id: Sue
 main_intro:
-  with_intro_block: true
+  with_intro_block: false
   intro_paragraph_text: Add an introductory paragraph
   content_list:
     - list_item: List item 1
@@ -46,13 +46,13 @@ accreditations:
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 accreditation_text: Add some descriptive text for your accreditations.
 accreditation_link: /about/accreditations/
-testimonial_id: swimming-pool
+testimonial_id: example
 newsletter_signup:
   newsletter_signup_title: STAY UP-TO-DATE WITH OUR NEWS
   newsletter_button_title: SIGN UP TO OUR NEWSLETTER
 gallery:
-  with_gallery: false
-  gallery_id:
+  with_gallery: true
+  gallery_id: surveyor1
 call_to_action:
   with_call_to_action: true
   call_to_action_headline: Helping you navigate the complex dangers of...
