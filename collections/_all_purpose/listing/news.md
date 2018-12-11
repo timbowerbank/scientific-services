@@ -1,7 +1,7 @@
 ---
 layout: listing
 meta_data:
-  page_title: Add text for your title tag
+  page_title: News Listing page
   meta_description: Add a text for your meta description tag
   need_canonical: false
   canonical_link:
@@ -16,12 +16,12 @@ hero:
   main_hero_hi_res_image: /images/uploads/defaults/default-hero-standard-hi-res.png
   main_hero_alt_tag: Add an alt tag for your images
 collection_name: posts
-parent_category: add parent category
+parent_category: all
 child_category: none
-permalink: '/:name/'
+permalink: '/services/:name/'
 archive_button_title: VIEW ARCHIVE NEWS
 archive_button_link: add archive link
-marketing_photo_banner_id: home1
+marketing_photo_banner_id: Test
 _hide_content: true
 _options:
   layout:
@@ -39,3 +39,4 @@ _comments:
     laboratory-auditing, legionella
   child_category: Set to none if there are no child categories
 ---
+
