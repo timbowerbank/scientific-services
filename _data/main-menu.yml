@@ -67,5 +67,7 @@ mainmenu:
     url: /careers/
   - title: Contact Us
     url: /contact/
+  - title: News
+    url: /services/news/
   - title: Portal
     url: 'https://portal.scientificservices.org/Account/Login?ReturnUrl=%2f'
