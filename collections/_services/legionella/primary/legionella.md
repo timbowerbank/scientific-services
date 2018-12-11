@@ -44,7 +44,7 @@ accreditations:
 testimonial_id: swimming-pool
 marketing_photo_banner_id: home1
 with_video: true
-video_id: legionella1
+video_id: Puppies
 case_study_and_reviews:
   title_for_section: Reviews and Case Studies
   review_image: /images/uploads/person-reviewer-tim.jpg
@@ -81,7 +81,7 @@ _comments:
   main_headline_html: Lead with an H1 heading
   main_hero_image: 392px x 333px
   main_hero_hi_res_image: 784px x 667px
-  accreditation_path: svg, 62px x 62px
+  accreditation_path: 'svg, 62px x 62px'
   review_image: 140px x 140px
   review_hiRes_image: 280px x 280px
 ---
