@@ -8,7 +8,7 @@ meta_data:
   social_media_description: Add social media description here
   social_media_image: /images/uploads/social-media-surveyor.jpg
 all_order: 10
-order: 10
+order: 5
 page_summary:
   summary_title: Kb3 summary
   summary_description: Add your summary description. In parent page right hand column.
