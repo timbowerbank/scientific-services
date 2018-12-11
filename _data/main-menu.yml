@@ -61,6 +61,8 @@ mainmenu:
         url: /services/asbestos/case-studies/
       - page: Legionella Case Studies
         url: /services/legionella/case-studies/
+      - page: Anthrax Casestudies
+        url: /services/anthrax/case-studies/
   - title: Careers
     url: /careers/
   - title: Contact Us
