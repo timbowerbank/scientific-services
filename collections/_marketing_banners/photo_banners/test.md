@@ -1,13 +1,13 @@
 ---
-marketing_banner_id: home1
-banner_headline_html: <h3>Enter an h3 banner headline</strong></h3>
-banner_paragraph_text: Enter text for the banner paragraph
-banner_background_mobile_image: /images/uploads/defaults/default-marketing-banner-mobile.png
-banner_background_desktop_image: /images/uploads/defaults/default-marketing-banner-desktop.png
-banner_background_hiRes_image: /images/uploads/defaults/default-marketing-banner-hiRes.png
+marketing_banner_id: Test
+banner_headline_html: <h3>Testing<strong> Main Headline</strong></h3>
+banner_paragraph_text: Carly's test paragraph
+banner_background_mobile_image: /images/uploads/banner-marketing-van-mobile.jpg
+banner_background_desktop_image: /images/uploads/banner-marketing-van.jpg
+banner_background_hiRes_image: /images/uploads/banner-marketing-van@2x.jpg
 with_button: true
-button_title: ENTER A BUTTON TITLE
-button_link: /contact/
+button_title: CARLY'S BUTTON
+button_link: /services/asbestos/
 _hide_content: true
 _comments:
   marketing_banner_id: Use this id to reference the banner (case sensitive)
