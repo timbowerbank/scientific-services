@@ -44,7 +44,7 @@ accreditations:
     accreditation_alt: ISO 9001 accredited logo
     accreditation_link: 'https://www.iso.org/iso-9001-quality-management.html'
 testimonial_id: swimming-pool
-marketing_photo_banner_id: asbestos1
+marketing_photo_banner_id: Test
 with_video: true
 video_id: asbestos1
 case_study_and_reviews:
