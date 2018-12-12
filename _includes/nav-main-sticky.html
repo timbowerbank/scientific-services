@@ -5,7 +5,7 @@
 
      <!-- start nav -->
     <div>
-     <nav role="navigation" aria-label="primary desktop navigation" class="uk-navbar-container uk-navbar-sticky" uk-navbar style="position: relative; z-index: 980;">
+     <nav role="navigation" aria-label="primary desktop navigation" class="uk-navbar-container uk-navbar-sticky" uk-navbar="mode: click" style="position: relative; z-index: 980;">
 
         <div id="alignNav" class="uk-navbar-right">
 
@@ -28,7 +28,7 @@
                           {%- if subSubFolders == true -%}
                           <li class="mainParentNavLink {% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
 
-                           <div class="uk-navbar-dropdown uk-navbar-dropdown-width-{{ numChildren }}" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                           <div class="uk-navbar-dropdown uk-navbar-dropdown-width-{{ numChildren }}" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify; mode: click;">
                                <div class="uk-navbar-dropdown-grid uk-child-width-1-{{ numChildren }}" uk-grid>
                                      {%- for nestedLink in item.subfolderitems -%}
                                          <div>
