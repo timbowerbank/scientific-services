@@ -1,31 +1,31 @@
-{% comment %}Check if it is the home page{% endcomment %}
-{% if page.url == "/" %}
+{%- comment -%}Check if it is the home page{%- endcomment -%}
+{%- if page.url == "/" -%}
 
-{% comment %}If it is not home then change the conditional statement{% endcomment %}
-
-
-
-{% comment %}Check how many case studies meet our conditions{% endcomment %}
-{% assign i = 0 %}
-{% for case in site.case_studies %}
-   {% if case.featured_on_home == true %}
-      {% assign i = i | plus:1 %}
-   {% endif %}
-{% endfor %}
-
-{% assign lastLoopInt = i | minus:1 %}
+{%- comment -%}If it is not home then change the conditional statement{%- endcomment -%}
 
 
-{% assign cases = site.case_studies | sort: "order" %}
-{% assign counter = 0 %}
-{% for casestudy in cases %}
-    {% if i == 0 %}
-      {% break %}
-    {% endif %}
-    {% if casestudy.featured_on_home == true %}
 
-          {% if i == 1 %}
-             {% comment %}For when there is only one case study{% endcomment %}
+{%- comment -%}Check how many case studies meet our conditions{%- endcomment -%}
+{%- assign i = 0 -%}
+{%- for case in site.case_studies -%}
+   {%- if case.featured_on_home == true -%}
+      {%- assign i = i | plus:1 -%}
+   {%- endif -%}
+{%- endfor -%}
+
+{%- assign lastLoopInt = i | minus:1 -%}
+
+
+{%- assign cases = site.case_studies | sort: "order" -%}
+{%- assign counter = 0 -%}
+{%- for casestudy in cases -%}
+    {%- if i == 0 -%}
+      {%- break -%}
+    {%- endif -%}
+    {%- if casestudy.featured_on_home == true -%}
+
+          {%- if i == 1 -%}
+             {%- comment -%}For when there is only one case study{%- endcomment -%}
 
              <!-- start case study section -->
              <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
@@ -73,12 +73,10 @@
              </section><!-- end case study section -->
 
 
+          {%- elsif i == 2 -%}
+             {%- comment -%}For when there are only 2 case studies{%- endcomment -%}
 
-
-          {% elsif i == 2 %}
-             {% comment %}For when there are only 2 case studies{% endcomment %}
-
-             {% if counter == 0 %}
+             {%- if counter == 0 -%}
 
                   <!-- start case study section -->
                   <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
@@ -122,8 +120,8 @@
                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
                                              </div>
                                           </li>
-            {% assign counter = counter | plus:1 %}
-            {% elsif counter == 1 %}
+            {%- assign counter = counter | plus:1 -%}
+            {%- elsif counter == 1 -%}
                                           <li class="uk-width-large">
                                             <div class="caseStudyPreview">
                                                 <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
@@ -165,29 +163,26 @@
                     </div><!-- end container -->
                  </section><!-- end case study section -->
 
-              {% else %}
+              {%- else -%}
 
 
-              {% endif %}
+              {%- endif -%}
 
 
-
-
-
-          {% else %}
-             {% comment %}For when there is more than 2 case studies{% endcomment %}
+          {%- else -%}
+             {%- comment -%}For when there are more than 2 case studies{%- endcomment -%}
 
 
 
-                           {% if counter == 0 %}
+                           {%- if counter == 0 -%}
                                 <!-- start case study section -->
-                                <div class="uk-section padding-top-bottom-none caseStudySection">
+                                <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
                                    <div class="uk-container">
                                       <div uk-grid>
 
                                             <!-- header -->
                                             <div class="uk-width-1-1">
-                                               <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                                               <h3 id="case-studies" class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
                                                <div class="uk-flex uk-flex-center uk-flex-left@m">
                                                   <div class="fm-headerLine"></div>
                                                </div>
@@ -222,8 +217,8 @@
                                                                <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
                                                            </div>
                                                         </li>
-                           {% assign counter = counter | plus:1 %}
-                           {% elsif counter < lastLoopInt %}
+                           {%- assign counter = counter | plus:1 -%}
+                           {%- elsif counter < lastLoopInt -%}
                                                          <li class="uk-width-large">
                                                            <div class="caseStudyPreview">
                                                                <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
@@ -234,8 +229,8 @@
                                                                <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
                                                            </div>
                                                          </li>
-                           {% assign counter = counter | plus:1 %}
-                           {% elsif counter >= lastLoopInt %}
+                           {%- assign counter = counter | plus:1 -%}
+                           {%- elsif counter >= lastLoopInt -%}
                                                          <li class="uk-width-large">
                                                            <div class="caseStudyPreview">
                                                                <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
@@ -275,26 +270,16 @@
 
                                       </div><!-- end grid -->
                                    </div><!-- end container -->
-                                </div><!-- end case study section -->
+                                </section><!-- end case study section -->
 
-                           {% else %}
-
-
-                           {% endif %}{% comment %}end of checking if first, last or otherwise{% endcomment %}
+                           {%- else -%}
 
 
-
-           {% endif %}
+                           {%- endif -%}{%- comment -%}end of checking if first, last or otherwise{%- endcomment -%}
 
 
 
-
-
-
-
-    {% endif %}{% comment %}end of conditional checking category and if featured on primary{% endcomment %}
-
-{% endfor %}
+           {%- endif -%}
 
 
 
@@ -302,59 +287,48 @@
 
 
 
+    {%- endif -%}{%- comment -%}end of conditional checking category and if featured on primary{%- endcomment -%}
+
+{%- endfor -%}
 
 
 
+{%- else -%}
+  {%- comment -%}If it is not home then change the conditional statement{%- endcomment -%}
 
 
 
+  {%- comment -%}Check how many case studies meet our conditions{%- endcomment -%}
+  {%- assign i = 0 -%}
+  {%- for case in site.case_studies -%}
+     {%- if case.featured_on_primary == true and page.child_page_category == case.parent_category -%}
+        {%- assign i = i | plus:1 -%}
+     {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign lastLoopInt = i | minus:1 -%}
 
 
+  {%- assign cases = site.case_studies | sort: "primary_order" -%}
+  {%- assign counter = 0 -%}
+  {%- for casestudy in cases -%}
+      {%- if i == 0 -%}
+        {%- break -%}
+      {%- endif -%}
 
+      {%- if casestudy.featured_on_primary == true and page.child_page_category == casestudy.parent_category -%}
 
-
-
-
-
-
-
-
-{% else %}
-  {% comment %}If it is not home then change the conditional statement{% endcomment %}
-
-
-
-  {% comment %}Check how many case studies meet our conditions{% endcomment %}
-  {% assign i = 0 %}
-  {% for case in site.case_studies %}
-     {% if case.featured_on_primary == true and page.child_page_category == case.parent_category %}
-        {% assign i = i | plus:1 %}
-     {% endif %}
-  {% endfor %}
-
-  {% assign lastLoopInt = i | minus:1 %}
-
-
-  {% assign cases = site.case_studies | sort: "primary_order" %}
-  {% assign counter = 0 %}
-  {% for casestudy in cases %}
-      {% if i == 0 %}
-        {% break %}
-      {% endif %}
-
-      {% if casestudy.featured_on_primary == true and page.child_page_category == casestudy.parent_category %}
-
-            {% if i == 1 %}
-               {% comment %}For when there is only one case study{% endcomment %}
+            {%- if i == 1 -%}
+               {%- comment -%}For when there is only one case study{%- endcomment -%}
 
                <!-- start case study section -->
-               <div class="uk-section padding-top-bottom-none caseStudySection">
+               <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
                   <div class="uk-container">
                      <div uk-grid>
 
                            <!-- header -->
                            <div class="uk-width-1-1">
-                              <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                              <h3 id="case-studies" class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
                               <div class="uk-flex uk-flex-center uk-flex-left@m">
                                  <div class="fm-headerLine"></div>
                               </div>
@@ -387,24 +361,24 @@
 
                      </div><!-- end grid -->
                   </div><!-- end container -->
-               </div><!-- end case study section -->
+               </section><!-- end case study section -->
 
 
 
 
-            {% elsif i == 2 %}
-               {% comment %}For when there is only 2 case studies{% endcomment %}
+            {%- elsif i == 2 -%}
+               {%- comment -%}For when there is only 2 case studies{%- endcomment -%}
 
-               {% if counter == 0 %}
+               {%- if counter == 0 -%}
 
                     <!-- start case study section -->
-                    <div class="uk-section padding-top-bottom-none caseStudySection">
+                    <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
                        <div class="uk-container">
                           <div uk-grid>
 
                                 <!-- header -->
                                 <div class="uk-width-1-1">
-                                   <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                                   <h3 id="case-studies" class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
                                    <div class="uk-flex uk-flex-center uk-flex-left@m">
                                       <div class="fm-headerLine"></div>
                                    </div>
@@ -439,8 +413,8 @@
                                                    <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
                                                </div>
                                             </li>
-              {% assign counter = counter | plus:1 %}
-              {% elsif counter == 1 %}
+              {%- assign counter = counter | plus:1 -%}
+              {%- elsif counter == 1 -%}
                                             <li class="uk-width-large">
                                               <div class="caseStudyPreview">
                                                   <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
@@ -480,31 +454,31 @@
 
                          </div><!-- end grid -->
                       </div><!-- end container -->
-                   </div><!-- end case study section -->
+                   </section><!-- end case study section -->
 
-                {% else %}
-
-
-                {% endif %}
+                {%- else -%}
 
 
+                {%- endif -%}
 
 
 
-            {% else %}
-               {% comment %}For when there is more than 2 case studies{% endcomment %}
+
+
+            {%- else -%}
+               {%- comment -%}For when there are more than 2 case studies{%- endcomment -%}
 
 
 
-                             {% if counter == 0 %}
+                             {%- if counter == 0 -%}
                                   <!-- start case study section -->
-                                  <div class="uk-section padding-top-bottom-none caseStudySection">
+                                  <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
                                      <div class="uk-container">
                                         <div uk-grid>
 
                                               <!-- header -->
                                               <div class="uk-width-1-1">
-                                                 <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                                                 <h3 id="case-studies" class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
                                                  <div class="uk-flex uk-flex-center uk-flex-left@m">
                                                     <div class="fm-headerLine"></div>
                                                  </div>
@@ -539,8 +513,8 @@
                                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
                                                              </div>
                                                           </li>
-                             {% assign counter = counter | plus:1 %}
-                             {% elsif counter < lastLoopInt %}
+                             {%- assign counter = counter | plus:1 -%}
+                             {%- elsif counter < lastLoopInt -%}
                                                            <li class="uk-width-large">
                                                              <div class="caseStudyPreview">
                                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
@@ -551,8 +525,8 @@
                                                                  <a class="uk-button uk-button-primary" href="{{ casestudy.url }}">READ THE CASE STUDY<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon arrow button"></span></a>
                                                              </div>
                                                            </li>
-                             {% assign counter = counter | plus:1 %}
-                             {% elsif counter >= lastLoopInt %}
+                             {%- assign counter = counter | plus:1 -%}
+                             {%- elsif counter >= lastLoopInt -%}
                                                            <li class="uk-width-large">
                                                              <div class="caseStudyPreview">
                                                                  <img srcset="{{ casestudy.page_summary.summary_image }} 1x, {{ casestudy.page_summary.summary_hiRes_image }} 2x" src="{{ casestudy.page_summary.summary_image }}" alt="{{ casestudy.page_summary.summary_alt_tag }}">
@@ -597,26 +571,21 @@
 
                                         </div><!-- end grid -->
                                      </div><!-- end container -->
-                                  </div><!-- end case study section -->
+                                  </section><!-- end case study section -->
 
-                             {% else %}
-
-
-                             {% endif %}{% comment %}end of checking if first, last or otherwise{% endcomment %}
+                             {%- else -%}
 
 
-
-             {% endif %}
+                             {%- endif -%}{%- comment -%}end of checking if first, last or otherwise{%- endcomment -%}
 
 
 
+             {%- endif -%}
 
 
+      {%- endif -%}{%- comment -%}end of conditional checking category and if featured on primary{%- endcomment -%}
 
-
-      {% endif %}{% comment %}end of conditional checking category and if featured on primary{% endcomment %}
-
-  {% endfor %}
+  {%- endfor -%}
 
 
 
