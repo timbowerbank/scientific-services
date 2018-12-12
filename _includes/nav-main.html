@@ -5,73 +5,71 @@
 
             <!-- start nav -->
            <div class="uk-position-relative">
-            <nav class="uk-navbar-container" uk-navbar>
+            <nav role="navigation" aria-label="primary desktop navigation" class="uk-navbar-container" uk-navbar>
 
                <div id="alignNav" class="uk-navbar-right">
 
                    <ul class="uk-navbar-nav">
-                       {% if site.data.main-menu.mainmenu[0] %}
-                            {% for item in site.data.main-menu.mainmenu %}
+                       {%- if site.data.main-menu.mainmenu[0] -%}
+                            {%- for item in site.data.main-menu.mainmenu -%}
 
-                                <!-- use a loop to identify if item has subsubfolderitems -->
-                                <!-- identify number of children of subfolderitems -->
-                                {% for subCheck in item.subfolderitems %}
-                                    {% assign numChildren = forloop.length %}
-                                    {% if subCheck.subsubfolderitems[0] %}
-                                       {% assign subSubFolders = true %}
-                                    {% else %}
-                                       {% assign subSubFolders = false %}
-                                    {% endif %}
-                                {% endfor %}
+                                {%- comment -%}use a loop to identify if item has subsubfolderitems{%- endcomment -%}
+                                {%- comment -%}identify number of children of subfolderitems{%- endcomment -%}
+                                {%- for subCheck in item.subfolderitems -%}
+                                    {%- assign numChildren = forloop.length -%}
+                                    {%- if subCheck.subsubfolderitems[0] -%}
+                                       {%- assign subSubFolders = true -%}
+                                    {%- else -%}
+                                       {%- assign subSubFolders = false -%}
+                                    {%- endif -%}
+                                {%- endfor -%}
 
-                                 <!-- conditional checks whether subsubfolders exists -->
-                                 {% if subSubFolders == true %}
+                                 {%- comment -%}conditional checks whether subsubfolders exists{%- endcomment -%}
+                                 {%- if subSubFolders == true -%}
                                  <li class="mainParentNavLink {% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
 
                                   <div class="uk-navbar-dropdown uk-navbar-dropdown-width-{{ numChildren }}" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                                       <div class="uk-navbar-dropdown-grid uk-child-width-1-{{ numChildren }}" uk-grid>
-                                            {% for nestedLink in item.subfolderitems %}
+                                            {%- for nestedLink in item.subfolderitems -%}
                                                 <div>
                                                    <p class="fm-font-navy fm-font-bold {% if nestedLink.url == page.url %}navMainActive{% endif %}"><a href="{{ nestedLink.url }}">{{ nestedLink.page }}</a></p>
                                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                        {% for nestedNestedLink in nestedLink.subsubfolderitems %}
+                                                        {%- for nestedNestedLink in nestedLink.subsubfolderitems -%}
 
                                                              <li class="{% if nestedNestedLink.url == page.url %}navMainActive{% endif %}"><a href="{{ nestedNestedLink.url }}">{{ nestedNestedLink.page }}</a></li>
 
-                                                        {% endfor %}
+                                                        {%- endfor -%}
                                                    </ul>
                                                 </div>
-                                            {% endfor %}
+                                            {%- endfor -%}
                                       </div>
                                   </div>
 
                                  </li>
-                                 {% elsif item.subfolderitems[0] %}
+                                 {%- elsif item.subfolderitems[0] -%}
                                  <li class="mainParentNavLink {% if item.url == page.url %}navMainActive{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
 
-                                      <!-- only loop through subfolderitems -->
+                                      {%- comment -%}only loop through subfolderitems{%- endcomment -%}
                                       <div class="uk-navbar-dropdown">
                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                           {% for entry in item.subfolderitems %}
+                                           {%- for entry in item.subfolderitems -%}
 
                                                     <li class="{% if entry.url == page.url %}navMainActive{% endif %}"><a href="{{ entry.url }}">{{ entry.page }}</a></li>
 
-                                           {% endfor %}
+                                           {%- endfor -%}
                                           </ul>
                                       </div>
 
                                  </li>
-                                 {% else %}
+                                 {%- else -%}
 
                                   <li class="mainParentNavLink {% if item.url == page.url %}navMainActive{% endif %} {% if forloop.last == true %}finalLinkBlue fm-font-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 
-                                 {% endif %}
+                                 {%- endif -%}
 
-                            {% endfor %}
-                       {% endif %}
+                            {%- endfor -%}
+                       {%- endif -%}
                    </ul>
-
-
 
                </div><!-- end alignNav -->
 
@@ -81,7 +79,5 @@
 
 
          </div><!-- end container -->
-
-
 
       </div><!-- end nav main section -->
