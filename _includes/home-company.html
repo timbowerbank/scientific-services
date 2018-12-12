@@ -1,5 +1,5 @@
 <!-- start company section -->
-<div class="uk-section fm-margin-top-bottom-80 companyContainer">
+<section role="region" aria-label="introduction to our business" class="uk-section fm-margin-top-bottom-80 companyContainer">
 
   <div class="uk-container">
 
@@ -17,9 +17,9 @@
 
      <div class="uk-grid-match" uk-grid uk-height-match="target: .companyParaContent">
 
-    {% assign company = site.company | sort: "order" %}
-    {% for item in company %}
-      {% if item.featured_on_home == true %}
+    {%- assign company = site.company | sort: "order" -%}
+    {%- for item in company -%}
+      {%- if item.featured_on_home == true -%}
          <div class="uk-width-1-1 uk-width-1-3@s">
            <div class="listingStyles">
              <a href="{{ item.url }}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
@@ -34,10 +34,10 @@
 
 
 
-      {% endif %}
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
      </div><!-- end featured grid -->
 
  </div><!-- end container -->
 
-</div><!-- end company section -->
+</section><!-- end company section -->

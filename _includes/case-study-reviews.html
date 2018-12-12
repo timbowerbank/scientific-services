@@ -28,13 +28,13 @@
              {% comment %}For when there is only one case study{% endcomment %}
 
              <!-- start case study section -->
-             <div class="uk-section padding-top-bottom-none caseStudySection">
+             <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
                 <div class="uk-container">
                    <div uk-grid>
 
                          <!-- header -->
                          <div class="uk-width-1-1">
-                            <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                            <h3 id="case-studies" class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
                             <div class="uk-flex uk-flex-center uk-flex-left@m">
                                <div class="fm-headerLine"></div>
                             </div>
@@ -70,24 +70,24 @@
 
                    </div><!-- end grid -->
                 </div><!-- end container -->
-             </div><!-- end case study section -->
+             </section><!-- end case study section -->
 
 
 
 
           {% elsif i == 2 %}
-             {% comment %}For when there is only 2 case studies{% endcomment %}
+             {% comment %}For when there are only 2 case studies{% endcomment %}
 
              {% if counter == 0 %}
 
                   <!-- start case study section -->
-                  <div class="uk-section padding-top-bottom-none caseStudySection">
+                  <section role="region" aria-labelledby="case-studies" class="uk-section padding-top-bottom-none caseStudySection">
                      <div class="uk-container">
                         <div uk-grid>
 
                               <!-- header -->
                               <div class="uk-width-1-1">
-                                 <h3 class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
+                                 <h3 id="case-studies" class="underlineMarginText caseStudyMainHeading">{{ page.case_study_and_reviews.title_for_section }}</h3>
                                  <div class="uk-flex uk-flex-center uk-flex-left@m">
                                     <div class="fm-headerLine"></div>
                                  </div>
@@ -163,7 +163,7 @@
 
                        </div><!-- end grid -->
                     </div><!-- end container -->
-                 </div><!-- end case study section -->
+                 </section><!-- end case study section -->
 
               {% else %}
 

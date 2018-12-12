@@ -1,7 +1,7 @@
-          {% for testimonial in site.testimonials  %}
-          {% if page.testimonial_id == testimonial.testimonial_id %}
+          {%- for testimonial in site.testimonials  -%}
+          {%- if page.testimonial_id == testimonial.testimonial_id -%}
           <!-- start testimonial banner -->
-          <div class="uk-section uk-background-cover uk-background-fixed fm-margin-top-bottom-40 padding-top-bottom-40" style="background-image: url(/images/design-assets/banner-blue-microbe-strand-01.svg);">
+          <section role="region" aria-label="testimonial" class="uk-section uk-background-cover uk-background-fixed fm-margin-top-bottom-40 padding-top-bottom-40" style="background-image: url(/images/design-assets/banner-blue-microbe-strand-01.svg);">
 
               <div class="uk-container">
 
@@ -15,7 +15,7 @@
 
                        </div><!-- end col 1 -->
 
-                       {% if testimonial.case_study == true %}
+                       {%- if testimonial.case_study == true -%}
                        <!-- start col 2 -->
                        <div class="uk-width-1-1 uk-width-expand@s">
                          <p class="fm-font-bold">{{ testimonial.quote_text }}</p>
@@ -34,7 +34,7 @@
                        </div><!-- end col 3 -->
 
 
-                       {% else %}
+                       {%- else -%}
 
                        <!-- start col 2 -->
                        <div class="uk-width-1-1 uk-width-expand@s">
@@ -47,14 +47,14 @@
                        </div><!-- end col 2 -->
 
 
-                       {% endif %}
+                       {%- endif -%}
 
                  </div><!-- end grid -->
 
               </div><!-- end container -->
 
 
-          </div><!-- end testimonial banner section -->
-          {% endif %}
+          </section><!-- end testimonial banner section -->
+          {%- endif -%}
 
-          {% endfor %}
+          {%- endfor -%}

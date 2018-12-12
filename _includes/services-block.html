@@ -1,16 +1,16 @@
       <!-- start services block -->
       {% if site.services[0] %}
-      <div class="uk-section padding-top-bottom-20 fm-margin-bottom-20">
+      <section role="region" aria-label="list of services" class="uk-section padding-top-bottom-20 fm-margin-bottom-20">
 
           <div class="uk-container">
 
              <!-- start grid -->
              <ul class="serviceList">
-             {% if page.child_page_type == "primary" %}
-                  {% comment %}I.e. used to identify primary pages for listing on the homepage {% endcomment %}
-                  {% assign sorted_services = site.services | sort: "order" %}
-                  {% for service in sorted_services %}
-                     {% if page.child_page_type == service.landing_page_type  %}
+             {%- if page.child_page_type == "primary" -%}
+                  {%- comment -%}I.e. used to identify primary pages for listing on the homepage {%- endcomment -%}
+                  {%- assign sorted_services = site.services | sort: "order" -%}
+                  {%- for service in sorted_services -%}
+                     {%- if page.child_page_type == service.landing_page_type  -%}
 
 
                      <li class="serviceListItem">
@@ -24,19 +24,15 @@
 
                      </li>
 
+                     {%- endif -%}
+                  {%- endfor -%}
 
+             {%- elsif page.child_page_type == "secondary" -%}
+                  {%- comment -%}I.e. used to identify pages for listing on the primary landing page{%- endcomment -%}
+                  {%- assign sorted_services = site.services | sort: "order" -%}
+                  {%- for service in sorted_services -%}
 
-
-
-                     {% endif %}
-                  {% endfor %}
-
-             {% elsif page.child_page_type == "secondary" %}
-                  {% comment %}I.e. used to identify pages for listing on the primary landing page{% endcomment %}
-                  {% assign sorted_services = site.services | sort: "order" %}
-                  {% for service in sorted_services %}
-
-                      {% if page.child_page_type == service.landing_page_type and page.child_page_category == service.parent_category %}
+                      {%- if page.child_page_type == service.landing_page_type and page.child_page_category == service.parent_category -%}
                       <li class="serviceListItem">
 
                            <div class="serviceHeaderImage">
@@ -47,18 +43,15 @@
                            <a class="uk-button uk-button-secondary fm-width-100" href="{{ service.url }}">{{ service.page_summary.summary_button_title }}</a>
 
                       </li>
-                      {% endif %}
+                      {%- endif -%}
 
-                  {% endfor %}
+                  {%- endfor -%}
 
-
-
-
-             {% endif %}
+             {%- endif -%}
 
              </ul><!-- end flexColumn-->
 
           </div><!-- end container -->
 
-      </div><!-- end services block -->
-      {% endif %}
+      </section><!-- end services block -->
+      {%- endif -%}
