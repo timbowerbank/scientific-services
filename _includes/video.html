@@ -1,39 +1,35 @@
-     {% if page.with_video == true %}
-        {% for video in site.videos %}
-           {% if video.video_id == page.video_id %}
+     {%- if page.with_video == true -%}
+        {%- for video in site.videos -%}
+           {%- if video.video_id == page.video_id -%}
            <!-- start video section -->
-           <div class="uk-section videoSection">
+           <section role="region" aria-labelledby="video-header" class="uk-section videoSection">
              <div class="uk-container">
 
                 <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
                   <!-- left col -->
                   <div>
-                    <h3 class="underlineMarginText">{{ video.video_headline }}</h3>
+                    <h3 id="video-header" class="underlineMarginText">{{ video.video_headline }}</h3>
                     <div class="uk-flex uk-flex-center uk-flex-left@s">
                        <div class="fm-headerLine"></div>
                     </div>
                     <h4>{{ video.video_sub_heading }}</h4>
                     <p>{{ video.video_paragraph_html }}</p>
-                    {% if video.with_transcription == true %}
+                    {%- if video.with_transcription == true -%}
                      <p><a href="{{ video.transcription_link }}">Read a transcription</a></p>
-                    {% endif %}
+                    {%- endif -%}
 
                   </div><!-- end left col -->
 
                   <!-- right col -->
                   <div>
                    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video.youTube_id }}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen uk-responsive uk-video></iframe>
-
-
                   </div><!-- end right col -->
 
                 </div><!-- end grid -->
 
              </div><!-- end container -->
-           </div><!-- end video section -->
+           </section><!-- end video section -->
 
-
-
-           {% endif %}
-        {% endfor %}
-     {% endif %}
+           {%- endif -%}
+        {%- endfor -%}
+     {%- endif -%}
