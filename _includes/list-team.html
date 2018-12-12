@@ -1,19 +1,19 @@
-      {% comment %}Check to see if there are any team to list{% endcomment %}
-      {% assign i = 0 %}
-      {% for item in site[page.collection_name] %}
+      {%- comment -%}Check to see if there are any team to list{%- endcomment -%}
+      {%- assign i = 0 -%}
+      {%- for item in site[page.collection_name] -%}
 
-             {% assign i = i | plus:1 %}
+             {%- assign i = i | plus:1 -%}
 
-      {% endfor %}
+      {%- endfor -%}
 
-      {% comment %}if greater than zero output the items{% endcomment %}
-      {% if i > 0 %}
-      <div class="uk-section listingSection">
+      {%- comment -%}if greater than zero output the items{%- endcomment -%}
+      {%- if i > 0 -%}
+      <main role="main" aria-label="list of employees" class="uk-section listingSection">
          <div class="uk-container">
            <div class="uk-child-width-1-1 uk-child-width-1-4@s" uk-grid uk-height-match=" .listingTextTeam">
 
-              {% assign orderedTeam = site[page.collection_name] | sort: "order" %}
-              {% for item in orderedTeam %}
+              {%- assign orderedTeam = site[page.collection_name] | sort: "order" -%}
+              {%- for item in orderedTeam -%}
 
                   <!-- start col -->
                   <div>
@@ -30,23 +30,23 @@
                        </div>
                    </div><!-- end col -->
 
-              {% endfor %}
+              {%- endfor -%}
 
 
 
            </div><!-- end grid -->
 
          </div><!-- end container -->
-      </div><!-- end listing section -->
-      {% else %}
+      </main><!-- end listing section -->
+      {%- else -%}
 
-         {% comment %}There are no items to list{% endcomment %}
-         <div class="uk-section">
+         {%- comment -%}There are no items to list{%- endcomment -%}
+         <main role="main" aria-label="list of employees" class="uk-section">
             <div class="uk-container listingStyle">
                  <div uk-grid>
                     <div class="uk-width-1-1"><h4>There are no listings available for this topic</h4></div>
                  </div>
             </div>
-         </div><!-- end section -->
+         </main><!-- end section -->
 
-      {% endif %}
+      {%- endif -%}
