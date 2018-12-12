@@ -68,3 +68,25 @@ for(var t=0; t < googlePlus.length; t++) {
 
 }, false)
 }
+
+// *** ACCESSIBILITY ***
+var skipLink = document.getElementsByClassName("skip-main");
+skipLink[0].addEventListener("click", function(e){
+
+  // strip the leading hash and declare
+  // the content we're skipping to
+  var skipLink = "#"+this.href.split('#')[1];
+  var skipTo = skipLink.substring(1);
+  var target = document.getElementById(skipTo);
+
+  // Setting 'tabindex' to -1 takes an element out of normal
+  // tab flow but allows it to be focused via javascript
+  target.setAttribute("tabindex", "-1");
+  target.addEventListener("blur focusout", function() {
+    this.removeAttribute("tabindex");
+  });
+  target.focus();
+
+  e.preventDefault();
+
+}, false);

@@ -1,19 +1,5 @@
 // add my custom styles to this SASS style sheet
 
-// add a focus to any a link
-a {
- &:focus {
-  background-color: yellow!important;
-  color: black!important;
-
-  img {
-   border: 5px solid yellow;
-  }
- }
-
-
-}
-
 // *****************
 // *** VARIABLES ***
 // *****************
@@ -108,6 +94,78 @@ $fm-border-height-underline: 1px;
    @content;
   }
 }
+
+
+
+// *********************
+// *** ACCESSIBILITY ***
+// *********************
+
+button {
+ &:focus {
+  background-color: yellow!important;
+  color: black!important;
+ }
+}
+
+// add a focus to any a link
+a {
+ &:focus {
+  background-color: yellow!important;
+  color: black!important;
+
+  img {
+   border: 5px solid yellow;
+  }
+ }
+
+}
+
+.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+    &:focus {
+     //color: #fff;
+     //background-color:#000;
+     left: 0px!important;
+     top: auto;
+     width: auto;
+     height: auto;
+     overflow:auto;
+     margin: $fm-gutter-mini $fm-gutter-mini;
+     padding: $fm-gutter-micro $fm-gutter-mini;
+     //border-radius: 15px;
+     //border:4px solid yellow;
+     //text-align:center;
+     font-size:1em;
+     z-index:999;
+    }
+    &:active {
+     color: #fff;
+     background-color:#000;
+     left: 0px!important;
+     top: auto;
+     width: auto;
+     height: auto;
+     overflow:auto;
+     margin: $fm-gutter-mini $fm-gutter-mini;
+     padding: $fm-gutter-micro $fm-gutter-mini;
+     //border-radius: 15px;
+     //border:4px solid yellow;
+     text-align:center;
+     font-size:1em;
+     z-index:999;
+
+    }
+}
+
+
+
 
 // ***********************
 // *** utility classes ***
@@ -424,7 +482,11 @@ $fm-border-height-underline: 1px;
 .mainParentNavLink {
  & > a {
   color: $fm-white!important;
+  &:focus {
+   color: black!important;
+  }
  }
+
 }
 
 .finalLinkBlue {

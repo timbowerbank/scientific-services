@@ -136,7 +136,7 @@ _comments:
   knowledge_base_category: Choose - air-monitoring, awareness-training, removal, surveys, testing
 ---
 
-Our team of BOHS P402 qualified and experienced surveyors will:
+<a id="intro"></a>Our team of BOHS P402 qualified and experienced surveyors will:
 
 * Locate any materials that may contain asbestos
 * Tell you what risk level the asbestos presents
@@ -148,7 +148,7 @@ Our team of BOHS P402 qualified and experienced surveyors will:
 
 We survey domestic, commercial and industrial properties across Cornwall, Devon, Dorset and Somerset.
 
-## About your survey
+## About your survey<a id="about">
 
 ### Easy to understand - Pinpoints the risk - Provides you with next steps
 
@@ -165,7 +165,7 @@ A Scientific Services survey will help you pinpoint any asbestos risk. To judge 
 
 > **“Scientific Services reports are easy to understand. I was able to see the risks and what I should donext. Tim was on-hand to clarify any points. His helpful approach meant we were able to create aroadmap for moving forward.”** A N Customer.
 
-### Survey Report
+### Survey Report<a id="surveyor">
 
 You'll receive a digital copy of your report via email. View sample report.
 

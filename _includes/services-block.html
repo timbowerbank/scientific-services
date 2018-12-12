@@ -5,7 +5,7 @@
           <div class="uk-container">
 
              <!-- start grid -->
-             <ul class="serviceList">
+             <ul id="mainContent" tabindex="-1" class="serviceList">
              {%- if page.child_page_type == "primary" -%}
                   {%- comment -%}I.e. used to identify primary pages for listing on the homepage {%- endcomment -%}
                   {%- assign sorted_services = site.services | sort: "order" -%}
