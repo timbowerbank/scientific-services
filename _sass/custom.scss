@@ -103,22 +103,35 @@ $fm-border-height-underline: 1px;
 
 button {
  &:focus {
-  background-color: yellow!important;
-  color: black!important;
+  //background-color: yellow!important;
+  //color: black!important;
+  outline: 2px dotted $fm-blue-navy!important;
+  outline-offset: 5px!important;
  }
 }
 
 // add a focus to any a link
 a {
  &:focus {
-  background-color: yellow!important;
-  color: black!important;
+  //background-color: yellow!important;
+  //color: black!important;
+  outline: 2px dotted $fm-blue-navy!important;
+  outline-offset: 5px!important;
+  z-index:999;
 
   img {
-   border: 5px solid yellow;
+   //border: 5px solid yellow;
+   //outline: 2px dotted $fm-blue;
   }
  }
 
+}
+
+.outlineAccess {
+  &:focus {
+   outline: 2px dotted white!important;
+   outline-offset: 5px!important;
+ }
 }
 
 .skip-main {
@@ -130,8 +143,8 @@ a {
     overflow:hidden;
     z-index:-999;
     &:focus {
-     //color: #fff;
-     //background-color:#000;
+     color: #fff;
+     background-color:$fm-blue-navy;
      left: 0px!important;
      top: auto;
      width: auto;
@@ -147,7 +160,7 @@ a {
     }
     &:active {
      color: #fff;
-     background-color:#000;
+     background-color:$fm-blue-navy;
      left: 0px!important;
      top: auto;
      width: auto;
@@ -483,7 +496,8 @@ a {
  & > a {
   color: $fm-white!important;
   &:focus {
-   color: black!important;
+   outline: 2px dotted white!important;
+   outline-offset: -2px!important;
   }
  }
 
@@ -494,6 +508,8 @@ a {
    background-color: $fm-blue;
  }
 }
+
+
 
 
 // *************
