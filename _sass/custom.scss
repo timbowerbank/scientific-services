@@ -1,5 +1,19 @@
 // add my custom styles to this SASS style sheet
 
+// add a focus to any a link
+a {
+ &:focus {
+  background-color: yellow!important;
+  color: black!important;
+
+  img {
+   border: 5px solid yellow;
+  }
+ }
+
+
+}
+
 // *****************
 // *** VARIABLES ***
 // *****************
