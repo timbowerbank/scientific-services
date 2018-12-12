@@ -676,6 +676,10 @@ a {
    color: $fm-white;
    font-size: $fm-font-micro;
    padding-right: $fm-gutter-mini;
+   &:focus {
+    outline: 2px dotted white!important;
+    outline-offset: 2px!important;
+   }
  }
  @include small {
    a {
@@ -700,6 +704,10 @@ a {
  a {
    color: $fm-white;
    font-size: $fm-font-micro;
+   &:focus {
+    outline: 2px dotted white!important;
+    outline-offset: 2px!important;
+   }
  }
 }
 
