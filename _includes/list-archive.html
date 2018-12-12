@@ -1,30 +1,30 @@
 
-   {% if page.parent_category != "all" %}
-      {% comment %}Check to see if there are any case studies to list{% endcomment %}
-      {% assign i = 0 %}
-      {% for item in site[page.collection_name] %}
+   {%- if page.parent_category != "all" -%}
+      {%- comment -%}Check to see if there are any case studies to list{%- endcomment -%}
+      {%- assign i = 0 -%}
+      {%- for item in site[page.collection_name] -%}
 
-         {% if page.parent_category == item.parent_category and page.child_category == item.child_category %}
-             {% assign i = i | plus:1 %}
-         {% endif %}
-      {% endfor %}
+         {%- if page.parent_category == item.parent_category and page.child_category == item.child_category -%}
+             {%- assign i = i | plus:1 -%}
+         {%- endif -%}
+      {%- endfor -%}
 
 
-      {% comment %}if greater than zero output the items{% endcomment %}
-      {% if i > 0 %}
-      <div class="uk-section listingSection">
+      {%- comment -%}if greater than zero output the items{%- endcomment -%}
+      {%- if i > 0 -%}
+      <main role="main" aria-label="list of archived articles" class="uk-section listingSection">
          <div class="uk-container">
            <div class="uk-child-width-1-1" uk-grid>
 
-              {% if page.collection_name != "posts" %}
-                 {% assign collectionToLoop = site[page.collection_name] | sort: "all_order" %}
-              {% else %}
-                 {% assign collectionToLoop = site[page.collection_name] %}
-              {% endif %}
+              {%- if page.collection_name != "posts" -%}
+                 {%- assign collectionToLoop = site[page.collection_name] | sort: "all_order" -%}
+              {%- else -%}
+                 {%- assign collectionToLoop = site[page.collection_name] -%}
+              {%- endif -%}
 
-              {% for item in collectionToLoop %}
+              {%- for item in collectionToLoop -%}
 
-                 {% if page.parent_category == item.parent_category and page.child_category == item.child_category %}
+                 {%- if page.parent_category == item.parent_category and page.child_category == item.child_category -%}
                   <!-- start col -->
                   <div class="uk-margin-small">
                     <!-- begin background -->
@@ -45,49 +45,49 @@
 
                    </div><!-- end col -->
 
-                 {% endif %}
-              {% endfor %}
+                 {%- endif -%}
+              {%- endfor -%}
 
            </div><!-- end grid -->
 
          </div><!-- end container -->
-      </div><!-- end listing section -->
-      {% else %}
+      </main><!-- end listing section -->
+      {%- else -%}
 
-         {% comment %}There are no items to list{% endcomment %}
-         <div class="uk-section">
+         {%- comment -%}There are no items to list{%- endcomment -%}
+         <main role="main" aria-label="list of archived articles" class="uk-section">
             <div class="uk-container listingStyle">
                  <div uk-grid>
                     <div class="uk-width-1-1"><h4>There are no listings available for this topic</h4></div>
                  </div>
             </div>
-         </div><!-- end section -->
+         </main><!-- end section -->
 
-      {% endif %}
+      {%- endif -%}
 
-  {% else %}
+  {%- else -%}
 
-       {% comment %}Check to see if there are any items to list{% endcomment %}
-       {% assign i = 0 %}
-       {% for item in site[page.collection_name] %}
+       {%- comment -%}Check to see if there are any items to list{%- endcomment -%}
+       {%- assign i = 0 -%}
+       {%- for item in site[page.collection_name] -%}
 
-              {% assign i = i | plus:1 %}
+              {%- assign i = i | plus:1 -%}
 
-       {% endfor %}
+       {%- endfor -%}
 
-       {% comment %}if greater than zero output the items{% endcomment %}
+       {%- comment -%}if greater than zero output the items{%- endcomment -%}
        {% if i > 0 %}
-       <div class="uk-section listingSection">
+       <main role="main" aria-label="archived list of articles" class="uk-section listingSection">
           <div class="uk-container">
             <div class="uk-child-width-1-1" uk-grid>
 
-               {% if page.collection_name != "posts" %}
-                  {% assign collectionToLoop = site[page.collection_name] | sort: "all_order" %}
-               {% else %}
-                  {% assign collectionToLoop = site[page.collection_name] %}
-               {% endif %}
+               {%- if page.collection_name != "posts" -%}
+                  {%- assign collectionToLoop = site[page.collection_name] | sort: "all_order" -%}
+               {%- else -%}
+                  {%- assign collectionToLoop = site[page.collection_name] -%}
+               {%- endif -%}
 
-               {% for item in collectionToLoop %}
+               {%- for item in collectionToLoop -%}
 
                    <!-- start col -->
                    <div class="uk-margin-small">
@@ -108,24 +108,24 @@
                         </div><!-- end background -->
                     </div><!-- end col -->
 
-               {% endfor %}
+               {%- endfor -%}
 
             </div><!-- end grid -->
 
           </div><!-- end container -->
-       </div><!-- end listing section -->
-       {% else %}
+       </main><!-- end listing section -->
+       {%- else -%}
 
-          {% comment %}There are no items to list{% endcomment %}
-          <div class="uk-section">
+          {%- comment -%}There are no items to list{%- endcomment -%}
+          <main role="main" aria-label="archived list of articles" class="uk-section">
              <div class="uk-container listingStyle">
                   <div uk-grid>
                      <div class="uk-width-1-1"><h4>There are no listings available for this topic</h4></div>
                   </div>
              </div>
-          </div><!-- end section -->
+          </main><!-- end section -->
 
-       {% endif %}
+       {%- endif -%}
 
 
-  {% endif %}
+  {%- endif -%}
