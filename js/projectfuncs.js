@@ -90,3 +90,20 @@ skipLink[0].addEventListener("click", function(e){
   e.preventDefault();
 
 }, false);
+
+// *** SCROLL TO TOP ***
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scrollTopBtn").style.display = "block";
+  } else {
+    document.getElementById("scrollTopBtn").style.display = "none";
+  }
+
+  //console.log("window height is: " + window.innerHeight);
+  //console.log("document.body.scrollTop is: " + document.documentElement.scrollTop);
+  //console.log("scrollHeight is: " + document.documentElement.scrollHeight);
+  if(document.documentElement.scrollTop + window.innerHeight > document.documentElement.scrollHeight - 200) {
+    console.log("end of scroll reached");
+  }
+}
