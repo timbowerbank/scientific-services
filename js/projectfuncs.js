@@ -90,3 +90,70 @@ skipLink[0].addEventListener("click", function(e){
   e.preventDefault();
 
 }, false);
+
+// *** COOKIE CONSENT ***
+var p;
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+     "palette": {
+         "popup": {
+         "background": "#005288"
+         },
+         "button": {
+         "background": "#ff5e15",
+         "text": "#ffffff"
+         }
+     },
+     "theme": "edgeless",
+     "type": "opt-out",
+     "content": {
+         "message": "This website uses cookies to anonymously monitor visitor behaviour via web analytics.",
+         "href": "/privacy-policy/"
+     },
+     "cookie": {
+       "domain": "https://stunning-plateau.cloudvent.net"
+     },
+     onInitialise: function (status) {
+       var type = this.options.type;
+       var didConsent = this.hasConsented();
+       console.log("onInitialise type is " + type);
+       if (type == 'opt-in' && didConsent) {
+         // enable cookies
+         console.log(" onInitialise cookies opt-in");
+       }
+       if (type == 'opt-out' && !didConsent) {
+         // disable cookies
+         console.log("cookies onInitialise opt-out");
+       }
+     },
+     onStatusChange: function(status, chosenBefore) {
+       var type = this.options.type;
+       var didConsent = this.hasConsented();
+       console.log("onStatusChange type is " + type);
+       if (type == 'opt-in' && didConsent) {
+         // enable cookies
+         console.log("cookies onStatusChange allowed");
+       }
+       if (type == 'opt-out' && !didConsent) {
+         // disable cookies
+         console.log("cookies onStatusChange opt-out");
+       }
+     },
+     onRevokeChoice: function() {
+       var type = this.options.type;
+       console.log("onRevokeChoice type is " + type);
+       if (type == 'opt-in') {
+         // disable cookies
+         console.log("cookies onRevokeChoice opt-in");
+       }
+       if (type == 'opt-out') {
+         // enable cookies
+         console.log("cookies onRevokeChoice opt-out");
+       }
+     }
+
+}, function (popup) {
+  p = popup;
+}, function (err) {
+  console.error(err);
+})});
