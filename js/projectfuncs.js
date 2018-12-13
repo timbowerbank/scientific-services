@@ -116,44 +116,25 @@ window.cookieconsent.initialise({
      onInitialise: function (status) {
        var type = this.options.type;
        var didConsent = this.hasConsented();
-       console.log("onInitialise type is " + type);
-       if (type == 'opt-in' && didConsent) {
-         // enable cookies
-         console.log(" onInitialise cookies opt-in");
-       }
        if (type == 'opt-out' && !didConsent) {
          // disable cookies
-         console.log("cookies onInitialise opt-out");
+         console.log("cookies onInitialise cookies need to be disabled");
        }
      },
      onStatusChange: function(status, chosenBefore) {
        var type = this.options.type;
        var didConsent = this.hasConsented();
-       console.log("onStatusChange type is " + type);
-       if (type == 'opt-in' && didConsent) {
-         // enable cookies
-         console.log("cookies onStatusChange allowed");
-       }
        if (type == 'opt-out' && !didConsent) {
          // disable cookies
-         console.log("cookies onStatusChange opt-out");
+         console.log("cookies onStatusChange disable cookies");
        }
      },
      onRevokeChoice: function() {
        var type = this.options.type;
-       console.log("onRevokeChoice type is " + type);
-       if (type == 'opt-in') {
-         // disable cookies
-         console.log("cookies onRevokeChoice opt-in");
-       }
        if (type == 'opt-out') {
          // enable cookies
-         console.log("cookies onRevokeChoice opt-out");
+         console.log("cookies can be enabled");
        }
      }
 
-}, function (popup) {
-  p = popup;
-}, function (err) {
-  console.error(err);
 })});
