@@ -92,7 +92,6 @@ skipLink[0].addEventListener("click", function(e){
 }, false);
 
 // *** COOKIE CONSENT ***
-var p;
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
      "palette": {

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="mEmL7yikK_3-eBpjbilfbmAbWKQ_b0vg1duF8vKVzas">
 
     <!-- Title, Meta Description and Canonical -->
     <title>{{page.meta_data.page_title}}</title>
@@ -15,6 +16,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
     {% endif %}
 
+    {% include cookie-consent.html %}
 
     <!-- Open Graph Tags -->
     <meta property="og:locale" content="en_GB" />
@@ -48,7 +50,6 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 
 
   </head>
@@ -100,8 +101,6 @@
    </div><!-- end of offcanvas-content -->
 
     <!-- Javascript files -->
-    <!--<script src="{{ site.url }}/js/jquery.min.js"></script>-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
     <script src="{{ site.url }}/js/uikit.min.js"></script>
     <script src="{{ site.url }}/js/uikit-icons.min.js"></script>
     <script src="{{ site.url }}/js/projectfuncs.js"></script>
