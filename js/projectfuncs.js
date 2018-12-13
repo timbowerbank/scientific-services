@@ -111,7 +111,7 @@ window.cookieconsent.initialise({
          "href": "/privacy-policy/"
      },
      "cookie": {
-       "domain": "https://stunning-plateau.cloudvent.net"
+       "domain": "stunning-plateau.cloudvent.net"
      },
      onInitialise: function (status) {
        var type = this.options.type;
