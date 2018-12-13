@@ -8,21 +8,27 @@ meta_data:
   social_media_title: Error 404 - we can't find that page
   social_media_description: Error 404 - we can't find that page
   social_media_image: /images/uploads/social-media-laboratory.jpg
-  author:
-    with_author: false
-    team_id: tim
-  main_intro:
-    with_intro_block: false
-    intro_paragraph_text: >-
-      Add an introductory paragraph
-    content_list:
-      - list_item: List item 1
-        list_item_id: list1
-      - list_item: List item 2
-        list_item_id: list2
-    intro_image: /images/uploads/defaults/default-intro-lo-res.png
-    intro_hi_res_image: /images/uploads/defaults/default-intro-hi-res.png
-    intro_image_alt_tag: Add an alt tag for your intro image
+hero:
+  main_headline_html: >-
+    <h1><strong>Oops...</strong> We can't find that page</h1><p>Error 404 - maybe you can find the page you're looking for in the links below.</p>
+  main_hero_image: /images/uploads/hero-surveyor-standard.png
+  main_hero_hi_res_image: /images/uploads/hero-surveyor-standard@2x.png
+  main_hero_alt_tag: surveyor at work
+author:
+  with_author: false
+  team_id: tim
+main_intro:
+  with_intro_block: false
+  intro_paragraph_text: >-
+    Add an introductory paragraph
+  content_list:
+    - list_item: List item 1
+      list_item_id: list1
+    - list_item: List item 2
+      list_item_id: list2
+  intro_image: /images/uploads/defaults/default-intro-lo-res.png
+  intro_hi_res_image: /images/uploads/defaults/default-intro-hi-res.png
+  intro_image_alt_tag: Add an alt tag for your intro image
 accreditations:
   - accreditation_path: /images/uploads/accred-ukas-01.svg
     accreditation_alt: UKAS accredited logo
@@ -70,62 +76,62 @@ _comments:
   with_gallery: Tick if you would like to include a gallery
   gallery_id: Enter the gallery_id of the gallery
 ---
-<p>We can't find the page you're looking for. Please use the links below.</p>
+
 <ul>
-    {% if site.data.main-menu.mainmenu[0] %}
-         {% for item in site.data.main-menu.mainmenu %}
+    {%- if site.data.main-menu.mainmenu[0] -%}
+         {%- for item in site.data.main-menu.mainmenu -%}
 
              <!-- use a loop to identify if item has subsubfolderitems -->
              <!-- identify number of children of subfolderitems -->
-             {% for subCheck in item.subfolderitems %}
-                 {% assign numChildren = forloop.length %}
-                 {% if subCheck.subsubfolderitems[0] %}
-                    {% assign subSubFolders = true %}
-                 {% else %}
-                    {% assign subSubFolders = false %}
-                 {% endif %}
-             {% endfor %}
+             {%- for subCheck in item.subfolderitems -%}
+                 {%- assign numChildren = forloop.length -%}
+                 {%- if subCheck.subsubfolderitems[0] -%}
+                    {%- assign subSubFolders = true -%}
+                 {%- else -%}
+                    {%- assign subSubFolders = false -%}
+                 {%- endif -%}
+             {%- endfor -%}
 
               <!-- conditional checks whether subsubfolders exists -->
-              {% if subSubFolders == true %}
+              {%- if subSubFolders == true -%}
               <li class="fm-font-navy fm-font-bold"><a href="{{ item.url }}">{{ item.title }}</a>
 
-                         {% for nestedLink in item.subfolderitems %}
+                         {%- for nestedLink in item.subfolderitems -%}
                                 <p class="fm-font-navy fm-font-bold"><a href="{{ nestedLink.url }}">{{ nestedLink.page }}</a></p>
                                 <ul>
-                                     {% for nestedNestedLink in nestedLink.subsubfolderitems %}
+                                     {%- for nestedNestedLink in nestedLink.subsubfolderitems -%}
 
                                           <li class="fm-font-regular fm-font-black"><a href="{{ nestedNestedLink.url }}">{{ nestedNestedLink.page }}</a></li>
 
-                                     {% endfor %}
+                                     {%- endfor -%}
                                 </ul>
 
-                         {% endfor %}
+                         {%- endfor -%}
 
 
 
               </li>
-              {% elsif item.subfolderitems[0] %}
+              {%- elsif item.subfolderitems[0] -%}
               <li class="fm-font-navy fm-font-bold"><a href="{{ item.url }}">{{ item.title }}</a>
 
                    <!-- only loop through subfolderitems -->
 
                         <ul>
-                        {% for entry in item.subfolderitems %}
+                        {%- for entry in item.subfolderitems -%}
 
                                  <li class="fm-font-regular fm-font-black"><a href="{{ entry.url }}">{{ entry.page }}</a></li>
 
-                        {% endfor %}
+                        {%- endfor -%}
                        </ul>
 
 
               </li>
-              {% else %}
+              {%- else -%}
 
                <li class="fm-font-navy fm-font-bold"><a href="{{ item.url }}">{{ item.title }}</a></li>
 
-              {% endif %}
+              {%- endif -%}
 
-         {% endfor %}
-    {% endif %}
+         {%- endfor -%}
+    {%- endif -%}
 </ul>
