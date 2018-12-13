@@ -30,6 +30,10 @@ plugins:
 
 # - jekyll-feed (re-add this if needed)
 
+sass:
+    sass_dir: _sass
+    style: compressed
+
 # COLLECTIONS
 collections_dir: collections
 collections:
