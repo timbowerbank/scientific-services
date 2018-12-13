@@ -2171,3 +2171,15 @@ a {
 // ***************************
 // *** MODAL REQUEST QUOTE ***
 // ***************************
+
+// ********************
+// *** GDPR COOKIES ***
+// ********************
+
+.cc-revoke {
+  &.cc-bottom {
+    left: $fm-gutter-mini!important;
+    border-top-left-radius: 0em!important;
+    border-top-right-radius: 0em!important;
+  }
+}
