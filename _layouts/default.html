@@ -16,7 +16,11 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
     {% endif %}
 
-    {% include cookie-consent.html %}
+    <!-- cookie consent - opt-out -->
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/cookieconsent.min.css" />
+    <script src="{{ site.url }}/js/cookieconsent.min.js"></script>
+
+    <!-- add Google analytics -->
 
     <!-- Open Graph Tags -->
     <meta property="og:locale" content="en_GB" />

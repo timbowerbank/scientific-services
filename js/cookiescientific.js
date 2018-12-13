@@ -1,6 +1,3 @@
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
      "palette": {
@@ -28,7 +25,7 @@ window.cookieconsent.initialise({
          // disable cookies
          // console.log("cookies onInitialise cookies need to be disabled");
          window['ga-disable-UA-12566971-2'] = true;
-         //console.log("onInitialise Analytics is now: " + window['ga-disable-UA-12566971-2']);
+         console.log("onInitialise Analytics is now: " + window['ga-disable-UA-12566971-2']);
        }
      },
      onStatusChange: function(status, chosenBefore) {
@@ -38,7 +35,7 @@ window.cookieconsent.initialise({
          // disable cookies
          // console.log("cookies onStatusChange disable cookies");
          window['ga-disable-UA-12566971-2'] = true;
-         //console.log("onStatusChange Analytics is now: " + window['ga-disable-UA-12566971-2']);
+         console.log("onStatusChange Analytics is now: " + window['ga-disable-UA-12566971-2']);
        }
      },
      onRevokeChoice: function() {
@@ -47,9 +44,8 @@ window.cookieconsent.initialise({
          // enable cookies
          // console.log("cookies can be enabled");
          window['ga-disable-UA-12566971-2'] = false;
-         //console.log("onRevokeChoice Analytics is now: " + window['ga-disable-UA-12566971-2']);
+         console.log("onRevokeChoice Analytics is now: " + window['ga-disable-UA-12566971-2']);
        }
      }
 
 })});
-</script>
