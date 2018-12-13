@@ -70,5 +70,62 @@ _comments:
   with_gallery: Tick if you would like to include a gallery
   gallery_id: Enter the gallery_id of the gallery
 ---
+<p>We can't find the page you're looking for. Please use the links below.</p>
+<ul>
+    {% if site.data.main-menu.mainmenu[0] %}
+         {% for item in site.data.main-menu.mainmenu %}
 
-Please use our [sitemap](/sitemap/) to find the page that you need.
+             <!-- use a loop to identify if item has subsubfolderitems -->
+             <!-- identify number of children of subfolderitems -->
+             {% for subCheck in item.subfolderitems %}
+                 {% assign numChildren = forloop.length %}
+                 {% if subCheck.subsubfolderitems[0] %}
+                    {% assign subSubFolders = true %}
+                 {% else %}
+                    {% assign subSubFolders = false %}
+                 {% endif %}
+             {% endfor %}
+
+              <!-- conditional checks whether subsubfolders exists -->
+              {% if subSubFolders == true %}
+              <li class="fm-font-navy fm-font-bold"><a href="{{ item.url }}">{{ item.title }}</a>
+
+                         {% for nestedLink in item.subfolderitems %}
+                                <p class="fm-font-navy fm-font-bold"><a href="{{ nestedLink.url }}">{{ nestedLink.page }}</a></p>
+                                <ul>
+                                     {% for nestedNestedLink in nestedLink.subsubfolderitems %}
+
+                                          <li class="fm-font-regular fm-font-black"><a href="{{ nestedNestedLink.url }}">{{ nestedNestedLink.page }}</a></li>
+
+                                     {% endfor %}
+                                </ul>
+
+                         {% endfor %}
+
+
+
+              </li>
+              {% elsif item.subfolderitems[0] %}
+              <li class="fm-font-navy fm-font-bold"><a href="{{ item.url }}">{{ item.title }}</a>
+
+                   <!-- only loop through subfolderitems -->
+
+                        <ul>
+                        {% for entry in item.subfolderitems %}
+
+                                 <li class="fm-font-regular fm-font-black"><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+                        {% endfor %}
+                       </ul>
+
+
+              </li>
+              {% else %}
+
+               <li class="fm-font-navy fm-font-bold"><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+              {% endif %}
+
+         {% endfor %}
+    {% endif %}
+</ul>
