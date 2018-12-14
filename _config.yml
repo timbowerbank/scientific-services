@@ -47,6 +47,8 @@ collections:
     output: true
   galleries:
     output: false
+  jobs:
+    output: false
   knowledge_base:
     output: true
   marketing_banners:
@@ -417,6 +419,13 @@ defaults:
     values:
       parent_category: "all"
       child_category: "none"
+  -
+    scope:
+      path: "_jobs"
+    values:
+      parent_category: "all"
+      child_category: "none"
+      summary_download: true
 
 
 

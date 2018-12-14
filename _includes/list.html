@@ -36,7 +36,7 @@
                             <p>{{ item.page_summary.summary_description }}</p>
                          </div>
                          <div class="uk-flex uk-flex-bottom">
-                           <a class="uk-button uk-button-secondary fm-width-100" href="{{ item.url }}">{{ item.page_summary.summary_button_title }}</a>
+                           <a class="uk-button uk-button-secondary fm-width-100" href="{% if item.summary_download == true %}{{ item.page_summary.summary_download_file }}{% else %}{{ item.url }}{% endif %}">{{ item.page_summary.summary_button_title }}</a>
                          </div>
                        </div>
                    </div><!-- end col -->
@@ -104,7 +104,7 @@
                              <p>{{ item.page_summary.summary_description }}</p>
                           </div>
                           <div class="uk-flex uk-flex-bottom">
-                            <a class="uk-button uk-button-secondary fm-width-100" href="{{ item.url }}">{{ item.page_summary.summary_button_title }}</a>
+                            <a class="uk-button uk-button-secondary fm-width-100" href="{% if item.summary_download == true %}{{ item.page_summary.summary_download_file }}{% else %}{{ item.url }}{% endif %}">{{ item.page_summary.summary_button_title }}</a>
                           </div>
                         </div>
                     </div><!-- end col -->
