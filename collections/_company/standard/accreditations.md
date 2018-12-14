@@ -112,7 +112,7 @@ Integer consequat tristique elit nec ornare. Etiam laoreet sapien eu quam tincid
 
 Proin rutrum, purus eget gravida elementum, arcu urna condimentum tortor, congue tempor eros turpis in nibh. Duis pretium erat quis magna elementum, quis dictum nisi vehicula. Quisque egestas magna nec tellus tempor dapibus vitae pellentesque libero. Maecenas eu elementum nunc, ut tincidunt augue. Phasellus eleifend, sapien vitae interdum imperdiet, dui arcu dictum tortor, quis dapibus eros quam vitae risus. Suspendisse finibus placerat tellus.
 
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2NYtWrVfwAG/gL+NbCogwAAAABJRU5ErkJggg==){: .cms-image-placeholder}
+![](/images/uploads/main-surveyor-building-site@2x.jpg)
 
 Nullam facilisis lectus sit amet ipsum mollis, vitae aliquet enim sollicitudin. Phasellus consequat non turpis ut viverra. Cras cursus viverra sagittis. Aliquam et bibendum orci. Sed velit metus, eleifend vitae eros posuere, eleifend molestie diam. Pellentesque a libero commodo, semper massa quis, aliquam odio.
 
