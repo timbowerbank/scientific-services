@@ -1,4 +1,4 @@
-strapline: Keeping you safe, keeping you compliant
+strapline: 'Keeping you safe, keeping you compliant'
 company_name: Scientific Services Limited
 address:
   line_1: The Fuel Depot
@@ -9,11 +9,11 @@ address:
 contact_details:
   telephone: 01209 311350
   email: enquiries@scientificservices.org
-google_map: https://goo.gl/maps/F3MLPCnv63r
+google_map: 'https://goo.gl/maps/pr6QAyKWtz12'
 social_media:
-  facebook: https://www.facebook.com/Scientific-Services-Ltd-300189623429916/
-  linkedin: https://www.linkedin.com/company/scientific-services-ltd/
-  twitter: https://twitter.com/SSL_Scientific
-  twitter_username: "@SSL_Scientific"
-  youtube: https://www.youtube.com
-  google: https://plus.google.com/117343938471855673094
+  facebook: 'https://www.facebook.com/Scientific-Services-Ltd-300189623429916/'
+  linkedin: 'https://www.linkedin.com/company/scientific-services-ltd/'
+  twitter: 'https://twitter.com/SSL_Scientific'
+  twitter_username: SSL_Scientific
+  youtube: 'https://www.youtube.com'
+  google: 'https://plus.google.com/117343938471855673094'
