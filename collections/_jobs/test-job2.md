@@ -1,13 +1,16 @@
 ---
-all_order: 10
+all_order: 20
 page_summary:
-  summary_title: Add your summary title
-  summary_description: Add your summary description.
-  summary_image: /images/uploads/defaults/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/defaults/default-summary-hi-res.png
-  summary_alt_tag: Add an alt tag for your images
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
-  summary_download_path: /images/uploads/document.pdf
+  summary_title: Asbestos Surveyor
+  summary_description: >-
+    Asbestos surveyor needed for covering the region of Cornwall and Devon.
+    Track record required - would suit graduate. Competitive salary. Apply by
+    downloading the application form below.
+  summary_image: /images/uploads/services-asbestos-summary.jpg
+  summary_hiRes_image: /images/uploads/services-asbestos-summary@2x.jpg
+  summary_alt_tag: Surveyor working with project manager
+  summary_button_title: DOWNLOAD JOB APPLICATION
+  summary_download_path: /images/uploads/file-job-appl-test2.pdf
 _hide_content: true
 _comments:
   all_order: Ordering of content on listing pages
