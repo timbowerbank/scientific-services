@@ -1,13 +1,15 @@
 ---
 all_order: 10
 page_summary:
-  summary_title: Add your summary title
+  summary_title: Asbestos Laboratory Assistant
   summary_description: >-
-    Add your summary description.
-  summary_image: /images/uploads/defaults/default-summary-lo-res.png
-  summary_hiRes_image: /images/uploads/defaults/default-summary-hi-res.png
-  summary_alt_tag: Add an alt tag for your images
-  summary_button_title: ADD A TITLE FOR YOUR BUTTON
+    A great opportunity to join our team as a laboratory assistant. Would suit
+    graduate. Competitive salary. Download job spec - application details
+    within.
+  summary_image: /images/uploads/news-article2-summary.jpg
+  summary_hiRes_image: /images/uploads/news-article2-summary@2x.jpg
+  summary_alt_tag: lab assistant looking at slide
+  summary_button_title: DOWNLOAD JOB SPEC
   summary_download_file: /images/uploads/document.pdf
 _hide_content: true
 _comments:
