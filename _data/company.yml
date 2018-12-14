@@ -17,3 +17,21 @@ social_media:
   twitter_username: SSL_Scientific
   youtube: 'https://www.youtube.com'
   google: 'https://plus.google.com/117343938471855673094'
+with_footer_accreditations: true
+footer_accreditation_logos:
+  - source_image: /images/uploads/footer-logo-test1.png
+    source_hiRes_image: /images/uploads/footer-logo-test1@2x.png
+    image_alt: test logo
+    image_link: "#"
+  - source_image: /images/uploads/footer-logo-test1.png
+    source_hiRes_image: /images/uploads/footer-logo-test1@2x.png
+    image_alt: test logo
+    image_link: "#"
+  - source_image: /images/uploads/footer-logo-test1.png
+    source_hiRes_image: /images/uploads/footer-logo-test1@2x.png
+    image_alt: test logo
+    image_link: "#"
+  - source_image: /images/uploads/footer-logo-test1.png
+    source_hiRes_image: /images/uploads/footer-logo-test1@2x.png
+    image_alt: test logo
+    image_link: "#"

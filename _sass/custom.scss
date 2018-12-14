@@ -2197,3 +2197,24 @@ a {
     border-top-right-radius: 0em!important;
   }
 }
+
+// *****************************
+// *** FOOTER ACCREDITATIONS ***
+// *****************************
+
+.footerAccredsSection {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: $fm-gutter-mini;
+  margin-bottom: $fm-gutter-mini;
+  img {
+    height: 80px;
+    width: auto;
+    margin: $fm-gutter-micro $fm-gutter-micro;
+  }
+  @include small {
+    height: 100px;
+    width: auto;
+    margin: $fm-gutter-mini $fm-gutter-mini;
+  }
+}
