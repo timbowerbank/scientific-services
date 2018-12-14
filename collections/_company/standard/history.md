@@ -1,5 +1,6 @@
 ---
 layout: standard
+permalink: /about/:name/
 meta_data:
   page_title: History of Scientific Services
   meta_description: Add a text for your meta description tag
@@ -89,6 +90,7 @@ _comments:
   accreditation_path: 'svg, 62px x 62px'
   with_gallery:
   gallery_id: Enter the gallery_id of the gallery
+  permalink: Where the html file is outputted to, finish with /:name/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia nisl porttitor molestie sollicitudin. Phasellus sit amet hendrerit leo. Vestibulum luctus rutrum efficitur. Etiam hendrerit molestie vehicula. Sed tempus a tellus sed ultricies. Ut tellus ante, aliquet sit amet orci at, mattis commodo urna.
