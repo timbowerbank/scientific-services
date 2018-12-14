@@ -74,9 +74,9 @@ $form-horizontal-controls-margin-left: 120px;
  }
  &:hover {
   background-color: #d44c27!important; //d44c27;
-  -webkit-transition: background-color 800ms linear;
-  -ms-transition: background-color 800ms linear;
-  transition: background-color 800ms linear;
+  //-webkit-transition: background-color 800ms linear;
+  //-ms-transition: background-color 800ms linear;
+  //transition: background-color 800ms linear;
  }
 }
 @mixin hook-button-secondary {
@@ -86,15 +86,15 @@ $form-horizontal-controls-margin-left: 120px;
  &:focus {
   outline: 2px dotted #005288;
   outline-offset: 5px;
-  background-color: #d44c27;
-  color: #ffffff!important;
+  //background-color: #d44c27;
+  //color: #d44c27!important;
  }
  &:hover {
-  background-color: #d44c27;
-  color: #ffffff!important;
-  -webkit-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
+  //background-color: #d44c27;
+  //color: #ffffff!important;
+  //-webkit-transition: background-color 1000ms linear;
+  //-ms-transition: background-color 1000ms linear;
+  //transition: background-color 1000ms linear;
 
  }
 }
