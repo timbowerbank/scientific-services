@@ -23,8 +23,8 @@ footer_accreditation_logos:
     source_hiRes_image: /images/uploads/footer-logo-test1@2x.png
     image_alt: test logo
     image_link: "#"
-  - source_image: /images/uploads/footer-logo-test1.png
-    source_hiRes_image: /images/uploads/footer-logo-test1@2x.png
+  - source_image: /images/uploads/footer-logo-test2.png
+    source_hiRes_image: /images/uploads/footer-logo-test2@2x.png
     image_alt: test logo
     image_link: "#"
   - source_image: /images/uploads/footer-logo-test1.png

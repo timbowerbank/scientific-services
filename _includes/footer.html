@@ -189,11 +189,15 @@
           <div class="uk-container">
              <div uk-grid>
                 <div class="uk-width-1-1">
-                    <div class="uk-flex uk-flex-around uk-flex-right@s uk-flex-wrap">
-                        {%- for item in site.data.company.footer_accreditation_logos -%}
-                           <a href="{{ item.image_link }}"><img srcset="{{ item.source_image }}, {{ item.source_hiRes_image }} 2x" src="{{ item.source_image }}" alt="{{ item.image_alt }}"></a>
-                        {%- endfor -%}
-                    </div>
+
+                   <div class="footerAccredsContainer">
+                            <div class="footerAccreds">
+                                {%- for item in site.data.company.footer_accreditation_logos -%}
+                                   <a href="{{ item.image_link }}"><img srcset="{{ item.source_image }}, {{ item.source_hiRes_image }} 2x" src="{{ item.source_image }}" alt="{{ item.image_alt }}"></a>
+                                {%- endfor -%}
+                            </div>
+                   </div>
+
                 </div>
              </div><!-- end of grid -->
           </div><!-- end container -->
