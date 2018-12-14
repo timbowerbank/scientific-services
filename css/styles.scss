@@ -31,7 +31,7 @@ $breadcrumb-divider-margin-horizontal: 7px;
 // primary button
 $button-primary-background: #FF5E15;
 $button-primary-color: #FFFFFF;
-$button-primary-hover-background: #FF5E15;
+$button-primary-hover-background: #d44c27;
 $button-primary-hover-color: #FFFFFF;
 $button-primary-active-background: #FF5E15;
 $button-primary-active-color: #FFFFFF;
@@ -39,7 +39,7 @@ $button-primary-active-color: #FFFFFF;
 // secondary button
 $button-secondary-background: #FFFFFF;
 $button-secondary-color: #FF5E15;
-$button-secondary-hover-background: #FFFFFF;
+$button-secondary-hover-background: #FF5E15;
 $button-secondary-hover-color: #FF5E15;
 $button-secondary-active-background: #FFFFFF;
 $button-secondary-active-color: #FF5E15;
@@ -70,6 +70,13 @@ $form-horizontal-controls-margin-left: 120px;
  &:focus {
   outline: 2px dotted #005288;
   outline-offset: 5px;
+  background-color: #d44c27;
+ }
+ &:hover {
+  background-color: #d44c27!important; //d44c27;
+  -webkit-transition: background-color 800ms linear;
+  -ms-transition: background-color 800ms linear;
+  transition: background-color 800ms linear;
  }
 }
 @mixin hook-button-secondary {
@@ -79,8 +86,19 @@ $form-horizontal-controls-margin-left: 120px;
  &:focus {
   outline: 2px dotted #005288;
   outline-offset: 5px;
+  background-color: #d44c27;
+  color: #ffffff!important;
+ }
+ &:hover {
+  background-color: #d44c27;
+  color: #ffffff!important;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+
  }
 }
+
 
 
 // 4. Import UIkit.
