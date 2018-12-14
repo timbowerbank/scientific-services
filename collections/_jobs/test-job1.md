@@ -10,7 +10,7 @@ page_summary:
   summary_hiRes_image: /images/uploads/news-article2-summary@2x.jpg
   summary_alt_tag: lab assistant looking at slide
   summary_button_title: DOWNLOAD JOB SPEC
-  summary_download_path: /images/uploads/document.pdf
+  summary_download_path: /images/uploads/file-job-appl-test1.pdf
 _hide_content: true
 _comments:
   all_order: Ordering of content on listing pages
