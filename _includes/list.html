@@ -30,7 +30,7 @@
                   <!-- start col -->
                   <div>
                        <div class="listingStyles">
-                         <a href="{{ item.url }}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
+                         <a href="{% if item.summary_download == true %}{{ item.page_summary.summary_download_path }}{% else %}{{ item.url }}{% endif %}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
                          <div class="listingText">
                             <h4>{{ item.page_summary.summary_title }}</h4>
                             <p>{{ item.page_summary.summary_description }}</p>
@@ -98,7 +98,7 @@
                    <!-- start col -->
                    <div>
                         <div class="listingStyles">
-                          <a href="{{ item.url }}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
+                          <a href="{% if item.summary_download == true %}{{ item.page_summary.summary_download_path }}{% else %}{{ item.url }}{% endif %}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
                           <div class="listingText">
                              <h4>{{ item.page_summary.summary_title }}</h4>
                              <p>{{ item.page_summary.summary_description }}</p>
