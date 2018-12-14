@@ -8,10 +8,11 @@ page_summary:
   summary_hiRes_image: /images/uploads/defaults/default-summary-hi-res.png
   summary_alt_tag: Add an alt tag for your images
   summary_button_title: ADD A TITLE FOR YOUR BUTTON
-  summary_download_link: /images/uploads/document.pdf
+  summary_download_path: /images/uploads/document.pdf
 _hide_content: true
 _comments:
   all_order: Ordering of content on listing pages
   summary_image: 420px wide x 226px high
   summary_hiRes_image: 840px x 450px high
+  summary_download_path: /images/uploads/name-of-your-file.pdf
 ---

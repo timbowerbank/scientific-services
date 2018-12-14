@@ -10,10 +10,11 @@ page_summary:
   summary_hiRes_image: /images/uploads/news-article2-summary@2x.jpg
   summary_alt_tag: lab assistant looking at slide
   summary_button_title: DOWNLOAD JOB SPEC
-  summary_download_file: /images/uploads/document.pdf
+  summary_download_path: /images/uploads/document.pdf
 _hide_content: true
 _comments:
   all_order: Ordering of content on listing pages
   summary_image: 420px wide x 226px high
   summary_hiRes_image: 840px x 450px high
+  summary_download_path: /images/uploads/name-of-your-file.pdf
 ---
