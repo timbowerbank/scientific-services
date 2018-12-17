@@ -67,21 +67,29 @@ $form-horizontal-controls-margin-left: 120px;
    padding-left: 12px;
    margin-top: -3px;
  }
- &:focus {
-  outline: 2px dotted #005288;
-  outline-offset: 5px;
-  background-color: #d44c27;
- }
  &:hover {
   background-color: #d44c27!important; //d44c27;
   -webkit-transition: background-color 800ms linear;
   -ms-transition: background-color 800ms linear;
   transition: background-color 800ms linear;
  }
+ &:focus {
+  outline: 2px dotted #005288;
+  outline-offset: 5px;
+  background-color: #d44c27;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+ }
  &:active {
   background-color: #d44c27;
   outline: 2px dotted #005288;
   outline-offset: 5px;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
  }
 }
 @mixin hook-button-secondary {
