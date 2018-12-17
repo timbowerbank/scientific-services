@@ -77,6 +77,7 @@ $form-horizontal-controls-margin-left: 120px;
   outline: 2px dotted #005288;
   outline-offset: 5px;
   background-color: #d44c27;
+  color: #ffffff;
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -o-transition: none !important;
@@ -110,16 +111,16 @@ $form-horizontal-controls-margin-left: 120px;
   transition: none !important;
   outline: 2px dotted #005288;
   outline-offset: 5px;
-  background-color: #ffffff!important;
-  color: #FF5E15!important;
+  background-color: #FF5E15!important;
+  color: #ffffff!important;
  }
  &:active {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -o-transition: none !important;
   transition: none !important;
-  background-color: #ffffff;
-  color: #FF5E15;
+  background-color: #FF5E15;
+  color: #ffffff;
  }
 }
 
