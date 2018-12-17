@@ -74,28 +74,44 @@ $form-horizontal-controls-margin-left: 120px;
  }
  &:hover {
   background-color: #d44c27!important; //d44c27;
-  //-webkit-transition: background-color 800ms linear;
-  //-ms-transition: background-color 800ms linear;
-  //transition: background-color 800ms linear;
+  -webkit-transition: background-color 800ms linear;
+  -ms-transition: background-color 800ms linear;
+  transition: background-color 800ms linear;
+ }
+ &:active {
+  background-color: #d44c27;
+  outline: 2px dotted #005288;
+  outline-offset: 5px;
  }
 }
 @mixin hook-button-secondary {
  font-weight: 600;
  font-size: 0.8rem;
  border: 1px solid #FF5E15;
+ &:hover {
+  background-color: #FF5E15!important;
+  color: #ffffff!important;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+ }
  &:focus {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
   outline: 2px dotted #005288;
   outline-offset: 5px;
-  //background-color: #d44c27;
-  //color: #d44c27!important;
+  background-color: #ffffff!important;
+  color: #FF5E15!important;
  }
- &:hover {
-  //background-color: #d44c27;
-  //color: #ffffff!important;
-  //-webkit-transition: background-color 1000ms linear;
-  //-ms-transition: background-color 1000ms linear;
-  //transition: background-color 1000ms linear;
-
+ &:active {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  background-color: #ffffff;
+  color: #FF5E15;
  }
 }
 
