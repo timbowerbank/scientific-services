@@ -3,7 +3,7 @@
         {% for person in site.team %}
            {% if page.author.team_id == person.team_id %}
         <div class="uk-width-1-1 authorBlock">
-           <div uk-grid>
+           <div class="uk-grid" uk-grid>
               <!-- author image -->
               <div class="uk-width-auto">
                  <a href="{{ person.url }}"><img class="uk-border-circle" srcset="{{ person.page_summary.thumbnail_image }} 1x, {{ person.page_summary.thumbnail_hiRes_image }} 2x" src="{{ person.page_summary.thumbnail_image }}" alt="{{ person.page_summary.summary_alt_tag }}"></a>

@@ -14,7 +14,7 @@
       {%- if i > 0 -%}
       <main id="mainContent" tabindex="-1" role="main" aria-label="list of archived articles" class="uk-section listingSection">
          <div class="uk-container">
-           <div class="uk-child-width-1-1" uk-grid>
+           <div class="uk-child-width-1-1 uk-grid" uk-grid>
 
               {%- if page.collection_name != "posts" -%}
                  {%- assign collectionToLoop = site[page.collection_name] | sort: "all_order" -%}
@@ -29,7 +29,7 @@
                   <div class="uk-margin-small">
                     <!-- begin background -->
                     <div class="archiveContainer">
-                         <div uk-grid>
+                         <div class="uk-grid" uk-grid>
                             <!-- start left col -->
                             <div class="uk-width-1-1 uk-width-2-3@s uk-width-3-4@m">
                                 <h4><a href="{{ item.url }}">{{ item.page_summary.summary_title }}</a></h4>
@@ -57,7 +57,7 @@
          {%- comment -%}There are no items to list{%- endcomment -%}
          <main id="mainContent" tabindex="-1" role="main" aria-label="list of archived articles" class="uk-section">
             <div class="uk-container listingStyle">
-                 <div uk-grid>
+                 <div class="uk-grid" uk-grid>
                     <div class="uk-width-1-1"><h4>There are no listings available for this topic</h4></div>
                  </div>
             </div>
@@ -79,7 +79,7 @@
        {% if i > 0 %}
        <main id="mainContent" tabindex="-1" role="main" aria-label="archived list of articles" class="uk-section listingSection">
           <div class="uk-container">
-            <div class="uk-child-width-1-1" uk-grid>
+            <div class="uk-child-width-1-1 uk-grid" uk-grid>
 
                {%- if page.collection_name != "posts" -%}
                   {%- assign collectionToLoop = site[page.collection_name] | sort: "all_order" -%}
@@ -93,7 +93,7 @@
                    <div class="uk-margin-small">
                         <!-- begin background -->
                         <div class="archiveContainer">
-                             <div uk-grid>
+                             <div class="uk-grid" uk-grid>
                                 <!-- start left col -->
                                 <div class="uk-width-1-1 uk-width-2-3@s uk-width-3-4@m">
                                     <h4><a href="{{ item.url }}">{{ item.page_summary.summary_title }}</a></h4>
@@ -119,7 +119,7 @@
           {%- comment -%}There are no items to list{%- endcomment -%}
           <main id="mainContent" tabindex="-1" role="main" aria-label="archived list of articles" class="uk-section">
              <div class="uk-container listingStyle">
-                  <div uk-grid>
+                  <div class="uk-grid" uk-grid>
                      <div class="uk-width-1-1"><h4>There are no listings available for this topic</h4></div>
                   </div>
              </div>

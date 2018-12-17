@@ -1,7 +1,7 @@
 
 {% if page.gallery.with_gallery == true %}
 <div class="uk-width-1-1">
-   <div class="uk-child-width-1-2 uk-child-width-1-4@s" uk-grid uk-lightbox="animation: slide">
+   <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-grid" uk-grid uk-lightbox="animation: slide">
    {% comment %}loop through gallery collection to find id{% endcomment %}
    {% for gallery in site.galleries %}
       {% if page.gallery.gallery_id == gallery.gallery_id %}
