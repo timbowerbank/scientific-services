@@ -10,7 +10,7 @@
       {%- if i > 0 -%}
       <main id="mainContent" tabindex="-1" role="main" aria-label="list of employees" class="uk-section listingSection">
          <div class="uk-container">
-           <div class="uk-child-width-1-1 uk-child-width-1-4@s" uk-grid uk-height-match=" .listingTextTeam">
+           <div class="uk-child-width-1-1 uk-child-width-1-4@s uk-grid" uk-grid uk-height-match=" .listingTextTeam">
 
               {%- assign orderedTeam = site[page.collection_name] | sort: "order" -%}
               {%- for item in orderedTeam -%}
