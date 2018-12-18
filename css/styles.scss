@@ -68,7 +68,7 @@ $form-horizontal-controls-margin-left: 120px;
    margin-top: -3px;
  }
  &:hover {
-  background-color: #009DDC!important; //d44c27;
+  background-color: #d44c27!important; //d44c27;
   -webkit-transition: background-color 600ms ease;
   -ms-transition: background-color 600ms ease;
   transition: background-color 600ms ease;
@@ -76,7 +76,7 @@ $form-horizontal-controls-margin-left: 120px;
  &:focus {
   outline: 2px dotted #005288;
   outline-offset: 5px;
-  background-color: #009DDC!important;
+  background-color: #d44c27!important;
   color: #ffffff;
   -webkit-transition: none !important;
   -moz-transition: none !important;
@@ -84,7 +84,7 @@ $form-horizontal-controls-margin-left: 120px;
   transition: none !important;
  }
  &:active {
-  background-color: #009DDC!important;
+  background-color: #d44c27!important;
   outline: 2px dotted #005288;
   outline-offset: 5px;
   -webkit-transition: none !important;
