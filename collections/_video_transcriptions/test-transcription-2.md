@@ -72,3 +72,5 @@ _comments:
   with_gallery: Tick if you would like to include a gallery
   gallery_id: Enter the gallery_id of the gallery
 ---
+
+Add some extra content here about the video.
