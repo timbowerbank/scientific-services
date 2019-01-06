@@ -2236,3 +2236,14 @@ a {
   display: inline-block;
   //text-align: left;
 }
+
+// *** ANIMATION MODS ***
+
+.accessOutline {
+  &:focus {
+   //background-color: yellow!important;
+   //color: black!important;
+   outline: 2px dotted $fm-blue-navy!important;
+   outline-offset: -5px!important;
+  }
+}
