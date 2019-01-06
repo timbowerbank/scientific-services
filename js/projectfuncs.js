@@ -104,6 +104,36 @@ function scrollFunction() {
   //console.log("document.body.scrollTop is: " + document.documentElement.scrollTop);
   //console.log("scrollHeight is: " + document.documentElement.scrollHeight);
   if(document.documentElement.scrollTop + window.innerHeight > document.documentElement.scrollHeight - 200) {
-    console.log("end of scroll reached");
+    //console.log("end of scroll reached");
   }
+}
+
+// *** ANIMATION ***
+
+// target serviceList
+function addServiceBlockAnim() {
+ var serviceListItems = document.getElementsByClassName("serviceListItem");
+ if (serviceListItems.length <= 0) {
+  return;
+ }
+ for(var m=0; m < serviceListItems.length; m++) {
+  serviceListItems[m].addEventListener("mouseover", mouseOverListener);
+  serviceListItems[m].addEventListener("mouseout", mouseOutListener);
+ }
+}
+// call the function
+addServiceBlockAnim();
+
+function mouseOverListener(e){
+ var elementToGrow = e.currentTarget;
+ var style = elementToGrow.style;
+ style.boxShadow = "2px 2px 10px 0px rgba(0,0,0,0.3)";
+ TweenLite.to(elementToGrow, 0.65, {scale:1.06, ease:Power2.easeOut});
+}
+function mouseOutListener(e) {
+ var elementToShrink = e.currentTarget;
+ var styleToRemove = elementToShrink.style;
+ styleToRemove.boxShadow = "none";
+ TweenLite.to(elementToShrink, 0.65, {scale:1, ease:Power2.easeOut});
+
 }
