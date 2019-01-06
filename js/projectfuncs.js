@@ -110,7 +110,9 @@ function scrollFunction() {
 
 // *** ANIMATION ***
 
-// target serviceList
+// **********************
+// *** SERVICE BLOCKS ***
+// **********************
 function addServiceBlockAnim() {
  var serviceListItems = document.getElementsByClassName("serviceListItem");
  if (serviceListItems.length <= 0) {
@@ -136,4 +138,27 @@ function mouseOutListener(e) {
  styleToRemove.boxShadow = "none";
  TweenLite.to(elementToShrink, 0.65, {scale:1, ease:Power2.easeOut});
 
+}
+
+// *************************
+// *** MARKETING BANNERS ***
+// *************************
+
+var marketingHeadline;
+var marketingPara;
+function addMarketingBannerAnim() {
+ marketingHeadline = document.getElementsByClassName("marketingBannerGraphicHeadline");
+ marketingPara = document.getElementsByClassName("marketingBannerGraphicPara");
+ if (marketingHeadline.length <= 0) {
+   return;
+ }
+ marketingHeadline[0].addEventListener("inview", inviewBannerListener);
+
+}
+// call the function
+addMarketingBannerAnim();
+
+function inviewBannerListener(e){
+  TweenLite.fromTo(marketingHeadline, 1.1, {opacity:0, y:100}, {opacity:1, y:0, ease:Power2.easeOut, delay:0.5});
+  TweenLite.fromTo(marketingPara, 1.1, {opacity:0, y:100}, {opacity:1, y:0, ease:Power2.easeOut, delay:0.75});
 }
