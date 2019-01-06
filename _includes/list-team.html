@@ -17,7 +17,7 @@
 
                   <!-- start col -->
                   <div>
-                       <div>
+                       <div class="listingBackground">
                            <a href="{{ item.url }}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
                            <div class="listingTextTeam">
                               <h4>{% if item.personal_details.with_salutation == true %}{{ item.personal_details.salutation }}{% endif %} {{ item.personal_details.first_name }} {{ item.personal_details.surname }}</h4>
