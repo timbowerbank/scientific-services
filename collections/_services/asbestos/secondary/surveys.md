@@ -152,7 +152,7 @@ We survey domestic, commercial and industrial properties across Cornwall, Devon,
 
 ### Easy to understand - Pinpoints the risk - Provides you with next steps
 
-<div uk-scrollspy="cls:uk-animation-kenburns"><img src="/images/uploads/main-surveyor-building-site.jpg" alt="Image of asbestos surveyor on building site"></div>
+<div class="uk-overflow-hidden" uk-scrollspy="cls:uk-animation-kenburns"><img src="/images/uploads/main-surveyor-building-site.jpg" alt="Image of asbestos surveyor on building site"></div>
 
 A Scientific Services survey will help you pinpoint any asbestos risk. To judge the risk we take an holistic approach,examining variables including:
 
