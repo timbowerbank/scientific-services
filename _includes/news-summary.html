@@ -36,7 +36,9 @@
                              <div class="newsBlock uk-grid" uk-grid>
                                  <!-- image -->
                                  <div class="uk-width-1-1 uk-width-auto@s">
-                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                   <a href="{{ news.url }}">
+                                     <div class="uk-inline-clip uk-transition-toggle"><img class="uk-transition-scale-up uk-transition-opaque" srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></div>
+                                   </a>
                                  </div>
                                  <!-- text -->
                                  <div class="uk-width-1-1 uk-width-expand@s">
@@ -60,7 +62,9 @@
                              <div class="newsBlock uk-grid" uk-grid>
                                  <!-- image -->
                                  <div class="uk-width-1-1 uk-width-auto@s">
-                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                   <a href="{{ news.url }}">
+                                      <div class="uk-inline-clip uk-transition-toggle"><img class="uk-transition-scale-up uk-transition-opaque" srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></div>
+                                   </a>
                                  </div>
                                  <!-- text -->
                                  <div class="uk-width-1-1 uk-width-expand@s">
@@ -84,7 +88,9 @@
                              <div class="newsBlock uk-grid" uk-grid>
                                  <!-- image -->
                                  <div class="uk-width-1-1 uk-width-auto@s">
-                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                   <a href="{{ news.url }}">
+                                       <div class="uk-inline-clip uk-transition-toggle"><img class="uk-transition-scale-up uk-transition-opaque" srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></div>
+                                   </a>
                                  </div>
                                  <!-- text -->
                                  <div class="uk-width-1-1 uk-width-expand@s">
@@ -105,7 +111,9 @@
                              <div class="newsBlock uk-grid" uk-grid>
                                  <!-- image -->
                                  <div class="uk-width-1-1 uk-width-auto@s">
-                                   <a href="{{ news.url }}"><img srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                   <a href="{{ news.url }}">
+                                     <div class="uk-inline-clip uk-transition-toggle"><img class="uk-transition-scale-up uk-transition-opaque" srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></div>
+                                   </a>
                                  </div>
                                  <!-- text -->
                                  <div class="uk-width-1-1 uk-width-expand@s">
@@ -190,7 +198,9 @@
                             <div class="newsBlock uk-grid" uk-grid>
                                 <!-- image -->
                                 <div class="uk-width-1-1 uk-width-auto@s">
-                                  <a href="{{ news.url }}"><img srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></a>
+                                  <a href="{{ news.url }}">
+                                    <div class="uk-inline-clip uk-transition-toggle"><img class="uk-transition-scale-up uk-transition-opaque" srcset="{{ news.page_summary.thumbnail_image }} 1x, {{ news.page_summary.thumbnail_hiRes_image }} 2x" src="{{ news.page_summary.thumbnail_image }}" alt="{{ news.page_summary.summary_alt_tag }}"></div>
+                                  </a>
                                 </div>
                                 <!-- text -->
                                 <div class="uk-width-1-1 uk-width-expand@s">
@@ -239,8 +249,8 @@
 
                    <!-- second col -->
                    <div class="uk-width-1-1 uk-width-expand@s newsletterExtraMargin">
-                       <h5 id="newsletter-signup">{{ page.newsletter_signup.newsletter_heading }}</h5>
-                       {{ page.newsletter_signup.newsletter_subheading_html }}
+                         <h5 class="animYFade" id="newsletter-signup" uk-scrollspy>{{ page.newsletter_signup.newsletter_heading }}</h5>
+                         <div class="animYFade" uk-scrollspy>{{ page.newsletter_signup.newsletter_subheading_html }}</div>
                    </div><!-- end of second col -->
 
                 </div>

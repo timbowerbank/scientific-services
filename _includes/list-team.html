@@ -18,7 +18,7 @@
                   <!-- start col -->
                   <div>
                        <div class="listingBackground">
-                           <a href="{{ item.url }}"><img srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></a>
+                           <a href="{{ item.url }}"><div class="uk-inline-clip uk-transition-toggle"><img class="uk-transition-scale-up uk-transition-opaque" srcset="{{ item.page_summary.summary_image }} 1x, {{ item.page_summary.summary_hiRes_image }} 2x" src="{{ item.page_summary.summary_image }}" alt="{{ item.page_summary.summary_alt_tag }}"></div></a>
                            <div class="listingTextTeam">
                               <h4>{% if item.personal_details.with_salutation == true %}{{ item.personal_details.salutation }}{% endif %} {{ item.personal_details.first_name }} {{ item.personal_details.surname }}</h4>
                               <h5>{{ item.personal_details.job_title }}</h5>
