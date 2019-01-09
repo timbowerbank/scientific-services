@@ -127,16 +127,33 @@ function addServiceBlockAnim() {
 addServiceBlockAnim();
 
 function mouseOverListener(e){
+
  var elementToGrow = e.currentTarget;
+ elementToGrow.removeEventListener("mouseover", mouseOverListener);
  var style = elementToGrow.style;
  style.boxShadow = "2px 2px 10px 0px rgba(0,0,0,0.3)";
  TweenLite.to(elementToGrow, 0.65, {scale:1.06, ease:Power2.easeOut});
+
+ // modify button color
+ var buttonArray = elementToGrow.getElementsByClassName('uk-button');
+ var button = buttonArray[0];
+ //var buttonStyle = button.style;
+ //buttonStyle.backgroundColor = "black";
+ TweenLite.fromTo(button, 0.1,{backgroundColor:"#FFFFFF", color:"#FF5E15"}, {backgroundColor:"#FF5E15", color:"#FFFFFF"});
 }
+
 function mouseOutListener(e) {
  var elementToShrink = e.currentTarget;
+ elementToShrink.addEventListener("mouseover", mouseOverListener);
  var styleToRemove = elementToShrink.style;
  styleToRemove.boxShadow = "none";
  TweenLite.to(elementToShrink, 0.65, {scale:1, ease:Power2.easeOut});
+
+ var buttonOutArray = elementToShrink.getElementsByClassName("uk-button");
+ var buttonOut = buttonOutArray[0];
+ //var buttonOutStyle = button.style;
+ //buttonOutStyle.backgroundColor = "black";
+ TweenLite.fromTo(buttonOut, 0.1, {backgroundColor:"#FF5E15", color:"#FFFFFF"}, {backgroundColor:"#FFFFFF", color:"#FF5E15"});
 
 }
 
