@@ -3,11 +3,11 @@
 
             <!-- start right hand marketing banner -->
             <div class="uk-background-cover uk-background-top-right testimonialBannerRight" style="background-image: url('/images/design-assets/banner-blue-microbe-strand-01.svg');">
-               <p class="graphicBannerRightHeadline">{{ testimonial.quote_text }}</p>
+               <p class="graphicBannerRightHeadline animYFade" uk-scrollspy>{{ testimonial.quote_text }}</p>
                <div class="uk-flex uk-flex-center uk-flex-right@m">
-                  <img class="testimonialStarsRight" src="/images/design-assets/icon-stars-01.svg" alt="5 stars">
+                  <img class="testimonialStarsRight animYFade" src="/images/design-assets/icon-stars-01.svg" alt="5 stars" uk-scrollspy>
                </div>
-               <p class="graphicBannerRightPara">{{ testimonial.name_of_client }}<br>{{ testimonial.company_name }}</p>
+               <p class="graphicBannerRightPara animYFade" uk-scrollspy>{{ testimonial.name_of_client }}<br>{{ testimonial.company_name }}</p>
                {% if testimonial.case_study == true %}
                <a class="uk-button uk-button-primary outlineAccess" href="{{ testimonial.button_link }}">{{ testimonial.button_title }}<span><img src="/images/design-assets/icon-arrow-01.svg" alt="icon case study"></span></a>
                {% endif %}

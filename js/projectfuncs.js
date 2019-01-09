@@ -179,3 +179,21 @@ function inviewBannerListener(e){
   TweenLite.fromTo(marketingHeadline, 1.1, {opacity:0, y:100}, {opacity:1, y:0, ease:Power2.easeOut, delay:0.5});
   TweenLite.fromTo(marketingPara, 1.1, {opacity:0, y:100}, {opacity:1, y:0, ease:Power2.easeOut, delay:0.75});
 }
+
+
+// other banners
+function addAnimYFadeListeners () {
+ var animYFadeElements = document.getElementsByClassName("animYFade");
+ if (animYFadeElements.length <= 0) {
+   return;
+ }
+ for(var n=0; n < animYFadeElements.length; n++) {
+   animYFadeElements[n].addEventListener("inview", inviewAnimYFadeListener);
+ }
+}
+addAnimYFadeListeners();
+
+function inviewAnimYFadeListener(e) {
+  var elementToAnim = e.currentTarget;
+  TweenLite.fromTo(elementToAnim, 1.1, {opacity:0, y:100}, {opacity:1, y:0, ease:Power2.easeOut, delay:0.75});
+}
