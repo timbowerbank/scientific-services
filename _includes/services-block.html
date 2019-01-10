@@ -13,7 +13,7 @@
                      {%- if page.child_page_type == service.landing_page_type  -%}
 
 
-                     <li class="serviceListItem" onclick='window.location.href="{{ service.url }}"' tabindex="-1">
+                     <li class="serviceListItem primaryBlockAnim" onclick='window.location.href="{{ service.url }}"' tabindex="-1">
 
                           <div class="serviceHeaderImage">
                               <a href="{{ service.url }}"><img class="uk-border-circle" srcset="{{ service.page_summary.thumbnail_image }} 1x, {{ service.page_summary.thumbnail_hiRes_image }} 2x" src="{{ service.page_summary.thumbnail_image }}" alt="{{ service.page_summary.summary_alt_tag }}"></a>
@@ -33,7 +33,7 @@
                   {%- for service in sorted_services -%}
 
                       {%- if page.child_page_type == service.landing_page_type and page.child_page_category == service.parent_category -%}
-                      <li class="serviceListItem" onclick='window.location.href="{{ service.url }}"' tabindex="-1">
+                      <li class="serviceListItem secondaryBlockAnim" onclick='window.location.href="{{ service.url }}"' tabindex="-1">
 
                            <div class="serviceHeaderImage">
                                <a href="{{ service.url }}"><img class="uk-border-circle uk-transition-scale-up uk-transition-opaque" srcset="{{ service.page_summary.thumbnail_image }} 1x, {{ service.page_summary.thumbnail_hiRes_image }} 2x" src="{{ service.page_summary.thumbnail_image }}" alt="{{ service.page_summary.summary_alt_tag }}"></a>

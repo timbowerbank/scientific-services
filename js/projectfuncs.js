@@ -113,18 +113,23 @@ function scrollFunction() {
 // **********************
 // *** SERVICE BLOCKS ***
 // **********************
-function addServiceBlockAnim() {
- var serviceListItems = document.getElementsByClassName("serviceListItem");
+var className = "";
+function addServiceBlockAnim(classNameArg) {
+
+ var serviceListItems = document.getElementsByClassName(classNameArg);
  if (serviceListItems.length <= 0) {
   return;
  }
+ className = classNameArg;
  for(var m=0; m < serviceListItems.length; m++) {
   serviceListItems[m].addEventListener("mouseover", mouseOverListener);
   serviceListItems[m].addEventListener("mouseout", mouseOutListener);
  }
+
 }
 // call the function
-addServiceBlockAnim();
+addServiceBlockAnim("primaryBlockAnim");
+addServiceBlockAnim("secondaryBlockAnim")
 
 function mouseOverListener(e){
 
@@ -132,7 +137,9 @@ function mouseOverListener(e){
  elementToGrow.removeEventListener("mouseover", mouseOverListener);
  var style = elementToGrow.style;
  style.boxShadow = "2px 2px 10px 0px rgba(0,0,0,0.3)";
- TweenLite.to(elementToGrow, 0.65, {scale:1.06, ease:Power2.easeOut});
+ if(className == "secondaryBlockAnim") {
+   //TweenLite.to(elementToGrow, 0.65, {scale:1.06, ease:Power2.easeOut});
+ }
 
  // modify button color
  var buttonArray = elementToGrow.getElementsByClassName('uk-button');
@@ -147,7 +154,9 @@ function mouseOutListener(e) {
  elementToShrink.addEventListener("mouseover", mouseOverListener);
  var styleToRemove = elementToShrink.style;
  styleToRemove.boxShadow = "none";
- TweenLite.to(elementToShrink, 0.65, {scale:1, ease:Power2.easeOut});
+ if(className == "secondaryBlockAnim") {
+  //TweenLite.to(elementToShrink, 0.65, {scale:1, ease:Power2.easeOut});
+ }
 
  var buttonOutArray = elementToShrink.getElementsByClassName("uk-button");
  var buttonOut = buttonOutArray[0];
