@@ -5,7 +5,7 @@ meta_data:
   meta_description: Add content for the home page of Scientific Services here...
   need_canonical: false
   canonical_link:
-  social_media_title: Add your title for social media here
+  social_media_title: Add your title for social media here.
   social_media_description: Add social media description here
   social_media_image: /images/uploads/casestudy-1.jpg
 hero:
